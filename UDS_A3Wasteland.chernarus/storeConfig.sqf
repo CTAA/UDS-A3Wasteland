@@ -2685,6 +2685,8 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
+	// VANILLA HELIS
+	
 	// ["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_F", (call genItemArray) select {_x select 1 == "C_IDAP_UAV_06_antimine_backpack_F"} select 0 select 2, "vehicle", "HIDDEN"], // for resupply price
 	// ["M-900 LittleBird", "C_Heli_Light_01_civil_F", 4000, "vehicle"], // MH-6, no flares
 	// ["MH-9 Hummingbird", "B_Heli_Light_01_F", 5000, "vehicle"], // MH-6
