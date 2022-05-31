@@ -49,7 +49,7 @@ A3W_scriptThreads = [];
 if (!isDedicated) then {
 	[] spawn {
 		if (hasInterface) then {
-			9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+			9999 cutText ["Welcome to UDS A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
 
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
