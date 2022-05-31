@@ -1072,7 +1072,6 @@ player createDiaryRecord ["voice",["Teamspeak/Discord","
 "]];
 
 player createDiaryRecord ["supportedmods",["Supported Mods","
-<br/>*CBA_A3
 <br/>*Enhanced Movement
 <br/>*JSRS SOUNDMOD
 "]];
