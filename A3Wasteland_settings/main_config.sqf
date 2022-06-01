@@ -68,14 +68,14 @@ A3W_extDB_Debug = 0;               // Log all queries to server RPT (0 = no, 1 =
 
 
 // Server Naming
-A3W_serverName = "UDS A3Wasteland";			//Name of your server for Player HUD
+A3W_serverName = "I Love Cock";			//Name of your server for Player HUD
 A3W_serverIP = "144.48.104.156";		//IP address of your server for Player HUD
-A3W_serverWWW = "NONE";		//Server HTTP address
+A3W_serverWWW = "cunt";		//Server HTTP address
 
 // Spawning settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 300;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 230;         // Approximate number of land vehicles to be spawned in towns
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
 A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
 A3W_planeSpawning = 1;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
@@ -86,7 +86,7 @@ A3W_baseBuilding = 1;              // If serverSpawning = 1, spawn base parts in
 A3W_buildingLootWeapons = 0;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
 A3W_buildingLootSupplies = 0;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
 A3W_buildingLootChances = 0;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
-A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
+A3W_vehicleLoot = 3;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 
 // Territory settings
 A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
