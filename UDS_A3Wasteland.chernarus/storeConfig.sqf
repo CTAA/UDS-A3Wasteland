@@ -453,18 +453,8 @@ ammoArray = compileFinal str
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 500],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 600],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 750],
-	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],             //                 hit                      hit,  radius
-	["PG-7VM HEAT Grenade", "RPG7_F", 3000],                   // Direct damage:  343     | Splash damage:  13,  3.0m     | Guidance: none
-	["RPG-42 AT Rocket", "RPG32_F", 3000],                     //                 422     |                 28,  2.5m     |           none
-	["RPG-42 HE Rocket", "RPG32_HE_F", 2000],                  //                 200     |                 50,  6.0m     |           none
-	["MAAWS HEAT 75 Rocket", "MRAWS_HEAT_F", 5000],            //                 435     |                 14,  2.0m     |           none
-	["MAAWS HE 44 Rocket", "MRAWS_HE_F", 4000],                //                 200     |                 50,  6.0m     |           none
-	["9M135 HEAT Missile", "Vorona_HEAT", 8000],              //                 634     |                 28,  2.5m     |           mouse
-	//["9M135 HE Missile", "Vorona_HE", 5500],                   //                 220     |                 45,  8.0m     |           mouse
-	["PCML AT Missile", "NLAW_F", 2500],                       //                 462     |                 25,  2.4m     |           laser/IR, cold/hot ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 8000],            //                 515     |                 20,  2.0m     |           mouse, laser/IR, hot ground vehicles
-	//["Titan Anti-Personnel Missile", "Titan_AP", 3500],        //                 100     |                 25, 10.0m     |           mouse, laser/IR
-	["Titan AA Missile", "Titan_AA", 3500],                    //                  80     |                 60,  6.0m     |           aircraft
+	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],         
+	    
 //*** MODDING START ***
 
 	["Compact mag", "CUP_10Rnd_9x19_Compact", 100],
