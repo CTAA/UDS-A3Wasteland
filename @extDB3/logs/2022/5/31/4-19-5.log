@@ -1,0 +1,77 @@
+
+extDB3: https://bitbucket.org/torndeco/extdb3/wiki/Home
+extDB3: Version: 1.031
+extDB3: Windows Version
+Message: All development for extDB3 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB3 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 18/05/15
+
+
+extDB3: Found extdb3-conf.ini
+extDB3: Detected 24 Cores, Setting up 6 Worker Threads
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+extDB3: ...
+
+
+[04:19:09:758725 -07:00] [Thread 13304] extDB3: Locked
+[04:19:11:099744 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String deleteExpiredServerVehiclesMOD:1:1:0:48
+[04:19:11:099785 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname deleteExpiredServerVehiclesMOD
+[04:19:11:302425 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getServerVehiclesMOD:1:1:,Class,Position,Direction,Velocity,Flying,Damage,Fuel,HitPoints,AnimPhases,OwnerUID,LockState,Variables,Textures,Weapons,Magazines,Items,Backpacks,TurretMagazines,TurretMagazines2,TurretMagazines3,AmmoCargo,FuelCargo,RepairCargo
+[04:19:11:302468 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getServerVehiclesMOD
+[04:19:56:105263 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerDonatorLevel:76561198045733799
+[04:19:56:105317 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerDonatorLevel
+[04:19:56:127902 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerMemberLevel:76561198045733799
+[04:19:56:127939 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerMemberLevel
+[04:19:56:218788 -07:00] [Thread 2136] extDB3: SQL: Error extDB3Exception: Config Invalid Number Number of Inputs Got 1 Expected 2
+[04:19:56:218820 -07:00] [Thread 2136] extDB3: SQL: Error extDB3Exception: Input: getPlayerStatusXMap:76561198045733799
+[04:19:56:237721 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getParkedVehiclesMOD:76561198045733799:normal:,Class,Position,Direction,Velocity,Flying,Damage,Fuel,HitPoints,AnimPhases,OwnerUID,LockState,Variables,Textures,Weapons,Magazines,Items,Backpacks,TurretMagazines,TurretMagazines2,TurretMagazines3,AmmoCargo,FuelCargo,RepairCargo
+[04:19:56:237763 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getParkedVehiclesMOD
+[04:19:56:260242 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerStorageXMapMOD:76561198045733799:normal:Weapons,Magazines,Items,Backpacks
+[04:19:56:260287 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerStorageXMapMOD
+[04:20:05:164532 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String insertOrUpdatePlayerStorageMOD:76561198045733799:1:Weapons='[]',Magazines='[]',Items='[]',Backpacks='[]':Weapons=VALUES(Weapons),Magazines=VALUES(Magazines),Items=VALUES(Items),Backpacks=VALUES(Backpacks)
+[04:20:05:164594 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname insertOrUpdatePlayerStorageMOD
+[04:20:05:165369 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:20:05:165412 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:20:57:679312 -07:00] [Thread 9048] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:20:57:679359 -07:00] [Thread 9048] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:32:17:706223 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerDonatorLevel:76561198009454590
+[04:32:17:706302 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerDonatorLevel
+[04:32:17:727792 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerMemberLevel:76561198009454590
+[04:32:17:727835 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerMemberLevel
+[04:32:17:812953 -07:00] [Thread 9048] extDB3: SQL: Error extDB3Exception: Config Invalid Number Number of Inputs Got 1 Expected 2
+[04:32:17:812995 -07:00] [Thread 9048] extDB3: SQL: Error extDB3Exception: Input: getPlayerStatusXMap:76561198009454590
+[04:32:17:834258 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getParkedVehiclesMOD:76561198009454590:normal:,Class,Position,Direction,Velocity,Flying,Damage,Fuel,HitPoints,AnimPhases,OwnerUID,LockState,Variables,Textures,Weapons,Magazines,Items,Backpacks,TurretMagazines,TurretMagazines2,TurretMagazines3,AmmoCargo,FuelCargo,RepairCargo
+[04:32:17:834305 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getParkedVehiclesMOD
+[04:32:17:856945 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String getPlayerStorageXMapMOD:76561198009454590:normal:Weapons,Magazines,Items,Backpacks
+[04:32:17:856991 -07:00] [Thread 9048] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname getPlayerStorageXMapMOD
+[04:33:19:362410 -07:00] [Thread 9048] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:33:19:362456 -07:00] [Thread 9048] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198009454590:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:34:19:436935 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:34:19:436977 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198009454590:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:37:00:348685 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:37:00:348752 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:38:00:433051 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:38:00:433101 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:39:00:507324 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:39:00:507369 -07:00] [Thread 17800] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:39:14:776655 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String newServerVehicleMOD:1:1
+[04:39:14:776698 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname newServerVehicleMOD
+[04:39:14:797640 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String updateServerVehicleMOD:<null>:Class='"I_C_Offroad_02_unarmed_F"',Position='["2312.933838","6339.955566","1.64801"]',Direction='[[0.0437012,0.966401,0.253296],[-0.0719651,-0.249834,0.965611]]',Velocity='[0,0,0]',Fuel=0.197991,Damage=0.362205,HitPoints='[["hitlfwheel",0],["hitlf2wheel",0],["hitrfwheel",0],["hitrf2wheel",0],["hitfuel",0.362205],["hitengine",0.362205],["hitbody",0.362205],["hitglass1",0.362205],["hitrglass",0.362205],["hitlglass",0.362205],["hitglass2",0.362205],["hitglass3",0.362205],["hitglass4",0.362205],["hitglass5",0.362205],["hitglass6",0.362205],["hitlbwheel",0],["hitlmwheel",0],["hitrbwheel",0],["hitrmwheel",0],["hithull",0.362205],["#light_1",0.362205],["#light_2",0.362205]]',AnimPhases='[["hideLeftDoor",0],["hideRightDoor",1],["hideRearDoor",1],["hideBullbar",0],["hideFenders",1],["hideHeadSupportRear",1],["hideHeadSupportFront",0],["hideRollcage",0],["hideSeatsRear",0],["hideSpareWheel",1]]',OwnerUID='"76561198045733799"',LockState=1,Variables='[["A3W_purchasedVehicle",true],["ownerName",[67,84,65]]]',Textures='[["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_ext_brown_co.paa",[0,1]],["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_int_brown_co.paa",[2,3]]]',Weapons='[["arifle_Katiba_F",1]]',Magazines='[["30Rnd_65x39_caseless_green",2]]',Items='[["FirstAidKit",1],["optic_ERCO_blk_F",1],["muzzle_snds_B_khk_F",1]]',Backpacks='[]',TurretMagazines='[]',TurretMagazines2='[]',TurretMagazines3='[]',AmmoCargo=-1,FuelCargo=-1,RepairCargo=-1,Flying=0,Parked=0
+[04:39:14:797739 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname updateServerVehicleMOD
+[04:39:28:759630 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String newServerVehicleMOD:1:1
+[04:39:28:759681 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname newServerVehicleMOD
+[04:39:28:803280 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String updateServerVehicleMOD:<null>:Class='"I_C_Offroad_02_unarmed_F"',Position='["2321.847168","6343.563477","2.417328"]',Direction='[[0.803894,-0.58792,-0.0900269],[0.0329481,-0.107112,0.993701]]',Velocity='[0,0,0]',Fuel=0.196814,Damage=0.362205,HitPoints='[["hitlfwheel",0],["hitlf2wheel",0],["hitrfwheel",0],["hitrf2wheel",0],["hitfuel",0.362205],["hitengine",0.362205],["hitbody",0.362205],["hitglass1",0.362205],["hitrglass",0.362205],["hitlglass",0.362205],["hitglass2",0.362205],["hitglass3",0.362205],["hitglass4",0.362205],["hitglass5",0.362205],["hitglass6",0.362205],["hitlbwheel",0],["hitlmwheel",0],["hitrbwheel",0],["hitrmwheel",0],["hithull",0.362205],["#light_1",0.362205],["#light_2",0.362205]]',AnimPhases='[["hideLeftDoor",0],["hideRightDoor",1],["hideRearDoor",1],["hideBullbar",0],["hideFenders",1],["hideHeadSupportRear",1],["hideHeadSupportFront",0],["hideRollcage",0],["hideSeatsRear",0],["hideSpareWheel",1]]',OwnerUID='"76561198045733799"',LockState=1,Variables='[["A3W_purchasedVehicle",true],["ownerName",[67,84,65]]]',Textures='[["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_ext_brown_co.paa",[0,1]],["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_int_brown_co.paa",[2,3]]]',Weapons='[["arifle_Katiba_F",1]]',Magazines='[["30Rnd_65x39_caseless_green",2]]',Items='[["FirstAidKit",1],["optic_ERCO_blk_F",1],["muzzle_snds_B_khk_F",1]]',Backpacks='[]',TurretMagazines='[]',TurretMagazines2='[]',TurretMagazines3='[]',AmmoCargo=-1,FuelCargo=-1,RepairCargo=-1,Flying=0,Parked=1,LastUsed=NOW()
+[04:39:28:803352 -07:00] [Thread 2136] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname updateServerVehicleMOD
+[04:40:00:674174 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Unknown column 'BountyKills' in 'field list'
+[04:40:00:674222 -07:00] [Thread 2136] extDB3: SQL: Error MariaDBQueryException: Input: insertOrUpdatePlayerInfo:76561198045733799:BountyKills='[]',Bounty=0,BankMoney=0:BountyKills=VALUES(BountyKills),Bounty=VALUES(Bounty),BankMoney=VALUES(BankMoney)
+[04:40:12:028397 -07:00] [Thread 17800] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String newServerVehicleMOD:1:1
+[04:40:12:028465 -07:00] [Thread 17800] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname newServerVehicleMOD
+[04:40:12:053054 -07:00] [Thread 17800] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Input String updateServerVehicleMOD:<null>:Class='"I_C_Offroad_02_unarmed_F"',Position='["2321.847168","6343.563477","2.417328"]',Direction='[[0.803894,-0.58792,-0.0900269],[0.0329481,-0.107112,0.993701]]',Velocity='[0,0,0]',Fuel=0.196814,Damage=0.362205,HitPoints='[["hitlfwheel",0],["hitlf2wheel",0],["hitrfwheel",0],["hitrf2wheel",0],["hitfuel",0.362205],["hitengine",0.362205],["hitbody",0.362205],["hitglass1",0.362205],["hitrglass",0.362205],["hitlglass",0.362205],["hitglass2",0.362205],["hitglass3",0.362205],["hitglass4",0.362205],["hitglass5",0.362205],["hitglass6",0.362205],["hitlbwheel",0],["hitlmwheel",0],["hitrbwheel",0],["hitrmwheel",0],["hithull",0.362205],["#light_1",0.362205],["#light_2",0.362205]]',AnimPhases='[["hideLeftDoor",0],["hideRightDoor",1],["hideRearDoor",1],["hideBullbar",0],["hideFenders",1],["hideHeadSupportRear",1],["hideHeadSupportFront",0],["hideRollcage",0],["hideSeatsRear",0],["hideSpareWheel",1]]',OwnerUID='"76561198045733799"',LockState=1,Variables='[["A3W_purchasedVehicle",true],["ownerName",[67,84,65]]]',Textures='[["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_ext_brown_co.paa",[0,1]],["a3\\soft_f_exp\\offroad_02\\data\\offroad_02_int_brown_co.paa",[2,3]]]',Weapons='[["arifle_Katiba_F",1]]',Magazines='[["30Rnd_65x39_caseless_green",2]]',Items='[["FirstAidKit",1],["optic_ERCO_blk_F",1],["muzzle_snds_B_khk_F",1]]',Backpacks='[]',TurretMagazines='[]',TurretMagazines2='[]',TurretMagazines3='[]',AmmoCargo=-1,FuelCargo=-1,RepairCargo=-1,Flying=0,Parked=0
+[04:40:12:053123 -07:00] [Thread 17800] extDB3: SQL_CUSTOM: Error No Custom Call Not Found: Callname updateServerVehicleMOD

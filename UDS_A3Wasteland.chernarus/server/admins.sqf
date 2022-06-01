@@ -41,7 +41,8 @@ else
 	// Server Owners: access to everything, including god mode, money, guns, and vehicles
 	serverOwners = compileFinal str
 	[
-		"76561197971317833"
+		"76561198045733799", // CTA
+		"76561198009454590"  // Enz
 	];
 
 	/********************************************************/

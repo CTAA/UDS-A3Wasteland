@@ -121,8 +121,8 @@ vehicleAddition =
 
 vehicleAddition2 =
 [
-	// "Chemlight_blue",
-	// "Chemlight_green",
-	// "Chemlight_yellow",
-	// "Chemlight_red"
+	"Chemlight_blue",
+	"Chemlight_green",
+	"Chemlight_yellow",
+	"Chemlight_red"
 ];
