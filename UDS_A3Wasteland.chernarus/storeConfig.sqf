@@ -22,18 +22,15 @@ pistolArray = compileFinal str
 	["CZ 75 COMPACT", "CUP_hgun_Compact", 500],
 	["Desert Eagle", "CUP_hgun_Deagle", 500],
 	["Glock 17", "CUP_hgun_Glock17", 500],
-	["MAC-10", "CUP_hgun_Mac10", 1000],
 	["Makarow PM", "CUP_hgun_Makarov", 500],
-	["Micro UZI PDW", "CUP_hgun_MicroUzi", 500],
 	["Mk23 SOCCOM", "CUP_hgun_Mk23", 500],
-	["MP7A1", "CUP_hgun_MP7", 1000],
 	["PB 6P9", "CUP_hgun_PB6P9", 500],
 	["PMM-12", "CUP_hgun_PMM", 500],
 	["Sa-61", "CUP_hgun_SA61", 500],
 	["Taurus Tracker Model 455", "CUP_hgun_TaurusTracker455", 500],
-	["TEC9", "CUP_hgun_TEC9", 500]
 	["TEC9", "CUP_hgun_TEC9", 500],
 	["MAC-10", "CUP_hgun_Mac10", 1000],
+	["Micro UZI PDW", "CUP_hgun_MicroUzi", 1000],
 	["MP7A1", "CUP_hgun_MP7", 1000]
 ];
 
