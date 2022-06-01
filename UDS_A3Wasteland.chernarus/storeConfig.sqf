@@ -42,34 +42,16 @@ smgArray = compileFinal str
 	["Protector SMG", "SMG_05_F", 1000],
 	["Sting SMG", "SMG_02_F", 1250],
 	["Vermin SMG", "SMG_01_F", 1250],
-	
 	["CZ SCORPION EVO 3", "CUP_smg_EVO", 1000],
 	["MAC-10", "CUP_smg_Mac10", 1000],
 	["MP5A5", "CUP_smg_MP5A5", 1000],
 	["MP5SD6", "CUP_smg_MP5SD6", 1000],
 	["MP7A1", "CUP_smg_MP7", 1000],
 	["PP-19-01 Vityaz", "CUP_smg_vityaz", 1250],
-	["PP-19-01 Vityaz VFG", "CUP_smg_vityaz_vfg", 1250],
 	["PP-19 Bizon", "CUP_smg_bizon", 1250],
 	["SA-61", "CUP_smg_SA61", 1250],
 	["Saiga-9", "CUP_smg_saiga9", 1250],
-	
-	["ADR-97C (Black)", "SMG_03C_black", 1000],
-	["ADR-97C (Camo)", "SMG_03C_camo", 1000],
-	["ADR-97C (Hex)", "SMG_03C_hex", 1000],
-	["ADR-97C (Khaki)", "SMG_03C_khaki", 1000],
-	["ADR-97C TR (Black)", "SMG_03C_TR_black", 1250],
-	["ADR-97C TR (Camo)", "SMG_03C_TR_camo", 1250],
-	["ADR-97C TR (Hex)", "SMG_03C_TR_hex", 1250],
-	["ADR-97C TR (Khaki)", "SMG_03C_TR_khaki", 1250],
-	["ADR-97 (Black)", "SMG_03_black", 1250],
-	["ADR-97 (Camo)", "SMG_03_camo", 1250],
-	["ADR-97 (Hex)", "SMG_03_hex", 1250],
-	["ADR-97 (Khaki)", "SMG_03_khaki", 1250],
-	["ADR-97 TR (Black)", "SMG_03_TR_black", 1500],
-	["ADR-97 TR (Camo)", "SMG_03_TR_camo", 1500],
-	["ADR-97 TR (Hex)", "SMG_03_TR_hex", 1500],
-	["ADR-97 TR (Khaki)", "SMG_03_TR_khaki", 1500]
+	["ADR-97C (Black)", "SMG_03C_black", 1000]
 ];
 
 gLauncherArray = compileFinal str //Need Check
