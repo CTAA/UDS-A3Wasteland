@@ -142,7 +142,7 @@ rifleArray = compileFinal str
 	["CZ 805 BREN A1 (Black)", "CUP_arifle_CZ805_A1_blk", 2500],
 	["CZ 805 BREN A1 G1 (Black)", "CUP_arifle_CZ805_GL_blk", 2900],
 	["CZ 805 BREN A2 (Black)", "CUP_arifle_CZ805_A2_blk", 2500],
-// cg hh
+
 	["CZ 807 (14)", "CUP_CZ_BREN2_762_14", 2500],
 	["CZ 807 (14) GL", "CUP_CZ_BREN2_762_14_GL", 2900],
 	["CZ 807 (8)", "CUP_CZ_BREN2_762_8", 2500],
