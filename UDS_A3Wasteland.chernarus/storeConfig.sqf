@@ -298,31 +298,6 @@ lmgArray = compileFinal str
 
 launcherArray = compileFinal str
 [
-	["RPG-7", "launch_RPG7_F", 4500],
-	["RPG-42 Alamut", "launch_RPG32_F", 5000],
-	["RPG-42 Alamut (G Hex)", "launch_RPG32_ghex_F", 5000, "noDLC"],
-	["RPG-42 Alamut (Green)", "launch_RPG32_green_F", 5000, "noDLC"],
-	["PCML", "launch_NLAW_F", 7000],
-	["MAAWS Mk4 Mod 0 (Green)", "launch_MRAWS_green_rail_F", 5250, "noDLC"], // RPG-42 and MAAWS are similar, but MAAWS has longer range
-	["MAAWS Mk4 Mod 0 (Olive)", "launch_MRAWS_olive_rail_F", 5250, "noDLC"],
-	["MAAWS Mk4 Mod 0 (Sand)", "launch_MRAWS_sand_rail_F", 5250, "noDLC"],
-	["MAAWS Mk4 Mod 1 (Green)", "launch_MRAWS_green_F", 8500, "noDLC"], // MAAWS Mod 1 has nightvision and laser rangefinder, while Mod 0 doesn't
-	["MAAWS Mk4 Mod 1 (Olive)", "launch_MRAWS_olive_F", 8000, "noDLC"],
-	["MAAWS Mk4 Mod 1 (Sand)", "launch_MRAWS_sand_F", 8500, "noDLC"],
-	["9M135 Vorona (Brown)", "launch_O_Vorona_brown_F", 15000, "noDLC"],
-	["9M135 Vorona (Green)", "launch_O_Vorona_green_F", 15000, "noDLC"],
-	["Titan MPRL Compact (Sand)", "launch_Titan_short_F", 15000],
-	["Titan MPRL Compact (Coyote)", "launch_O_Titan_short_F", 15000],
-	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 15000],
-	["Titan MPRL Compact (Tropic)", "launch_B_Titan_short_tna_F", 15000, "noDLC"],
-	["Titan MPRL Compact (G Hex)", "launch_O_Titan_short_ghex_F", 15000, "noDLC"],
-	["Titan MPRL AA (Sand)", "launch_Titan_F", 8000],
-	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 8000],
-	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 8000],
-	["Titan MPRL AA (Tropic)", "launch_B_Titan_tna_F", 8000, "noDLC"],
-	["Titan MPRL AA (G Hex)", "launch_O_Titan_ghex_F", 8000, "noDLC"],
-	["Titan MPRL AA (Olive)", "launch_B_Titan_olive_F", 8000, "noDLC"],
-	["Titan MPRL AA (BW)", "launch_I_Titan_eaf_F", 8000, "noDLC"],
 	
 	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000],
 	["Bunkerfaust", "BWA3_Bunkerfaust_Loaded", 8000], //geht nicht
