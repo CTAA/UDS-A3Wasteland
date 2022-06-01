@@ -39,6 +39,7 @@ pistolArray = compileFinal str
 
 smgArray = compileFinal str
 [
+	// Handguns
 	["Ballistic Shield (M9)", "CUP_hgun_BallisticShield_Armed", 1000],
 	["PDW2000 SMG", "hgun_PDW2000_F", 1000],
 	["Protector SMG", "SMG_05_F", 1000],
