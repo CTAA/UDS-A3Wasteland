@@ -31,6 +31,6 @@ highAdmins =
 serverOwners = 
 [
 // Put player UIDs here
-	'76561198045733799' // CTA
+	'76561198045733799', // CTA
 	'76561198009454590' // Enz
 ];

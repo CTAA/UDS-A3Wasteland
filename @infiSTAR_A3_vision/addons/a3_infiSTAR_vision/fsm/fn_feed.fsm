@@ -1,0 +1,111 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, infiSTAR_VISION">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Main_Loop",2,250,-48.360855,-201.175781,41.639160,-151.175781,0.000000,"Main Loop"};
+item1[] = {"Action__CPS",4,218,-191.199127,-129.640366,-50.889420,-43.395737,1.000000,"Action: CPS"};
+item2[] = {"Result__callExte",4,4314,-80.410095,1.332458,60.240784,93.837440,2.000000,"Result: callExtension"};
+item3[] = {"START",0,250,-157.053757,-316.089386,-67.053757,-266.089264,0.000000,"START"};
+item4[] = {"_",4,218,-45.979523,-317.516327,44.020477,-267.516296,0.000000,""};
+link0[] = {0,1};
+link1[] = {0,2};
+link2[] = {1,0};
+link3[] = {2,0};
+link4[] = {3,4};
+link5[] = {4,0};
+globals[] = {0.000000,0,0,0,0,640,480,2,15,6316128,1,-236.941528,296.788910,113.042221,-333.450073,777,650,1};
+window[] = {0,-1,-1,-1,-1,931,88,1605,109,1,795};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "infiSTAR_VISION";
+        class States
+        {
+                /*%FSM<STATE "Main_Loop">*/
+                class Main_Loop
+                {
+                        name = "Main_Loop";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Result__callExte">*/
+                                class Result__callExte
+                                {
+                                        itemno = 2;
+                                        priority = 2.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"diag_tickTime > _delay"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_delayAdd = 20;" \n
+                                         "" \n
+                                         "(format[""001|%1|%2|%3|%4|%5|%6"", count allPlayers, count vehicles, round(diag_fps), ceil(_cps / (diag_tickTime - _delay + _delayAdd)), count diag_activeSQFScripts, diag_fpsMin]) call a3_infiSTAR_vision_fnc_Extension;" \n
+                                         "" \n
+                                         "_mapMarkers = [];" \n
+                                         "{" \n
+                                         "	_markerName = markerText _x;" \n
+                                         "	_markerLocation = getMarkerPos _x;" \n
+                                         "	_markerType = markerType _x;" \n
+                                         "	_markerColor = markerColor _x;" \n
+                                         "" \n
+                                         "	_mapMarkers append [[""MapMarker"",_x,_markerName,_markerColor,_markerType,_markerLocation,"";""]];" \n
+                                         "} forEach allMapMarkers; " \n
+                                         "" \n
+                                         "_worldInfo = [worldname, getnumber (configfile >> ""CfgWorlds"" >> worldName >> ""mapSize"")]; " \n
+                                         "_mapPlayers = [];" \n
+                                         "{" \n
+                                         "    _mapPlayers append [[getPos _x, name _x, getPlayerUID _X,"";""]];" \n
+                                         "} forEach allPlayers - entities ""HeadlessClient_F"";" \n
+                                         "" \n
+                                         "([""006|"",_mapPlayers,""|"",_mapMarkers,""|"",_worldInfo] joinString """") call a3_infiSTAR_vision_fnc_Extension;" \n
+                                         "" \n
+                                         "_delay = diag_tickTime + _delayAdd;" \n
+                                         "_cps = 0;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Action__CPS">*/
+                                class Action__CPS
+                                {
+                                        itemno = 1;
+                                        priority = 1.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_cps = _cps + 1;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "START">*/
+                class START
+                {
+                        name = "START";
+                        itemno = 3;
+                        init = /*%FSM<STATEINIT""">*/"diag_log ""[infiSTAR VISION]: STARTING"";" \n
+                         "_cps = 0;" \n
+                         "_delay = 0;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "_">*/
+                                class _
+                                {
+                                        itemno = 4;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="START";
+        finalStates[] =
+        {
+        };
+};
+/*%FSM</COMPILE>*/
