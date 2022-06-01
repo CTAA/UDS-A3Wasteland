@@ -238,7 +238,7 @@ rifleArray = compileFinal str
 
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 10000],
-	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 12000],
+	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 12000]
 ];
 
 lmgArray = compileFinal str
