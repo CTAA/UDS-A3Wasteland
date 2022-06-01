@@ -2208,12 +2208,6 @@ landArray = compileFinal str
 	["GAZ Vodnik (AGS-30/PKM)", "CUP_O_GAZ_Vodnik_AGS_RU", 30000, "vehicle"],
 	["GAZ Vodnik (BPPU)", "CUP_O_GAZ_Vodnik_BPPU_RU", 70000, "vehicle"]
 
-	//["UGV Stomper (NATO)", "B_UGV_01_F", 25000, "vehicle"],
-	//["UGV Stomper RCWS (NATO)", "B_UGV_01_rcws_F", 100000, "vehicle"],
-	//["UGV Stomper (AAF)", "I_UGV_01_F", 25000, "vehicle"],
-	//["UGV Stomper RCWS (AAF)", "I_UGV_01_rcws_F", 100000, "vehicle"]
-	//["UGV Saif (CSAT)", "O_UGV_01_F", 10000, "vehicle"],
-	//["UGV Saif RCWS (CSAT)", "O_UGV_01_rcws_F", 80000, "vehicle"]
 ];
 
 armoredArray = compileFinal str
@@ -2262,27 +2256,6 @@ armoredArray = compileFinal str
 	["RG-31 Mk.19", "CUP_B_RG31_Mk19_USA", 28000, "vehicle", "SKIPSAVE"],
 	["RG-31 Mk5E M2", "CUP_B_RG31E_M2_USA", 25000, "vehicle", "SKIPSAVE"],
 	["RG-31 Nyala M2", "CUP_B_RG31_M2_USA", 25000, "vehicle", "SKIPSAVE"],
-	// ["Prowler Light", "B_CTRG_LSV_01_light_F", 1500, "vehicle", "SKIPSAVE"],
-	// ["Prowler", "B_T_LSV_01_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
-	// ["Prowler HMG", "B_T_LSV_01_armed_F", 6000, "vehicle", "SKIPSAVE"],
-	// ["Prowler AT", "B_T_LSV_01_AT_F", 70000, "vehicle"],
-	// ["Qilin", "O_T_LSV_02_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
-	// ["Qilin Minigun", "O_T_LSV_02_armed_F", 6000, "vehicle", "SKIPSAVE"],
-	// ["Qilin AT", "O_T_LSV_02_AT_F", 70000, "vehicle"],
-	// ["Hunter", "B_MRAP_01_F", 5000, "vehicle", "SKIPSAVE"],
-	// ["Hunter HMG", "B_MRAP_01_hmg_F", 25000, "vehicle"],
-	// ["Hunter GMG", "B_MRAP_01_gmg_F", 28000, "vehicle"],
-	// ["Ifrit", "O_MRAP_02_F", 5000, "vehicle", "SKIPSAVE"],
-	// ["Ifrit HMG", "O_MRAP_02_hmg_F", 25000, "vehicle"],
-	// ["Ifrit GMG", "O_MRAP_02_gmg_F", 28000, "vehicle"],
-	// ["Strider", "I_MRAP_03_F", 5000, "vehicle", "SKIPSAVE"],
-	// ["Strider HMG", "I_MRAP_03_hmg_F", 25000, "vehicle"],
-	// ["Strider GMG", "I_MRAP_03_gmg_F", 28000, "vehicle"],
-	// ["MSE-3 Marid", "O_APC_Wheeled_02_rcws_v2_F", 50000, "vehicle"],
-	// ["AMV-7 Marshall", "B_APC_Wheeled_01_cannon_F", 70000, "vehicle"],
-	// ["AFV-4 Gorgon", "I_APC_Wheeled_03_cannon_F", 90000, "vehicle"],
-	// ["Rhino AT", "B_AFV_Wheeled_01_cannon_F", 90000, "vehicle"],
-	// ["Rhino Missile", "B_AFV_Wheeled_01_up_cannon_F", 90000, "vehicle"],
 	["Coyote GMG", "CUP_B_BAF_Coyote_GMG_D", 25000, "vehicle"],
 	["Coyote L2A1", "CUP_B_BAF_Coyote_L2A1_D", 25000, "vehicle"],
 	["Jackal2 GMG", "CUP_B_Jackal2_GMG_GB_W", 25000, "vehicle"],
@@ -2345,23 +2318,6 @@ armoredArray = compileFinal str
 
 tanksArray = compileFinal str
 [
-	// ["AWC 303 Nyx Recon", "I_LT_01_scout_F", 30000, "vehicle"],
-	// ["AWC 304 Nyx Autocannon", "I_LT_01_cannon_F", 50000, "vehicle"],
-	// ["AWC 301 Nyx AT", "I_LT_01_AT_F", 90000, "vehicle"],
-	// ["AWC 302 Nyx AA", "I_LT_01_AA_F", 90000, "vehicle"],
-	// ["CRV-6e Bobcat (Resupply)", "B_APC_Tracked_01_CRV_F", 45000, "vehicle"],
-	// ["IFV-6c Panther", "B_APC_Tracked_01_rcws_F", 50000, "vehicle"],
-	// ["FV-720 Mora", "I_APC_tracked_03_cannon_F", 90000, "vehicle"],
-	// ["FV-720 Odyniec (Missile)", "I_E_APC_tracked_03_cannon_F", 120000, "vehicle"],
-	// ["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 90000, "vehicle"],
-	// ["IFV-6a Cheetah AA", "B_APC_Tracked_01_AA_F", 130000, "vehicle"],
-	// ["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 120000, "vehicle"],
-	// ["M2A1 Slammer", "B_MBT_01_cannon_F", 130000, "vehicle"],
-	// ["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 135000, "vehicle"], // Commander gun variant
-	// ["T-100 Varsuk", "O_MBT_02_cannon_F", 130000, "vehicle"],
-	// ["MBT-52 Kuma", "I_MBT_03_cannon_F", 135000, "vehicle"],
-	// ["T-140 Angara", "O_MBT_04_cannon_F", 145000, "vehicle"],
-	// ["T-140K Angara", "O_MBT_04_command_F", 150000, "vehicle"],
 	["FV4034 Challenger 2", "CUP_B_Challenger2_Desert_BAF", 200000, "vehicle"],
 	["ZSU-23-4", "CUP_B_ZSU23_CDF", 80000, "vehicle"],
 	["M1A2 Abrams TUSK", "CUP_B_M1A2_TUSK_MG_DES_US_Army", 140000, "vehicle"],
@@ -2378,38 +2334,6 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
-	// ["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_F", (call genItemArray) select {_x select 1 == "C_IDAP_UAV_06_antimine_backpack_F"} select 0 select 2, "vehicle", "HIDDEN"], // for resupply price
-	// ["M-900 LittleBird", "C_Heli_Light_01_civil_F", 4000, "vehicle"], // MH-6, no flares
-	// ["MH-9 Hummingbird", "B_Heli_Light_01_F", 5000, "vehicle"], // MH-6
-	// ["EH302", "C_IDAP_Heli_Transport_02_F", 6000, "vehicle"], // EH302
-	// ["PO-30 Orca (Unarmed)", "O_Heli_Light_02_unarmed_F", 7000, "vehicle"], // Ka-60
-	// ["WY-55 Hellcat (Unarmed)", "I_Heli_light_03_unarmed_F", 7000, "vehicle"], // AW159
-	// ["CH-49 Mohawk", "I_Heli_Transport_02_F", 8000, "vehicle"], // AW101
-
-	// ["Mi-290 Taru (Resupply)", "O_Heli_Transport_04_ammo_F", 7500, "vehicle"],
-	// ["Mi-290 Taru (Crane)", "O_Heli_Transport_04_F", 7500, "vehicle"], // CH-54
-	// ["Mi-290 Taru (Box)", "O_Heli_Transport_04_box_F", 8000, "vehicle"],
-	// ["Mi-290 Taru (Fuel)", "O_Heli_Transport_04_fuel_F", 8500, "vehicle"],
-	// ["Mi-290 Taru (Bench)", "O_Heli_Transport_04_bench_F", 9000, "vehicle"],
-	// ["Mi-290 Taru (Transport)", "O_Heli_Transport_04_covered_F", 9500, "vehicle"],
-	// ["Mi-290 Taru (Medical)", "O_Heli_Transport_04_medevac_F", 12500, "vehicle"],
-	// ["Mi-290 Taru (Repair)", "O_Heli_Transport_04_repair_F", 25000, "vehicle"],
-
-	// ["CH-67 Huron (Unarmed)", "B_Heli_Transport_03_unarmed_F", 10000, "vehicle"], // CH-47
-	// ["CH-67 Huron (Armed)", "B_Heli_Transport_03_F", 35000, "vehicle"], // CH-47 with 2 side miniguns
-
-	// ["UH-80 Ghost Hawk", "B_Heli_Transport_01_F", 30000, "vehicle"], // UH-60 Stealth with 2 side miniguns
-	// ["AH-9 Pawnee (Gun-Only)", "B_Heli_Light_01_dynamicLoadout_F", 50000, "vehicle", "variant_pawneeGun"], // Armed AH-6
-	// ["AH-9 Pawnee (Delta)", "B_Heli_Light_01_dynamicLoadout_F", 125000, "vehicle", "variant_pawneeDelta"], // Armed AH-6
-	// ["AH-9 Pawnee", "B_Heli_Light_01_dynamicLoadout_F", 65000, "vehicle", "variant_pawneeNormal"],
-	// ["PO-30 Orca (DAR)", "O_Heli_Light_02_dynamicLoadout_F", 65000, "vehicle", "variant_orcaDAR"], // Armed Ka-60 with orca paintjob
-	// ["PO-30 Orca (DAGR)", "O_Heli_Light_02_dynamicLoadout_F", 65000, "vehicle", "variant_orcaDAGR"], // Armed Ka-60, add "HIDDEN" if you don't want it, but don't remove the line!
-	// ["WY-55 Hellcat (Armed)", "I_Heli_light_03_dynamicLoadout_F", 70000, "vehicle"], // Armed AW159
-	// ["WY-55 Czalpa (AG-Armed)", "I_E_Heli_light_03_dynamicLoadout_F", 125000, "vehicle", "variant_CzalpaAG"], // Armed AW159
-	// ["AH-99 Blackfoot", "B_Heli_Attack_01_dynamicLoadout_F", 150000, "vehicle"], // RAH-66 with gunner
-	// ["Mi-48 Kajman AG", "O_Heli_Attack_02_dynamicLoadout_F", 125000, "vehicle","variant_KajmanAG"],
-	// ["Mi-48 Kajman Delta", "O_Heli_Attack_02_dynamicLoadout_F", 150000, "vehicle","variant_KajmanDelta"], //by AryX
-	
 	["Mi-171Sh (Rockets)", "CUP_B_Mi171Sh_ACR", 120000, "vehicle"],
 	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 20000, "vehicle"],
 	["Mi-35", "CUP_B_Mi35_Dynamic_CZ", 140000, "vehicle"],
@@ -2480,8 +2404,6 @@ helicoptersArray = compileFinal str
 	["UH-1H (Gunship)", "CUP_O_UH1H_gunship_SLA", 70000, "vehicle"],
 	["UH-1H", "CUP_O_UH1H_SLA", 15000, "vehicle"],
 	["UH-1H (Slick)", "CUP_O_UH1H_slick_SLA", 15000, "vehicle"]
-	// ["MQ-12 Falcon UAV", "B_T_UAV_03_F", 150000, "vehicle", "SKIPSAVE"], // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
-	// ["MQ-12 DynamicLoadout Falcon UAV", "B_T_UAV_03_dynamicLoadout_F", 150000, "vehicle", "SKIPSAVE"]
 ];
 
 planesArray = compileFinal str
@@ -2489,32 +2411,8 @@ planesArray = compileFinal str
 
 	["Caesar BTT", "C_Plane_Civil_01_F", 6000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 8000, "vehicle"],
-	
-	// ["A-143 Buzzard AA", "I_Plane_Fighter_03_dynamicLoadout_F", 200000, "vehicle", "variant_buzzardEX"],
-	// ["A-143 Buzzard CAS", "I_Plane_Fighter_03_dynamicLoadout_F", 200000, "vehicle", "variant_buzzardCAS"],
-
-	// ["A-149 Gryphon AA XL", "I_Plane_Fighter_04_F", 500000, "vehicle", "variant_GryphonXL"],
-	// ["A-149 Gryphon AA", "I_Plane_Fighter_04_F", 350000, "vehicle", "variant_GryphonAA"],
-	// ["A-149 Gryphon CAS", "I_Plane_Fighter_04_F", 350000, "vehicle", "variant_GryphonCAS"],
-	
-	// ["F/A-181 Black Wasp (Gun-Only)", "B_Plane_Fighter_01_Stealth_F", 320000, "vehicle"], // no missiles or bombs
-	
-	// ["F/A-181 Black Wasp AA", "B_Plane_Fighter_01_F", 380000, "vehicle", "variant_blackwaspAA"],
-	// ["F/A-181 Black Wasp CAS", "B_Plane_Fighter_01_F", 380000, "vehicle", "variant_blackwaspCAS"],
-	// ["F/A-181 Black Wasp AA XL", "B_Plane_Fighter_01_F", 700000, "vehicle", "variant_blackwaspXL"],
-	// //["F/A-181 Black Wasp CAS", "B_Plane_Fighter_01_F", 190000, "vehicle"],
-	
-	// ["To-201 Shikra (Gun-Only)", "O_Plane_Fighter_02_Stealth_F", 350000, "vehicle", "variant_shikraDEF"], // no missiles or bombs
-	// ["To-201 Shikra AA XL", "O_Plane_Fighter_02_F", 600000, "vehicle", "variant_shikraXL"],
-	// ["To-201 Shikra AA", "O_Plane_Fighter_02_F", 380000, "vehicle", "variant_shikraEX"],
-	// ["To-201 Shikra CAS", "O_Plane_Fighter_02_F", 400000, "vehicle", "variant_shikraCAS"],
-	// ["To-201 Shikra CAS", "O_Plane_Fighter_02_F", 200000, "vehicle"],
-	
-	// ["A-164 Wipeout CAS", "B_Plane_CAS_01_dynamicLoadout_F", 200000, "vehicle"],
-	// ["To-199 Neophron CAS", "O_Plane_CAS_02_dynamicLoadout_F", 150000, "vehicle"],
 
 	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"], //(Grün)
-	// ["Boeing P-8 Poseidon (Ambient)", "CUP_B_P8Poseidon_RAAF", 125000, "vehicle"],
 	
 	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 160000, "vehicle", "variant_F35bCAS"], // by jared
 	["F-35B Lightning II AA", "CUP_B_F35B_BAF", 175000, "vehicle", "variant_F35bAA"], // by jared
@@ -2536,7 +2434,6 @@ planesArray = compileFinal str
 	["AV-8B Harrier II AT", "CUP_B_AV8B_DYN_USMC", 175000, "vehicle", "variant_Av8bAT"], // by jared
 	["AV-8B Harrier II Mk82", "CUP_B_AV8B_DYN_USMC", 145000, "vehicle", "variant_Av82MK82"], // by jared
 
-	// ["C-47 Skytrain", "CUP_B_C47_USA", 20000, "vehicle"],
 	["Li-2 (Chernavia)", "CUP_C_DC3_ChernAvia_CIV", 30000, "vehicle"],
 	["Li-2 (Military)", "CUP_O_C47_SLA", 40000, "vehicle"],
 	["MV-22B Osprey", "CUP_B_MV22_USMC", 30000, "vehicle"],
@@ -2547,47 +2444,13 @@ planesArray = compileFinal str
 	["C-130J", "CUP_B_C130J_GB", 80000, "vehicle"],
 	["C-130J (VIV)", "CUP_B_C130J_Cargo_GB", 80000, "vehicle"],
 
-	// ["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 100000, "vehicle"],
- 	// ["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 200000, "vehicle"],
-
-	// ["Y-32 Xi'an Anti Inf", "O_T_VTOL_02_infantry_dynamicLoadout_F", 200000, "vehicle", "variant_xianAntiInf"],
-	// ["Y-32 Xi'an AG", "O_T_VTOL_02_infantry_dynamicLoadout_F", 325000, "vehicle", "variant_xianAG"],
-	// ["Y-32 Xi'an AA", "O_T_VTOL_02_infantry_dynamicLoadout_F", 325000, "vehicle", "variant_xianEX"],
-	// ["Y-32 Xi'an Delta", "O_T_VTOL_02_infantry_dynamicLoadout_F", 400000, "vehicle", "variant_xianDelta"]
-	
-	//["KH-3A Fenghuang Missile UAV", "O_T_UAV_04_CAS_F", 85000, "vehicle", "SKIPSAVE"],
-	
-	//["MQ4A Greyhawk Missile UAV", "B_UAV_02_dynamicLoadout_F", 200000, "vehicle", "variant_greyhawkMissile", "SKIPSAVE"],
-	//["K40 Ababil-3 Missile UAV", "O_UAV_02_dynamicLoadout_F", 200000, "vehicle", "variant_greyhawkMissile", "SKIPSAVE"],
-	//["K40 Ababil-3 Missile UAV", "I_UAV_02_dynamicLoadout_F", 200000, "vehicle", "variant_greyhawkMissile", "SKIPSAVE"],
-	
-	//["MQ4A Greyhawk Bomber UAV", "B_UAV_02_dynamicLoadout_F", 150000, "vehicle", "variant_greyhawkBomber", "SKIPSAVE"], 
-	// Bomber UAVs are a lot harder to use, hence why they are cheaper than Missile ones
-	//["K40 Ababil-3 Bomber UAV", "O_UAV_02_dynamicLoadout_F", 150000, "vehicle", "variant_greyhawkBomber", "SKIPSAVE"],
-	//["K40 Ababil-3 Bomber UAV", "I_UAV_02_dynamicLoadout_F", 150000, "vehicle", "variant_greyhawkBomber", "SKIPSAVE"],
-	
-	//["MQ4A Greyhawk DAGR UAV", "B_UAV_02_dynamicLoadout_F", 220000, "vehicle", "variant_greyhawkDAGR", "SKIPSAVE"],
-	//["K40 Ababil-3 DAGR UAV", "O_UAV_02_dynamicLoadout_F", 220000, "vehicle", "variant_greyhawkDAGR", "SKIPSAVE"],
-	//["K40 Ababil-3 DAGR UAV", "I_UAV_02_dynamicLoadout_F", 220000, "vehicle", "variant_greyhawkDAGR", "SKIPSAVE"],
-
-	//["MQ4A Greyhawk Cluster UAV", "B_UAV_02_dynamicLoadout_F", 175000, "vehicle", "variant_greyhawkCluster", "SKIPSAVE"],
-	//["K40 Ababil-3 Cluster UAV", "O_UAV_02_dynamicLoadout_F", 175000, "vehicle", "variant_greyhawkCluster", "SKIPSAVE"],
-	//["K40 Ababil-3 Cluster UAV", "I_UAV_02_dynamicLoadout_F", 175000, "vehicle", "variant_greyhawkCluster", "SKIPSAVE"],
-	//["UCAV Sentinel Missile", "B_UAV_05_F", 200000, "vehicle", "variant_sentinelMissile", "SKIPSAVE"],
-	//["UCAV Sentinel Bomber", "B_UAV_05_F", 150000, "vehicle", "variant_sentinelBomber", "SKIPSAVE"],
-	//["UCAV Cluster Bomber", "B_UAV_05_F", 175000, "vehicle", "variant_clusterBomber", "SKIPSAVE"]
-
 ];
 boatsArray = compileFinal str
 [
 	["Water Scooter", "C_Scooter_Transport_01_F", 3000, "boat"],
 	["Rescue Boat", "C_Rubberboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
 	["Rescue Boat (NATO)", "B_Lifeboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], //
-	["Rescue Boat (CSAT)", "O_Lifeboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], //
 	["Assault Boat (NATO)", "B_Boat_Transport_01_F", 6000, "boat", "SKIPSAVE"],
-	["Assault Boat (CSAT)", "O_Boat_Transport_01_F", 6000, "boat", "SKIPSAVE", "HIDDEN"], //
-	["Assault Boat (AAF)", "I_Boat_Transport_01_F", 6000, "boat", "SKIPSAVE", "HIDDEN"], //
-	["Assault Boat (FIA)", "B_G_Boat_Transport_01_F", 6000, "boat", "SKIPSAVE", "HIDDEN"], //
 	
 	["LCU Mk.10", "CUP_B_MK10_GB", 3000, "boat"],
 	["LCU-1610", "CUP_B_LCU1600_USMC", 3000, "boat"],
@@ -2600,9 +2463,7 @@ boatsArray = compileFinal str
 	["Cup RHIB (Mk19)", "CUP_I_RHIB2Turret_RACS", 12000, "boat", "SKIPSAVE"], //*Neu
 	["Motorboat Rescue", "C_Boat_Civil_01_rescue_F", 9000, "boat", "SKIPSAVE", "HIDDEN"], //
 	["Motorboat Police", "C_Boat_Civil_01_police_F", 11000, "boat", "SKIPSAVE", "HIDDEN"], //
-	["Speedboat HMG (CSAT)", "O_Boat_Armed_01_hmg_F", 25000, "boat", "SKIPSAVE"],
 	["Speedboat Minigun (NATO)", "B_Boat_Armed_01_minigun_F", 30000, "boat", "SKIPSAVE"],
-	["Speedboat Minigun (AAF)", "I_Boat_Armed_01_minigun_F", 30000, "boat", "SKIPSAVE", "HIDDEN"], //
 	["SDV Submarine (NATO)", "B_SDV_01_F", 20000, "submarine", "SKIPSAVE"],
 	["SDV Submarine (CSAT)", "O_SDV_01_F", 20000, "submarine", "SKIPSAVE"],
 	["SDV Submarine (AAF)", "I_SDV_01_F", 20000, "submarine", "SKIPSAVE"]
