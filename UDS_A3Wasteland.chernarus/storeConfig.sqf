@@ -239,36 +239,15 @@ rifleArray = compileFinal str
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 10000],
 	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 12000],
-	["ASP-1 Kir Rifle", "srifle_DMR_04_F", 5000],
-	["ASP-1 Kir Rifle (Tan)", "srifle_DMR_04_tan_F", 5000]
 ];
 
 lmgArray = compileFinal str
 [
-	["MX SW LMG", "arifle_MX_SW_F", 3000],
-	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 3250],
-	["MX SW LMG (Khaki)", "arifle_MX_SW_khk_F", 3250, "noDLC"],
-	["Mk200 LMG", "LMG_Mk200_F", 4000],
-	["Mk200 LMG (Black)", "LMG_Mk200_black_F", 4000, "noDLC"],
-	["Zafir LMG", "LMG_Zafir_F", 5000],
 
 	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
-	["SPAR-16S LMG (Khaki)", "arifle_SPAR_02_khk_F", 3000],
 	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
 	["CAR-95-1 LMG", "arifle_CTARS_blk_F", 3000],
-	["CAR-95-1 LMG (Hex)", "arifle_CTARS_hex_F", 3000],
-	["CAR-95-1 LMG (G Hex)", "arifle_CTARS_ghex_F", 3000],
 	["LIM-85 LMG", "LMG_03_F", 3500],
-	
-	["RPK-12 (Gray)", "arifle_RPK12_F", 6000],
-	["RPK-12 (Arid)", "arifle_RPK12_arid_F", 6000],
-	["RPK-12 (Lush)", "arifle_RPK12_lush_F", 6000],
-
-	["SPMG MMG (Sand)", "MMG_02_sand_F", 7500],
-	["SPMG MMG (MTP)", "MMG_02_camo_F", 7500],
-	["SPMG MMG (Black)", "MMG_02_black_F", 7500],
-	["Navid MMG (Tan)", "MMG_01_tan_F", 10000],
-	["Navid MMG (Hex)", "MMG_01_hex_F", 10000],
 	
 	["L110A2", "CUP_lmg_L110A1", 7500],
 	["L7A2 GPMG", "CUP_lmg_L7A2_Flat", 8500],
