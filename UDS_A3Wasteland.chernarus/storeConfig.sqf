@@ -2300,7 +2300,7 @@ tanksArray = compileFinal str
 	["Leopard 2A6", "CUP_B_Leopard2A6_GER", 140000, "vehicle"],
 	["T-34-85M", "CUP_I_T34_TK_GUE", 70000, "vehicle"],
 	["T-55", "CUP_O_T55_CHDKZ", 80000, "vehicle"],
-	["M163A1 VADS", "CUP_B_M163_USA", 80000, "vehicle"], //*Neu
+	["M163A1 VADS", "CUP_B_M163_USA", 80000, "vehicle"],
 	["T-90A", "CUP_O_T90_RU", 150000, "vehicle"]
 ];
 
@@ -2310,14 +2310,9 @@ helicoptersArray = compileFinal str
 	["Mi-171Sh (Rockets)", "CUP_B_Mi171Sh_ACR", 120000, "vehicle"],
 	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 20000, "vehicle"],
 	["Mi-35", "CUP_B_Mi35_Dynamic_CZ", 140000, "vehicle"],
-	["SA-330 Puma HC1", "CUP_B_SA330_Puma_HC1_BAF", 10000, "vehicle"],
 	["SA-330 Puma HC2", "CUP_B_SA330_Puma_HC2_BAF", 10000, "vehicle"],
-	["Merlin HM2", "CUP_B_Merlin_HC4_GB", 10000, "vehicle"],
 	["Merlin HC3A (Armed)", "CUP_B_Merlin_HC3A_Armed_GB", 15000, "vehicle"],
 	["Merlin HC3A", "CUP_B_Merlin_HC3A_GB", 10000, "vehicle"],
-	["Merlin HC3 (VIV)", "CUP_B_Merlin_HC3_VIV_GB", 10000, "vehicle"],
-	["Merlin HC3 (Armed)", "CUP_B_Merlin_HC3_Armed_GB", 15000, "vehicle"],
-	["Merlin HC3", "CUP_B_Merlin_HC3_GB", 10000, "vehicle"],
 	["AH1", "CUP_B_AH1_DL_BAF", 140000, "vehicle"],
 	["Chinook HC-4", "CUP_B_CH47F_GB", 20000, "vehicle"],
 	["Chinook HC-4 (VIV)", "CUP_B_CH47F_VIV_GB", 20000, "vehicle"],
@@ -2397,7 +2392,6 @@ planesArray = compileFinal str
 	["SU-25 Frogfoot AT", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle", "variant_Su25AT"],
 
 	["Su-34", "CUP_B_SU34_CDF", 200000, "vehicle"],
-	["AC-47D Spooky", "CUP_B_AC47_Spooky_USA", 25000, "vehicle"],
 
 	["A-10A Thunderbolt II", "CUP_B_A10_DYN_USA", 150000, "vehicle"],
 	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"], // by jared
@@ -2409,13 +2403,16 @@ planesArray = compileFinal str
 
 	["Li-2 (Chernavia)", "CUP_C_DC3_ChernAvia_CIV", 30000, "vehicle"],
 	["Li-2 (Military)", "CUP_O_C47_SLA", 40000, "vehicle"],
+
 	["MV-22B Osprey", "CUP_B_MV22_USMC", 30000, "vehicle"],
 	["MV-22B Osprey (Ramp Gun)", "CUP_B_MV22_USMC_RAMPGUN", 40000, "vehicle"],
 	["MV-22B Osprey (VIV)", "CUP_B_MV22_VIV_USMC", 30000, "vehicle"],
+
 	["Antonov An-2", "CUP_C_AN2_CIV", 20000, "vehicle"],
 	["Antonov An-2 (Military)", "CUP_O_AN2_TK", 30000, "vehicle"],
+
 	["C-130J", "CUP_B_C130J_GB", 80000, "vehicle"],
-	["C-130J (VIV)", "CUP_B_C130J_Cargo_GB", 80000, "vehicle"],
+	["C-130J (VIV)", "CUP_B_C130J_Cargo_GB", 80000, "vehicle"]
 
 ];
 boatsArray = compileFinal str
