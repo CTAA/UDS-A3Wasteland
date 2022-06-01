@@ -78,17 +78,12 @@ rifleArray = compileFinal str
 
 	// Assault Rifles
 	["Mk20 Carbine", "arifle_Mk20C_plain_F", 1500],
-	["Mk20 EGLM Rifle", "arifle_Mk20_GL_plain_F", 2500],
 	["TRG-21 Rifle ", "arifle_TRG21_F", 2000],
-	["TRG-21 EGLM Rifle", "arifle_TRG21_GL_F", 2500],
 
 // AK-101
 	["AK-101", "CUP_arifle_AK101", 1500],
 	["AK-101 (RIS mount)", "CUP_arifle_AK101_top_rail", 1500],
 	["AK-101 (Zenitco/RIS)", "CUP_arifle_AK101_railed", 1500],
-	["AK-101 GP-25", "CUP_arifle_AK101_GL", 2000],
-	["AK-101 GP-25 (RIS mount)", "CUP_arifle_AK101_GL_top_rail", 2000],
-	["AK-101 GP-25 (Zenitco/RIS)", "CUP_arifle_AK101_GL_railed", 2000],
 
 	["AK-102", "CUP_arifle_AK102", 1650],
 	["AK-102 (RIS mount)", "CUP_arifle_AK102_top_rail", 1650],
@@ -97,10 +92,6 @@ rifleArray = compileFinal str
 	["AK-103", "CUP_arifle_AK103", 1750],
 	["AK-103 (RIS mount)", "CUP_arifle_AK103_top_rail", 1750],
 	["AK-103 (Zenitco/RIS)", "CUP_arifle_AK103_railed", 1750],
-
-	["AK-103 GP-25", "CUP_arifle_AK103_GL", 2100],
-	["AK-103 GP-25 (RIS mount)", "CUP_arifle_AK103_GL_top_rail", 2100],
-	["AK-103 GP-25 (Zenitco/RIS)", "CUP_arifle_AK103_GL_railed", 2100],
 
 	["AK-104", "CUP_arifle_AK104", 1800],
 	["AK-104 (RIS mount)", "CUP_arifle_AK104_top_rail", 1800],
@@ -114,25 +105,13 @@ rifleArray = compileFinal str
 	["AK-107 (RIS mount)", "CUP_arifle_AK107_top_rail", 1900],
 	["AK-107 (Zenitco/RIS)", "CUP_arifle_AK107_railed", 1900],
 
-	["AK-107 GP-25", "CUP_arifle_AK107_GL", 2200],
-	["AK-107 GP-25 (RIS mount)", "CUP_arifle_AK107_GL_top_rail", 2200],
-	["AK-107 GP-25 (Zenitco/RIS)", "CUP_arifle_AK107_GL_railed", 2200],
-
 	["AK-108", "CUP_arifle_AK108", 1950],
 	["AK-108 (RIS mount)", "CUP_CUP_arifle_AK108_railed", 1950],
 	["AK-108 (Zenitco/RIS)", "arifle_AK108_top_rail", 1950],
 
-	["AK-108 GP-25", "CUP_arifle_AK108_GL", 2300],
-	["AK-108 GP-25 (RIS mount)", "CUP_arifle_AK108_GL_top_rail", 2300],
-	["AK-108 GP-25 (Zenitco/RIS)", "CUP_arifle_AK108_GL_railed", 2300],
-
 	["AK-109", "CUP_arifle_AK109", 2000],
 	["AK-109 (RIS mount)", "CUP_arifle_AK109_top_rail", 2000],
 	["AK-109 (Zenitco/RIS)", "CUP_arifle_AK109_railed", 2000],
-
-	["AK-109 GP-25", "CUP_arifle_AK109_GL", 2400],
-	["AK-109 GP-25 (RIS mount)", "CUP_arifle_AK109_GL_top_rail", 2400],
-	["AK-109 GP-25 (Zenitco/RIS)", "CUP_arifle_AK109_GL_railed", 2400],
 
 	["AUG A1", "CUP_arifle_AUG_A1", 2600],
 	// ["AUG CQC (Black)", "SMA_AUG_A3_F", 1000],
@@ -149,44 +128,28 @@ rifleArray = compileFinal str
 	["FAL OSW", "CUP_arifle_FNFAL_OSW", 3600],
 
 	["G27", "BWA3_G27", 2000],
-	["G27 AG40-2", "BWA3_G27_AG40v", 2000], 
 
 	["G28 E2", "BWA3_G28", 2500],
 	["G28 E2 (Patrol)", "BWA3_G28_Patrol", 2500],
 
 	["G36 (RIS/Grip)", "CUP_arifle_G36A_RIS", 2500],
-	["G36A3 AG40-2", "BWA3_G36A3_AG40", 3400],
 	["G36KA4", "BWA3_G36KA4", 2900],
 	["G38", "BWA3_G38", 3000],
-	["G38 AG40-2", "BWA3_G38_AG40", 3500],
 	["G38C", "BWA3_G38C", 3100],
 	["G3A3", "CUP_arifle_G3A3_ris", 3200],
 	["HK416 (Woodland)", "CUP_arifle_HK416_Wood", 2000],
 	["HK416 CQC", "CUP_arifle_HK416_CQB_Black", 2000],
-	["HK416 CQC M203", "CUP_arifle_HK416_CQB_M203_Black", 3500],
-	["HK416 CQC M320", "CUP_arifle_HK416_CQB_AG36", 3000],
-	["HK416 M203", "CUP_arifle_HK416_M203_Black", 2300],
-	["HK416 M320", "CUP_arifle_HK416_AGL_Black", 3300],
 	["HK417 CQC M203", "CUP_arifle_HK417_12_M203", 3500],
 	["L129a1", "CUP_srifle_L129A1", 2500],
 	["L129a1 w/HG", "CUP_srifle_L129A1_HG", 3200],
-	["L85A2 (RIS)", "CUP_arifle_L85A2_NG", 2500],
 	["L85A2 (RIS/GRIP)", "CUP_arifle_L85A2_G", 2500],
-	["L85A2 L123A2 GL", "CUP_arifle_L85A2_GL", 3500],
 	["M16A1", "CUP_arifle_M16A", 2500],
 	["M16A1 M203 (Flaming shark)", "CUP_arifle_M16A1GL_FS", 3500],
 	["M16A2", "CUP_arifle_M16A2", 2600],
-	["M16A2 M203", "CUP_arifle_M16A2_GL", 3600],
 	["M16A4", "CUP_arifle_M16A4_Base", 2800],
-	["M16A4 M203", "CUP_arifle_M16A4_GL", 3800],
 	["M4 SBR (OD)", "CUP_arifle_SBR_od", 2900],
 	["M4A1", "CUP_arifle_M4A1_black", 2600],
 	["M4A1 (Grip)", "CUP_arifle_M4A3_black", 2800],
-	["M4A1 M203", "CUP_arifle_M4A1_BUIS_GL", 3300],
-	["Mk 16 CQC (Surefire)", "CUP_arifle_Mk16_CQC_SFG", 2300],
-	["Mk 16 CQC EGLM", "CUP_arifle_Mk16_CQC_EGLM", 3000],
-	["Mk 16 SV", "CUP_arifle_Mk16_SV", 2800],
-	["MK 17 CQC", "CUP_arifle_Mk17_CQC", 2500],
 	["MK 17 CQC (Grip)", "CUP_arifle_Mk17_CQC_FG", 2700],
 	["MK 17 CQC (Surefire)", "CUP_arifle_Mk17_CQC_SFG", 2800],
 	["Mk 17 CQC EGLM", "CUP_arifle_Mk17_CQC_EGLM", 3300],
@@ -217,21 +180,12 @@ rifleArray = compileFinal str
 	["XM8 Sharpshooter", "CUP_arifle_xm8_sharpshooter", 1000],
 	["Katiba GL Rifle", "arifle_Katiba_GL_F", 2500],
 	["MX Rifle", "arifle_MX_F", 2000],
-	["MX Rifle (Black)", "arifle_MX_Black_F", 2000],
-	["MX Rifle (Khaki)", "arifle_MX_khk_F", 2000, "noDLC"],
-	["MX 3GL Rifle", "arifle_MX_GL_F", 2500],
-	["MX 3GL Rifle (Black)", "arifle_MX_GL_Black_F", 2500],
-	["MX 3GL Rifle (Khaki)", "arifle_MX_GL_khk_F", 2500, "noDLC"],
 
 	["SPAR-16 Rifle", "arifle_SPAR_01_blk_F", 2000],
 	["SPAR-16 Rifle (Khaki)", "arifle_SPAR_01_khk_F", 2000],
 	["SPAR-16 Rifle (Sand)", "arifle_SPAR_01_snd_F", 2000],
-	["SPAR-16 GL Rifle", "arifle_SPAR_01_GL_blk_F", 2500],
-	["SPAR-16 GL Rifle (Khaki)", "arifle_SPAR_01_GL_khk_F", 2500],
-	["SPAR-16 GL Rifle (Sand)", "arifle_SPAR_01_GL_snd_F", 2500],
 
 	["CAR-95 Rifle", "arifle_CTAR_blk_F", 2000],
-	["CAR-95 GL Rifle", "arifle_CTAR_GL_blk_F", 2500],
 	["Type 115 Stealth Rifle", "arifle_ARX_blk_F", 3000],
 	
 	["AKS-74U Carbine", "arifle_AKS_F", 1500],
@@ -261,8 +215,6 @@ rifleArray = compileFinal str
 	["CZ 750", "CUP_srifle_CZ750", 4600],
 	["AS50", "CUP_srifle_AS50", 16000],
 	["AS VAL", "CUP_arifle_AS_VAL", 10000],
-	["AS VAL (Grip)", "CUP_arifle_AS_VAL_VFG", 12000],
-	["AS VAL (RIS mount)", "CUP_arifle_AS_VAL_top_rail", 10000],
 	["AS VAL (RIS mount/Grip)", "CUP_arifle_AS_VAL_VFG_top_rail", 12000],
 	["G22 (Desert)", "CUP_srifle_G22_des", 6000],
 	["HK417 DMR", "CUP_arifle_HK417_20", 6000],
@@ -285,35 +237,18 @@ rifleArray = compileFinal str
 
 	// DLC
 	["CMR-76 Stealth Rifle", "srifle_DMR_07_blk_F", 4000],
-	["CMR-76 Stealth Rifle (Hex)", "srifle_DMR_07_hex_F", 4000],
-	["CMR-76 Stealth Rifle (G Hex)", "srifle_DMR_07_ghex_F", 4000],
 	["SPAR-17 Rifle", "arifle_SPAR_03_blk_F", 4500],
 	["SPAR-17 Rifle (Khaki)", "arifle_SPAR_03_khk_F", 4500],
 	["SPAR-17 Rifle (Sand)", "arifle_SPAR_03_snd_F", 4500],
 
 	["Mk14 Rifle (Camo)", "srifle_DMR_06_camo_F", 5000],
-	["Mk14 Rifle (Olive)", "srifle_DMR_06_olive_F", 5000],
-	["Mk14 Rifle (Classic)", "srifle_DMR_06_hunter_F", 5000, "noDLC"],
 	["Mk-I EMR Rifle", "srifle_DMR_03_F", 5000],
-	["Mk-I EMR Rifle (Camo)", "srifle_DMR_03_multicam_F", 5000],
-	["Mk-I EMR Rifle (Khaki)", "srifle_DMR_03_khaki_F", 5000],
-	["Mk-I EMR Rifle (Sand)", "srifle_DMR_03_tan_F", 5000],
-	["Mk-I EMR Rifle (Woodland)", "srifle_DMR_03_woodland_F", 5000],
 	["MAR-10 Rifle", "srifle_DMR_02_F", 7500],
-	["MAR-10 Rifle (Camo)", "srifle_DMR_02_camo_F", 7500],
-	["MAR-10 Rifle (Sand)", "srifle_DMR_02_sniper_F", 7500],
 	["Cyrus Rifle", "srifle_DMR_05_blk_F", 7500],
-	["Cyrus Rifle (Hex)", "srifle_DMR_05_hex_F", 7500],
-	["Cyrus Rifle (Tan)", "srifle_DMR_05_tan_f", 7500],
 
 	// Sniper Rifles
 	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 10000],
 	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 12000],
-	["M320 LRR Sniper (Tropic)", "srifle_LRR_tna_LRPS_F", 12000],
-	["GM6 Lynx Sniper", "srifle_GM6_LRPS_F", 12500],
-	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_LRPS_F", 15000],
-	["GM6 Lynx Sniper (G Hex)", "srifle_GM6_ghex_LRPS_F", 15000],
-
 	["ASP-1 Kir Rifle", "srifle_DMR_04_F", 5000],
 	["ASP-1 Kir Rifle (Tan)", "srifle_DMR_04_tan_F", 5000]
 ];
