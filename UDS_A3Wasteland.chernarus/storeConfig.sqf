@@ -19,35 +19,22 @@ currentOwnerName = "";
 
 pistolArray = compileFinal str
 [
-	// Handguns
-	["PM Pistol", "hgun_Pistol_01_F", 250],
-	["P07 Pistol", "hgun_P07_F", 500],
-	["P07 Pistol (Khaki)", "hgun_P07_khk_F", 500],
-	["Rook-40 Pistol", "hgun_Rook40_F", 500],
-	["ACP-C2 Pistol", "hgun_ACPC2_F", 750],
-	["Zubr Revolver", "hgun_Pistol_heavy_02_F", 750],
-	["4-five Pistol", "hgun_Pistol_heavy_01_F", 1000],
-	["4-five Pistol (Green)", "hgun_Pistol_heavy_01_green_F", 1000, "noDLC"],
 	["CZ 75 COMPACT", "CUP_hgun_Compact", 500],
-	["CZ 75 PHANTOM", "CUP_hgun_Phantom", 500],
 	["Desert Eagle", "CUP_hgun_Deagle", 500],
 	["Glock 17", "CUP_hgun_Glock17", 500],
-	// ["M1911", "CUP_7Rnd_45ACP_1911", 500], //Mags gehn nicht
-	// ["M9", "CUP_15Rnd_9x19_M9", 500], //Mags gehn nicht
-	["MAC-10", "CUP_hgun_Mac10", 500],
+	["MAC-10", "CUP_hgun_Mac10", 1000],
 	["Makarow PM", "CUP_hgun_Makarov", 500],
 	["Micro UZI PDW", "CUP_hgun_MicroUzi", 500],
 	["Mk23 SOCCOM", "CUP_hgun_Mk23", 500],
-	// ["MP7", "BWA3_MP7", 500],
-	["MP7A1", "CUP_hgun_MP7", 500],
-	// ["P2A1", "BWA3_P2A1", 500],
-	// ["P8", "BWA3_P8", 500],
+	["MP7A1", "CUP_hgun_MP7", 1000],
 	["PB 6P9", "CUP_hgun_PB6P9", 500],
 	["PMM-12", "CUP_hgun_PMM", 500],
 	["Sa-61", "CUP_hgun_SA61", 500],
-	["Taurus Tracker Model 455", "CUP_hgun_TaurusTracker455", 750],
-	["Taurus Tracker Model 455 (Gold)", "CUP_hgun_TaurusTracker455_gold", 750],
-	["TEC9", "CUP_hgun_TEC9", 900]
+	["Taurus Tracker Model 455", "CUP_hgun_TaurusTracker455", 500],
+	["TEC9", "CUP_hgun_TEC9", 500]
+	["TEC9", "CUP_hgun_TEC9", 500],
+	["MAC-10", "CUP_hgun_Mac10", 1000],
+	["MP7A1", "CUP_hgun_MP7", 1000]
 ];
 
 smgArray = compileFinal str
