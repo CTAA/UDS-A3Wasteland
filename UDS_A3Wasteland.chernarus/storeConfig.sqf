@@ -607,7 +607,11 @@ ammoArray = compileFinal str
 	["40mm Smoke Round (Yellow)", "1Rnd_SmokeYellow_Grenade_shell", 500],
 	["40mm Smoke Round (Orange)", "1Rnd_SmokeOrange_Grenade_shell", 500],
 	["40mm Smoke Round (Red)", "1Rnd_SmokeRed_Grenade_shell", 500],
-
+	["40mm Flare Round (White)", "UGL_FlareWhite_F", 250],
+	["40mm Flare Round (Green)", "UGL_FlareGreen_F", 250],
+	["40mm Flare Round (Yellow)", "UGL_FlareYellow_F", 250],
+	["40mm Flare Round (Red)", "UGL_FlareRed_F", 250],
+	["40mm Flare Round (IR)", "UGL_FlareCIR_F", 250],
 ];
 
 //Gun Store item List
