@@ -2449,38 +2449,38 @@ landArray = compileFinal str
 	["Skoda S1203", "CUP_C_S1203_Militia_CIV", 5000, "vehicle", "SKIPSAVE"],
 	// ["Skoda S1203 (Ambulance)", "CUP_B_S1203_Ambulance_CDF", 5000, "vehicle", "SKIPSAVE"],
 	
-	["Van Cargo", "C_Van_02_vehicle_F", 5000, "vehicle", "SKIPSAVE"],
-	["Van Transport", "C_Van_02_transport_F", 5000, "vehicle", "SKIPSAVE"],
-	["Van Police Cargo", "B_GEN_Van_02_vehicle_F", 1250, "vehicle", "SKIPSAVE"],
-	["Van Police Transport", "B_GEN_Van_02_transport_F", 1250, "vehicle", "SKIPSAVE"],
-	["Van Ambulance", "C_Van_02_medevac_F", 5500, "vehicle", "SKIPSAVE"],
-	["Van Repair", "C_Van_02_service_F", 6000, "vehicle", "SKIPSAVE"],
+	// ["Van Cargo", "C_Van_02_vehicle_F", 5000, "vehicle", "SKIPSAVE"],
+	// ["Van Transport", "C_Van_02_transport_F", 5000, "vehicle", "SKIPSAVE"],
+	// ["Van Police Cargo", "B_GEN_Van_02_vehicle_F", 1250, "vehicle", "SKIPSAVE"],
+	// ["Van Police Transport", "B_GEN_Van_02_transport_F", 1250, "vehicle", "SKIPSAVE"],
+	// ["Van Ambulance", "C_Van_02_medevac_F", 5500, "vehicle", "SKIPSAVE"],
+	// ["Van Repair", "C_Van_02_service_F", 6000, "vehicle", "SKIPSAVE"],
 
-	["HEMTT Flatbed", "B_T_Truck_01_flatbed_F", 5000, "vehicle"],
-	["HEMTT Cargo", "B_T_Truck_01_cargo_F", 5000, "vehicle"],
-	["HEMTT Mover", "B_Truck_01_mover_F", 4000, "vehicle"],
-	["HEMTT Resupply", "B_Truck_01_ammo_F", 5000, "vehicle"],
-	//["HEMTT Box", "B_Truck_01_box_F", 5000, "vehicle"],
-	["HEMTT Transport", "B_Truck_01_transport_F", 6000, "vehicle"],
-	["HEMTT Covered", "B_Truck_01_covered_F", 7000, "vehicle"],
-	["HEMTT Fuel", "B_Truck_01_fuel_F", 21000, "vehicle"],
-	["HEMTT Medical", "B_Truck_01_medical_F", 15000, "vehicle"],
-	["HEMTT Repair", "B_Truck_01_Repair_F", 25000, "vehicle"],
+	// ["HEMTT Flatbed", "B_T_Truck_01_flatbed_F", 5000, "vehicle"],
+	// ["HEMTT Cargo", "B_T_Truck_01_cargo_F", 5000, "vehicle"],
+	// ["HEMTT Mover", "B_Truck_01_mover_F", 4000, "vehicle"],
+	// ["HEMTT Resupply", "B_Truck_01_ammo_F", 5000, "vehicle"],
+	// ["HEMTT Box", "B_Truck_01_box_F", 5000, "vehicle"],
+	// ["HEMTT Transport", "B_Truck_01_transport_F", 6000, "vehicle"],
+	// ["HEMTT Covered", "B_Truck_01_covered_F", 7000, "vehicle"],
+	// ["HEMTT Fuel", "B_Truck_01_fuel_F", 21000, "vehicle"],
+	// ["HEMTT Medical", "B_Truck_01_medical_F", 15000, "vehicle"],
+	// ["HEMTT Repair", "B_Truck_01_Repair_F", 25000, "vehicle"],
 
-	["Tempest Device", "O_Truck_03_device_F", 4000, "vehicle"],
-	["Tempest Resupply", "O_Truck_03_ammo_F", 5000, "vehicle"],
-	["Tempest Transport", "O_Truck_03_transport_F", 6000, "vehicle"],
-	["Tempest Covered", "O_Truck_03_covered_F", 7000, "vehicle"],
-	["Tempest Fuel", "O_Truck_03_fuel_F", 20000, "vehicle"],
-	["Tempest Medical", "O_Truck_03_medical_F", 14000, "vehicle"],
-	["Tempest Repair", "O_Truck_03_repair_F", 24000, "vehicle"],
+	// ["Tempest Device", "O_Truck_03_device_F", 4000, "vehicle"],
+	// ["Tempest Resupply", "O_Truck_03_ammo_F", 5000, "vehicle"],
+	// ["Tempest Transport", "O_Truck_03_transport_F", 6000, "vehicle"],
+	// ["Tempest Covered", "O_Truck_03_covered_F", 7000, "vehicle"],
+	// ["Tempest Fuel", "O_Truck_03_fuel_F", 20000, "vehicle"],
+	// ["Tempest Medical", "O_Truck_03_medical_F", 14000, "vehicle"],
+	// ["Tempest Repair", "O_Truck_03_repair_F", 24000, "vehicle"],
 	
-	["Zamak Resupply", "I_Truck_02_ammo_F", 4000, "vehicle"],
-	["Zamak Transport", "I_Truck_02_transport_F", 6000, "vehicle"],
-	["Zamak Covered", "I_Truck_02_covered_F", 7000, "vehicle"],
-	["Zamak Fuel", "I_Truck_02_fuel_F", 20000, "vehicle"],
-	["Zamak Medical", "I_Truck_02_medical_F", 14000, "vehicle"],
-	["Zamak Repair", "I_Truck_02_box_F", 24000, "vehicle"],
+	// ["Zamak Resupply", "I_Truck_02_ammo_F", 4000, "vehicle"],
+	// ["Zamak Transport", "I_Truck_02_transport_F", 6000, "vehicle"],
+	// ["Zamak Covered", "I_Truck_02_covered_F", 7000, "vehicle"],
+	// ["Zamak Fuel", "I_Truck_02_fuel_F", 20000, "vehicle"],
+	// ["Zamak Medical", "I_Truck_02_medical_F", 14000, "vehicle"],
+	// ["Zamak Repair", "I_Truck_02_box_F", 24000, "vehicle"],
 	["Ural (ZU-23)", "CUP_B_Ural_ZU23_CDF", 20000, "vehicle"],
 	["Ural (Repair)", "CUP_B_Ural_Repair_CDF", 24000, "vehicle"],
 	["Ural (Refuel)", "CUP_B_Ural_Refuel_CDF", 20000, "vehicle"],
@@ -2567,26 +2567,26 @@ armoredArray = compileFinal str
 	["RG-31 Nyala M2", "CUP_B_RG31_M2_USA", 25000, "vehicle", "SKIPSAVE"],
 	["Eagle IV (FLW 100)", "BWA3_Eagle_FLW100_Fleck", 25000, "vehicle", "SKIPSAVE"],
 	["Eagle IV", "BWA3_Eagle_Fleck", 25000, "vehicle", "SKIPSAVE"],
-	["Prowler Light", "B_CTRG_LSV_01_light_F", 1500, "vehicle", "SKIPSAVE"],
-	["Prowler", "B_T_LSV_01_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
-	["Prowler HMG", "B_T_LSV_01_armed_F", 6000, "vehicle", "SKIPSAVE"],
-	["Prowler AT", "B_T_LSV_01_AT_F", 70000, "vehicle"],
-	["Qilin", "O_T_LSV_02_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
-	["Qilin Minigun", "O_T_LSV_02_armed_F", 6000, "vehicle", "SKIPSAVE"],
-	["Qilin AT", "O_T_LSV_02_AT_F", 70000, "vehicle"],
-	["Hunter", "B_MRAP_01_F", 5000, "vehicle", "SKIPSAVE"],
-	["Hunter HMG", "B_MRAP_01_hmg_F", 25000, "vehicle"],
-	["Hunter GMG", "B_MRAP_01_gmg_F", 28000, "vehicle"],
-	["Ifrit", "O_MRAP_02_F", 5000, "vehicle", "SKIPSAVE"],
-	["Ifrit HMG", "O_MRAP_02_hmg_F", 25000, "vehicle"],
-	["Ifrit GMG", "O_MRAP_02_gmg_F", 28000, "vehicle"],
-	["Strider", "I_MRAP_03_F", 5000, "vehicle", "SKIPSAVE"],
-	["Strider HMG", "I_MRAP_03_hmg_F", 25000, "vehicle"],
-	["Strider GMG", "I_MRAP_03_gmg_F", 28000, "vehicle"],
-	["MSE-3 Marid", "O_APC_Wheeled_02_rcws_v2_F", 50000, "vehicle"],
-	["AMV-7 Marshall", "B_APC_Wheeled_01_cannon_F", 70000, "vehicle"],
-	["AFV-4 Gorgon", "I_APC_Wheeled_03_cannon_F", 90000, "vehicle"],
-	["Rhino AT", "B_AFV_Wheeled_01_cannon_F", 90000, "vehicle"],
+	// ["Prowler Light", "B_CTRG_LSV_01_light_F", 1500, "vehicle", "SKIPSAVE"],
+	// ["Prowler", "B_T_LSV_01_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
+	// ["Prowler HMG", "B_T_LSV_01_armed_F", 6000, "vehicle", "SKIPSAVE"],
+	// ["Prowler AT", "B_T_LSV_01_AT_F", 70000, "vehicle"],
+	// ["Qilin", "O_T_LSV_02_unarmed_F", 2000, "vehicle", "SKIPSAVE"],
+	// ["Qilin Minigun", "O_T_LSV_02_armed_F", 6000, "vehicle", "SKIPSAVE"],
+	// ["Qilin AT", "O_T_LSV_02_AT_F", 70000, "vehicle"],
+	// ["Hunter", "B_MRAP_01_F", 5000, "vehicle", "SKIPSAVE"],
+	// ["Hunter HMG", "B_MRAP_01_hmg_F", 25000, "vehicle"],
+	// ["Hunter GMG", "B_MRAP_01_gmg_F", 28000, "vehicle"],
+	// ["Ifrit", "O_MRAP_02_F", 5000, "vehicle", "SKIPSAVE"],
+	// ["Ifrit HMG", "O_MRAP_02_hmg_F", 25000, "vehicle"],
+	// ["Ifrit GMG", "O_MRAP_02_gmg_F", 28000, "vehicle"],
+	// ["Strider", "I_MRAP_03_F", 5000, "vehicle", "SKIPSAVE"],
+	// ["Strider HMG", "I_MRAP_03_hmg_F", 25000, "vehicle"],
+	// ["Strider GMG", "I_MRAP_03_gmg_F", 28000, "vehicle"],
+	// ["MSE-3 Marid", "O_APC_Wheeled_02_rcws_v2_F", 50000, "vehicle"],
+	// ["AMV-7 Marshall", "B_APC_Wheeled_01_cannon_F", 70000, "vehicle"],
+	// ["AFV-4 Gorgon", "I_APC_Wheeled_03_cannon_F", 90000, "vehicle"],
+	// ["Rhino AT", "B_AFV_Wheeled_01_cannon_F", 90000, "vehicle"],
 	// ["Rhino Missile", "B_AFV_Wheeled_01_up_cannon_F", 90000, "vehicle"],
 	["Coyote GMG", "CUP_B_BAF_Coyote_GMG_D", 25000, "vehicle"],
 	["Coyote L2A1", "CUP_B_BAF_Coyote_L2A1_D", 25000, "vehicle"],
@@ -2651,23 +2651,23 @@ armoredArray = compileFinal str
 
 tanksArray = compileFinal str
 [
-	["AWC 303 Nyx Recon", "I_LT_01_scout_F", 30000, "vehicle"],
-	["AWC 304 Nyx Autocannon", "I_LT_01_cannon_F", 50000, "vehicle"],
-	["AWC 301 Nyx AT", "I_LT_01_AT_F", 90000, "vehicle"],
-	["AWC 302 Nyx AA", "I_LT_01_AA_F", 90000, "vehicle"],
-	["CRV-6e Bobcat (Resupply)", "B_APC_Tracked_01_CRV_F", 45000, "vehicle"],
-	["IFV-6c Panther", "B_APC_Tracked_01_rcws_F", 50000, "vehicle"],
-	["FV-720 Mora", "I_APC_tracked_03_cannon_F", 90000, "vehicle"],
-	["FV-720 Odyniec (Missile)", "I_E_APC_tracked_03_cannon_F", 120000, "vehicle"],
-	["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 90000, "vehicle"],
-	["IFV-6a Cheetah AA", "B_APC_Tracked_01_AA_F", 130000, "vehicle"],
-	["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 120000, "vehicle"],
-	["M2A1 Slammer", "B_MBT_01_cannon_F", 130000, "vehicle"],
-	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 135000, "vehicle"], // Commander gun variant
-	["T-100 Varsuk", "O_MBT_02_cannon_F", 130000, "vehicle"],
-	["MBT-52 Kuma", "I_MBT_03_cannon_F", 135000, "vehicle"],
-	["T-140 Angara", "O_MBT_04_cannon_F", 145000, "vehicle"],
-	["T-140K Angara", "O_MBT_04_command_F", 150000, "vehicle"],
+	// ["AWC 303 Nyx Recon", "I_LT_01_scout_F", 30000, "vehicle"],
+	// ["AWC 304 Nyx Autocannon", "I_LT_01_cannon_F", 50000, "vehicle"],
+	// ["AWC 301 Nyx AT", "I_LT_01_AT_F", 90000, "vehicle"],
+	// ["AWC 302 Nyx AA", "I_LT_01_AA_F", 90000, "vehicle"],
+	// ["CRV-6e Bobcat (Resupply)", "B_APC_Tracked_01_CRV_F", 45000, "vehicle"],
+	// ["IFV-6c Panther", "B_APC_Tracked_01_rcws_F", 50000, "vehicle"],
+	// ["FV-720 Mora", "I_APC_tracked_03_cannon_F", 90000, "vehicle"],
+	// ["FV-720 Odyniec (Missile)", "I_E_APC_tracked_03_cannon_F", 120000, "vehicle"],
+	// ["BTR-K Kamysh", "O_APC_Tracked_02_cannon_F", 90000, "vehicle"],
+	// ["IFV-6a Cheetah AA", "B_APC_Tracked_01_AA_F", 130000, "vehicle"],
+	// ["ZSU-39 Tigris AA", "O_APC_Tracked_02_AA_F", 120000, "vehicle"],
+	// ["M2A1 Slammer", "B_MBT_01_cannon_F", 130000, "vehicle"],
+	// ["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 135000, "vehicle"], // Commander gun variant
+	// ["T-100 Varsuk", "O_MBT_02_cannon_F", 130000, "vehicle"],
+	// ["MBT-52 Kuma", "I_MBT_03_cannon_F", 135000, "vehicle"],
+	// ["T-140 Angara", "O_MBT_04_cannon_F", 145000, "vehicle"],
+	// ["T-140K Angara", "O_MBT_04_command_F", 150000, "vehicle"],
 	["FV4034 Challenger 2", "CUP_B_Challenger2_Desert_BAF", 200000, "vehicle"],
 	["ZSU-23-4", "CUP_B_ZSU23_CDF", 80000, "vehicle"],
 	["M1A2 Abrams TUSK", "CUP_B_M1A2_TUSK_MG_DES_US_Army", 140000, "vehicle"],
@@ -2685,8 +2685,6 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
-	// VANILLA HELIS
-	
 	// ["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_F", (call genItemArray) select {_x select 1 == "C_IDAP_UAV_06_antimine_backpack_F"} select 0 select 2, "vehicle", "HIDDEN"], // for resupply price
 	// ["M-900 LittleBird", "C_Heli_Light_01_civil_F", 4000, "vehicle"], // MH-6, no flares
 	// ["MH-9 Hummingbird", "B_Heli_Light_01_F", 5000, "vehicle"], // MH-6
@@ -2718,7 +2716,6 @@ helicoptersArray = compileFinal str
 	// ["AH-99 Blackfoot", "B_Heli_Attack_01_dynamicLoadout_F", 150000, "vehicle"], // RAH-66 with gunner
 	// ["Mi-48 Kajman AG", "O_Heli_Attack_02_dynamicLoadout_F", 125000, "vehicle","variant_KajmanAG"],
 	// ["Mi-48 Kajman Delta", "O_Heli_Attack_02_dynamicLoadout_F", 150000, "vehicle","variant_KajmanDelta"], //by AryX
-	
 	
 	["Mi-171Sh (Rockets)", "CUP_B_Mi171Sh_ACR", 120000, "vehicle"],
 	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 20000, "vehicle"],
@@ -2797,12 +2794,13 @@ helicoptersArray = compileFinal str
 	["UH-1H (Gunship)", "CUP_O_UH1H_gunship_SLA", 70000, "vehicle"],
 	["UH-1H", "CUP_O_UH1H_SLA", 15000, "vehicle"],
 	["UH-1H (Slick)", "CUP_O_UH1H_slick_SLA", 15000, "vehicle"]
-	//["MQ-12 Falcon UAV", "B_T_UAV_03_F", 150000, "vehicle", "SKIPSAVE"], // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
+	// ["MQ-12 Falcon UAV", "B_T_UAV_03_F", 150000, "vehicle", "SKIPSAVE"], // Do NOT use "B_T_UAV_03_dynamicLoadout_F" (doesn't support ASRAAM pylons)
 	// ["MQ-12 DynamicLoadout Falcon UAV", "B_T_UAV_03_dynamicLoadout_F", 150000, "vehicle", "SKIPSAVE"]
 ];
 
 planesArray = compileFinal str
 [
+
 	["Caesar BTT", "C_Plane_Civil_01_F", 6000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 8000, "vehicle"],
 	
@@ -2828,7 +2826,7 @@ planesArray = compileFinal str
 	
 	// ["A-164 Wipeout CAS", "B_Plane_CAS_01_dynamicLoadout_F", 200000, "vehicle"],
 	// ["To-199 Neophron CAS", "O_Plane_CAS_02_dynamicLoadout_F", 150000, "vehicle"],
-	
+
 	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"], //(Grün)
 	// ["Boeing P-8 Poseidon (Ambient)", "CUP_B_P8Poseidon_RAAF", 125000, "vehicle"],
 	
