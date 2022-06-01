@@ -1,0 +1,926 @@
+﻿31.05.2022 03:35:05: {"data": {"server_fps":45, "server_players":0, "server_vehicles":231, "server_memory":1298, "server_cps":45, "server_sqfThreads":55, "server_fpsmin":41.6667, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:35:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:36:05: {"data": {"server_fps":48, "server_players":0, "server_vehicles":250, "server_memory":1298, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":40, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:36:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:37:05: {"data": {"server_fps":48, "server_players":0, "server_vehicles":245, "server_memory":1298, "server_cps":47, "server_sqfThreads":109, "server_fpsmin":37.037, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:37:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:38:05: {"data": {"server_fps":47, "server_players":0, "server_vehicles":241, "server_memory":1298, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":34.4828, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:38:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:39:05: {"data": {"server_fps":48, "server_players":0, "server_vehicles":241, "server_memory":1298, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":37.037, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:39:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:40:05: {"data": {"server_fps":48, "server_players":0, "server_vehicles":237, "server_memory":1298, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":40, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:40:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:41:05: {"data": {"server_fps":46, "server_players":0, "server_vehicles":239, "server_memory":1298, "server_cps":47, "server_sqfThreads":109, "server_fpsmin":27.7778, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:41:05: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:44:08: {"data": {"server_fps":45, "server_players":0, "server_vehicles":226, "server_memory":1302, "server_cps":45, "server_sqfThreads":55, "server_fpsmin":40, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:44:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:45:08: {"data": {"server_fps":46, "server_players":1, "server_vehicles":245, "server_memory":1302, "server_cps":46, "server_sqfThreads":132, "server_fpsmin":41.6667, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:45:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:46:08: {"data": {"server_fps":46, "server_players":1, "server_vehicles":254, "server_memory":1302, "server_cps":46, "server_sqfThreads":127, "server_fpsmin":37.037, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:46:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:47:08: {"data": {"server_fps":46, "server_players":1, "server_vehicles":247, "server_memory":1302, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:47:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:48:08: {"data": {"server_fps":46, "server_players":1, "server_vehicles":245, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":41.6667, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:48:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:49:08: {"data": {"server_fps":47, "server_players":1, "server_vehicles":248, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:49:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:50:08: {"data": {"server_fps":47, "server_players":1, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:50:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:51:08: {"data": {"server_fps":47, "server_players":1, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":40, "server_runTime":9, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:51:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:52:08: {"data": {"server_fps":46, "server_players":1, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":41.6667, "server_runTime":10, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:52:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:53:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":43.4783, "server_runTime":11, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:53:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:54:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":40, "server_runTime":12, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:54:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:55:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":248, "server_memory":1302, "server_cps":46, "server_sqfThreads":115, "server_fpsmin":41.6667, "server_runTime":13, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:55:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:56:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":248, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":41.6667, "server_runTime":14, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:56:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:57:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":249, "server_memory":1302, "server_cps":45, "server_sqfThreads":115, "server_fpsmin":41.6667, "server_runTime":15, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:57:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:58:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":246, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":16, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:58:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 03:59:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":247, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":17, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 03:59:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:00:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":247, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":38.4615, "server_runTime":18, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:00:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:01:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":247, "server_memory":1302, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":38.4615, "server_runTime":19, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:01:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:02:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":247, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":20, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:02:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:03:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":247, "server_memory":1302, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":21, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:03:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:04:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":255, "server_memory":1302, "server_cps":47, "server_sqfThreads":104, "server_fpsmin":41.6667, "server_runTime":22, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:04:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:05:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":254, "server_memory":1302, "server_cps":47, "server_sqfThreads":104, "server_fpsmin":41.6667, "server_runTime":23, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:05:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:06:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":252, "server_memory":1302, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":43.4783, "server_runTime":24, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:06:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:07:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":256, "server_memory":1302, "server_cps":46, "server_sqfThreads":111, "server_fpsmin":40, "server_runTime":25, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:07:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:08:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":256, "server_memory":1302, "server_cps":47, "server_sqfThreads":111, "server_fpsmin":41.6667, "server_runTime":26, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:08:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:09:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":260, "server_memory":1302, "server_cps":46, "server_sqfThreads":111, "server_fpsmin":40, "server_runTime":27, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:09:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:10:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":260, "server_memory":1302, "server_cps":46, "server_sqfThreads":110, "server_fpsmin":38.4615, "server_runTime":28, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:10:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:11:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":249, "server_memory":1302, "server_cps":47, "server_sqfThreads":111, "server_fpsmin":41.6667, "server_runTime":29, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:11:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:12:08: {"data": {"server_fps":48, "server_players":2, "server_vehicles":254, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":43.4783, "server_runTime":30, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:12:08: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:13:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":254, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":41.6667, "server_runTime":31, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:13:09: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:14:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":251, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":41.6667, "server_runTime":32, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:14:09: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:15:08: {"data": {"server_fps":47, "server_players":2, "server_vehicles":251, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":41.6667, "server_runTime":33, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:15:09: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:16:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":251, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":41.6667, "server_runTime":34, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:16:09: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:17:08: {"data": {"server_fps":46, "server_players":2, "server_vehicles":248, "server_memory":1302, "server_cps":46, "server_sqfThreads":109, "server_fpsmin":40, "server_runTime":35, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:17:09: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:20:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":223, "server_memory":1301, "server_cps":45, "server_sqfThreads":55, "server_fpsmin":41.6667, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:20:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:21:20: {"data": {"server_fps":47, "server_players":1, "server_vehicles":229, "server_memory":1301, "server_cps":45, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:21:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:22:20: {"data": {"server_fps":48, "server_players":1, "server_vehicles":229, "server_memory":1301, "server_cps":46, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:22:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:23:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":229, "server_memory":1301, "server_cps":46, "server_sqfThreads":88, "server_fpsmin":37.037, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:23:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:24:20: {"data": {"server_fps":47, "server_players":1, "server_vehicles":229, "server_memory":1301, "server_cps":47, "server_sqfThreads":88, "server_fpsmin":41.6667, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:24:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:25:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":228, "server_memory":1301, "server_cps":46, "server_sqfThreads":88, "server_fpsmin":33.3333, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:25:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:26:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":228, "server_memory":1301, "server_cps":47, "server_sqfThreads":88, "server_fpsmin":27.027, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:26:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:27:20: {"data": {"server_fps":47, "server_players":1, "server_vehicles":227, "server_memory":1301, "server_cps":46, "server_sqfThreads":88, "server_fpsmin":40, "server_runTime":9, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:27:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:28:20: {"data": {"server_fps":47, "server_players":1, "server_vehicles":227, "server_memory":1301, "server_cps":45, "server_sqfThreads":88, "server_fpsmin":40, "server_runTime":10, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:28:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:29:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":227, "server_memory":1301, "server_cps":45, "server_sqfThreads":88, "server_fpsmin":43.4783, "server_runTime":11, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:29:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:30:20: {"data": {"server_fps":45, "server_players":1, "server_vehicles":227, "server_memory":1301, "server_cps":46, "server_sqfThreads":88, "server_fpsmin":41.6667, "server_runTime":12, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:30:20: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:31:20: {"data": {"server_fps":46, "server_players":1, "server_vehicles":226, "server_memory":1301, "server_cps":45, "server_sqfThreads":85, "server_fpsmin":41.6667, "server_runTime":13, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:31:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:32:20: {"data": {"server_fps":42, "server_players":1, "server_vehicles":230, "server_memory":1301, "server_cps":45, "server_sqfThreads":96, "server_fpsmin":14.4928, "server_runTime":14, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:32:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:33:20: {"data": {"server_fps":46, "server_players":2, "server_vehicles":230, "server_memory":1301, "server_cps":45, "server_sqfThreads":96, "server_fpsmin":41.6667, "server_runTime":15, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:33:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:34:20: {"data": {"server_fps":47, "server_players":2, "server_vehicles":231, "server_memory":1301, "server_cps":46, "server_sqfThreads":100, "server_fpsmin":41.6667, "server_runTime":16, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:34:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:35:20: {"data": {"server_fps":46, "server_players":2, "server_vehicles":231, "server_memory":1301, "server_cps":45, "server_sqfThreads":100, "server_fpsmin":41.6667, "server_runTime":17, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:35:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:36:20: {"data": {"server_fps":47, "server_players":2, "server_vehicles":231, "server_memory":1301, "server_cps":45, "server_sqfThreads":100, "server_fpsmin":41.6667, "server_runTime":18, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:36:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:37:20: {"data": {"server_fps":46, "server_players":2, "server_vehicles":231, "server_memory":1301, "server_cps":46, "server_sqfThreads":100, "server_fpsmin":25, "server_runTime":19, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:37:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:38:20: {"data": {"server_fps":45, "server_players":2, "server_vehicles":244, "server_memory":1301, "server_cps":45, "server_sqfThreads":97, "server_fpsmin":43.4783, "server_runTime":20, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:38:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:39:20: {"data": {"server_fps":46, "server_players":2, "server_vehicles":244, "server_memory":1301, "server_cps":45, "server_sqfThreads":96, "server_fpsmin":40, "server_runTime":21, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:39:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:40:20: {"data": {"server_fps":47, "server_players":2, "server_vehicles":244, "server_memory":1301, "server_cps":45, "server_sqfThreads":96, "server_fpsmin":41.6667, "server_runTime":22, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:40:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:41:20: {"data": {"server_fps":46, "server_players":2, "server_vehicles":244, "server_memory":1301, "server_cps":46, "server_sqfThreads":95, "server_fpsmin":40, "server_runTime":23, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:41:21: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:45:23: {"data": {"server_fps":47, "server_players":1, "server_vehicles":229, "server_memory":1323, "server_cps":45, "server_sqfThreads":55, "server_fpsmin":27.027, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:45:24: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:46:23: {"data": {"server_fps":47, "server_players":1, "server_vehicles":244, "server_memory":1323, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":35.7143, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:46:24: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:47:23: {"data": {"server_fps":47, "server_players":1, "server_vehicles":243, "server_memory":1323, "server_cps":46, "server_sqfThreads":117, "server_fpsmin":40, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:47:24: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:48:23: {"data": {"server_fps":46, "server_players":1, "server_vehicles":244, "server_memory":1323, "server_cps":46, "server_sqfThreads":110, "server_fpsmin":41.6667, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:48:24: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:51:33: {"data": {"server_fps":44, "server_players":0, "server_vehicles":225, "server_memory":1299, "server_cps":45, "server_sqfThreads":56, "server_fpsmin":27.027, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:51:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:52:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":245, "server_memory":1299, "server_cps":47, "server_sqfThreads":141, "server_fpsmin":38.4615, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:52:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:53:33: {"data": {"server_fps":46, "server_players":1, "server_vehicles":241, "server_memory":1299, "server_cps":46, "server_sqfThreads":137, "server_fpsmin":41.6667, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:53:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:54:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":233, "server_memory":1299, "server_cps":46, "server_sqfThreads":126, "server_fpsmin":38.4615, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:54:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:55:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":233, "server_memory":1299, "server_cps":47, "server_sqfThreads":126, "server_fpsmin":43.4783, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:55:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:58:38: {"data": {"server_fps":45, "server_players":1, "server_vehicles":232, "server_memory":1308, "server_cps":46, "server_sqfThreads":55, "server_fpsmin":41.6667, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:58:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 04:59:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":247, "server_memory":1308, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":40, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 04:59:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:00:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":246, "server_memory":1308, "server_cps":46, "server_sqfThreads":117, "server_fpsmin":40, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:00:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:01:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":240, "server_memory":1308, "server_cps":46, "server_sqfThreads":108, "server_fpsmin":41.6667, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:01:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:02:38: {"data": {"server_fps":47, "server_players":1, "server_vehicles":240, "server_memory":1308, "server_cps":46, "server_sqfThreads":108, "server_fpsmin":41.6667, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:02:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:03:38: {"data": {"server_fps":47, "server_players":1, "server_vehicles":238, "server_memory":1308, "server_cps":45, "server_sqfThreads":105, "server_fpsmin":34.4828, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:03:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:04:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":236, "server_memory":1308, "server_cps":46, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:04:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:05:38: {"data": {"server_fps":47, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":34.4828, "server_runTime":9, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:05:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:06:38: {"data": {"server_fps":47, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":41.6667, "server_runTime":10, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:06:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:07:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":45, "server_sqfThreads":142, "server_fpsmin":43.4783, "server_runTime":11, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:07:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:08:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":34.4828, "server_runTime":12, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:08:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:09:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":41.6667, "server_runTime":13, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:09:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:10:38: {"data": {"server_fps":46, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":43.4783, "server_runTime":14, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:10:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:11:38: {"data": {"server_fps":47, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":38.4615, "server_runTime":15, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:11:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:12:39: {"data": {"server_fps":47, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":45, "server_sqfThreads":142, "server_fpsmin":41.6667, "server_runTime":16, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:12:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 05:13:39: {"data": {"server_fps":46, "server_players":1, "server_vehicles":239, "server_memory":1308, "server_cps":46, "server_sqfThreads":142, "server_fpsmin":41.6667, "server_runTime":17, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 05:13:39: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:34:33: {"data": {"server_fps":45, "server_players":0, "server_vehicles":276, "server_memory":1253, "server_cps":46, "server_sqfThreads":53, "server_fpsmin":26.3158, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:34:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:35:33: {"data": {"server_fps":47, "server_players":0, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":41.6667, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:35:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:36:33: {"data": {"server_fps":48, "server_players":0, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":40, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:36:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:37:33: {"data": {"server_fps":47, "server_players":0, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:37:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:38:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:38:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:39:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:39:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:40:33: {"data": {"server_fps":44, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":22.2222, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:40:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:41:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":9, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:41:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:42:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":38.4615, "server_runTime":10, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:42:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:43:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":31.25, "server_runTime":11, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:43:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:44:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":38.4615, "server_runTime":12, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:44:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:45:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":13, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:45:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:46:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":43.4783, "server_runTime":14, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:46:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:47:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":15, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:47:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:48:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":16, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:48:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:49:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":43.4783, "server_runTime":17, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:49:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:50:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":18, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:50:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:51:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":19, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:51:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:52:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":43.4783, "server_runTime":20, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:52:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:53:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":21, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:53:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:54:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":22, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:54:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:55:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":23, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:55:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:56:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":31.25, "server_runTime":24, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:56:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:57:33: {"data": {"server_fps":45, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":25, "server_runTime":25, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:57:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:58:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":26, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:58:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 10:59:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":27, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 10:59:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:00:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":34.4828, "server_runTime":28, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:00:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:01:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":34.4828, "server_runTime":29, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:01:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:02:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":30, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:02:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:03:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":31, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:03:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:04:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":32, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:04:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:05:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":33, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:05:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:06:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":43.4783, "server_runTime":34, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:06:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:07:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":46, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":35, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:07:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:08:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":36, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:08:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:09:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":40, "server_runTime":37, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:09:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:10:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":301, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":41.6667, "server_runTime":38, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:10:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:11:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":301, "server_memory":1253, "server_cps":46, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":39, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:11:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:12:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":302, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":40, "server_runTime":40, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:12:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:13:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":38.4615, "server_runTime":41, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:13:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:14:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":42, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:14:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:15:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":46, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":43, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:15:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:16:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":44, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:16:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:17:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":45, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:17:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:18:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":46, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:18:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:19:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":296, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":47, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:19:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:20:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":292, "server_memory":1253, "server_cps":47, "server_sqfThreads":109, "server_fpsmin":40, "server_runTime":48, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:20:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:21:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":43.4783, "server_runTime":49, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:21:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:22:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":43.4783, "server_runTime":50, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:22:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:23:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":46, "server_sqfThreads":124, "server_fpsmin":38.4615, "server_runTime":51, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:23:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:24:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":41.6667, "server_runTime":52, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:24:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:25:33: {"data": {"server_fps":45, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":20.4082, "server_runTime":53, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:25:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:26:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":41.6667, "server_runTime":54, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:26:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:27:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":46, "server_sqfThreads":124, "server_fpsmin":43.4783, "server_runTime":55, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:27:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:28:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":41.6667, "server_runTime":56, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:28:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:29:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":38.4615, "server_runTime":57, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:29:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:30:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":40, "server_runTime":58, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:30:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:31:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":46, "server_sqfThreads":124, "server_fpsmin":40, "server_runTime":59, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:31:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:32:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":43.4783, "server_runTime":60, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:32:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:33:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":37.037, "server_runTime":61, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:33:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:34:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":124, "server_fpsmin":40, "server_runTime":62, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:34:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:35:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":278, "server_memory":1253, "server_cps":45, "server_sqfThreads":95, "server_fpsmin":41.6667, "server_runTime":63, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:35:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:36:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":46, "server_sqfThreads":119, "server_fpsmin":37.037, "server_runTime":64, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:36:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:37:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":38.4615, "server_runTime":65, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:37:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:38:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":37.037, "server_runTime":66, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:38:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:39:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":46, "server_sqfThreads":119, "server_fpsmin":35.7143, "server_runTime":67, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:39:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:40:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":40, "server_runTime":68, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:40:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:41:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":282, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":35.7143, "server_runTime":69, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:41:33: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:42:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":281, "server_memory":1253, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":37.037, "server_runTime":70, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:42:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:43:33: {"data": {"server_fps":46, "server_players":1, "server_vehicles":286, "server_memory":1253, "server_cps":45, "server_sqfThreads":146, "server_fpsmin":34.4828, "server_runTime":71, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:43:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:44:33: {"data": {"server_fps":46, "server_players":1, "server_vehicles":287, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":33.3333, "server_runTime":72, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:44:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:45:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":287, "server_memory":1253, "server_cps":46, "server_sqfThreads":122, "server_fpsmin":31.25, "server_runTime":73, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:45:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:46:33: {"data": {"server_fps":48, "server_players":1, "server_vehicles":287, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":74, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:46:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:47:33: {"data": {"server_fps":44, "server_players":1, "server_vehicles":287, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":19.2308, "server_runTime":75, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:47:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:48:33: {"data": {"server_fps":47, "server_players":1, "server_vehicles":286, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":32.2581, "server_runTime":76, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:48:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:49:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":38.4615, "server_runTime":77, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:49:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:50:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":31.25, "server_runTime":78, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:50:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:51:33: {"data": {"server_fps":46, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":46, "server_sqfThreads":93, "server_fpsmin":32.2581, "server_runTime":79, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:51:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:52:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":38.4615, "server_runTime":80, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:52:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:53:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":35.7143, "server_runTime":81, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:53:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:54:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":285, "server_memory":1253, "server_cps":47, "server_sqfThreads":93, "server_fpsmin":41.6667, "server_runTime":82, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:54:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:55:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":288, "server_memory":1253, "server_cps":46, "server_sqfThreads":101, "server_fpsmin":40, "server_runTime":83, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:55:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:56:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":287, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":37.037, "server_runTime":84, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:56:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:57:33: {"data": {"server_fps":44, "server_players":2, "server_vehicles":286, "server_memory":1253, "server_cps":45, "server_sqfThreads":101, "server_fpsmin":24.3902, "server_runTime":85, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:57:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:58:33: {"data": {"server_fps":45, "server_players":2, "server_vehicles":286, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":21.2766, "server_runTime":86, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:58:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 11:59:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":299, "server_memory":1253, "server_cps":46, "server_sqfThreads":99, "server_fpsmin":33.3333, "server_runTime":87, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 11:59:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:00:33: {"data": {"server_fps":48, "server_players":2, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":88, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:00:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:01:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":89, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:01:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:02:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":90, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:02:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:03:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":299, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":43.4783, "server_runTime":91, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:03:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:04:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":41.6667, "server_runTime":92, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:04:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:05:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":38.4615, "server_runTime":93, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:05:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:06:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":294, "server_memory":1253, "server_cps":47, "server_sqfThreads":107, "server_fpsmin":41.6667, "server_runTime":94, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:06:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:07:33: {"data": {"server_fps":49, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":43.4783, "server_runTime":95, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:07:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:08:33: {"data": {"server_fps":44, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":17.5439, "server_runTime":96, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:08:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:09:33: {"data": {"server_fps":48, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":38.4615, "server_runTime":97, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:09:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:10:33: {"data": {"server_fps":47, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":38.4615, "server_runTime":98, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:10:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:11:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":99, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:11:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:12:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":37.037, "server_runTime":100, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:12:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:13:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":107, "server_fpsmin":41.6667, "server_runTime":101, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:13:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:14:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":46, "server_sqfThreads":123, "server_fpsmin":40, "server_runTime":102, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:14:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:15:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":299, "server_memory":1253, "server_cps":46, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":103, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:15:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:16:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":41.6667, "server_runTime":104, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:16:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:17:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":37.037, "server_runTime":105, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:17:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:18:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":106, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:18:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:19:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":46, "server_sqfThreads":122, "server_fpsmin":41.6667, "server_runTime":107, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:19:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:20:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":108, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:20:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:21:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":38.4615, "server_runTime":109, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:21:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:22:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":110, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:22:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:23:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":296, "server_memory":1253, "server_cps":46, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":111, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:23:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:24:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":296, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":112, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:24:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:25:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":293, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":41.6667, "server_runTime":113, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:25:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:26:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":293, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":38.4615, "server_runTime":114, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:26:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:27:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":294, "server_memory":1253, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":43.4783, "server_runTime":115, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:27:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:28:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":41.6667, "server_runTime":116, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:28:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:29:34: {"data": {"server_fps":44, "server_players":2, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":16.3934, "server_runTime":117, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:29:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:30:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":295, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":41.6667, "server_runTime":118, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:30:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:31:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":295, "server_memory":1253, "server_cps":46, "server_sqfThreads":114, "server_fpsmin":40, "server_runTime":119, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:31:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:32:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":120, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:32:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:33:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":40, "server_runTime":121, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:33:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:34:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":299, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":38.4615, "server_runTime":122, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:34:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:35:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":299, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":35.7143, "server_runTime":123, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:35:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:36:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":124, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:36:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:37:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":38.4615, "server_runTime":125, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:37:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:38:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":41.6667, "server_runTime":126, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:38:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:39:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":46, "server_sqfThreads":103, "server_fpsmin":43.4783, "server_runTime":127, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:39:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:40:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":128, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:40:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:41:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":41.6667, "server_runTime":129, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:41:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:42:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":130, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:42:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:43:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":45, "server_sqfThreads":109, "server_fpsmin":43.4783, "server_runTime":131, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:43:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:44:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":109, "server_fpsmin":38.4615, "server_runTime":132, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:44:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:45:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":133, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:45:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:46:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":134, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:46:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:47:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":46, "server_sqfThreads":122, "server_fpsmin":40, "server_runTime":135, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:47:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:48:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":33.3333, "server_runTime":136, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:48:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:49:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":38.4615, "server_runTime":137, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:49:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:50:34: {"data": {"server_fps":43, "server_players":2, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":16.129, "server_runTime":138, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:50:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:51:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":311, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":139, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:51:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:52:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":320, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":140, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:52:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:53:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":322, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":40, "server_runTime":141, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:53:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:54:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":322, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":43.4783, "server_runTime":142, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:54:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:55:34: {"data": {"server_fps":43, "server_players":2, "server_vehicles":322, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":16.6667, "server_runTime":143, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:55:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:56:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":322, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":43.4783, "server_runTime":144, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:56:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:57:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":317, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":145, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:57:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:58:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":317, "server_memory":1253, "server_cps":47, "server_sqfThreads":120, "server_fpsmin":41.6667, "server_runTime":146, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:58:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 12:59:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":314, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":40, "server_runTime":147, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 12:59:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:00:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":38.4615, "server_runTime":148, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:00:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:01:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":313, "server_memory":1253, "server_cps":47, "server_sqfThreads":112, "server_fpsmin":41.6667, "server_runTime":149, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:01:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:02:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":41.6667, "server_runTime":150, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:02:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:03:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":311, "server_memory":1253, "server_cps":46, "server_sqfThreads":104, "server_fpsmin":41.6667, "server_runTime":151, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:03:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:04:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":320, "server_memory":1253, "server_cps":47, "server_sqfThreads":100, "server_fpsmin":40, "server_runTime":152, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:04:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:05:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":320, "server_memory":1253, "server_cps":47, "server_sqfThreads":100, "server_fpsmin":38.4615, "server_runTime":153, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:05:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:06:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":320, "server_memory":1253, "server_cps":47, "server_sqfThreads":100, "server_fpsmin":45.4545, "server_runTime":154, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:06:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:07:34: {"data": {"server_fps":44, "server_players":2, "server_vehicles":320, "server_memory":1253, "server_cps":47, "server_sqfThreads":100, "server_fpsmin":17.5439, "server_runTime":155, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:07:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:08:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":318, "server_memory":1253, "server_cps":47, "server_sqfThreads":100, "server_fpsmin":38.4615, "server_runTime":156, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:08:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:09:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":157, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:09:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:10:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":41.6667, "server_runTime":158, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:10:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:11:34: {"data": {"server_fps":48, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":159, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:11:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:12:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":38.4615, "server_runTime":160, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:12:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:13:34: {"data": {"server_fps":46, "server_players":2, "server_vehicles":307, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":161, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:13:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:14:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":307, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":162, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:14:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:15:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":40, "server_runTime":163, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:15:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:16:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":164, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:16:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:17:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":38.4615, "server_runTime":165, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:17:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:18:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":306, "server_memory":1253, "server_cps":46, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":166, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:18:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:19:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":43.4783, "server_runTime":167, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:19:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:20:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":308, "server_memory":1253, "server_cps":46, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":168, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:20:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:21:34: {"data": {"server_fps":47, "server_players":2, "server_vehicles":308, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":38.4615, "server_runTime":169, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:21:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:22:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":43.4783, "server_runTime":170, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:22:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:23:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":43.4783, "server_runTime":171, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:23:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:24:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":308, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":172, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:24:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:25:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":308, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":173, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:25:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:26:34: {"data": {"server_fps":43, "server_players":3, "server_vehicles":309, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":16.6667, "server_runTime":174, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:26:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:27:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":309, "server_memory":1253, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":41.6667, "server_runTime":175, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:27:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:28:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":43.4783, "server_runTime":176, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:28:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:29:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":316, "server_memory":1253, "server_cps":47, "server_sqfThreads":104, "server_fpsmin":43.4783, "server_runTime":177, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:29:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:30:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":307, "server_memory":1253, "server_cps":46, "server_sqfThreads":120, "server_fpsmin":38.4615, "server_runTime":178, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:30:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:31:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":314, "server_memory":1253, "server_cps":47, "server_sqfThreads":118, "server_fpsmin":43.4783, "server_runTime":179, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:31:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:32:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":114, "server_fpsmin":38.4615, "server_runTime":180, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:32:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:33:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":111, "server_fpsmin":38.4615, "server_runTime":181, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:33:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:34:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":111, "server_fpsmin":41.6667, "server_runTime":182, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:34:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:35:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":303, "server_memory":1253, "server_cps":47, "server_sqfThreads":104, "server_fpsmin":40, "server_runTime":183, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:35:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:36:34: {"data": {"server_fps":43, "server_players":3, "server_vehicles":306, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":15.625, "server_runTime":184, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:36:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:37:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":305, "server_memory":1253, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":41.6667, "server_runTime":185, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:37:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:38:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":90, "server_fpsmin":41.6667, "server_runTime":186, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:38:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:39:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":43.4783, "server_runTime":187, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:39:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:40:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":41.6667, "server_runTime":188, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:40:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:41:34: {"data": {"server_fps":42, "server_players":3, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":14.7059, "server_runTime":189, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:41:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:42:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":298, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":38.4615, "server_runTime":190, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:42:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:43:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":40, "server_runTime":191, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:43:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:44:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":43.4783, "server_runTime":192, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:44:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:45:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":43.4783, "server_runTime":193, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:45:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:46:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":297, "server_memory":1253, "server_cps":47, "server_sqfThreads":96, "server_fpsmin":41.6667, "server_runTime":194, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:46:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:47:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":299, "server_memory":1253, "server_cps":47, "server_sqfThreads":92, "server_fpsmin":43.4783, "server_runTime":195, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:47:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:48:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":299, "server_memory":1253, "server_cps":47, "server_sqfThreads":92, "server_fpsmin":41.6667, "server_runTime":196, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:48:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:49:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":300, "server_memory":1253, "server_cps":47, "server_sqfThreads":92, "server_fpsmin":40, "server_runTime":197, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:49:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:50:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":74, "server_fpsmin":43.4783, "server_runTime":198, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:50:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:51:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":40, "server_runTime":199, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:51:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:52:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":40, "server_runTime":200, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:52:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:53:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":41.6667, "server_runTime":201, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:53:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:54:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":38.4615, "server_runTime":202, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:54:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:55:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":40, "server_runTime":203, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:55:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:56:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":311, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":41.6667, "server_runTime":204, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:56:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:57:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":310, "server_memory":1253, "server_cps":47, "server_sqfThreads":71, "server_fpsmin":41.6667, "server_runTime":205, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:57:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:58:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":322, "server_memory":1253, "server_cps":47, "server_sqfThreads":79, "server_fpsmin":41.6667, "server_runTime":206, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:58:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 13:59:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":79, "server_fpsmin":40, "server_runTime":207, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 13:59:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:00:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":81, "server_fpsmin":38.4615, "server_runTime":208, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:00:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:01:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":81, "server_fpsmin":38.4615, "server_runTime":209, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:01:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:02:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":81, "server_fpsmin":40, "server_runTime":210, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:02:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:03:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":312, "server_memory":1253, "server_cps":47, "server_sqfThreads":81, "server_fpsmin":38.4615, "server_runTime":211, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:03:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:04:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":309, "server_memory":1253, "server_cps":47, "server_sqfThreads":78, "server_fpsmin":41.6667, "server_runTime":212, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:04:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:05:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":316, "server_memory":1253, "server_cps":46, "server_sqfThreads":101, "server_fpsmin":37.037, "server_runTime":213, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:05:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:06:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":315, "server_memory":1253, "server_cps":47, "server_sqfThreads":107, "server_fpsmin":41.6667, "server_runTime":214, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:06:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:07:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":315, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":40, "server_runTime":215, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:07:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:08:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":315, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":43.4783, "server_runTime":216, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:08:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:09:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":315, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":38.4615, "server_runTime":217, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:09:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:10:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":314, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":41.6667, "server_runTime":218, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:10:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:11:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":308, "server_memory":1253, "server_cps":47, "server_sqfThreads":106, "server_fpsmin":41.6667, "server_runTime":219, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:11:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:12:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":314, "server_memory":1253, "server_cps":46, "server_sqfThreads":100, "server_fpsmin":33.3333, "server_runTime":220, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:12:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:13:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":314, "server_memory":1253, "server_cps":47, "server_sqfThreads":98, "server_fpsmin":35.7143, "server_runTime":221, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:13:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:14:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":318, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":41.6667, "server_runTime":222, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:14:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:15:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":318, "server_memory":1253, "server_cps":47, "server_sqfThreads":92, "server_fpsmin":41.6667, "server_runTime":223, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:15:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:16:34: {"data": {"server_fps":41, "server_players":3, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":90, "server_fpsmin":13.8889, "server_runTime":224, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:16:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:17:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":322, "server_memory":1253, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":37.037, "server_runTime":225, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:17:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:18:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":323, "server_memory":1253, "server_cps":47, "server_sqfThreads":96, "server_fpsmin":38.4615, "server_runTime":226, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:18:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:19:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":316, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":35.7143, "server_runTime":227, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:19:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:20:34: {"data": {"server_fps":46, "server_players":3, "server_vehicles":329, "server_memory":1253, "server_cps":43, "server_sqfThreads":96, "server_fpsmin":38.4615, "server_runTime":228, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:20:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:21:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":335, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":38.4615, "server_runTime":229, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:21:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:22:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":336, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":33.3333, "server_runTime":230, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:22:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:23:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":335, "server_memory":1253, "server_cps":46, "server_sqfThreads":97, "server_fpsmin":37.037, "server_runTime":231, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:23:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:24:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":335, "server_memory":1253, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":34.4828, "server_runTime":232, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:24:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:25:34: {"data": {"server_fps":42, "server_players":3, "server_vehicles":337, "server_memory":1253, "server_cps":34, "server_sqfThreads":97, "server_fpsmin":22.7273, "server_runTime":233, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:25:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:26:34: {"data": {"server_fps":26, "server_players":3, "server_vehicles":332, "server_memory":1253, "server_cps":28, "server_sqfThreads":97, "server_fpsmin":25, "server_runTime":234, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:26:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:27:34: {"data": {"server_fps":33, "server_players":3, "server_vehicles":332, "server_memory":1253, "server_cps":27, "server_sqfThreads":97, "server_fpsmin":24.3902, "server_runTime":235, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:27:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:28:34: {"data": {"server_fps":42, "server_players":3, "server_vehicles":326, "server_memory":1253, "server_cps":43, "server_sqfThreads":82, "server_fpsmin":29.4118, "server_runTime":236, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:28:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:29:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":330, "server_memory":1253, "server_cps":46, "server_sqfThreads":99, "server_fpsmin":33.3333, "server_runTime":237, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:29:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:30:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":331, "server_memory":1253, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":37.037, "server_runTime":238, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:30:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:31:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":331, "server_memory":1253, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":40, "server_runTime":239, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:31:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:32:34: {"data": {"server_fps":24, "server_players":3, "server_vehicles":322, "server_memory":1253, "server_cps":26, "server_sqfThreads":97, "server_fpsmin":22.2222, "server_runTime":240, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:32:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:33:34: {"data": {"server_fps":38, "server_players":3, "server_vehicles":322, "server_memory":1253, "server_cps":30, "server_sqfThreads":97, "server_fpsmin":27.7778, "server_runTime":241, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:33:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:34:34: {"data": {"server_fps":46, "server_players":3, "server_vehicles":323, "server_memory":1253, "server_cps":43, "server_sqfThreads":96, "server_fpsmin":29.4118, "server_runTime":242, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:34:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:35:34: {"data": {"server_fps":37, "server_players":3, "server_vehicles":326, "server_memory":1253, "server_cps":35, "server_sqfThreads":97, "server_fpsmin":24.3902, "server_runTime":243, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:35:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:36:34: {"data": {"server_fps":28, "server_players":3, "server_vehicles":325, "server_memory":1253, "server_cps":33, "server_sqfThreads":96, "server_fpsmin":22.7273, "server_runTime":244, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:36:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:37:34: {"data": {"server_fps":33, "server_players":3, "server_vehicles":323, "server_memory":1253, "server_cps":41, "server_sqfThreads":96, "server_fpsmin":16.6667, "server_runTime":245, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:37:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:38:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":323, "server_memory":1253, "server_cps":46, "server_sqfThreads":79, "server_fpsmin":33.3333, "server_runTime":246, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:38:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:39:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":315, "server_memory":1253, "server_cps":47, "server_sqfThreads":78, "server_fpsmin":34.4828, "server_runTime":247, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:39:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:40:34: {"data": {"server_fps":43, "server_players":3, "server_vehicles":313, "server_memory":1253, "server_cps":47, "server_sqfThreads":78, "server_fpsmin":13.6986, "server_runTime":248, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:40:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:41:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":325, "server_memory":1253, "server_cps":47, "server_sqfThreads":77, "server_fpsmin":40, "server_runTime":249, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:41:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:42:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":325, "server_memory":1253, "server_cps":47, "server_sqfThreads":77, "server_fpsmin":35.7143, "server_runTime":250, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:42:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:43:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":323, "server_memory":1253, "server_cps":47, "server_sqfThreads":75, "server_fpsmin":37.037, "server_runTime":251, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:43:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:44:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":332, "server_memory":1253, "server_cps":47, "server_sqfThreads":76, "server_fpsmin":35.7143, "server_runTime":252, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:44:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:45:34: {"data": {"server_fps":45, "server_players":3, "server_vehicles":335, "server_memory":1253, "server_cps":46, "server_sqfThreads":85, "server_fpsmin":26.3158, "server_runTime":253, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:45:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:46:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":334, "server_memory":1253, "server_cps":47, "server_sqfThreads":85, "server_fpsmin":38.4615, "server_runTime":254, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:46:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:47:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":335, "server_memory":1253, "server_cps":46, "server_sqfThreads":85, "server_fpsmin":32.2581, "server_runTime":255, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:47:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:48:34: {"data": {"server_fps":46, "server_players":3, "server_vehicles":343, "server_memory":1253, "server_cps":46, "server_sqfThreads":88, "server_fpsmin":27.7778, "server_runTime":256, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:48:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:49:34: {"data": {"server_fps":40, "server_players":3, "server_vehicles":340, "server_memory":1253, "server_cps":33, "server_sqfThreads":85, "server_fpsmin":13.6986, "server_runTime":257, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:49:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:50:34: {"data": {"server_fps":28, "server_players":3, "server_vehicles":350, "server_memory":1253, "server_cps":29, "server_sqfThreads":81, "server_fpsmin":22.7273, "server_runTime":258, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:50:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:51:34: {"data": {"server_fps":39, "server_players":3, "server_vehicles":355, "server_memory":1253, "server_cps":33, "server_sqfThreads":63, "server_fpsmin":23.8095, "server_runTime":259, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:51:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:52:34: {"data": {"server_fps":35, "server_players":3, "server_vehicles":372, "server_memory":1253, "server_cps":45, "server_sqfThreads":96, "server_fpsmin":14.9254, "server_runTime":260, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:52:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:53:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":372, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":38.4615, "server_runTime":261, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:53:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:54:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":367, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":31.25, "server_runTime":262, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:54:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:55:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":369, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":35.7143, "server_runTime":263, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:55:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:56:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":365, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":35.7143, "server_runTime":264, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:56:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:57:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":365, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":38.4615, "server_runTime":265, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:57:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:58:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":370, "server_memory":1253, "server_cps":47, "server_sqfThreads":95, "server_fpsmin":41.6667, "server_runTime":266, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:58:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 14:59:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":371, "server_memory":1253, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":43.4783, "server_runTime":267, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 14:59:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:00:34: {"data": {"server_fps":48, "server_players":3, "server_vehicles":367, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":268, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:00:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:01:34: {"data": {"server_fps":47, "server_players":3, "server_vehicles":354, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":37.037, "server_runTime":269, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:01:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:02:34: {"data": {"server_fps":48, "server_players":1, "server_vehicles":354, "server_memory":1253, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":270, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:02:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:03:34: {"data": {"server_fps":42, "server_players":1, "server_vehicles":351, "server_memory":1253, "server_cps":47, "server_sqfThreads":113, "server_fpsmin":14.7059, "server_runTime":271, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:03:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:04:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":352, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":43.4783, "server_runTime":272, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:04:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:05:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":351, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":273, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:05:34: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:06:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":349, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":274, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:06:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:07:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":38.4615, "server_runTime":275, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:07:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:08:34: {"data": {"server_fps":43, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":15.1515, "server_runTime":276, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:08:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:09:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":277, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:09:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:10:34: {"data": {"server_fps":42, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":14.2857, "server_runTime":278, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:10:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:11:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":43.4783, "server_runTime":279, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:11:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:12:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":280, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:12:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:13:34: {"data": {"server_fps":49, "server_players":0, "server_vehicles":339, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":37.037, "server_runTime":281, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:13:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:14:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":282, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:14:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:15:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":48, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":283, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:15:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:16:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":29.4118, "server_runTime":284, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:16:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:17:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":285, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:17:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:18:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":286, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:18:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:19:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":287, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:19:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:20:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":288, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:20:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:21:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":289, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:21:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:22:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":40, "server_runTime":290, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:22:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:23:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":37.037, "server_runTime":291, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:23:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:24:34: {"data": {"server_fps":41, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":13.1579, "server_runTime":292, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:24:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:25:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":38.4615, "server_runTime":293, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:25:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:26:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":38.4615, "server_runTime":294, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:26:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:27:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":33.3333, "server_runTime":295, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:27:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:28:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":130, "server_fpsmin":41.6667, "server_runTime":296, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:28:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:29:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":336, "server_memory":1253, "server_cps":47, "server_sqfThreads":127, "server_fpsmin":40, "server_runTime":297, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:29:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:30:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":105, "server_fpsmin":43.4783, "server_runTime":298, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:30:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:31:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":105, "server_fpsmin":43.4783, "server_runTime":299, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:31:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:32:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":105, "server_fpsmin":40, "server_runTime":300, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:32:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:33:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":337, "server_memory":1253, "server_cps":47, "server_sqfThreads":105, "server_fpsmin":41.6667, "server_runTime":301, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:33:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:34:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":336, "server_memory":1253, "server_cps":47, "server_sqfThreads":102, "server_fpsmin":41.6667, "server_runTime":302, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:34:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:35:34: {"data": {"server_fps":49, "server_players":0, "server_vehicles":336, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":43.4783, "server_runTime":303, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:35:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:36:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":336, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":41.6667, "server_runTime":304, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:36:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:37:34: {"data": {"server_fps":47, "server_players":0, "server_vehicles":334, "server_memory":1253, "server_cps":47, "server_sqfThreads":92, "server_fpsmin":40, "server_runTime":305, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:37:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:38:34: {"data": {"server_fps":48, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":41.6667, "server_runTime":306, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:38:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:39:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":40, "server_runTime":307, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:39:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:40:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":40, "server_runTime":308, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:40:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:41:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":38.4615, "server_runTime":309, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:41:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:42:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":43.4783, "server_runTime":310, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:42:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:43:35: {"data": {"server_fps":49, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":43.4783, "server_runTime":311, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:43:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:44:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":43.4783, "server_runTime":312, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:44:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:45:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":40, "server_runTime":313, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:45:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:46:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":38.4615, "server_runTime":314, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:46:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:47:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":31.25, "server_runTime":315, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:47:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:48:35: {"data": {"server_fps":41, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":13.6986, "server_runTime":316, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:48:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:49:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":41.6667, "server_runTime":317, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:49:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:50:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":38.4615, "server_runTime":318, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:50:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:51:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":338, "server_memory":1253, "server_cps":47, "server_sqfThreads":101, "server_fpsmin":40, "server_runTime":319, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:51:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:52:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":326, "server_memory":1253, "server_cps":47, "server_sqfThreads":88, "server_fpsmin":40, "server_runTime":320, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:52:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:53:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":321, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:53:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:54:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":322, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:54:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:55:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":38.4615, "server_runTime":323, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:55:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:56:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":41.6667, "server_runTime":324, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:56:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:57:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":45.4545, "server_runTime":325, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:57:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:58:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":326, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:58:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 15:59:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":327, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 15:59:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:00:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":40, "server_runTime":328, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:00:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:01:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":38.4615, "server_runTime":329, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:01:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:02:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":38.4615, "server_runTime":330, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:02:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:03:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":103, "server_fpsmin":43.4783, "server_runTime":331, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:03:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:04:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":83, "server_fpsmin":41.6667, "server_runTime":332, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:04:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:05:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":46, "server_sqfThreads":99, "server_fpsmin":41.6667, "server_runTime":333, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:05:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:06:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":43.4783, "server_runTime":334, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:06:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:07:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":41.6667, "server_runTime":335, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:07:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:08:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":328, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":40, "server_runTime":336, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:08:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:09:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":43.4783, "server_runTime":337, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:09:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:10:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":45.4545, "server_runTime":338, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:10:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:11:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":45.4545, "server_runTime":339, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:11:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:12:35: {"data": {"server_fps":43, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":14.2857, "server_runTime":340, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:12:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:13:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":40, "server_runTime":341, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:13:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:14:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":43.4783, "server_runTime":342, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:14:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:15:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":43.4783, "server_runTime":343, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:15:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:16:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":45.4545, "server_runTime":344, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:16:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:17:35: {"data": {"server_fps":42, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":14.4928, "server_runTime":345, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:17:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:18:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":41.6667, "server_runTime":346, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:18:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:19:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":327, "server_memory":1253, "server_cps":47, "server_sqfThreads":99, "server_fpsmin":40, "server_runTime":347, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:19:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:20:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":325, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":41.6667, "server_runTime":348, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:20:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:21:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":325, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":40, "server_runTime":349, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:21:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:22:35: {"data": {"server_fps":43, "server_players":0, "server_vehicles":325, "server_memory":1253, "server_cps":47, "server_sqfThreads":91, "server_fpsmin":14.4928, "server_runTime":350, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:23:35: {"data": {"server_fps":47, "server_players":0, "server_vehicles":321, "server_memory":1253, "server_cps":46, "server_sqfThreads":82, "server_fpsmin":40, "server_runTime":351, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:24:15: meta_data ERROR: The operation has timed out
+31.05.2022 16:24:35: {"data": {"server_fps":46, "server_players":0, "server_vehicles":323, "server_memory":1253, "server_cps":47, "server_sqfThreads":89, "server_fpsmin":38.4615, "server_runTime":352, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:24:47: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:24:48: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:25:35: {"data": {"server_fps":43, "server_players":0, "server_vehicles":323, "server_memory":1253, "server_cps":47, "server_sqfThreads":89, "server_fpsmin":15.3846, "server_runTime":353, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:25:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:26:35: {"data": {"server_fps":48, "server_players":0, "server_vehicles":323, "server_memory":1253, "server_cps":47, "server_sqfThreads":89, "server_fpsmin":41.6667, "server_runTime":354, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:26:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:27:35: {"data": {"server_fps":42, "server_players":0, "server_vehicles":331, "server_memory":1253, "server_cps":46, "server_sqfThreads":106, "server_fpsmin":14.4928, "server_runTime":355, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:27:35: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:53:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":286, "server_memory":1266, "server_cps":46, "server_sqfThreads":54, "server_fpsmin":41.6667, "server_runTime":2, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:53:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:54:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":46, "server_sqfThreads":97, "server_fpsmin":43.4783, "server_runTime":3, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:54:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:55:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":97, "server_fpsmin":40, "server_runTime":4, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:55:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:56:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":40, "server_runTime":5, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:56:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:57:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":41.6667, "server_runTime":6, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:57:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:58:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":290, "server_memory":1266, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":41.6667, "server_runTime":7, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:58:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 16:59:10: {"data": {"server_fps":46, "server_players":0, "server_vehicles":290, "server_memory":1266, "server_cps":47, "server_sqfThreads":94, "server_fpsmin":27.7778, "server_runTime":8, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 16:59:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:00:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":9, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:00:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:01:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":10, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:01:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:02:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":33.3333, "server_runTime":11, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:02:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:03:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":40, "server_runTime":12, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:03:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:04:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":43.4783, "server_runTime":13, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:04:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:05:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":38.4615, "server_runTime":14, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:05:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:06:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":15, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:06:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:07:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":292, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":16, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:07:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:08:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":17, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:08:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:09:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":37.037, "server_runTime":18, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:09:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:10:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":294, "server_memory":1266, "server_cps":47, "server_sqfThreads":119, "server_fpsmin":41.6667, "server_runTime":19, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:10:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:11:10: {"data": {"server_fps":47, "server_players":0, "server_vehicles":297, "server_memory":1266, "server_cps":47, "server_sqfThreads":117, "server_fpsmin":30.303, "server_runTime":20, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:11:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:12:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":297, "server_memory":1266, "server_cps":47, "server_sqfThreads":116, "server_fpsmin":43.4783, "server_runTime":21, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:12:10: {"status":"success","message":"Meta data received and stored."}
+31.05.2022 17:13:10: {"data": {"server_fps":48, "server_players":0, "server_vehicles":298, "server_memory":1266, "server_cps":47, "server_sqfThreads":141, "server_fpsmin":40, "server_runTime":22, "server_memoryTotal":8192, "server_cpu":0}}
+31.05.2022 17:13:10: {"status":"success","message":"Meta data received and stored."}
