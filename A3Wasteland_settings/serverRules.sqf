@@ -15,7 +15,7 @@
 "
 
 <br/>
-<font face='PuristaBold' size='22'>A3Wasteland Server Rules</font> <br/>
+<font face='PuristaBold' size='22'>UDS A3Wasteland Server Rules</font> <br/>
 <br/>
 <font face='PuristaBold'>1.</font> Hacking or cheating will get you banned. <br/>
 <br/>
