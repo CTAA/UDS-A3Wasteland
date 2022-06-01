@@ -618,7 +618,6 @@ ammoArray = compileFinal str
 	// ["", "CUP_15Rnd_9x19_M9", 100],
 //*** MODDING END ***
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 1250],
-	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 2500],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 500],
 	["40mm Smoke Round (Purple)", "1Rnd_SmokePurple_Grenade_shell", 500],
 	["40mm Smoke Round (Blue)", "1Rnd_SmokeBlue_Grenade_shell", 500],
@@ -627,23 +626,7 @@ ammoArray = compileFinal str
 	["40mm Smoke Round (Yellow)", "1Rnd_SmokeYellow_Grenade_shell", 500],
 	["40mm Smoke Round (Orange)", "1Rnd_SmokeOrange_Grenade_shell", 500],
 	["40mm Smoke Round (Red)", "1Rnd_SmokeRed_Grenade_shell", 500],
-	["40mm 3Rnd Smokes (White)", "3Rnd_Smoke_Grenade_shell", 1000],
-	["40mm 3Rnd Smokes (Purple)", "3Rnd_SmokePurple_Grenade_shell", 1000],
-	["40mm 3Rnd Smokes (Blue)", "3Rnd_SmokeBlue_Grenade_shell", 1000],
-	["40mm 3Rnd Toxic (Damage Gas)", "3Rnd_SmokeGreen_Grenade_shell", 3500],
-	["40mm 3Rnd Tear Gas)", "3Rnd_SmokeYellow_Grenade_shell", 3500],
-	["40mm 3Rnd Smokes (Orange)", "3Rnd_SmokeOrange_Grenade_shell", 1000],
-	["40mm 3Rnd Smokes (Red)", "3Rnd_SmokeRed_Grenade_shell", 1000],
-	["40mm Flare Round (White)", "UGL_FlareWhite_F", 250],
-	["40mm Flare Round (Green)", "UGL_FlareGreen_F", 250],
-	["40mm Flare Round (Yellow)", "UGL_FlareYellow_F", 250],
-	["40mm Flare Round (Red)", "UGL_FlareRed_F", 250],
-	["40mm Flare Round (IR)", "UGL_FlareCIR_F", 250],
-	["40mm 3Rnd Flares (White)", "3Rnd_UGL_FlareWhite_F", 500],
-	["40mm 3Rnd Flares (Green)", "3Rnd_UGL_FlareGreen_F", 500],
-	["40mm 3Rnd Flares (Yellow)", "3Rnd_UGL_FlareYellow_F", 500],
-	["40mm 3Rnd Flares (Red)", "3Rnd_UGL_FlareRed_F", 500],
-	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 500]
+
 ];
 
 //Gun Store item List
