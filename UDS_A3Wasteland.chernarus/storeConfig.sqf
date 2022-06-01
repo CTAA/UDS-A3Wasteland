@@ -433,9 +433,6 @@ ammoArray = compileFinal str
 	["6.5mm 100Rnd MX Mag (Black) T-R", "100Rnd_65x39_caseless_black_mag_tracer", 600],
 	["6.5mm 100Rnd MX Mag (Khaki)", "100Rnd_65x39_caseless_khaki_mag", 850],
 	["6.5mm 100Rnd MX Mag (Khaki) T-R", "100Rnd_65x39_caseless_khaki_mag_tracer", 600],
-	["6.5mm 200Rnd Belt Case", "200Rnd_65x39_cased_Box", 1500],
-	["6.5mm 200Rnd Belt Case T-Y", "200Rnd_65x39_cased_Box_Tracer", 1250],
-	["6.5mm 200Rnd Belt Case T-R", "200Rnd_65x39_cased_Box_Tracer_Red", 1250],
 	["7.62mm 10Rnd Rahim Mag", "10Rnd_762x54_Mag", 150],
 	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 250],
 	["7.62mm 30Rnd AKM Mag", "30Rnd_762x39_Mag_F", 200],
@@ -455,28 +452,12 @@ ammoArray = compileFinal str
 	["7.62mm 75Rnd AK12 Mag (Arid) T-Y", "75rnd_762x39_AK12_Arid_Mag_Tracer_F", 700],
 	["7.62mm 75Rnd AK12 Mag (Lush)", "75rnd_762x39_AK12_Lush_Mag_F", 800],
 	["7.62mm 75Rnd AK12 Mag (Lush) T-Y", "75rnd_762x39_AK12_Lush_Mag_Tracer_F", 700],
-	["7.62mm 150Rnd Box", "150Rnd_762x54_Box", 1500],
-	["7.62mm 150Rnd Box T-G", "150Rnd_762x54_Box_Tracer", 1250],
-	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 500],
-	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 1500],
 	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 500],
-	["9.3mm 150Rnd Belt", "150Rnd_93x64_Mag", 1500],
 	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 500],
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 500],
-	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 600],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 750],
 	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],             //                 hit                      hit,  radius
-	["PG-7VM HEAT Grenade", "RPG7_F", 3000],                   // Direct damage:  343     | Splash damage:  13,  3.0m     | Guidance: none
-	["RPG-42 AT Rocket", "RPG32_F", 3000],                     //                 422     |                 28,  2.5m     |           none
-	["RPG-42 HE Rocket", "RPG32_HE_F", 2000],                  //                 200     |                 50,  6.0m     |           none
-	["MAAWS HEAT 75 Rocket", "MRAWS_HEAT_F", 5000],            //                 435     |                 14,  2.0m     |           none
-	["MAAWS HE 44 Rocket", "MRAWS_HE_F", 4000],                //                 200     |                 50,  6.0m     |           none
-	["9M135 HEAT Missile", "Vorona_HEAT", 8000],              //                 634     |                 28,  2.5m     |           mouse
-	//["9M135 HE Missile", "Vorona_HE", 5500],                   //                 220     |                 45,  8.0m     |           mouse
-	["PCML AT Missile", "NLAW_F", 2500],                       //                 462     |                 25,  2.4m     |           laser/IR, cold/hot ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 8000],            //                 515     |                 20,  2.0m     |           mouse, laser/IR, hot ground vehicles
-	//["Titan Anti-Personnel Missile", "Titan_AP", 3500],        //                 100     |                 25, 10.0m     |           mouse, laser/IR
-	["Titan AA Missile", "Titan_AA", 3500],                    //                  80     |                 60,  6.0m     |           aircraft
+
 //*** MODDING START ***
 
 	["Compact mag", "CUP_10Rnd_9x19_Compact", 100],
