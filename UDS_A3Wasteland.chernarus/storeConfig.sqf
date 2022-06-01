@@ -135,15 +135,11 @@ rifleArray = compileFinal str
 	// ["AUG CQC (Black)", "SMA_AUG_A3_F", 1000],
 	// ["AUG CQC blk (GL)", "SMA_AUG_EGLM", 1000],
 
-	["CZ 805 BREN A1 (Black)", "CUP_arifle_CZ805_A1_blk", 2500],
 	["CZ 805 BREN A1 G1 (Black)", "CUP_arifle_CZ805_GL_blk", 2900],
 	["CZ 805 BREN A2 (Black)", "CUP_arifle_CZ805_A2_blk", 2500],
 
 	["CZ 807 (14)", "CUP_CZ_BREN2_762_14", 2500],
 	["CZ 807 (14) GL", "CUP_CZ_BREN2_762_14_GL", 2900],
-	["CZ 807 (8)", "CUP_CZ_BREN2_762_8", 2500],
-	["CZ BREN 2 (11)", "CUP_CZ_BREN2_556_11", 2500],
-	["CZ BREN 2 (11) GL", "CUP_CZ_BREN2_556_11_GL", 2900],
 	
 	["FAL 50.63", "CUP_arifle_FNFAL", 3500],
 	["FAL 50.61 (RIS)", "CUP_arifle_FNFAL_railed", 3300],
