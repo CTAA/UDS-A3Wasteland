@@ -4,6 +4,12 @@
 // if you have any doubts and/or questions about the mission find us at a3wasteland.com
 // This file overrides the settings defined in "server\default_config.sqf"
 
+// UDS settings
+A3W_customLoadoutEnabled = 0; 	   // Custom Loadouts
+A3W_donatorEnabled = 0; 		   // Donator status
+A3W_memberEnabled = 0; 			   // Member status
+A3W_teamBalance = 1;			   // Team balance
+
 // General settings
 A3W_teamPlayersMap = 1;            // Show all friendly players on the map at all times, regardless of difficulty level (0 = no, 1 = yes)
 A3W_disableGlobalVoice = 1;        // Auto-switch channel to Direct communication whenever broadcasting voice on global, unless being admin (0 = no, 1 = yes)
