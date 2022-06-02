@@ -1686,7 +1686,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];";
+				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];";
 				disableSimulation=1;
 			};
 			id=1433;
@@ -6119,7 +6119,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];";
+				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];";
 				disableSimulation=1;
 			};
 			id=2282;
@@ -6160,7 +6160,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];";
+				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];";
 				disableSimulation=1;
 			};
 			id=2283;
@@ -6201,7 +6201,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];}";
+				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];}";
 				disableSimulation=1;
 			};
 			id=2284;
@@ -19959,7 +19959,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];}";
+				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];}";
 				disableSimulation=1;
 			};
 			id=6727;
@@ -21057,7 +21057,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];";
+				init=" " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];";
 				disableSimulation=1;
 			};
 			id=6902;
@@ -21148,7 +21148,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\advert_vanguard.paa""];}";
+				init="call{ " \n "this setobjecttexture [0, ""mapConfig\advert\Chernarus_advert.paa""];}";
 				disableSimulation=1;
 			};
 			id=6942;
