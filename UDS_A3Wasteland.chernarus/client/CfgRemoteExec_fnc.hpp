@@ -71,7 +71,6 @@ class A3W_fnc_removeMagazinesTurret {};
 class A3W_fnc_setVectorUpAndDir { jip = 1; };
 class A3W_fnc_setVehicleAmmoDef {};
 class A3W_fnc_unflip {};
-class APOC_srv_startAirdrop { allowedTargets = 2; };
 class JTS_FNC_SENT {};
 class saky_fnc_irToIncendiary { jip = 1; };
 class A3W_fnc_flashBang { allowedTargets = 1; };
