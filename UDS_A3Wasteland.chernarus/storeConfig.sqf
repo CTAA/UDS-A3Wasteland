@@ -45,7 +45,7 @@ smgArray = compileFinal str
 	["Sting SMG", "SMG_02_F", 1250],
 	["Vermin SMG", "SMG_01_F", 1250],
 	["ADR-97C (Black)", "SMG_03C_black", 1000],
-	
+
 	// CUP SMGs
 	["Ballistic Shield (M9)", "CUP_hgun_BallisticShield_Armed", 1000],
 	["CZ SCORPION EVO 3", "CUP_smg_EVO", 1000],
@@ -61,6 +61,7 @@ smgArray = compileFinal str
 
 gLauncherArray = compileFinal str //Need Check
 [
+	// CUP Grenade Launchers
 	["6G30 Launcher", "CUP_glaunch_6G30", 10000],
 	["M32", "CUP_glaunch_M32", 10000],
 	["M79", "CUP_glaunch_M79", 10000],
