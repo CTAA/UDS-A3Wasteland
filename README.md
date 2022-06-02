@@ -11,10 +11,4 @@
 
 [CUP Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
 
-[RHSAFRF](http://www.rhsmods.org/mod/1/)
-
-[RHSUSAF](http://www.rhsmods.org/mod/2)
-
-[RHSGREF](http://www.rhsmods.org/mod/3)
-
 [CBA_A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
