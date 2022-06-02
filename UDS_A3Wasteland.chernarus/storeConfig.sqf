@@ -19,6 +19,7 @@ currentOwnerName = "";
 
 pistolArray = compileFinal str
 [
+	// CUP Pistols
 	["CZ 75 COMPACT", "CUP_hgun_Compact", 500],
 	["Desert Eagle", "CUP_hgun_Deagle", 500],
 	["Glock 17", "CUP_hgun_Glock17", 500],
@@ -29,6 +30,8 @@ pistolArray = compileFinal str
 	["Sa-61", "CUP_hgun_SA61", 500],
 	["Taurus Tracker Model 455", "CUP_hgun_TaurusTracker455", 500],
 	["TEC9", "CUP_hgun_TEC9", 500],
+
+	// Automatic pistols
 	["MAC-10", "CUP_hgun_Mac10", 1000],
 	["Micro UZI PDW", "CUP_hgun_MicroUzi", 1000],
 	["MP7A1", "CUP_hgun_MP7", 1000]
@@ -36,11 +39,15 @@ pistolArray = compileFinal str
 
 smgArray = compileFinal str
 [
-	["Ballistic Shield (M9)", "CUP_hgun_BallisticShield_Armed", 1000],
+	// Vanilla SMGs
 	["PDW2000 SMG", "hgun_PDW2000_F", 1000],
 	["Protector SMG", "SMG_05_F", 1000],
 	["Sting SMG", "SMG_02_F", 1250],
 	["Vermin SMG", "SMG_01_F", 1250],
+	["ADR-97C (Black)", "SMG_03C_black", 1000],
+	
+	// CUP SMGs
+	["Ballistic Shield (M9)", "CUP_hgun_BallisticShield_Armed", 1000],
 	["CZ SCORPION EVO 3", "CUP_smg_EVO", 1000],
 	["MAC-10", "CUP_smg_Mac10", 1000],
 	["MP5A5", "CUP_smg_MP5A5", 1000],
@@ -49,8 +56,7 @@ smgArray = compileFinal str
 	["PP-19-01 Vityaz", "CUP_smg_vityaz", 1250],
 	["PP-19 Bizon", "CUP_smg_bizon", 1250],
 	["SA-61", "CUP_smg_SA61", 1250],
-	["Saiga-9", "CUP_smg_saiga9", 1250],
-	["ADR-97C (Black)", "SMG_03C_black", 1000]
+	["Saiga-9", "CUP_smg_saiga9", 1250]
 ];
 
 gLauncherArray = compileFinal str //Need Check
