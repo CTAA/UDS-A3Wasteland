@@ -22,9 +22,15 @@ _setupObjects =
 	_missionPos = markerPos (((call cityList) call BIS_fnc_selectRandom) select 0);
 	_planeChoices =
 	[
-		["O_Plane_CAS_02_dynamicLoadout_F", "I_Plane_Fighter_03_CAS_F"],
-		["I_Plane_Fighter_03_dynamicLoadout_F", "buzzardEX"],
-		["I_Plane_Fighter_03_dynamicLoadout_F", "buzzardCAS"]
+		["CUP_B_A10_DYN_USA","A10aGun"],
+		["CUP_B_A10_DYN_USA","A10aWarthog"],
+		["CUP_B_F35B_BAF","F35bCAS"],
+		["CUP_B_F35B_BAF","F35bAA"],
+		["CUP_B_GR9_DYN_GB","GR9Extra"],
+		["CUP_B_Su25_Dyn_CDF","Su25AT"],
+		["CUP_B_AV8B_DYN_USMC","Av8bAA"],
+		["CUP_B_AV8B_DYN_USMC","Av8bAT"],
+		["CUP_B_AV8B_DYN_USMC","Av8bMK82"]
 	];
 
 	_convoyVeh = _planeChoices call BIS_fnc_selectRandom;
@@ -99,7 +105,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh1 >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh1 >> "displayName");
 	
-	_missionHintText = format ["A<br/><t color='%2'>%1</t><br/>is patrolling the island. Intercept it and recover its cargo!!", _vehicleName, extraMissionColor];
+	_missionHintText = format ["A<br/><t color='%2'>%1</t><br/>is patrolling the island. Intercept it and take it down.", _vehicleName, extraMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -122,7 +128,7 @@ _successExec = {
 		_cash setVariable ["owner", "world", true];
 	};
 
-	_successHintMessage = "The sky is clear again, the enemy plane was taken out! The money has fallen near the enemy pilot.";
+	_successHintMessage = "The sky is clear again, the enemy plane was taken out.";
 };
 
 _this call extraMissionProcessor;

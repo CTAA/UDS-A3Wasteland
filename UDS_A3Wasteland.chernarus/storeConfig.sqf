@@ -120,9 +120,6 @@ rifleArray = compileFinal str
 	["AK-109 (RIS mount)", "CUP_arifle_AK109_top_rail", 2000],
 	["AK-109 (Zenitco/RIS)", "CUP_arifle_AK109_railed", 2000],
 
-	["AK-12 GL Rifle", "arifle_AK12_GL_F", 3000],
-	["AK-12 GL Rifle (Arid)", "arifle_AK12_GL_arid_F", 3000, "noDLC"],
-
 	["AK-12 Rifle", "arifle_AK12_F", 2050],
 	["AK-12 Rifle (Arid)", "arifle_AK12_arid_F", 2050, "noDLC"],
 
@@ -135,11 +132,9 @@ rifleArray = compileFinal str
 	["AUG A1", "CUP_arifle_AUG_A1", 2600],
 	["CAR-95 Rifle", "arifle_CTAR_blk_F", 2000],
 
-	["CZ 805 BREN A1 G1 (Black)", "CUP_arifle_CZ805_GL_blk", 2900],
 	["CZ 805 BREN A2 (Black)", "CUP_arifle_CZ805_A2_blk", 2500],
 
 	["CZ 807 (14)", "CUP_CZ_BREN2_762_14", 2500],
-	["CZ 807 (14) GL", "CUP_CZ_BREN2_762_14_GL", 2900],
 
 	["FAL 50.63", "CUP_arifle_FNFAL", 3500],
 	["FAL 50.61 (RIS)", "CUP_arifle_FNFAL_railed", 3300],
@@ -160,7 +155,6 @@ rifleArray = compileFinal str
 	["L85A2 (RIS/GRIP)", "CUP_arifle_L85A2_G", 2500],
 
 	["M16A1", "CUP_arifle_M16A", 2500],
-	["M16A1 M203 (Flaming shark)", "CUP_arifle_M16A1GL_FS", 3500],
 	["M16A2", "CUP_arifle_M16A2", 2600],
 	["M16A4", "CUP_arifle_M16A4_Base", 2800],
 
@@ -170,7 +164,6 @@ rifleArray = compileFinal str
 
 	["MK 17 CQC (Grip)", "CUP_arifle_Mk17_CQC_FG", 2700],
 	["MK 17 CQC (Surefire)", "CUP_arifle_Mk17_CQC_SFG", 2800],
-	["Mk 17 CQC EGLM", "CUP_arifle_Mk17_CQC_EGLM", 3300],
 	["MK 17 SV", "CUP_arifle_Mk20", 2900],
 
 	["Mk 18 Mod 1", "CUP_arifle_mk18_black", 3200],
@@ -180,14 +173,12 @@ rifleArray = compileFinal str
 	["MX Rifle", "arifle_MX_F", 2000],
 
 	["OTs-14-1A-01 Groza", "CUP_arifle_OTS14_GROZA_762_Grip", 2900],
-	["OTs-14-1A Groza GL", "CUP_arifle_OTS14_GROZA_762_GL", 3600],
 
 	["RPK-74", "CUP_arifle_RPK74_45", 3600],
 	["RPK-74 (RIS)", "CUP_arifle_RPK74_45_top_rail", 3600],
 
 	["Sa-58P", "CUP_arifle_Sa58P", 2000],
 	["Sa-58P (RIS)", "CUP_arifle_Sa58RIS2", 2000],
-	["Sa-58P G1 GL (RIS)", "CUP_arifle_Sa58RIS2_gl", 3100],
 
 	["Saiga MK03", "CUP_arifle_SAIGA_MK03", 2400],
 
@@ -204,7 +195,6 @@ rifleArray = compileFinal str
 
 	["XM8 Carbine", "CUP_arifle_XM8_Carbine", 1000],
 	["XM8 Carbine (RIS)", "CUP_arifle_XM8_Railed", 1000],
-	["XM8 Carbine XM320 GL", "CUP_arifle_XM8_Carbine_GL", 1000],
 	["XM8 SAW", "CUP_arifle_xm8_SAW", 1000],
 	["XM8 Sharpshooter", "CUP_arifle_xm8_sharpshooter", 1000],
 

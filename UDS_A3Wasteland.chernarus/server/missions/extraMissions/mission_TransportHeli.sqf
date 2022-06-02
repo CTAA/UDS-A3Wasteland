@@ -19,9 +19,9 @@ _setupVars = {
 _setupObjects = {
 	_missionPos = markerPos (((call cityList) call BIS_fnc_selectRandom) select 0);
 
-	_transportChoicesUnarmed = ["B_Heli_Transport_03_unarmed_green_F", "B_Heli_Transport_03_unarmed_F"];
-	_transportChoicesArmed = ["B_Heli_Transport_03_F", "B_Heli_Transport_03_black_F"];
-	_supportChoices = ["O_Heli_Attack_02_black_F", "O_Heli_Attack_02_F", "B_Heli_Attack_01_F"];
+	_transportChoicesUnarmed = ["CUP_B_Merlin_HC3A_GB"];
+	_transportChoicesArmed = ["CUP_B_CH47F_GB", "CUP_B_UH1Y_Gunship_Dynamic_USMC","CUP_B_UH60M_US"];
+	_supportChoices = ["CUP_B_AH6X_USA"];
 
 	_veh1 = [];
 

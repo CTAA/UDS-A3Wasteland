@@ -66,7 +66,7 @@ _successExec =
 
 	_box1 setVariable ["virtualItems",[_itemsInBox,count _itemsInBox],true];
 
-	_successHintMessage = "The item box has been captured, well done.";
+	_successHintMessage = "The item box has been captured.";
 };
 
 _this call extraMissionProcessor;

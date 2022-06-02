@@ -47,13 +47,13 @@ _setupObjects =
 	[_hostage, "Acts_AidlPsitMstpSsurWnonDnon_loop"] call switchMoveGlobal;
 	_hostage disableAI "anim";
 
-	_obj1 = createVehicle ["I_GMG_01_high_F", _missionPos,[], 10,"None"]; 
+	_obj1 = createVehicle ["CUP_B_Ridgback_GMG_GB_W", _missionPos,[], 10,"None"]; 
 	_obj1 setPosATL [(_missionPos select 0) - 2, (_missionPos select 1) + 2, _missionPos select 2];
 
-	_obj2 = createVehicle ["I_HMG_01_high_F", _missionPos,[], 10,"None"]; 
+	_obj2 = createVehicle ["CUP_B_Ridgback_HMG_GB_W", _missionPos,[], 10,"None"]; 
 	_obj2 setPosATL [(_missionPos select 0) - 2, (_missionPos select 1) - 2, _missionPos select 2];
 
-	_obj3 = createVehicle ["I_HMG_01_high_F", _missionPos,[], 10,"None"]; 
+	_obj3 = createVehicle ["CUP_B_Ridgback_HMG_GB_W", _missionPos,[], 10,"None"]; 
 	_obj3 setPosATL [(_missionPos select 0) + 2, (_missionPos select 1) - 2, _missionPos select 2];
 	
 	_randomBox = selectRandom ["mission_Weapon2","mission_Snipers3","mission_Snipers1"];

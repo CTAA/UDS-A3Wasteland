@@ -12,7 +12,7 @@ if (!isServer) exitWith {};
 private ["_box1", "_uav"];
 
 _setupVars = {
-	_missionType = "The Lost Falcon";
+	_missionType = "Reaper Disabled";
 	_locationsArray = [ForestMissionMarkers, MissionSpawnMarkers] select (ForestMissionMarkers isEqualTo []);
 };
 	
@@ -24,7 +24,7 @@ _setupObjects = {
 	_randomBox = ["mission_Snipers4", "mission_Snipers2"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
-	_uav = createVehicle ["B_T_UAV_03_F", _missionPos, [], 3, "None"];
+	_uav = createVehicle ["CUP_B_USMC_DYN_MQ9", _missionPos, [], 3, "None"];
 	_uav allowDamage false;
 	_uav setDir random 360;
 	_uav setVariable ["R3F_LOG_disabled", false];
@@ -42,7 +42,7 @@ _setupObjects = {
 	_aiGroup setCombatMode "RED";
 	_aiGroup setBehaviour "COMBAT";
 	
-	_missionHintText = format ["<br/>A <t color='%1'>MQ-12 Falcon UAV</t> crashed some where.. it seems to be heavily guarded by Spetsnaz", extraMissionColor];
+	_missionHintText = format ["<br/>A <t color='%1'>MQ-9 Reaper</t> has crashed some where.. it seems to be heavily guarded by Spetsnaz", extraMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
@@ -56,7 +56,7 @@ _failedExec = {
 
 _successExec = {
 	// Mission completed
-	_successHintMessage = format ["Good Job! The Spetsnaz of the MQ-12 Falcon UAV were killed!"];
+	_successHintMessage = format ["The MQ-9 Reaper site has been secured."];
 	_uav allowDamage true;
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1];
 	// { deleteVehicle _x } forEach [_uav];

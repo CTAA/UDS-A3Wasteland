@@ -13,7 +13,7 @@ private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicl
 
 _setupVars =
 {
-	_missionType = "Pawnee Attack!!!";
+	_missionType = "Pawnee formation patrol";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
@@ -23,16 +23,16 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["B_Heli_Light_01_dynamicLoadout_F", "B_Heli_Light_01_dynamicLoadout_F"],
-		["B_Heli_Light_01_dynamicLoadout_F", "B_Heli_Light_01_dynamicLoadout_F"],
-		["B_Heli_Light_01_dynamicLoadout_F", "B_Heli_Light_01_dynamicLoadout_F"]
+		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"],
+		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"],
+		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"]
 	];
 
 	if (missionDifficultyHard) then
 	{
-		(_heliChoices select 0) set [0, "B_Heli_Light_01_dynamicLoadout_F"];
-		(_heliChoices select 1) set [0, "B_Heli_Light_01_dynamicLoadout_F"];
-		(_heliChoices select 2) set [0, "B_Heli_Light_01_dynamicLoadout_F"];
+		(_heliChoices select 0) set [0, "CUP_B_AH6X_USA"];
+		(_heliChoices select 1) set [0, "CUP_B_AH6X_USA"];
+		(_heliChoices select 2) set [0, "CUP_B_AH6X_USA"];
 	};
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;
@@ -132,7 +132,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh1 >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh1 >> "displayName");
 	
-	_missionHintText = format ["This is a <t color='%2'>%1</t> Attack! Destroy them and recover their cargo!", _vehicleName, extraMissionColor];
+	_missionHintText = format ["There is a <t color='%2'>%1</t> formation. Intercept them and take them out.", _vehicleName, extraMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -157,7 +157,7 @@ _successExec =
 	_box2 setDir random 360;
 	[_box2, "mission_Weapon2"] call fn_refillbox;
 
-	_successHintMessage = "Good job! The Pawnees went down! Ammo crates have fallen near the last wreck.";
+	_successHintMessage = "The pawnee formation has been taken out.";
 };
 
 _this call extraMissionProcessor;
