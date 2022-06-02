@@ -70,8 +70,6 @@ ExtraMissions = [
 	["mission_WepDeal", 1],
 	["mission_InfGroup", 1],
 	["mission_Pawnee", 1],
-	["mission_Fishie", 1],
-	["mission_Thunder", 1],
 	["mission_Falcon", 0.2],
 	["mission_Graveyard", 1],
 	["mission_BlackHawkDown", 1]
