@@ -11,7 +11,7 @@ private _messages = [
 	["Welcome to our", "UDS - A3Wasteland Chernarus"],
 	["Feedback", "Post Ideas/Bugs at our Discord!"],
 	["Discord", "www.discord.gg/S25QBgb47y"],
-	["Useful Keys", "END-Earplugs, H-Holster, CTRL+R Mag Repack"],
+	["Useful Keys", "END-Earplugs, H-Holster"],
 	["Supported Mods", "JSRS, Enhanced Movement"]
 ];
 
