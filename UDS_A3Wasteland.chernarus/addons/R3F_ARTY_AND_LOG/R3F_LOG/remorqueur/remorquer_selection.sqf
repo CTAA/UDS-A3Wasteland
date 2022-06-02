@@ -89,7 +89,7 @@ else
 
 						player setDir 90;
 						player setPos (getPos player);
-						sleep 0.05;
+						sleep 5;
 						detach player;
 					};
 
