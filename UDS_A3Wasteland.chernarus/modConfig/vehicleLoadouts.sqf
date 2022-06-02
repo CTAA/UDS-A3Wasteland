@@ -436,6 +436,10 @@ switch (true) do
         ];
     };
 
+
+
+    // MODDED LOADOUTS
+
 	// A10-A Thunderbolt II
     case (_class isKindOf "CUP_B_A10_DYN_USA"):
     {
