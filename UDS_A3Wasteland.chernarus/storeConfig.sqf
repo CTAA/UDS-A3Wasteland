@@ -292,20 +292,20 @@ lmgArray = compileFinal str
 
 launcherArray = compileFinal str
 [
-	
-	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000],
+	// Launchers
+	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], // Ammo missing from store, must fix
 	["FGM-148 Javelin", "CUP_launch_Javelin", 8000],
-	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], //geht nicht
-	["Igla 9K38", "CUP_launch_Igla", 8000], //geht nicht
-	["M136 Granatenwerfer", "CUP_launch_M136", 8000], //geht nicht
+	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], // Ammo missing from store, must fix
+	["Igla 9K38", "CUP_launch_Igla", 8000], // Ammo missing from store, must fix
+	["M136 Granatenwerfer", "CUP_launch_M136", 8000], // Ammo missing from store, must fix
 	["M47 Dragon", "CUP_launch_M47", 8000],
-	["M72A6", "CUP_launch_M72A6", 8000], //geht nicht
-	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], //geht nicht
+	["M72A6", "CUP_launch_M72A6", 8000], // Ammo missing from store, must fix
+	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], // Ammo missing from store, must fix
 	["Metis AT-13", "CUP_launch_Metis", 8000],
 	["Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", 8000],
 	["Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", 8000],
 	["RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V", 8000],
-	["RPG18", "CUP_launch_RPG18", 8000] //geht nicht
+	["RPG18", "CUP_launch_RPG18", 8000] // Ammo missing from store, must fix
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray + call gLauncherArray);
