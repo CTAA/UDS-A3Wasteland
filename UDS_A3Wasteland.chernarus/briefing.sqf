@@ -18,12 +18,12 @@ _aKeyName = { _arr = actionKeysNamesArray _this; if (count _arr == 0) exitWith {
 
 waitUntil {!isNull player};
 
-player createDiarySubject ["infos", "Infos and Help"];
+player createDiarySubject ["infs", "Info and Help"];
 player createDiarySubject ["vangaurdrules", "Server Rules"];
 player createDiarySubject ["changelog", "Changelog"];
 player createDiarySubject ["credits", "Credits"];
 player createDiarySubject ["gearloadout", "Gear Loadout"];
-player createDiarySubject ["voice", "Teamspeak/Discord"];
+player createDiarySubject ["voice", "Discord"];
 player createDiarySubject ["supportedmods", "Supported Mods"];
 
 _WASD = AKEYNAME("MoveForward") + "," + AKEYNAME("MoveBack") + "," + AKEYNAME("TurnLeft") + "," + AKEYNAME("TurnRight");
@@ -136,7 +136,7 @@ player createDiaryRecord ["info",["Hints and Tips","
 <br/>* There are very aggressive AI characters that spawn with most missions and will protect the mission objectives with deadly force, be aware of them.
 "]];
 // About wasteland
-player createDiaryRecord ["infos",["About Wasteland","
+player createDiaryRecord ["info",["About Wasteland","
 <br/>Wasteland is a team versus team versus team sandbox survival experience. The objective of this mission is to rally your faction, scavenge supplies, weapons, and vehicles, and destroy the other factions. It is survival at its best! Keep in mind this is a work in progress, please direct your reports to http://forums.a3wasteland.com/
 <br/>
 <br/>FAQ:
