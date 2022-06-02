@@ -11,7 +11,7 @@ private ["_vehicleClass", "_vehicle", "_createVehicle", "_vehicles", "_leader", 
 
 _setupVars =
 {
-	_missionType = "Hostile Xian";
+	_missionType = "Hostile Jet";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
@@ -21,11 +21,11 @@ _setupObjects =
 
 	_vehicleClass = if (missionDifficultyHard) then
 	{
-		selectRandom [["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianEX"], ["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianAG"]];
+		selectRandom [["CUP_B_A10_DYN_USA","A10aGun"],["CUP_B_A10_DYN_USA","A10aWarthog"],["CUP_B_F35B_BAF","F35bCAS"],["CUP_B_F35B_BAF","F35bAA"],["CUP_B_GR9_DYN_GB","GR9Extra"],["CUP_B_Su25_Dyn_CDF","Su25AT"],["CUP_B_AV8B_DYN_USMC","Av8bAA"],["CUP_B_AV8B_DYN_USMC","Av8bAT"],["CUP_B_AV8B_DYN_USMC","Av8bMK82"]];
 	}
 	else
 	{
-		selectRandom [["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianDelta"], ["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianAG"]];
+		selectRandom [["CUP_B_A10_DYN_USA","A10aGun"],["CUP_B_A10_DYN_USA","A10aWarthog"],["CUP_B_F35B_BAF","F35bCAS"],["CUP_B_F35B_BAF","F35bAA"],["CUP_B_GR9_DYN_GB","GR9Extra"],["CUP_B_Su25_Dyn_CDF","Su25AT"],["CUP_B_AV8B_DYN_USMC","Av8bAA"],["CUP_B_AV8B_DYN_USMC","Av8bAT"],["CUP_B_AV8B_DYN_USMC","Av8bMK82"]];
 	};
 
 	_createVehicle =
@@ -55,22 +55,11 @@ _setupObjects =
 		_vehicle setDir _direction;
 		_aiGroup addVehicle _vehicle;
 
-		// add a driver/pilot/captain to the vehicle
-		// the little bird, orca, and hellcat do not require gunners and should not have any passengers
+		// Spawns pilot for vehicle
 		_soldier = [_aiGroup, _position] call createRandomPilot;
 		_soldier moveInDriver _vehicle;
 
-		switch (true) do
-		{
-			case (_type isKindOf "O_T_VTOL_02_infantry_dynamicLoadout_F"):
-			{
-				// these choppers have 2 turrets so we need 2 gunners
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInGunner _vehicle;
-			};
-		};
-		
-		// remove flares because it overpowers AI choppers
+		// Removing flares
 		if (_type isKindOf "Air") then
 		{
 			{
