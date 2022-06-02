@@ -12,16 +12,16 @@
 //local to Server Var. "Lootready" time, placed on generated lootobject, needed for removing old loot
 //									time: timestamp of spawn, object is ready for use by player and loot deleter
 //-------------------------------------------------------------------------------------
-private["_BaPname","_lootClass","_buildPosViable_list","_buildPosZadj_list","_lBuildVar","_timeStamp","_posviablecount","_spwnPos","_lootspawned","_randChance","_lootholder","_selecteditem","_loot","_chfullf","_idx_sBlist","_chperSpot","_tmpPos"];
+private["_begintime","_BaP_list","_spInterval","_chfullfuel","_chpSpot","_genZadjust","_BaPname","_lootClass","_buildPosViable_list","_buildPosZadj_list","_lBuildVar","_timeStamp","_posviablecount","_spwnPos","_lootspawned","_randChance","_lootholder","_selecteditem","_loot","_chfullf","_idx_sBlist","_chperSpot","_tmpPos"];
 
 //BaP - Buildings around Player
-private _BaP_list = _this select 0;
-private _spInterval = _this select 1;
-private _chfullfuel = _this select 2;
-private _genZadjust = _this select 3;
-private _chpSpot = _this select 4;
+_BaP_list = _this select 0;
+_spInterval = _this select 1;
+_chfullfuel = _this select 2;
+_genZadjust = _this select 3;
+_chpSpot = _this select 4;
 
-private _begintime = diag_tickTime;
+_begintime = diag_tickTime;
 {
 	if (!(_x getVariable ["A3W_purchasedStoreObject", false]) && isNil {_x getVariable "baseSaving_hoursAlive"}) then
 	{
@@ -30,6 +30,7 @@ private _begintime = diag_tickTime;
 	_buildPosViable_list = [];
 	_buildPosZadj_list = [];
 	_lBuildVar = (_x getVariable ["BuildingLoot", [0, 0]]);
+	//diag_log format["-- LOOTSPAWNER DEBUG BaP _lBuildVar: v%1v v%2v --", _lBuildVar ,_x];
 	if ((_lBuildVar select 0) < 2) then {
 		_timeStamp = _lBuildVar select 1;
 		if ((_timeStamp == 0) || {serverTime - _timeStamp > _spInterval}) then {
@@ -51,6 +52,8 @@ private _begintime = diag_tickTime;
 				};
 				sleep 0.001;
 			}forEach Buildingstoloot_list;
+			//diag_log format["-- LOOTSPAWNER DEBUG BaP: v%1v%2v :: v%3v :: v%4v --", _BaPname, _lootClass, _buildPosViable_list, _buildPosZadj_list];
+			//get spawn position, here the former _x
 			if (count _buildPosViable_list > 0) then
 			{
 			for "_poscount" from 0 to (count (_buildPosViable_list select 0) - 1) do
@@ -95,13 +98,13 @@ private _begintime = diag_tickTime;
 								_mags = getArray (configFile >> "CfgWeapons" >> _loot >> "magazines");
 								if (count _mags > 0) then
 								{
-									_lootholder addMagazineCargoGlobal [_mags select 0, 2 + floor random 2];
+									_lootholder addMagazineCargoGlobal [_mags select 0, 1 + floor random 3];
 								};
 							};
 							//special for magazines: spawn 1-5
 							case 2:
 							{
-								_randChance = 1 + floor(random(1));
+								_randChance = 1 + floor(random(5));
 								for "_rm" from 1 to _randChance do {
 									_loot = ((lootMagazine_list select _lootClass) select 1) call BIS_fnc_selectRandom;
 									_lootholder addMagazineCargoGlobal [_loot, 1];
@@ -204,3 +207,4 @@ private _begintime = diag_tickTime;
 	sleep 0.001;
 	};
 }forEach _BaP_list;
+//diag_log format["-- LOOTSPAWNER DEBUG BaP: %1 buildings ready, needed %2s, EXIT now --", (count _BaP_list), (diag_tickTime - _begintime)];

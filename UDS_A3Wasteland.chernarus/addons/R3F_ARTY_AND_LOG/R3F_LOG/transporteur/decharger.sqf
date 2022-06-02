@@ -46,7 +46,7 @@ else
 		[R3F_LOG_PUBVAR_point_attache, true] call fn_enableSimulationGlobal;
 
 		detach _objet_a_decharger;
-		
+
 		if (unitIsUAV _objet_a_decharger) then
 		{
 			[_objet_a_decharger, 1] call A3W_fnc_setLockState; // unlock

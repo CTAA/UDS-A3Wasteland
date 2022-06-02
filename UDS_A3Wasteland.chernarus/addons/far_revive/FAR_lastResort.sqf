@@ -3,25 +3,12 @@
 // ******************************************************************************************
 //	@file Name: FAR_lastResort.sqf
 //	@file Author: AgentRev
-private _donatorLevel = player getVariable ["donatorLevel", 0];
-
-private _soundN = [];
-private _soundD = [];
 
 if !(player getVariable ["performingDuty", false]) then
 {
 	// biggest to smallest
 	_availableBombs = (magazines player) arrayIntersect ["SatchelCharge_Remote_Mag", "IEDUrbanBig_Remote_Mag", "IEDLandBig_Remote_Mag", "DemoCharge_Remote_Mag", "IEDUrbanSmall_Remote_Mag", "IEDLandSmall_Remote_Mag"];
-	_soundN = ["bingbong.ogg", "lastresort.ogg", "rofl.ogg", "dodo.ogg"];
-	_uid = (getPlayerUID player);
 
-	if (_donatorLevel isEqualTo 1 || player call isAdmin) then {
-		_soundD = ["dimdadu.ogg"];
-	};
-	
-	_soundS = _soundN + _soundD;
-	_sound = selectRandom _soundS;
-	
 	if !(_availableBombs isEqualTo []) then
 	{
 		_magType = _availableBombs select 0;
@@ -37,15 +24,14 @@ if !(player getVariable ["performingDuty", false]) then
 			player setVariable ["performingDuty", true];
 
 			player removeMagazine _magType;
-			//playSound3D [call currMissionDir + "client\sounds\lastresort.ogg", player, false, getPosASL player, 1, 1, 500];
-			playSound3D [format ["%1client\sounds\%2", call currMissionDir, _sound], player, false, getPosASL player, 1, 1, 500];
+			playSound3D [call currMissionDir + "client\sounds\lastresort.ogg", player, false, getPosASL player, 1, 1, 500];
 
 			sleep 1.5;
 
 			_oldMines = getAllOwnedMines player;
 			removeAllOwnedMines player;
 
-			_mine = createMine [_mineType, ASLToAGL ((getPosASL player) vectorAdd [0, 0, 0.5]), [], 0];
+			_mine = createMine [_mineType, ASLtoAGL ((getPosASL player) vectorAdd [0, 0, 0.5]), [], 0];
 			player addOwnedMine _mine;
 
 			if (alive player) then

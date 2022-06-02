@@ -1,5 +1,5 @@
 //if (!isNil "parking_functions_defined") exitWith {};
-//no_log format["Loading parking functions ..."];
+diag_log format["Loading parking functions ..."];
 
 #include "macro.h"
 
@@ -81,7 +81,7 @@ pp_create_terminal = {
     case (_garage isKindOf "Land_Carrier_01_base_F"): { [-28.663,108.289,23.9749] };
     default                                           { [0,0,0] };
   };
-	
+
   _pos = AGLtoASL (_garage modelToWorld _offset);
   _garage allowDamage false;
 
@@ -117,17 +117,16 @@ pp_create_terminals = {
     //if (isARRAY(pp_cities_whitelist) && {count(pp_cities_whitelist) > 0 && {not(_town_name in pp_cities_whitelist)}}) exitWith {};
 
     _garage = (nearestObjects [_marker_pos, ["Land_i_Shed_Ind_F", "Land_Carrier_01_base_F"], 50]) select 0;
-	/*
     if (!isOBJECT(_garage)) exitWith {
-      no_log format["No garage near %1", _marker];
-    };*/
+      diag_log format["No garage near %1", _marker];
+    };
 
     _name = format["parking_terminal_%1", _i];
     _i = _i + 1;
 
     _pos = [_garage] call pp_create_terminal;
 
-    //no_log format["Creating parking terminal at %1 (Grid %2)", _marker, mapGridPosition _pos];
+    diag_log format["Creating parking terminal at %1 (Grid %2)", _marker, mapGridPosition _pos];
 
   } foreach (allMapMarkers select {_x select [0,7] == "Parking" && _x find "_" == -1}) //(call pp_get_all_cities);
 };
@@ -411,14 +410,14 @@ pp_client_loop = {
 
 if (isServer) then
 {
-  //no_log "Setting up parking terminals ... ";
+  diag_log "Setting up parking terminals ... ";
   [] call pp_create_terminals;
   pp_setup_terminals_complete = true;
   publicVariable "pp_setup_terminals_complete";
 }
 else
 {
- //no_log "Waiting for parking terminals setup to complete ...";
+  diag_log "Waiting for parking terminals setup to complete ...";
   waitUntil {!isNil "pp_setup_terminals_complete"};
 };
 
@@ -436,9 +435,9 @@ if (hasInterface) then
   };
 } forEach ((allMissionObjects "Land_CampingTable_small_F") select {_x getVariable ["is_parking",false]});
 
-//no_log "Parking terminals setup complete";
+diag_log "Parking terminals setup complete";
 
 [] spawn pp_client_loop;
 
 parking_functions_defined = true;
-//no_log "Loading parking functions complete";
+diag_log "Loading parking functions complete";

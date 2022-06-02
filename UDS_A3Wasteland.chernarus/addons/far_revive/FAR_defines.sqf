@@ -12,7 +12,7 @@
 #define FAR_DisableRevive false
 
 // Seconds until unconscious unit bleeds out and dies. Set to 0 to disable.
-#define FAR_BleedOut ((["A3W_bleedingTime", 120] call getPublicVar) max 10)
+#define FAR_BleedOut ((["A3W_bleedingTime", 60] call getPublicVar) max 10)
 
 // If enabled, unconscious units will not be able to use ACRE radio, hear other people or use proximity chat
 #define FAR_MuteACRE false

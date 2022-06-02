@@ -36,6 +36,7 @@ ctrlSetText [_outputIDC,""];
 // iterate throu entries of list box
 //
 {
+	// diag_log text format ["%1", lbtext [_lbIDC,_x]];
 	_class = _x;
 	if ((str inheritsFrom _class)!="") then {
 		_outText = _outText + format["class %1 : %2 {",configName _class,configName inheritsFrom _class] + _crlf;

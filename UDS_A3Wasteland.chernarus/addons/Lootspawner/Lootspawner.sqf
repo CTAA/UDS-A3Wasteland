@@ -15,7 +15,7 @@ swSpZadjust = false;                //needed for ArmA 2 and older Maps/Buildings
 //-------------------------------------------------------------------------------------
 //Variables
 //local
-#define LOOT_SPAWN_INTERVAL 5*60   //Time (in sec.) to pass before an building spawns new loot (must also change in LSclientScan.sqf)
+#define LOOT_SPAWN_INTERVAL 30*60   //Time (in sec.) to pass before an building spawns new loot (must also change in LSclientScan.sqf)
 #define CHANCES_FULL_FUEL_CAN 35    //Chance (in %) of a spawned fuelcan to be full instead of empty
 #define LOOT_Z_ADJUST -0.1          //High adjustment thats generally added to every spawnpoint
 
@@ -30,10 +30,10 @@ _tmpTstPlace = [14730, 16276, 0];   //Coord's, in [x,y,z] of a preferably flat a
 //-------------- A VALUE OF '0' RESULTS IN NO LOOT FOR THIS CLASS AND TYPE ----------------
 spawnClassChance_list =
 [
-	[1.0, 0.5, 0.5, 0.25, 0], // civil
-	[1.0, 0.5, 0.5, 0.25, 0],  // military
-	[1.0, 0.5, 0.5, 0.25, 0], // industrial
-	[1.0, 0.5, 0.5, 0.25, 0]       // research
+	[1.0, 1.5, 2.0, 0.25, 5.0], // civil
+	[1.5, 2.0, 1.5, 0.5, 1.5],  // military
+	[0.5, 1.0, 3.0, 0.25, 5.0], // industrial
+	[1.0, 1.5, 3.0, 0, 0]       // research
 ];
 
 if (["A3W_buildingLootWeapons", 1] call getPublicVar == 0) then
@@ -83,6 +83,7 @@ LSdeleter = {
 getListBuildingnames = {
 	{
 		spawnBuilding_list pushBack (_x select 0);
+		//diag_log format["-- LOOTSPAWNER DEBUG add to spawnBuilding_list: %1 ", (_x select 0)];
 	}forEach Buildingstoloot_list;
 };
 
@@ -159,6 +160,7 @@ getListBuildingPositionjunction = {
 							};
 							_posnew = [_posnew select 0, _posnew select 1, (_posnew select 2) + 0.05];
 							_posAdjustZ = (_posOrg select 2) - (_posnew select 2);
+//                          diag_log format["-- LOOTSPAWNER DEBUG adjusted %1 times", _z];
 							_posAdjustZlist pushBack _posAdjustZ;
 						} else {
 							_posAdjustZlist pushBack _posAdjustZ;
@@ -171,9 +173,10 @@ getListBuildingPositionjunction = {
 			};
 			//save final position Index & adjustments to list
 			if (_poscount != 0) then {
+				//diag_log format["-- LOOTSPAWNER DEBUG add to Buildingpositions_list: v%1v v%2v v%3v added", _buildingname, _posIdxlist, _posAdjustZlist];
 				Buildingpositions_list pushBack [_buildingname, _posIdxlist, _posAdjustZlist];
 			} else {
-				//no_log format["-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: %1 has no building positions --", _buildingname];
+				diag_log format["-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: %1 has no building positions --", _buildingname];
 				Buildingpositions_list pushBack [_buildingname, [0], [0]];
 			};
 		};
@@ -184,29 +187,29 @@ getListBuildingPositionjunction = {
 //-------------------------------------------------------------------------------------
 // MAIN
 //-------------------------------------------------------------------------------------
-//no_log format["-- LOOTSPAWNER initialise ------------------------"];
+diag_log format["-- LOOTSPAWNER initialise ------------------------"];
 if ((count Buildingstoloot_list) == 0) then {
-	//no_log format["--!!ERROR!! LOOTSPAWNER Buildingstoloot_list in lootBuildings.sqf MUST have one entry at least !!ERROR!!--"];
-	//no_log format["-- LOOTSPAWNER disabled --"];
+	diag_log format["--!!ERROR!! LOOTSPAWNER Buildingstoloot_list in lootBuildings.sqf MUST have one entry at least !!ERROR!!--"];
+	diag_log format["-- LOOTSPAWNER disabled --"];
 } else {
 	_dbgTime = diag_tickTime;
 	call getListBuildingnames;
 
-	//no_log format["-- LOOTSPAWNER spawnBuilding_list ready, d: %1s", (diag_tickTime - _dbgTime)];
+	diag_log format["-- LOOTSPAWNER spawnBuilding_list ready, d: %1s", (diag_tickTime - _dbgTime)];
 
 	_dbgTime = diag_tickTime;
 	[_tmpTstPlace] call getListBuildingPositionjunction;
 
-	//no_log format["-- LOOTSPAWNER Buildingpositions_list ready, d: %1s", (diag_tickTime - _dbgTime)];
+	diag_log format["-- LOOTSPAWNER Buildingpositions_list ready, d: %1s", (diag_tickTime - _dbgTime)];
 
 	_dbgTime = diag_tickTime;
 	call getUsedclasses;
 
-	//no_log format["-- LOOTSPAWNER LSusedclass_list ready, d: %1s", (diag_tickTime - _dbgTime)];
+	diag_log format["-- LOOTSPAWNER LSusedclass_list ready, d: %1s", (diag_tickTime - _dbgTime)];
 
 	//run loot deleter continously
 	LOOT_SPAWN_INTERVAL spawn LSdeleter;
-	//no_log format["-- LOOTSPAWNER LSDer started..."];
+	diag_log format["-- LOOTSPAWNER LSDer started..."];
 
 	if (swDebugLS) then {
 		dbgTime = diag_tickTime;
@@ -234,4 +237,60 @@ if ((count Buildingstoloot_list) == 0) then {
 			[_buildings, LOOT_SPAWN_INTERVAL, CHANCES_FULL_FUEL_CAN, LOOT_Z_ADJUST, ["A3W_buildingLootChances", 25] call getPublicVar] spawn fn_getBuildingstospawnLoot;
 		};
 	};
+
+	/*
+	diag_log format["-- LOOTSPAWNER ready and waiting for players -----"];
+	//go into mainloop till mission ends
+	while {true} do {
+		_playersalive = false;
+		{
+			if (swDebugLS) then {
+				dbgTimeplU = diag_tickTime;
+			};
+			//is Player online and alive?
+			if ((isPlayer _x) && (alive _x)) then {
+				_playersalive = true;
+				//jogging has 4.16..., sprinting has 5.5... so if player velocity is < 6 spawn loot
+				//works for players in vehicles too
+				if (((velocity _x) distance [0,0,0]) < 6) then {
+				//if ((vehicle _x isKindOf "Land") || (vehicle _x isKindOf "Ship")) then {
+					_posPlayer = getPos _x;
+					//get list of viable buildings around player
+					_BaP_list = nearestObjects [_posPlayer, spawnBuilding_list, _spawnradius];
+					if ((count _BaP_list) > 0) then {
+						//give to spawn function
+						_hndl = [_BaP_list, LOOT_SPAWN_INTERVAL, CHANCES_FULL_FUEL_CAN, LOOT_Z_ADJUST, ["A3W_buildingLootChances", 25] call getPublicVar] spawn fn_getBuildingstospawnLoot;
+						waitUntil{scriptDone _hndl};
+					};
+				};
+			};
+			sleep 0.001;
+			if (swDebugLS) then {
+				dbgloopTimeplU = dbgloopTimeplU + (diag_tickTime - dbgTimeplU);
+				dbgTurnsplU = dbgTurnsplU + 1;
+			};
+		}forEach playableUnits;
+		if (swDebugLS) then {
+			dbgloopTime = dbgloopTime + dbgloopTimeplU;
+			dbgloopTimeplU  = 0;
+			dbgTurns = dbgTurns + 1;
+			//every 30 sec. give stats out
+			if ((diag_tickTime - dbgTime) > 30) then {
+				if (dbgTurnsplU > 0) then {
+					diag_log format["-- DEBUG LOOTSPAWNER MAIN turns (spawned): %1(%2), duration: %3sec, average: %4sec.",dbgTurns ,dbgTurnsplU , dbgloopTime, (dbgloopTime / dbgTurnsplU)];
+				} else {
+					diag_log format["-- DEBUG LOOTSPAWNER MAIN waiting for players"];
+				};
+				dbgTime = diag_tickTime;
+				dbgTurns = 0;
+				dbgTurnsplU = 0;
+				dbgloopTime = 0;
+			};
+		};
+		//if no players online wait a bit
+		if (!_playersalive) then {
+			sleep 2;
+		};
+	};
+	*/
 };

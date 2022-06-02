@@ -1,5 +1,5 @@
 if (!isNil "list_simple_menu_functions_defined") exitWith {};
-//no_log format["Loading list simple menu functions ... "];
+diag_log format["Loading list simple menu functions ... "];
 
 #include "constants.h"
 #include "macro.h"
@@ -128,4 +128,4 @@ list_simple_menu_setup = {
 
 list_simple_menu_functions_defined = true;
 
-//no_log format["Loading list simple menu functions complete"];
+diag_log format["Loading list simple menu functions complete"];

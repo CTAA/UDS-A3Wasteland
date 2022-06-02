@@ -31,6 +31,7 @@ case 0: {//fill weapon list
 				_display_name = getText(_weapon >> "displayName");
 				_no_pack = getNumber(_weapon >> "ACE_nopack");
 				_optics = getText(_weapon >> "ModelOptics");
+				//diag_log format ["%1",[_weap_type,_cur_type,_no_pack]];
 				if (((((getNumber(_weapon >> "scope")==2)&&(getText(_weapon >> "model")!="")&&(_display_name!=""))||((_item_type==5)&&(getNumber(_weapon >> "scope")>0)))&&(_cur_type in _type)&&(_display_name!=""))
 				&&
 				((_item_type in [3,4,5,6,7])||((_item_type==0)&&(_no_pack!=1)&&((_optics=="-")))||((_item_type==1)&&(_no_pack!=1)&&((_optics!="-")))||((_item_type==2)&&((_cur_type==5)||((_no_pack==1)&&(_cur_type in _type)))))) then {

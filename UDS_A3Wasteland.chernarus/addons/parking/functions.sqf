@@ -15,7 +15,7 @@ if !(["A3W_privateParking"] call isConfigOn && ["A3W_vehicleSaving"] call isConf
 
 if !((call A3W_savingMethod) in ["extDB","sock"]) exitWith
 {
-  //no_log "parking only compatible with extDB and sock, aborting setup.";
+  diag_log "parking only compatible with extDB and sock, aborting setup.";
   parking_functions_defined = false;
 };
 

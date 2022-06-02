@@ -9,6 +9,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 #define VEHICLE_UNLOCKED(VEH) (locked (VEH) < 2 || (VEH) getVariable ["ownerUID","0"] isEqualTo getPlayerUID player)
 
 if (R3F_LOG_mutex_local_verrou) then
@@ -43,11 +44,11 @@ else
 
 		if !(_objet getVariable "R3F_LOG_disabled") then
 		{
-		
 			if (unitIsUAV _objet && {!(_objet getVariable ["ownerUID","0"] isEqualTo getPlayerUID player) && !(group (uavControl _objet select 0) in [grpNull, group player])}) exitWith
 			{
 				player globalChat STR_R3F_LOG_action_heliporter_UAV_group;
 			};
+
 			if (isNull (_objet getVariable "R3F_LOG_est_transporte_par")) then
 			{
 				if ({isPlayer _x} count crew _objet == 0) then

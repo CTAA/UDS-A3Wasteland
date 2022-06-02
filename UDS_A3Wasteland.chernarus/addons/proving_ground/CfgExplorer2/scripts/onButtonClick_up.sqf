@@ -13,7 +13,7 @@ _debug = false;
 
 if ((count ConfigPath) < 2) then
 {
-	//no_log "onButtonClickUp.sqf: ERROR: Not enough Values in Array ConfigPath!";
+	diag_log "onButtonClickUp.sqf: ERROR: Not enough Values in Array ConfigPath!";
 	if (true) exitWith {};
 };
 
@@ -21,14 +21,13 @@ CurrentConfig = ConfigPath select (count ConfigPath - 2);
 
 _LastClassName = toUpper (configName (ConfigPath select (count ConfigPath - 1)));
 
-/*
 if (_debug) then
 {
-	no_log text "===== onButtonClickUp.sqf =====";
-	no_log text format["onButtonClickUp.sqf: ConfigPath    : %1",ConfigPath];
-	no_log text format["onButtonClickUp.sqf: CurrentConfig : %1",CurrentConfig];
-	no_log text format["onButtonClickUp.sqf: _LastClassName: %1",_LastClassName];
-};*/
+	diag_log text "===== onButtonClickUp.sqf =====";
+	diag_log text format["onButtonClickUp.sqf: ConfigPath    : %1",ConfigPath];
+	diag_log text format["onButtonClickUp.sqf: CurrentConfig : %1",CurrentConfig];
+	diag_log text format["onButtonClickUp.sqf: _LastClassName: %1",_LastClassName];
+};
 
 // ***
 // *** Delete the last path from CofnigPath

@@ -26,9 +26,25 @@
 	CHVD_carObj = (profileNamespace getVariable ["CHVD_carObj", getObjectViewDistance param [0,viewDistance,[0]]]) min CHVD_maxObj max 0;
 	CHVD_airObj = (profileNamespace getVariable ["CHVD_airObj", getObjectViewDistance param [0,viewDistance,[0]]]) min CHVD_maxObj max 0;
 
-	CHVD_footTerrain = getTerrainGrid;
-	CHVD_carTerrain = getTerrainGrid;
-	CHVD_airTerrain = getTerrainGrid;
+	/*if (CHVD_allowTerrain) then
+	{
+		CHVD_footTerrain = profileNamespace getVariable ["CHVD_footTerrain", getTerrainGrid];
+		CHVD_carTerrain = profileNamespace getVariable ["CHVD_carTerrain", getTerrainGrid];
+		CHVD_airTerrain = profileNamespace getVariable ["CHVD_airTerrain", getTerrainGrid];
+
+		if (!CHVD_allowNoGrass) then
+		{
+			CHVD_footTerrain = CHVD_footTerrain min 10 max 3.125;
+			CHVD_carTerrain = CHVD_carTerrain min 10 max 3.125;
+			CHVD_airTerrain = CHVD_airTerrain min 10 max 3.125;
+		};
+	}
+	else
+	{*/
+		CHVD_footTerrain = getTerrainGrid;
+		CHVD_carTerrain = getTerrainGrid;
+		CHVD_airTerrain = getTerrainGrid;
+	//};
 
 	CHVD_targetView = CHVD_footObj;
 	CHVD_targetObj = CHVD_footObj;
@@ -36,6 +52,11 @@
 
 	//Begin initialization
 	waitUntil {!isNull player && !isNull findDisplay 46};
+
+	//_actionText = if (isLocalized "STR_chvd_title") then {localize "STR_chvd_title"} else {"View Distance Settings"};
+	//player addAction [_actionText, CHVD_fnc_openDialog, [], -99, false, true];
+	//player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_openDialog, [], -99, false, true]", _actionText]];
+
 	//Detect when to change setting type
 	0 spawn { waitUntil CHVD_fnc_updateSettings };
 };

@@ -10,10 +10,13 @@ if (((_cap select 0)+getNumber(configFile>>"CfgMagazines">>_magazine>>"count") <
 			{if (_magazine in getArray(configFile>>"CfgWeapons">>_x>>"magazines")) then
 				{_magazine_not_compatible = false;};
 			} forEach (weapons _veh);
+			//diag_log ["_magazine_not_compatible",_magazine_not_compatible];
 			if (_magazine_not_compatible) then {
 				{{	if ((_magazine_not_compatible)&&(_magazine in (getArray(configFile>>"CfgWeapons">>_x>>"magazines")))) then {
 						_magazine_not_compatible = false;
+						//diag_log format ["weapon %1",_x];
 						_veh addWeapon _x;
+						//diag_log format ["weapon added %1",_x];
 					};
 				} forEach _x;} forEach CHANGABLE_WEAPONS;
 			};

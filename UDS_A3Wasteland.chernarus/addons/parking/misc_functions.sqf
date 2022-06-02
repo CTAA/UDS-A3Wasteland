@@ -1,5 +1,5 @@
 if (!isNil "parking_misc_functions_defined") exitWith {};
-//no_log format["Loading parking misc functions"];
+diag_log format["Loading parking misc functions"];
 
 #include "macro.h"
 
@@ -77,5 +77,5 @@ format_integer = {
 };
 
 
-//no_log format["Loading parking misc functions complete"];
+diag_log format["Loading parking misc functions complete"];
 parking_misc_functions_defined = true;

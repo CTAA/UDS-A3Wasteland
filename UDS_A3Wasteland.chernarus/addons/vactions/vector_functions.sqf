@@ -1,5 +1,5 @@
 if (!isNil "vector_functions_defined") exitWith {};
-//no_log format["Loading vector functions ... "];
+diag_log format["Loading vector functions ... "];
 #include "macro.h"
 
 
@@ -124,4 +124,4 @@ vector_3d_rotate = {
 };
 
 vector_functions_defined = true;
-//no_log format["Loading vector functions complete"];
+diag_log format["Loading vector functions complete"];

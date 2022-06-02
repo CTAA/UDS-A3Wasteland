@@ -1,5 +1,5 @@
 if (!isNil "storage_functions_defined") exitWith {};
-//no_log format["Loading storage functions ..."];
+diag_log format["Loading storage functions ..."];
 
 #include "macro.h"
 #include "futura.h"
@@ -99,13 +99,13 @@ if (["A3W_savingMethod", "profile"] call getPublicVar != "sock") then
   p_saveStorage = {
     params ["", "_obj"];
 
-	private _cargo = _obj call fn_containerCargoToPairs;
+    private _cargo = _obj call fn_containerCargoToPairs;
     private _storage =
     [
-		["Weapons", _cargo select 0],
-		["Magazines", _cargo select 1],
-		["Items", _cargo select 2],
-		["Backpacks", _cargo select 3]
+      ["Weapons", _cargo select 0],
+      ["Magazines", _cargo select 1],
+      ["Items", _cargo select 2],
+      ["Backpacks", _cargo select 3]
     ];
 
     player setVariable ["private_storage", _storage];
@@ -293,14 +293,14 @@ ps_client_loop = {
 
 if (isServer) then
 {
-  //no_log "Setting up storage boxes ... ";
+  diag_log "Setting up storage boxes ... ";
   [] call ps_create_boxes;
   ps_setup_boxes_complete = true;
   publicVariable "ps_setup_boxes_complete";
 }
 else
 {
-  //no_log "Waiting for storage boxes setup to complete ...";
+  diag_log "Waiting for storage boxes setup to complete ...";
   waitUntil {!isNil "ps_setup_boxes_complete"};
 };
 
@@ -318,9 +318,9 @@ if (hasInterface) then
   };
 } forEach ((allMissionObjects "All") select {_x getVariable ["is_storage",false]});
 
-//no_log "Storage boxes setup complete";
+diag_log "Storage boxes setup complete";
 
 [] spawn ps_client_loop;
 
 storage_functions_defined = true;
-//no_log "Loading storage functions complete";
+diag_log "Loading storage functions complete";

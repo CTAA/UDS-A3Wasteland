@@ -2,7 +2,7 @@
 #include "macro.h"
 
 if (not(undefined(camera_functions_defined))) exitWith {nil};
-//no_log format["Loading camera functions ..."];
+diag_log format["Loading camera functions ..."];
 
 object_calcualte_vectors = {
 	ARGVX2(0,_data);
@@ -1305,5 +1305,5 @@ camera_3d_tags_draw = {
 };
 
 
-//no_log format["Loading camera functions loaded ..."];
+diag_log format["Loading camera functions loaded ..."];
 camera_functions_defined =  true;

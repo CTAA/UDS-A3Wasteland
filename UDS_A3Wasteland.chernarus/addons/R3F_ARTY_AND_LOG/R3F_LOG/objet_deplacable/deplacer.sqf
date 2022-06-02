@@ -125,12 +125,13 @@ else
 
 			R3F_LOG_mutex_local_verrou = false;
 			R3F_LOG_force_horizontally = false;
-			_action_menu_release_relative = player addAction [("<img image='client\icons\r3f_release.paa' color='#06ef00'/> <t color='#06ef00'>" + STR_R3F_LOG_action_relacher_objet + "</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\relacher.sqf", false, 5.5, true, true, "",'(player distance (getMarkerPos "camp_delta") >= 100) AND (player distance (getMarkerPos "GunStore6_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore5_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore4_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore3_objSpawn") >= 80) AND (player distance (getMarkerPos "GunStore2_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore1_objSpawn") >= 50)'];
-			_action_menu_release_horizontal = player addAction [("<img image='client\icons\r3f_releaseh.paa' color='#06ef00'/> <t color='#06ef00'>" + STR_RELEASE_HORIZONTAL + "</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\relacher.sqf", true, 5.5, true, true, "",'(player distance (getMarkerPos "camp_delta") >= 100) AND (player distance (getMarkerPos "GunStore6_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore5_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore4_objSpawn") >= 50) AND (player distance (getMarkerPos "GunStore3_objSpawn") >= 80)  AND (player distance (getMarkerPos "GunStore2_objSpawn") >= 50)  AND (player distance (getMarkerPos "GunStore1_objSpawn") >= 50)'];
+
+			_action_menu_release_relative = player addAction [("<img image='client\icons\r3f_release.paa' color='#06ef00'/> <t color='#06ef00'>" + STR_R3F_LOG_action_relacher_objet + "</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\relacher.sqf", false, 5.5, true, true];
+			_action_menu_release_horizontal = player addAction [("<img image='client\icons\r3f_releaseh.paa' color='#06ef00'/> <t color='#06ef00'>" + STR_RELEASE_HORIZONTAL + "</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\relacher.sqf", true, 5.5, true, true];
 			_action_menu_45 = player addAction [("<img image='client\icons\r3f_rotate.paa' color='#06ef00'/> <t color='#06ef00'>Rotate object 45°</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\rotate.sqf", 45, 5.5, true, false];
 			//_action_menu_90 = player addAction [("<img image='client\ui\ui_arrow_combo_ca.paa'/> <t color='#dddd00'>Rotate object 90°</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\rotate.sqf", 90, 5, true, false];
 			//_action_menu_180 = player addAction [("<img image='client\ui\ui_arrow_combo_ca.paa'/> <t color='#dddd00'>Rotate object 180°</t>"), "addons\R3F_ARTY_AND_LOG\R3F_LOG\objet_deplacable\rotate.sqf", 180, 5, true, false];
-		
+
 			// On limite la vitesse de marche et on interdit de monter dans un véhicule tant que l'objet est porté
 			while {attachedTo R3F_LOG_joueur_deplace_objet == player && alive player} do
 			{

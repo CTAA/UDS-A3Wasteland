@@ -1,6 +1,8 @@
-class CHVD {
+class CHVD
+{
 	tag = "CHVD";
-	class script {
+	class script
+	{
 		file = "addons\CHVD";
 		class onCheckedChanged {};
 		class onSliderChange {};

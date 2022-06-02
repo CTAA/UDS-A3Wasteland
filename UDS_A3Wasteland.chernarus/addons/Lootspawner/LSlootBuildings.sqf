@@ -10,7 +10,6 @@
 //                              class:          0-civil, 1-military, ... (add more as you wish)
 //
 //!!!EVERY building must have only ONE entry here AND been in ONE class!!!
-// Version Chernarus by Aryx - v0.1
 //-------------------------------------------------------------------------------------
 Buildingstoloot_list =
 [
@@ -140,54 +139,5 @@ Buildingstoloot_list =
 	["Land_u_Shed_Ind_F", 2],
 	["Land_u_Shop_01_V1_F", 0],
 	["Land_u_Shop_02_V1_F", 0],
-	["Land_WIP_F", 2],
-	//Chernarus Buildings 0 = ziv, 1 = mil, 2 = indus, 3 = res
-	["Land_Farm_Cowshed_b", 0],
-	["Land_Farm_Cowshed_a", 0],
-	["Land_Mil_Guardhouse", 0],
-	["Land_A_Hospital", 0],
-	["Land_HouseV2_04", 0],
-	["Land_HouseV2_04_interier", 0],
-	["Land_Panelak3_Grey", 0],
-	["Land_Panelak2", 0],
-	["Land_Panelak", 0],
-	["Land_HouseB_Tenement", 0],
-	["Land_Panelak2_Grey", 0],
-	["Land_Barn_W_01", 0],
-	["Land_A_GeneralStore_01", 0],
-	["Land_Ss_hangard", 1],
-	["Land_Ss_hangar", 1],
-	["Camp_EP1", 1],
-	["Camp", 1],
-	["CampEast", 1],
-	["CampEast_EP1", 1],
-	["CampEastC", 1],
-	["Land_tent_east", 1],
-	["CampEmpty", 1],
-	["Land_Mil_hangar_EP1", 1],
-	["Land_Mil_House", 1],
-	["MASH", 1],
-	["Land_Army_hut3_long_int", 1],
-	["Land_Army_hut2", 1],
-	["Land_Mil_ControlTower_no_interior_CUP", 1],
-	["Land_Mil_ControlTower", 1],
-	["Land_Mil_Barracks", 1],
-	["Land_Mil_Barracks_i", 1],
-	["Land_Ind_Vysypka", 2],
-	["Land_Barn_Metal", 2],
-	["Land_Tovarna1", 2],
-	["Land_Tovarna2", 2],
-	["Land_Shed_Ind02_dam", 2],
-	["Land_Shed_Ind02", 2],
-	["Land_Hangar_2", 2],
-	["Land_Ind_Workshop01_04", 2],
-	["Land_Ind_Workshop01_01", 2],
-	["Land_Ind_Workshop01_L", 2],
-	["Land_Ind_Garage01", 2],
-	["Land_Ind_Workshop01_03", 2],
-	["Land_A_Office01", 3],
-	["Land_A_GeneralStore_01a", 3],
-	["Land_a_stationhouse", 3],
-	["Land_Stodola_old_open", 3],
-	["Land_Nav_Boathouse", 3]
+	["Land_WIP_F", 2]
 ];

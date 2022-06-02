@@ -1,7 +1,7 @@
-private "_updateType";
+private ["_sliderPos","_updateType"];
 _varType1 = param [0, "", [""]];
 _slider1 = ctrlIDC (param [1, 0, [0, controlNull]]);
-private _sliderPos = param [2, 0, [0]];
+_sliderPos = param [2, 0, [0]];
 _text1 = param [3, 0, [0, controlNull]];
 _varType2 = param [4, "", [""]];
 _slider2 = param [5, 0, [0, controlNull]];

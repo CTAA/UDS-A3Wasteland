@@ -1,4 +1,5 @@
 #include "defs.hpp"
+//diag_log "restore_loadout";
 _veh = GET_SELECTED_VEHICLE;
 _veh_type = GET_SELECTED_DATA(balca_loader_vehicle_list_IDC);
 
@@ -14,6 +15,7 @@ if ((_veh isKindOf "Plane")or(_veh isKindOf "Helicopter")or(_veh isKindOf "Car")
 	{_veh removeMagazineTurret [_x,-1];} forEach _current_magazines;
 	{_veh addMagazineTurret [_x,-1];} forEach _default_magazines_hull;
 };
+//diag_log "restore_loadout_1";
 //turrets
 _turrets= configFile >> "CfgVehicles" >> _veh_type >> "Turrets";
 for "_i" from 0 to (count _turrets)-1 do {
@@ -43,3 +45,4 @@ for "_i" from 0 to (count _turrets)-1 do {
 };
 
 [] call GFNC(fill_current_magazines_list);
+//diag_log "restore_loadout_end";

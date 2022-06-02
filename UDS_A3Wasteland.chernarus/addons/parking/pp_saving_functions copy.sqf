@@ -1,11 +1,10 @@
 if (!isNil "parking_saving_functions_defined") exitWith {};
-diag_log format["Loading parking saving functions ..."];
+//no_log format["Loading parking saving functions ..."];
 
 #include "macro.h"
 
 if (isServer) then {
   pp_notify = {
-    //diag_log format["%1 call pp_notify", _this];
     ARGVX3(0,_player,objNull);
     ARGVX3(1,_msg,"");
     ARGV3(2,_dialog,"");
@@ -16,7 +15,6 @@ if (isServer) then {
   };
 
   pp_mark_vehicle = {
-    //diag_log format["%1 call pp_create_mark_vehicle", _this];
     ARGVX3(0,_player,objNull);
     ARGVX3(1,_vehicle,objNull);
 
@@ -72,21 +70,22 @@ if (isServer) then {
       private _varVals = [_vehData, _varNames] call fn_preprocessSavedData;
 
       private ["_veh", "_hoursAlive", "_hoursUnused"];
-      //private (_varVals apply {_x select 0});
+      private (_varVals apply {_x select 0});
+
       //{ (_x select 1) call compile format ["%1 = _this", _x select 0] } forEach _varVals;
       [] params _varVals; // automagic assignation
 
       private _lockState = [1,2] select (["A3W_vehicleLocking"] call isConfigOn && round getNumber (configFile >> "CfgVehicles" >> _class >> "isUav") < 1);
 
       // delete wrecks near spawn
-      {
-        if (!alive _x) then
-        {
-          deleteVehicle _x;
-        };
-      } forEach nearestObjects [_markerPos, ["LandVehicle","Air","Ship"], 25 max sizeOf _class];
-
-      call fn_restoreSavedVehicle;
+	{
+		if (!alive _x) then
+		{
+			deleteVehicle _x;
+		};
+	} forEach nearestObjects [_markerPos, ["LandVehicle","Air","Ship"], 25 max sizeOf _class];
+	  
+	  call fn_restoreSavedVehicle;
 
       _veh call fn_manualVehicleSave;
       _veh
@@ -109,7 +108,8 @@ if (isServer) then {
       [_player, format ["Someone else has the ownership of the %1, you cannot park it.", ([typeOf _vehicle] call generic_display_name)], "Parking Error"] call pp_notify;
     };
 
-    diag_log format["Parking vehicle %1(%2) for player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid];
+   // no_log format["Parking vehicle %1(%2) for player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid];
+	[format ["PARKING: von %1(%2) fuer player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid],"aryx_log",false,false] call Aryx_Logit;
 
     def(_parked_vehicles);
     _parked_vehicles = _player getVariable "parked_vehicles";
@@ -140,19 +140,19 @@ if (isServer) then {
         if !(_saveFlag) then {
           _vehicle setVariable ["A3W_purchasedVehicle", nil];
         };
-
-        diag_log format["ERROR: Could not park vehicle %1(%2) for player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid];
+		[format ["ERROR: Einpark Fehler von fahrzeug %1(%2) fuer player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid],"aryx_log",false,false] call Aryx_Logit;
+        //no_log format["ERROR: Could not park vehicle %1(%2) for player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid];
         [_player, format["An unknown error happened while trying to park the %1", ([typeOf _vehicle] call generic_display_name)], "Parking Error"] call pp_notify;
       };
 
       def(_display_name);
       _display_name = [typeOf _vehicle] call generic_display_name;
 
-      private _attachedObjs = attachedObjects _vehicle;
-      if (!isNil "fn_untrackSavedVehicle") then { _vehicle call fn_untrackSavedVehicle };
+	 private _attachedObjs = attachedObjects _vehicle;
+     if (!isNil "fn_untrackSavedVehicle") then { _vehicle call fn_untrackSavedVehicle };
       deleteVehicle _vehicle;
-
-      { ["detach", _x] call A3W_fnc_towingHelper } forEach _attachedObjs;
+	  
+	  { ["detach", _x] call A3W_fnc_towingHelper } forEach _attachedObjs;
 
       _player setVariable ["parked_vehicles", _parked_vehicles]; //, true];
       ["parked_vehicles", _parked_vehicles] remoteExecCall ["A3W_fnc_setVarPlayer", _player];
@@ -169,7 +169,7 @@ if (isServer) then {
     def(_uid);
     _uid = getPlayerUID _player;
 
-    diag_log format["Retrieving parked vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
+    //no_log format["Retrieving parked vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
 
     def(_parked_vehicles);
     _parked_vehicles = _player getVariable "parked_vehicles";
@@ -179,7 +179,7 @@ if (isServer) then {
     _vehicle_data = [_parked_vehicles, _vehicle_id] call fn_getFromPairs;
 
     if (!isARRAY(_vehicle_data)) exitWith {
-      diag_log format["ERROR: Could not retrieve vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
+      //no_log format["ERROR: Could not retrieve vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
       [_player, format["An error occurred, your vehicle (%2) could not be retrieved. Please report this error to A3Armory.com.", _vehicle_id], "Retrieval Error"] call pp_notify;
     };
 
@@ -189,29 +189,30 @@ if (isServer) then {
     //def(_class);
     _class = [_vehicle_data, "Class"] call fn_getFromPairs;
 
-    private ["_marker", "_markerPos", "_dirAngle", "_pos", "_posAGL"];
+	private ["_marker", "_markerPos", "_dirAngle", "_pos", "_posAGL"];
     private _nearbySpawns = allMapMarkers select {_x select [0,7] == "Parking" && {_x select [count _x - 6, 6] == "_spawn" && _player distance markerPos _x < 100}};
 
     if !(_nearbySpawns isEqualTo []) then
     {
-      _marker = _nearbySpawns select 0;
-      _markerPos = markerPos _marker;
-      _dirAngle = markerDir _marker;
-
+		_marker = _nearbySpawns select 0;
+		_markerPos = markerPos _marker;
+		_dirAngle = markerDir _marker;
+	  
+	  
       if (surfaceIsWater _markerPos) then
       {
-        _markerPos set [2, (getPosASL _player) select 2];
-        _posAGL = ASLtoAGL _markerPos;
-        _pos = if (round getNumber (configFile >> "CfgVehicles" >> _class >> "canFloat") > 0) then { _posAGL } else { ASLtoATL _markerPos };
+         _markerPos set [2, (getPosASL _player) select 2];
+		_posAGL = ASLtoAGL _markerPos;
+		_pos = if (round getNumber (configFile >> "CfgVehicles" >> _class >> "canFloat") > 0) then { _posAGL } else { ASLtoATL _markerPos };
       }
       else
       {
-        _pos = _markerPos;
-        _posAGL = _pos;
+		_pos = _markerPos;
+		_posAGL = _pos;
       };
-
-      _pos set [2, (_pos select 2) + 0.1];
-    };
+	  
+	  _pos set [2, (_pos select 2) + 0.1];
+	};
 
     def(_create_array);
     //if (not([_player,_class,_position] call pp_is_safe_position)) then {
@@ -223,7 +224,8 @@ if (isServer) then {
     _vehicle = [[_vehicle_id, _vehicle_data], true,OR(_create_array,nil)] call v_restoreVehicle;
 
     if (isNil "_vehicle") exitWith {
-      diag_log format["ERROR: Could not restore vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
+		[format ["ERROR: Auspark Fehler von fahrzeug %1 fuer player %2(%3)", _vehicle_id,  (name _player), _uid],"aryx_log",false,false] call Aryx_Logit;
+     // no_log format["ERROR: Could not restore vehicle %1 for player %2(%3)", _vehicle_id,  (name _player), _uid];
       [_player, format["An error occurred, your vehicle (%1) could not be restored. Please report this error to A3Armory.com.", _vehicle_id], "Restoring Error"] call pp_notify;
     };
 
@@ -245,7 +247,6 @@ if (isServer) then {
 
 if (isClient) then {
   pp_notify_request_handler = {_this spawn {
-    //diag_log format["%1 call pp_notify_request_handler", _this];
     ARGVX3(1,_this,[]);
     ARGVX3(0,_msg,"");
     ARGV3(1,_dialog,"");
@@ -260,7 +261,6 @@ if (isClient) then {
   "pp_notify_request" addPublicVariableEventHandler {_this call pp_notify_request_handler};
 
   pp_mark_vehicle_request_handler = {_this spawn {
-    //diag_log format["%1 call pp_mark_vehicle_request_handler", _this];
     ARGVX3(1,_this,[]);
     ARGVX3(0,_vehicle,objNull);
 
@@ -282,7 +282,7 @@ if (isClient) then {
     _marker setMarkerColorLocal "ColorBlue";
     //_marker setMarkerTextLocal _name;
 
-    _vehicle setVariable ["was_parked", true];
+   _vehicle setVariable ["was_parked", true];
 
     if (!alive getConnectedUAV player) then {
       player connectTerminalToUAV _vehicle; // attempt uav connect
@@ -309,5 +309,5 @@ if (isClient) then {
 };
 
 
-diag_log format["Loading parking saving functions complete"];
+//no_log format["Loading parking saving functions complete"];
 parking_saving_functions_defined = true;

@@ -54,5 +54,6 @@ _capacity_max = _capacity_max + getNumber(configFile>>"CfgMagazines">>_x>>"count
 
 if (_veh isKindOf "StaticWeapon") then {_capacity_max = (_capacity_max*5) max 30};
 _arr = [_capacity_current,_capacity_max];
+//diag_log format ["%1",_arr];
 _arr
 

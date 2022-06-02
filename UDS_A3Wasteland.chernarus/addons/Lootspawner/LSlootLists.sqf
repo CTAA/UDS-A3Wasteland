@@ -14,108 +14,70 @@ lootWeapon_list =
 	[ // CIVIL
 		0,
 		[
-			"arifle_MX_F",
-			"arifle_MXC_Black_F",
-			"arifle_MX_SW_F",
-			"arifle_MXM_Black_F",
-			"arifle_AK12_F",
-			"arifle_AKM_F",
-			"arifle_ARX_blk_F",
-			"arifle_SPAR_01_blk_F",
-			"arifle_SPAR_02_blk_F",
-			"arifle_Katiba_F",
-			"sgun_HunterShotgun_01_F",
-			"arifle_AKS_F",
-			"arifle_CTAR_blk_F",
+			"arifle_MK20C_F",
+			"arifle_MK20_F",
 			"arifle_TRG20_F",
-			"arifle_Mk20C_F",
-			"arifle_Katiba_C_F",
-			"arifle_MSBS65_black_F",
-			"arifle_AK12U_F",
-			"arifle_MSBS65_Mark_black_F",
-			"SMG_03_TR_black",
-			"SMG_05_F"
+			"arifle_TRG21_F",
+			"Binocular",
+			"hgun_PDW2000_F",
+			"SMG_01_F",                         // Vermin .45 ACP
+			"SMG_02_F"                          // Sting 9mm
 		]
 	],
 	[ // MILITARY
 		1,
 		[
-			"arifle_MX_F",
-			"arifle_MXC_Black_F",
-			"arifle_MX_SW_F",
-			"arifle_MXM_Black_F",
-			"arifle_AK12_F",
-			"arifle_AKM_F",
-			"arifle_ARX_blk_F",
-			"arifle_SPAR_01_blk_F",
-			"arifle_SPAR_02_blk_F",
-			"arifle_Katiba_F",
-			"arifle_MX_GL_Black_F",
-			"arifle_AK12_GL_F",
-			"arifle_SPAR_01_GL_khk_F",
-			"arifle_CTAR_GL_ghex_F",
-			"arifle_TRG21_GL_F",
-			"arifle_Mk20_GL_F",
-			"arifle_Katiba_GL_F",
-			"arifle_MSBS65_GL_black_F",
-			"sgun_HunterShotgun_01_F",
-			"arifle_AKS_F",
-			"arifle_CTAR_blk_F",
-			"arifle_TRG20_F",
-			"arifle_Mk20C_F",
 			"arifle_Katiba_C_F",
-			"arifle_MSBS65_black_F",
-			"arifle_AK12U_F",
-			"arifle_MSBS65_Mark_black_F",
-			"arifle_MSBS65_UBS_black_F",
+			"arifle_Katiba_F",
+			"arifle_Katiba_GL_F",
+			"arifle_Mk20C_F",
+			"arifle_Mk20_F",
+			"arifle_Mk20_GL_F",
+			"arifle_MXC_F",
+			"arifle_MXM_F",
+			"arifle_MX_F",
+			"arifle_MX_GL_F",
+			"arifle_MX_SW_F",
+			"arifle_SDAR_F",
+			"arifle_TRG20_F",
+			"arifle_TRG21_F",
+			"arifle_TRG21_GL_F",
+			"Binocular",
+			"hgun_PDW2000_F",
+			"LMG_Mk200_F",
 			"LMG_Zafir_F",
-			"LMG_03_F",
-			"srifle_DMR_01_F",					//rahim
-			"srifle_EBR_F",						//mk18
-			"srifle_DMR_06_camo_F",				//mk14
-			"srifle_DMR_07_hex_F",				//cmr
-			"srifle_DMR_02_camo_F",				//mar10
-			"srifle_DMR_03_multicam_F",			//mk-l
-			"srifle_DMR_05_hex_F"				//cyrus
+			"Rangefinder",
+			"SMG_01_F",                         // Vermin .45 ACP
+			"SMG_02_F",                         // Sting 9mm
+			"srifle_EBR_F",
+			"srifle_GM6_F",
+			"srifle_LRR_F"
 		]
 	],
 	[ // INDUSTRIAL
 		2,
 		[
-			"arifle_MX_F",
-			"arifle_MXC_Black_F",
-			"arifle_MX_SW_F",
-			"arifle_MXM_Black_F",
-			"arifle_AK12_F",
-			"arifle_AKM_F",
-			"arifle_ARX_blk_F",
-			"arifle_SPAR_01_blk_F",
-			"arifle_SPAR_02_blk_F",
-			"arifle_Katiba_F",
-			"sgun_HunterShotgun_01_F",
-			"arifle_AKS_F",
-			"arifle_CTAR_blk_F",
-			"arifle_TRG20_F",
 			"arifle_Mk20C_F",
+			"arifle_Mk20_F",
+			"arifle_TRG20_F",
+			"arifle_TRG21_F",
 			"arifle_Katiba_C_F",
-			"arifle_MSBS65_black_F",
-			"arifle_AK12U_F",
-			"arifle_MSBS65_Mark_black_F",
-			"SMG_03_TR_black",
-			"SMG_05_F"
+			"arifle_MXC_F",
+			"Binocular",
+			"SMG_01_F",                         // Vermin .45 ACP
+			"SMG_02_F"                          // Sting 9mm
 		]
 	],
 	[ // RESEARCH
 		3,
 		[
-			"arifle_MX_GL_Black_F",
-			"arifle_AK12_GL_F",
-			"arifle_SPAR_01_GL_khk_F",
-			"arifle_CTAR_GL_ghex_F",
-			"arifle_TRG21_GL_F",
-			"arifle_Mk20_GL_F",
 			"arifle_Katiba_GL_F",
-			"arifle_MSBS65_GL_black_F"
+			"arifle_MXC_F",
+			"arifle_MXM_F",
+			"arifle_MX_GL_F",
+			"Rangefinder",
+			"srifle_GM6_F",
+			"srifle_LRR_F"
 		]
 	]
 ];
@@ -136,7 +98,6 @@ lootMagazine_list =
 			"30Rnd_45ACP_Mag_SMG_01_tracer_green",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_65x39_caseless_mag_Tracer",
-			"2Rnd_12Gauge_Pellets",
 			"30Rnd_65x39_caseless_green_mag_Tracer"/*,
 			"Chemlight_blue",
 			"Chemlight_green",
@@ -165,8 +126,6 @@ lootMagazine_list =
 			"200Rnd_65x39_cased_Box_Tracer",
 			"20Rnd_556x45_UW_mag",
 			"20Rnd_762x51_Mag",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"6Rnd_12Gauge_Slug",
 			"20Rnd_762x51_Mag",
 			"30Rnd_45ACP_Mag_SMG_01",
 			"30Rnd_45ACP_Mag_SMG_01",
@@ -213,8 +172,6 @@ lootMagazine_list =
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag_Tracer_Yellow",
 			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_msbs_mag",
-			"6Rnd_12Gauge_Pellets",
 			"30Rnd_65x39_caseless_green_mag_Tracer",
 			"30Rnd_65x39_caseless_mag",
 			"30Rnd_65x39_caseless_mag_Tracer"/*,
@@ -231,7 +188,6 @@ lootMagazine_list =
 			"30Rnd_556x45_Stanag",
 			"30Rnd_556x45_Stanag",
 			"30Rnd_65x39_caseless_mag",
-			"2Rnd_12Gauge_Slug",
 			"30Rnd_65x39_caseless_mag",
 			"30Rnd_65x39_caseless_green",
 			"30Rnd_65x39_caseless_green",
@@ -319,7 +275,7 @@ lootItem_list =
 			"NVGoggles",
 			//"NVGoggles_INDEP",
 			//"NVGoggles_OPFOR",
-			//"optic_Nightstalker",
+			"optic_Nightstalker",
 			"optic_NVS",
 			"optic_SOS",
 			"V_RebreatherB"

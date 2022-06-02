@@ -102,7 +102,7 @@ _lastLog = 0;
 
 waitUntil {!isNil "A3W_serverSpawningComplete"};
 
-//no_log "WASTELAND HEADLESS - Object caching enabled";
+diag_log "WASTELAND HEADLESS - Object caching enabled";
 
 while {true} do
 {
