@@ -357,7 +357,7 @@ throwputArray = compileFinal str
 
 	["Explosive Charge", "DemoCharge_Remote_Mag", 4500],
 	["Explosive Satchel", "SatchelCharge_Remote_Mag", 5000],
-	
+
 	["Incendiary Grenade (Red)", "SmokeShellRed", 5500],
 	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 3500],
 
@@ -378,6 +378,7 @@ throwputArray = compileFinal str
 //Text name, classname, buy cost
 ammoArray = compileFinal str
 [
+	// Vanilla Ammo
 	["9mm 10Rnd Mag", "10Rnd_9x21_Mag", 50],
 	["9mm 16Rnd Mag", "16Rnd_9x21_Mag", 100],
 	["9mm 30Rnd Mag", "30Rnd_9x21_Mag", 150],
@@ -465,15 +466,13 @@ ammoArray = compileFinal str
 	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 500],
 	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 1500],
 	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 500],
-	["9.3mm 150Rnd Belt", "150Rnd_93x64_Mag", 1500],
 	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 500],
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 500],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 600],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 750],
 	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],         
-	    
-//*** MODDING START ***
 
+	// Modded Ammo
 	["Compact mag", "CUP_10Rnd_9x19_Compact", 100],
 	["Phantom mag", "CUP_18Rnd_9x19_Phantom", 100],
 	["7 Rnd .50 AE", "CUP_7Rnd_50AE_Deagle", 100],
@@ -500,7 +499,6 @@ ammoArray = compileFinal str
 	["Bizon-Mag (Red Tracer)", "CUP_64Rnd_Red_Tracer_9x19_Bizon_M", 100],
 	["Bizon-Mag (White Tracer)", "CUP_64Rnd_White_Tracer_9x19_Bizon_M", 100],
 	["Bizon-Mag (Yellow Tracer)", "CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M", 100],
-	//
 	["Javalin Rocket", "CUP_Javelin_M", 8000],
 	["PG-7VM", "CUP_PG7VM_M", 8000],
 	["PG-7VL", "CUP_PG7VL_M", 8000],
@@ -519,8 +517,6 @@ ammoArray = compileFinal str
 	["Igla 9K38 Rocket", "CUP_Igla_M", 8000],
 	["M136 AT-4 Rocket", "CUP_M136_M", 8000],
 	["RPG 18 Rocket", "CUP_RPG18_M", 8000],
-	
-	// ["", "CUP_15Rnd_9x19_M9", 100], //
 	["30 Rnd 5.56mm AUG Mag", "CUP_30Rnd_556x45_AUG", 250],
 	["30 Rnd 5.56mm AUG Mag (Red Tracer)", "CUP_30Rnd_TE1_Red_Tracer_556x45_AUG", 200],
 	["30 Rnd 5.56mm AUG Mag (Yellow Tracer)", "CUP_30Rnd_TE1_Yellow_Tracer_556x45_AUG", 200],
@@ -542,7 +538,6 @@ ammoArray = compileFinal str
 	["XM8-Mag (Red Tracer)", "CUP_30Rnd_TE1_Red_Tracer_556x45_XM8", 250],
 	["XM8-Mag (Green Tracer)", "CUP_30Rnd_TE1_Green_Tracer_556x45_XM8", 250],
 	["XM8-Mag (Yellow Tracer)", "CUP_30Rnd_TE1_Yellow_Tracer_556x45_XM8", 250],
-	// ["", "CUP_15Rnd_9x19_M9", 100],
 	["20 Rnd AA12 Pellets", "CUP_20Rnd_B_AA12_Pellets", 200],
 	["20 Rnd AA12 Slug", "CUP_20Rnd_B_AA12_74Slug", 200],
 	["20 Rnd AA12 HE", "CUP_20Rnd_B_AA12_HE", 200],
@@ -622,8 +617,8 @@ ammoArray = compileFinal str
 	["6 Rnd VGD-40 Smoke (Red)", "CUP_6Rnd_SmokeRed_GP25", 2800],
 	["6 Rnd VGD-40 Smoke (Green)", "CUP_6Rnd_SmokeGreen_GP25", 2800],
 	["6 Rnd VGD-40 Smoke (Yellow)", "CUP_6Rnd_SmokeYellow_GP25", 2800],
-	// ["", "CUP_15Rnd_9x19_M9", 100],
-//*** MODDING END ***
+
+	// 40mm Grenades
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 1250],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 500],
 	["40mm Smoke Round (Purple)", "1Rnd_SmokePurple_Grenade_shell", 500],
@@ -644,6 +639,7 @@ ammoArray = compileFinal str
 //Text name, classname, buy cost, item class
 accessoriesArray = compileFinal str
 [
+	// Accessories 
 	["Suppressor 9mm", "muzzle_snds_L", 500, "item"],
 	["Suppressor .45 ACP", "muzzle_snds_acp", 750, "item"],
 	["Suppressor 5.56mm", "muzzle_snds_M", 1000, "item"],
@@ -885,6 +881,7 @@ accessoriesArray = compileFinal str
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
 headArray = compileFinal str
 [
+	// Headgear
 	["Gas Mask (NATO)", "H_CrewHelmetHeli_B", 1000, "hat"],
 	["Gas Mask (CSAT)", "H_CrewHelmetHeli_O", 1000, "hat"],
 	["Gas Mask (AAF)", "H_CrewHelmetHeli_I", 1000, "hat"],
@@ -1252,6 +1249,7 @@ headArray = compileFinal str
 
 uniformArray = compileFinal str
 [
+	// Uniforms
 	["Wetsuit", "U_B_Wetsuit", 1000, "uni"],
 	["Wetsuit", "U_O_Wetsuit", 1000, "uni"],
 	["Wetsuit", "U_I_Wetsuit", 1000, "uni"],
@@ -1578,6 +1576,7 @@ uniformArray = compileFinal str
 
 vestArray = compileFinal str
 [
+	// Vests
 	["Rebreather (NATO)", "V_RebreatherB", 200, "vest"],
 	["Rebreather (CSAT)", "V_RebreatherIR", 200, "vest"],
 	["Rebreather (AAF)", "V_RebreatherIA", 200, "vest"],
@@ -1777,6 +1776,7 @@ vestArray = compileFinal str
 
 backpackArray = compileFinal str
 [
+	// Backpacks
 	//["Parachute", "B_Parachute", 200, "backpack"],
 	["Czech Scout Pack (M95)", "CUP_B_ACRScout_m95", 150, "backpack"],
 	["Messenger Pack (Gray)", "B_Messenger_Gray_F", 280, "backpack", "noDLC"],
@@ -1893,6 +1893,7 @@ backpackArray = compileFinal str
 
 goggleArray = compileFinal str
 [
+	// Goggles
 	["Diving Goggles", "G_Diving", 1000, "gogg"],
 	["Stealth Balaclava (Black)", "G_Balaclava_TI_blk_F", 2000, "gogg"],
 	["Stealth Balaclava (Black, Goggles)", "G_Balaclava_TI_G_blk_F", 2500, "gogg"],
@@ -1959,6 +1960,7 @@ goggleArray = compileFinal str
 
 genItemArray = compileFinal str
 [
+	// General Items
 	["UAV Terminal (NATO)", "B_UavTerminal", 2000, "gps"],
 	["UAV Terminal (CSAT)", "O_UavTerminal", 2000, "gps"],
 	["UAV Terminal (AAF)", "I_UavTerminal", 2000, "gps"],
@@ -2021,6 +2023,7 @@ genItemArray = compileFinal str
 
 gasItemArray = compileFinal str
 [	
+	// Gas Items
 	["Gas Mask (NATO)", "H_CrewHelmetHeli_B", 1000, "hat"],
 	["Gas Mask (CSAT)", "H_CrewHelmetHeli_O", 1000, "hat"],
 	["Gas Mask (AAF)", "H_CrewHelmetHeli_I", 1000, "hat"],
@@ -2039,6 +2042,7 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
+	// General Objects
 	["Camo Net", "CamoNet_INDP_open_F", 2000, "object", "HIDDEN"], // unlisted, only for object saving
 	["Pier Ladder", "Land_PierLadder_F", 2500, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 2500, "ammocrate"],
@@ -2089,6 +2093,7 @@ landArray = compileFinal str
 [
 	// SKIPSAVE = will not be autosaved until first manual force save, good for cheap vehicles that usually get abandoned
 
+	// Land Vehicles
 	["Kart", "C_Kart_01_F", 5000, "vehicle", "SKIPSAVE"],
 
 	["Quadbike (Civilian)", "C_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
@@ -2223,6 +2228,7 @@ landArray = compileFinal str
 
 armoredArray = compileFinal str
 [
+	// Armored Vehicles
 	["UAZ (SPG-9)", "CUP_B_UAZ_SPG9_CDF", 30000, "vehicle", "SKIPSAVE"], // +Raketenwerfer
 	["UAZ (Open)", "CUP_B_UAZ_Open_CDF", 5000, "vehicle", "SKIPSAVE"],
 	["UAZ (Closed)", "CUP_O_UAZ_Militia_SLA", 5000, "vehicle", "SKIPSAVE"],
@@ -2329,6 +2335,7 @@ armoredArray = compileFinal str
 
 tanksArray = compileFinal str
 [
+	// Tanks
 	["FV4034 Challenger 2", "CUP_B_Challenger2_Desert_BAF", 200000, "vehicle"],
 	["ZSU-23-4", "CUP_B_ZSU23_CDF", 80000, "vehicle"],
 	["M1A2 Abrams TUSK", "CUP_B_M1A2_TUSK_MG_DES_US_Army", 140000, "vehicle"],
@@ -2345,6 +2352,7 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
+	// Helicopters
 	["Mi-171Sh (Rockets)", "CUP_B_Mi171Sh_ACR", 120000, "vehicle"],
 	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 20000, "vehicle"],
 	["Mi-35", "CUP_B_Mi35_Dynamic_CZ", 140000, "vehicle"],
@@ -2414,7 +2422,7 @@ helicoptersArray = compileFinal str
 
 planesArray = compileFinal str
 [
-
+	// Planes
 	["Caesar BTT", "C_Plane_Civil_01_F", 6000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 8000, "vehicle"],
 
@@ -2455,6 +2463,7 @@ planesArray = compileFinal str
 ];
 boatsArray = compileFinal str
 [
+	// Boats
 	["Water Scooter", "C_Scooter_Transport_01_F", 3000, "boat"],
 	["Rescue Boat", "C_Rubberboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
 	["Rescue Boat (NATO)", "B_Lifeboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], //
@@ -2518,14 +2527,14 @@ colorsArray = compileFinal str
 			["Gray", _color + "(0.15,0.151,0.152,1)"], // #(argb,8,8,3)color(0.5,0.51,0.512,0.3)
 			["White", _color + "(0.01,0.01,0.01,1)"], // #(argb,8,8,3)color(1,1,1,0.5) //0.75,0.75,0.75,1
 			["Dark Blue", _color + "(0,0.05,0.15,1)"], // #(argb,8,8,3)color(0,0.3,0.6,0.05)
-			["Blue", _color + "(0,0.03,0.5,1)"], // #(argb,8,8,3)color(0,0.2,1,0.75)
-			["Teal", _color + "(0,0.3,0.3,1)"], // #(argb,8,8,3)color(0,1,1,0.15)
+			// ["Blue", _color + "(0,0.03,0.5,1)"], // #(argb,8,8,3)color(0,0.2,1,0.75)
+			// ["Teal", _color + "(0,0.3,0.3,1)"], // #(argb,8,8,3)color(0,1,1,0.15)
 			["Green", _color + "(0,0.5,0,1)"], // #(argb,8,8,3)color(0,1,0,0.15)
-			["Yellow", _color + "(0.5,0.4,0,1)"], // #(argb,8,8,3)color(1,0.8,0,0.4)
-			["Orange", _color + "(0.4,0.09,0,1)"], // #(argb,8,8,3)color(1,0.5,0,0.4)
-			["Red", _color + "(0.45,0.005,0,1)"], // #(argb,8,8,3)color(1,0.1,0,0.3)
-			["Pink", _color + "(0.5,0.03,0.3,1)"], // #(argb,8,8,3)color(1,0.06,0.6,0.5)
-			["Purple", _color + "(0.1,0,0.3,1)"], // #(argb,8,8,3)color(0.8,0,1,0.1)
+			// ["Yellow", _color + "(0.5,0.4,0,1)"], // #(argb,8,8,3)color(1,0.8,0,0.4)
+			// ["Orange", _color + "(0.4,0.09,0,1)"], // #(argb,8,8,3)color(1,0.5,0,0.4)
+			// ["Red", _color + "(0.45,0.005,0,1)"], // #(argb,8,8,3)color(1,0.1,0,0.3)
+			// ["Pink", _color + "(0.5,0.03,0.3,1)"], // #(argb,8,8,3)color(1,0.06,0.6,0.5)
+			// ["Purple", _color + "(0.1,0,0.3,1)"], // #(argb,8,8,3)color(0.8,0,1,0.1)
 			["NATO Tan", _texDir + "nato.paa"], // #(argb,8,8,3)color(0.584,0.565,0.515,0.3)
 			["CSAT Brown", _texDir + "csat.paa"], // #(argb,8,8,3)color(0.624,0.512,0.368,0.3)
 			["AAF Green", _texDir + "aaf.paa"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
@@ -2557,13 +2566,13 @@ colorsArray = compileFinal str
 			// ["Orange Camo", _texDir + "camo_orange.paa"],
 			// ["Pink Camo", _texDir + "camo_pink.paa"],
 			// ["Pirates", _texDir + "axpirates.paa"],
-			// ["Pride", _texDir + "pride.paa"],
+			["Pride", _texDir + "pride.paa"],
 			// ["Psych", _texDir + "psych.paa"],
 			// ["Red Camo", _texDir + "camo_red.paa"],
 			// ["RednGray Camo", _texDir + "axredcamo.paa"],
 			// ["Rusty", _texDir + "rusty.paa"],
 			["Sand", _texDir + "sand.paa"],
-			// ["Snake", _texDir + "snake.paa"],
+			["Snake", _texDir + "snake.paa"],
 			// ["Stars", _texDir + "axstars.paa"],
 			// ["Stripes", _texDir + "stripes.paa"],
 			// ["Stripes 2", _texDir + "stripes2.paa"],
@@ -2670,6 +2679,7 @@ colorsArray = compileFinal str
 // ["Medical Kit", "medkits", localize "STR_WL_ShopDescriptions_MedKit", "client\icons\medkit.paa", 400, 200],  // not needed since there are First Ait Kits
 customPlayerItems = compileFinal str
 [
+	// Supplies
 	["Quad Bike", "quad", localize "STR_WL_ShopDescriptions_Quad", "client\icons\quad.paa", 1000, 500, "HIDDEN"],
 	["Stash", "stash", localize "STR_WL_ShopDescriptions_Stash", "client\icons\stash.paa", 15000, 5000, "HIDDEN"],
 	["LSD", "lsd", localize "STR_WL_ShopDescriptions_LSD", "client\items\drugs\icons\lsd.paa", 12500, 5000],
