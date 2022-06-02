@@ -104,7 +104,6 @@ if (hasInterface || isServer) then {
 	[] execVM "addons\stickyCharges\init.sqf";
 	
 	// noAim Stuff
-	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";  // Airdrop
 	[] execVM "addons\JTS_PM\Functions.sqf";			  // messages
 	[] execVM "addons\scripts\HvT.sqf";                   // High Value Target
 	[] execVM "addons\scripts\HvD.sqf";
