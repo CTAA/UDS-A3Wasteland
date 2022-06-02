@@ -12,7 +12,7 @@ private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicl
 
 _setupVars =
 {
-	_missionType = "Black Hawk Down!";
+	_missionType = "Black Hawk Patrol";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
@@ -22,16 +22,16 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["B_Heli_Transport_01_F", "B_Heli_Transport_01_F"],
-		["B_Heli_Transport_01_F", "B_Heli_Transport_01_F"],
-		["B_Heli_Transport_01_F", "B_Heli_Transport_01_F"]
+		["CUP_B_MH60L_DAP_2x_US", "CUP_B_MH60L_DAP_2x_US"],
+		["CUP_B_MH60L_DAP_2x_US", "CUP_B_MH60L_DAP_2x_US"],
+		["CUP_B_MH60L_DAP_2x_US", "CUP_B_MH60L_DAP_2x_US"]
 	];
 
 	if (missionDifficultyHard) then
 	{
-		(_heliChoices select 0) set [0, "B_Heli_Transport_01_F"];
-		(_heliChoices select 1) set [0, "B_Heli_Transport_01_F"];
-		(_heliChoices select 2) set [0, "B_Heli_Transport_01_F"];
+		(_heliChoices select 0) set [0, "CUP_B_MH60L_DAP_2x_US"];
+		(_heliChoices select 1) set [0, "CUP_B_MH60L_DAP_2x_US"];
+		(_heliChoices select 2) set [0, "CUP_B_MH60L_DAP_2x_US"];
 	};
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;
@@ -62,7 +62,7 @@ _setupObjects =
 
 		switch (true) do
 		{
-			case (_type isKindOf "Heli_Transport_01_base_F"):
+			case (_type isKindOf "CUP_B_MH60L_DAP_2x_US"):
 			{
 				// these choppers have 2 turrets so we need 2 gunners
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;
@@ -70,13 +70,6 @@ _setupObjects =
 
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;
 				_soldier moveInTurret [_vehicle, [2]];
-			};
-
-			case (_type isKindOf "Heli_Attack_01_base_F" || _type isKindOf "Heli_Attack_02_base_F"):
-			{
-				// these choppers need 1 gunner
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInGunner _vehicle;
 			};
 		};
 
@@ -132,7 +125,7 @@ _setupObjects =
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh1 >> "displayName");
 	_vehicleName2 = getText (configFile >> "CfgVehicles" >> _veh2 >> "displayName");
 
-	_missionHintText = format ["Three <t color='%3'>%1</t> have been spotted. Way too deadly!", _vehicleName, extraMissionColor];
+	_missionHintText = format ["Three <t color='%3'>%1</t> have been spotted.", _vehicleName, extraMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -157,7 +150,7 @@ _successExec =
 	_box2 setDir random 360;
 	[_box2, "mission_Weapon_green"] call fn_refillbox;
 
-	_successHintMessage = "Good job! The Black Hawk came down! Save the crates!";
+	_successHintMessage = "The black hawk patrol has been taken out.";
 };
 
 _this call extraMissionProcessor;
