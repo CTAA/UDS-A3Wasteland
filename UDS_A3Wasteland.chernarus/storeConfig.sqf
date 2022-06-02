@@ -266,14 +266,11 @@ rifleArray = compileFinal str
 
 lmgArray = compileFinal str
 [
-
-	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
-	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
+	// Machineguns
 	["CAR-95-1 LMG", "arifle_CTARS_blk_F", 3000],
-	["LIM-85 LMG", "LMG_03_F", 3500],
-	
 	["L110A2", "CUP_lmg_L110A1", 7500],
 	["L7A2 GPMG", "CUP_lmg_L7A2_Flat", 8500],
+	["LIM-85 LMG", "LMG_03_F", 3500],
 	["M240", "CUP_lmg_M240", 7500],
 	["M249 (Squantoon Special)", "CUP_lmg_m249_SQuantoon", 7500],
 	["M249E2", "CUP_lmg_M249_E2", 7500],
@@ -286,6 +283,10 @@ lmgArray = compileFinal str
 	["PKM", "CUP_lmg_PKM", 7500],
 	["PKP (Woodland)", "CUP_lmg_Pecheneg_woodland", 8500],
 	["RPK", "CUP_arifle_RPK74", 7500],
+	
+	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
+	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
+	
 	["UK-59", "CUP_lmg_UK59", 7500]
 ];
 
