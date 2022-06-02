@@ -115,8 +115,8 @@ if (isServer) then {
     _parked_vehicles = _player getVariable "parked_vehicles";
     _parked_vehicles = OR(_parked_vehicles,[]);
 
-    if (_vehOwner isEqualTo "") then {
-      _vehicle setVariable ["ownerUID", _uid];
+    if (_vehOwner isEqualTo "") exitWith {
+      [_player, format ["You must take ownership of the vehicle before attmempting to park it", ([typeOf _vehicle] call generic_display_name)], "Parking Error"] call pp_notify;
     };
 
     private _saveFlag = (_vehicle getVariable ["A3W_purchasedVehicle", false] || _vehicle getVariable ["A3W_missionVehicle", false]);
