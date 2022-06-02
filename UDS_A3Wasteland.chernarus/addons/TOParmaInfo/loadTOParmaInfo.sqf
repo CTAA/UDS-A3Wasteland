@@ -22,7 +22,7 @@ _serverInfoString = format ["<t color='#A0FFFFFF'>UDS #%1 Wasteland %2</t>", cal
 _serverInfoText ctrlSetStructuredText parseText _serverInfoString;
 
 _generalInfoText = _display displayCtrl TOParmaInfo_General_Info_BG;
-_generalInfoString = "Forum: <t color='#0091CD'><a href='https://www.discord.gg/ARMY'>SOON</a></t> | Discord: <t color='#0091CD'><a href='https://discord.gg/ARMY'>discord.gg/ARMY</a></t> | TeamSpeak: SOON";
+_generalInfoString = "Discord: <t color='#0091CD'><a href='https://discord.gg/S25QBgb47y'>discord.gg/S25QBgb47y</a></t> | TeamSpeak: SOON";
 _generalInfoText ctrlSetStructuredText parseText _generalInfoString;
 
 
