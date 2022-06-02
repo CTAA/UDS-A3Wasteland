@@ -140,18 +140,6 @@ class playerSettings {
 			w = 0.3; h = 0.033 * safezoneH;
 		};
 		
-		// Middle Menu
-		class AirDropButton : w_RscButton2 {
-			idc = -1;
-			colorBackground[] = {0,0,0,0.7};
-			colorFocused[] = {0, 0.329, 0.451, 0.8}; // pulse
-			colorBackgroundActive[] = {0, 0.729, 1, 1};
-			text = "$STR_PMenu_Airdrop";
-            onButtonClick = "[] execVM 'addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf';[] execVM 'client\systems\playerMenu\closePlayerMenu.sqf';";
-			x = 0.35; y = 0.18;
-			w = 0.225; h = 0.033 * safezoneH;
-		};
-		
 		class PainterButton : w_RscButton2 {
 			idc = -1;
 			colorBackground[] = {0,0,0,0.7};
