@@ -19,18 +19,9 @@ _setupVars = {
 _setupObjects = {
 	_missionPos = markerPos (((call cityList) call BIS_fnc_selectRandom) select 0);
 	
-	_randVeh = // Blackwasp
+	_randVeh = 
 	[
-		["B_Plane_Fighter_01_F", "blackwaspAA"],
-		["B_Plane_Fighter_01_F", "blackwaspCAS"],
-		["B_Plane_Fighter_01_F", "blackwaspXL"],
-		["O_Plane_Fighter_02_F", "shikraXL"],
-		["O_Plane_Fighter_02_F", "shikraEX"],
-		["O_Plane_Fighter_02_F", "shikraCAS"],
-		["O_Plane_Fighter_02_Stealth_F", "shikraDEF"],
-		["I_Plane_Fighter_04_F", "GryphonXL"],
-		["I_Plane_Fighter_04_F", "GryphonAA"],
-		["I_Plane_Fighter_04_F", "GryphonCAS"]
+		["CUP_B_AH1Z_Dynamic_USMC"]
 	];
 	_vehVar = _randVeh call BIS_fnc_selectRandom;
 
@@ -160,7 +151,7 @@ _successExec =
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 
-	_successHintMessage = "The INSERTVEHICLENAME has been taken down.";
+	_successHintMessage = "The AH-1Z has been taken down.";
 };
 
 _this call extraMissionProcessor;

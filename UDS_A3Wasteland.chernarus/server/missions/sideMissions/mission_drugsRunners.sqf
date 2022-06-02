@@ -25,11 +25,11 @@ _setupObjects =
 	// pick the vehicles for the convoy
 	_convoyVeh = if (missionDifficultyHard) then
 	{
-		["O_T_LSV_02_armed_F"]
+		["CUP_B_RG31E_M2_USA"]
 	}
 	else
 	{
-		["O_T_LSV_02_armed_F"]
+		["CUP_B_RG31E_M2_USA"]
 	};
 
 	_veh1 = _convoyVeh select 0;

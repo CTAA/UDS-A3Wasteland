@@ -45,7 +45,7 @@ _setupObjects = {
 	_hostage disableAI "anim";
 	
 
-	_obj1 = createVehicle ["B_GEN_Van_02_transport_F", _missionPos,[], 10,"None"]; 
+	_obj1 = createVehicle ["CUP_B_T810_Unarmed_CZ_DES", _missionPos,[], 10,"None"]; 
 	_obj1 setPosATL [(_missionPos select 0) - 2, (_missionPos select 1) + 2, _missionPos select 2];
 	
 	_obj2 = createVehicle ["Box_IED_Exp_F", _missionPos,[], 10,"None"]; 

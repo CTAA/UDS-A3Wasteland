@@ -41,7 +41,7 @@ _setupObjects = {
 	[_hostage, "Acts_ExecutionVictim_Loop"] call switchMoveGlobal;
 	_hostage disableAI "anim";
 
-	_obj1 = createVehicle ["C_Offroad_02_unarmed_F", _missionPos,[], 10,"None"]; 
+	_obj1 = createVehicle ["CUP_B_HMMWV_Unarmed_USMC", _missionPos,[], 10,"None"]; 
 	_obj1 setPosATL [(_missionPos select 0) - 2, (_missionPos select 1) + 2, _missionPos select 2];
 	
 	_obj2 = createVehicle ["Box_IED_Exp_F", _missionPos,[], 10,"None"]; 
@@ -57,7 +57,7 @@ _setupObjects = {
 	_aiGroup setBehaviour "COMBAT";	
 	
 	_vehicleName = "Hostage";
-	_missionHintText = format ["<br/>Bandits stopped a <t color='%2'>Hunter Offroader</t> and set the driver captive.<br/> This must be a Bounty Hunter!<br/> Kill him, and rescue the Bandit!", _vehicleName, sideSpecMissionColor];
+	_missionHintText = format ["<br/>Bandits stopped a <t color='%2'>HMMWV</t> and set the driver captive.<br/> This must be a Bounty Hunter!<br/> Kill him, and rescue the Bandit!", _vehicleName, sideSpecMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
