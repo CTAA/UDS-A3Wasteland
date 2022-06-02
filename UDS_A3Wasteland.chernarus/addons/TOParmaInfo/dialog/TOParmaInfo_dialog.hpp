@@ -58,7 +58,7 @@ class TOParmaInfoD
 			idc = TOParmaInfo_General_Info_BG;
 			type = CT_STRUCTURED_TEXT;
 			size = 0.035;
-			text = "Forums: SOON Discord: discord.gg/ARMY TeamSpeak: SOON";
+			text = "Discord: discord.gg/S25QBgb47y";
 			x = "0 * (((safezoneW / safezoneH) min 1.2) / 40)";
 			y = "1.1 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
 			w = "30 * (((safezoneW / safezoneH) min 1.2) / 40)";
