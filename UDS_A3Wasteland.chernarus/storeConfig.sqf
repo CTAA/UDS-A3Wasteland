@@ -312,28 +312,37 @@ allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call 
 
 staticGunsArray = compileFinal str
 [
-	["L111A1 Minitripod", "CUP_B_L111A1_MiniTripod_BAF_MPT", 30000],
-	["L111A1 Machine Gun", "CUP_B_L111A1_BAF_DDPM", 30000],
-	["Podnos 2B14", "CUP_B_2b14_82mm_ACR", 150000],
-	["RBS 70", "CUP_B_RBS70_ACR", 40000],
+	// Static weapons
 	["AGS-30", "CUP_B_AGS_ACR", 40000],
+
+	["D-30", "CUP_B_D30_CDF", 30000],
+	["D-30 AT", "CUP_O_D30_AT_TK_INS", 40000],
+
 	["DShKM", "CUP_B_DSHKM_ACR", 30000],
 	["DShKM Minitripod", "CUP_B_DSHkM_MiniTriPod_CDF", 30000],
-	["L16A2 81mm Mortar", "CUP_B_L16A2_BAF_DDPM", 225000],
-	["ZU-23", "CUP_B_ZU23_CDF", 50000],
-	["D-30", "CUP_B_D30_CDF", 30000],
+
 	["IGLA Aircraft Defense", "CUP_B_Igla_AA_pod_CDF", 40000],
-	["SPG-9", "CUP_B_SPG9_CDF", 30000],
-	["M2HD Minitripod", "CUP_B_M2StaticMG_MiniTripod_US", 35000],
-	["M2 Machine Gun", "CUP_B_M2StaticMG_US", 30000],
-	["M252 81mm Mortar", "CUP_B_M252_US", 225000],
-	["M119", "CUP_B_M119_US", 40000],
-	["D-30 AT", "CUP_O_D30_AT_TK_INS", 40000],
+
 	["KORD", "CUP_O_KORD_high_RU", 40000],
 	["KORD Minitripod", "CUP_O_KORD_RU", 40000],
+
+	["L111A1 Minitripod", "CUP_B_L111A1_MiniTripod_BAF_MPT", 30000],
+	["L111A1 Machine Gun", "CUP_B_L111A1_BAF_DDPM", 30000],
+
+	["L16A2 81mm Mortar", "CUP_B_L16A2_BAF_DDPM", 225000],
+	["M119", "CUP_B_M119_US", 40000],
+
+	["M2 HMG .50 High tripod", "I_G_HMG_02_F", 35000], 
+	["M2 HMG .50 High tripod", "I_G_HMG_02_high_F", 30000],
+
+	["M2 Machine Gun", "CUP_B_M2StaticMG_US", 30000],
+	["M252 81mm Mortar", "CUP_B_M252_US", 225000],
+	["M2HD Minitripod", "CUP_B_M2StaticMG_MiniTripod_US", 35000],
 	["Metris AT-13", "CUP_O_Metis_RU", 40000],
-	["M2 HMG .50 High tripod", "I_G_HMG_02_F", 35000], //OLDMAN DLC
-	["M2 HMG .50 High tripod", "I_G_HMG_02_high_F", 30000] //OLDMAN DLC
+	["Podnos 2B14", "CUP_B_2b14_82mm_ACR", 150000],
+	["RBS 70", "CUP_B_RBS70_ACR", 40000],
+	["SPG-9", "CUP_B_SPG9_CDF", 30000],
+	["ZU-23", "CUP_B_ZU23_CDF", 50000]
 ];
 
 throwputArray = compileFinal str
