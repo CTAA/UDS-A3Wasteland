@@ -266,7 +266,7 @@ rifleArray = compileFinal str
 
 lmgArray = compileFinal str
 [
-	// Machineguns
+	// LMGs
 	["CAR-95-1 LMG", "arifle_CTARS_blk_F", 3000],
 	["L110A2", "CUP_lmg_L110A1", 7500],
 	["L7A2 GPMG", "CUP_lmg_L7A2_Flat", 8500],
@@ -286,7 +286,7 @@ lmgArray = compileFinal str
 	
 	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
 	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
-	
+
 	["UK-59", "CUP_lmg_UK59", 7500]
 ];
 
