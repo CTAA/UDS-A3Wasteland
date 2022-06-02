@@ -17,7 +17,7 @@ _uptime = _Dialog displayCtrl uptime_text;
 _groupButton = _Dialog displayCtrl groupButton;
 _moneytext ctrlSetText format["%1", [player getVariable ["cmoney", 0]] call fn_numbersText];
 private _infotext = _Dialog displayCtrl title_value;
-_infostring = "Forum: <t color='#00BAFF'><a href='https://www.discord.gg/ARMY'>SOON</a></t>  |  Discord: <t color='#00BAFF'><a href='https://www.discord.gg/ARMY'>discord.gg/ARMY</a></t>  |  TeamSpeak: <t color='#00BAFF'><a href='www.discord.gg/ARMY'>SOON</a></t>";
+_infostring = "Discord: <t color='#00BAFF'><a href='https://www.discord.gg/S25QBgb47y'>discord.gg/S25QBgb47y</a></t>  |  TeamSpeak: <t color='#00BAFF'><a href='www.discord.gg/S25QBgb47y'>SOON</a></t>";
 _infotext ctrlSetStructuredText parseText _infostring;
 
 {
