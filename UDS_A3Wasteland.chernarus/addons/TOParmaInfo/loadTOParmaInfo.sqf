@@ -18,7 +18,7 @@ createDialog "TOParmaInfoD";
 _display = (findDisplay TOParmaInfo_dialog);
 
 _serverInfoText = _display displayCtrl TOParmaInfo_Server_Info;
-_serverInfoString = format ["<t color='#A0FFFFFF'>Vanguard #%1 Wasteland %2</t>", call A3W_extDB_ServerID, worldName];
+_serverInfoString = format ["<t color='#A0FFFFFF'>UDS #%1 Wasteland %2</t>", call A3W_extDB_ServerID, worldName];
 _serverInfoText ctrlSetStructuredText parseText _serverInfoString;
 
 _generalInfoText = _display displayCtrl TOParmaInfo_General_Info_BG;
