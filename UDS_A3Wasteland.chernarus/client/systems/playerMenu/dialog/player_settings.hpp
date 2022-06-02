@@ -63,7 +63,7 @@ class playerSettings {
 			idc = title_value;
 			type = CT_STRUCTURED_TEXT;
 			size = 0.035;
-			text = "Forums: SOON Discord: discord.gg/ARMY TeamSpeak: SOON";
+			text = "Discord: discord.gg/S25QBgb47y";
 			x = 0.16;
 			y = 0.108;
 			w = 30;
