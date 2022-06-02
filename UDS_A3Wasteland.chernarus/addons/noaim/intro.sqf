@@ -8,15 +8,11 @@
 sleep 90;
 
 private _messages = [
-	["Welcome to our", "Vanguard - A3Wasteland Chernarus"],
+	["Welcome to our", "UDS - A3Wasteland Chernarus"],
 	["Feedback", "Post Ideas/Bugs at our Discord!"],
-	["Discord", "www.discord.gg/ARMY"],
-	["Our Forum", "SOON"],
-	["Our Teamspeak", "SOON"],
-	["Donate", "Please donate, to support our Servers!"],
-	["Server Restarts every 4 hours", "4am 8am 12pm 16pm 20pm 12am GMT"],
+	["Discord", "www.discord.gg/S25QBgb47y"],
 	["Useful Keys", "END-Earplugs, H-Holster, CTRL+R Mag Repack"],
-	["Supported Mods", "CBA_A3, JSRS, Enhanced Movement"]
+	["Supported Mods", "JSRS, Enhanced Movement"]
 ];
 
 private _timeout = 10;
