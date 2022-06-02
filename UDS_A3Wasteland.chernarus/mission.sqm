@@ -383,7 +383,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Chernarus v1.4d #35";
+		briefingName="UDS A3Wasteland Chernarus v1.0 ";
 		overviewText="Wasteland survival sandbox";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
