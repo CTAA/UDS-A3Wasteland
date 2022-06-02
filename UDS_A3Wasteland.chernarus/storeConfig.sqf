@@ -347,26 +347,31 @@ staticGunsArray = compileFinal str
 
 throwputArray = compileFinal str
 [
-	["RGN Mini Grenade", "MiniGrenade", 500],
-	["RGO Frag Grenade", "HandGrenade", 1000],
-	// ["Flashbang Grenade", "HandGrenade_Stone", 15000], still working on it
-	["APERS Tripwire Mine", "APERSTripMine_Wire_Mag", 2000],
+	// Ordnance
 	["APERS Bounding Mine", "APERSBoundingMine_Range_Mag", 2500],
+	["APERS Tripwire Mine", "APERSTripMine_Wire_Mag", 2000],
 	["APERS Mine", "APERSMine_Range_Mag", 3000],
-	["Claymore Charge", "ClaymoreDirectionalMine_Remote_Mag", 3500],
-	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 3500],
-	["AT Mine", "ATMine_Range_Mag", 4000],
-	["Training Mine", "TrainingMine_Mag", 4000],
 	["APERS MineDispenser", "APERSMineDispenser_Mag", 8000],
+	["AT Mine", "ATMine_Range_Mag", 4000],
+	["Claymore Charge", "ClaymoreDirectionalMine_Remote_Mag", 3500],
+
 	["Explosive Charge", "DemoCharge_Remote_Mag", 4500],
 	["Explosive Satchel", "SatchelCharge_Remote_Mag", 5000],
-	["Smoke Grenade (White)", "SmokeShell", 500],
-	["Smoke Grenade (Purple)", "SmokeShellPurple", 500],
-	["Smoke Grenade (Blue)", "SmokeShellBlue", 500],
-	["Toxic Grenade (Green)", "SmokeShellGreen", 2500],
-	["Tear Gas Grenade (Yellow)", "SmokeShellYellow", 1500],
+	
 	["Incendiary Grenade (Red)", "SmokeShellRed", 5500],
-	["Smoke Grenade (Orange)", "SmokeShellOrange", 500]
+	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 3500],
+
+	["RGN Mini Grenade", "MiniGrenade", 500],
+	["RGO Frag Grenade", "HandGrenade", 1000],
+
+	["Smoke Grenade (Blue)", "SmokeShellBlue", 500],
+	["Smoke Grenade (Orange)", "SmokeShellOrange", 500],
+	["Smoke Grenade (Purple)", "SmokeShellPurple", 500],
+	["Smoke Grenade (White)", "SmokeShell", 500],
+
+	["Tear Gas Grenade (Yellow)", "SmokeShellYellow", 1500],
+	["Toxic Grenade (Green)", "SmokeShellGreen", 2500],
+	["Training Mine", "TrainingMine_Mag", 4000]
 ];
 
 //Gun Store Ammo List
