@@ -123,7 +123,7 @@ _setupObjects = {
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh >> "displayName");
 
-	_missionHintText = format ["OH Damn <t color='%4'>%1</t> has been spotted! <br/>Bring it down! NOW!! or it will kill you, oh by the way take its cargo!", _vehicleName, sideMissionColor];
+	_missionHintText = format ["A <t color='%4'>%1</t> has been spotted! <br/>Bring it down and take its cargo.", _vehicleName, sideMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -160,7 +160,7 @@ _successExec =
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 
-	_successHintMessage = "Cobra maneuver! oh i meant, the Jet came down!";
+	_successHintMessage = "The INSERTVEHICLENAME has been taken down.";
 };
 
 _this call extraMissionProcessor;

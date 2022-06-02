@@ -52,7 +52,7 @@ _setupObjects =
 	
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _smugglerVeh >> "picture");
 	
-	_missionHintText = format ["A number of EU diplomats have entered the UK illegally. Stop them and claim the rewards .", sideMissionColor];
+	_missionHintText = format ["A number of EU diplomats have entered Chernarus illegaly. Take them out.", sideMissionColor];
 };
 	
 _waitUntilMarkerPos = nil;
@@ -141,7 +141,7 @@ _successExec =
 	  [_item, _lastPos] call _drop_item;
 	};
 	
-	_successHintMessage = format ["The EU diplots and bodyguards are dead, grab their gear now!"];
+	_successHintMessage = format ["The EU diplomats and their bodyguards have been eliminated."];
 };
 
 _this call sideMissionProcessor;

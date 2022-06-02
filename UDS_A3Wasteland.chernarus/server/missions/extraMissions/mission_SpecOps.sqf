@@ -73,7 +73,7 @@ _setupObjects =
 	} forEach ((call cityListMISCITY) call BIS_fnc_arrayShuffle);
 
 	_missionPos = getPosATL leader _aiGroup;
-	_missionHintText = format ["SpecOps have parachuted over <br/><t size='1.25' color='%1'>%2</t><br/><br/>Kill them and take their supplies before they disappear!", extraMissionColor, (_town select 2)];
+	_missionHintText = format ["SpecOps have parachuted over <br/><t size='1.25' color='%1'>%2</t><br/><br/>Kill them and take their supplies before they extract!", extraMissionColor, (_town select 2)];
 	_numWaypoints = count wayPoints _aiGroup;
 };
 

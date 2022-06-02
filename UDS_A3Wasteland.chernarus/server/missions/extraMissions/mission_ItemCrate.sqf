@@ -30,7 +30,7 @@ _setupObjects =
 	_aiGroup = createGroup CIVILIAN;
 	[_aiGroup, _missionPos, _nbUnits] call createCustomGroup4;
 
-	_missionHintText = format ["An<br/><t color='%1'>item cache has been spotted.</t><br/>It contains some usefull stuff like ammokits or repairkits.", extraMissionColor];
+	_missionHintText = format ["An<br/><t color='%1'>item cache has been spotted.</t><br/>It may contain some useful items.", extraMissionColor];
 	_missionPicture = "\A3\ui_f\data\IGUI\Cfg\MPTable\infantry_ca.paa";
 };
 

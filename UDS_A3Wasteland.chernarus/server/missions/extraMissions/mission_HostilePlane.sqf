@@ -122,7 +122,7 @@ _successExec = {
 		_cash setVariable ["owner", "world", true];
 	};
 
-	_successHintMessage = "The sky is clear again, the enemy plane was taken out! The money have fallen near the enemy pilot.";
+	_successHintMessage = "The sky is clear again, the enemy plane was taken out! The money has fallen near the enemy pilot.";
 };
 
 _this call extraMissionProcessor;

@@ -10,10 +10,10 @@ if (!isServer) exitWith {};
 
 MainMissions = [
 	["mission_ArmedDiversquad", 1],
-	["mission_Coastal_Convoy", 1],
+	["mission_Coastal_Convoy", 0.5],
 	["mission_Convoy", 1],
-	["mission_HostileHeliFormation", 1],
-	["mission_HostileJetFormation", 1],
+	["mission_HostileHeliFormation", 0.5],
+	["mission_HostileJetFormation", 0.5],
 	["mission_APC", 1],
 	["mission_MBT", 1],
 	["mission_AbandonedJet", 1],
@@ -54,7 +54,7 @@ MoneyMissions = [
 	["mission_militaryPatrol", 1],
 	["mission_armaPatrol", 1],
 	["mission_BankRobbery", 1],
-	["mission_SkySmuggler", 1],
+	["mission_SkySmuggler", 0.5],
 	["mission_CrimesofWar", 1]
 ];
 
@@ -65,7 +65,7 @@ ExtraMissions = [
 	["mission_Assassin", 1],
 	["mission_HnS", 1],
 	["mission_HostageRescue", 1],
-	["mission_HostilePlane", 1],
+	["mission_HostilePlane", 0.5],
 	["mission_TransportHeli", 0.5],
 	["mission_WepDeal", 1],
 	["mission_InfGroup", 1],

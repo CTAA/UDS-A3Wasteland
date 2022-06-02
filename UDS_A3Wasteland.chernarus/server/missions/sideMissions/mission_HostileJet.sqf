@@ -118,7 +118,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> (_vehicleClass param [0,""]) >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> (_vehicleClass param [0,""]) >> "displayName");
 
-	_missionHintText = format ["a <t color='%2'>%1</t> is patrolling the island. Intercept the pilot and recover his high value cargo! But be careful, he will target vehicles!.", _vehicleName, sideMissionColor];
+	_missionHintText = format ["A <t color='%2'>%1</t> is patrolling the island. Intercept it and recover its high value cargo!", _vehicleName, sideMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -156,7 +156,7 @@ _successExec =
 		[_box2, "mission_Launchers1"] call fn_refillbox;
 	};
 
-	_successHintMessage = "The sky is clear again, the enemy patrol was taken out! Ammo crates have fallen near the wreck.";
+	_successHintMessage = "The sky is clear again, the enemy jet was taken out! Ammo crates have fallen near the wreck.";
 };
 
 _this call sideMissionProcessor;

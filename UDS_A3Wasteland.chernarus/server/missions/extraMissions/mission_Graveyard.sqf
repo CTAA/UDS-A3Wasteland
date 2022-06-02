@@ -28,7 +28,7 @@ _setupObjects = {
 	_aiGroup = createGroup CIVILIAN;
 	[_aiGroup,_missionPos,12,15] spawn createCustomGroup3;
 	
-	_missionHintText = format ["<br/>An Miliz raided the graveyard. Seek and Destroy them all. Let them enter the grave.", extraMissionColor];
+	_missionHintText = format ["<br/>Military has raided the graveyard. Seek and Destroy them all!", extraMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
@@ -52,7 +52,7 @@ _successExec = {
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1];
 	{ deleteVehicle _x } forEach [_grave, _shovel1, _shovel2];
 	
-	_successHintMessage = format ["Good Job! the enemy are now returned to their graves.<br/> Check those crates as a reward!"];
+	_successHintMessage = format ["Good Job! The grave robbers are eliminated.<br/> Check those crates as a reward!"];
 };
 
 _this call extraMissionProcessor;

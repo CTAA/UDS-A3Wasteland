@@ -65,7 +65,7 @@ _setupObjects = {
 	_aiGroup setBehaviour "COMBAT";	
 	
 	_vehicleName = "Hostage";
-	_missionHintText = format ["<br/>Bandits stopped a <t color='%2'>Gendarmerie Offroader</t> and set the driver captive.<br/> They are <t color='%2'>wearing Gendarmerie uniforms</t>!<br/> Kill these morons and try to keep the real officer alive!", _vehicleName, sideSpecMissionColor];
+	_missionHintText = format ["<br/>Bandits stopped a <t color='%2'>Gendarmerie Offroader</t> and set the driver captive.<br/> They are <t color='%2'>wearing Gendarmerie uniforms</t>!<br/> Kill them and rescue the real officer.", _vehicleName, sideSpecMissionColor];
 };
 
 _waitUntilMarkerPos = nil;
