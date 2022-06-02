@@ -105,16 +105,19 @@ if (isServer) then {
 
     private _vehOwner = _vehicle getVariable ["ownerUID",""];
 
+    // Players cannot park other players owned vehicles
     if !(_vehOwner in ["",_uid]) exitWith {
       [_player, format ["Someone else has the ownership of the %1, you cannot park it.", ([typeOf _vehicle] call generic_display_name)], "Parking Error"] call pp_notify;
     };
-
+    
     diag_log format["Parking vehicle %1(%2) for player %3(%4)", typeOf _vehicle, netId _vehicle,  (name _player), _uid];
 
     def(_parked_vehicles);
     _parked_vehicles = _player getVariable "parked_vehicles";
     _parked_vehicles = OR(_parked_vehicles,[]);
 
+
+    // Players must have ownership to park vehicle
     if (_vehOwner isEqualTo "") exitWith {
       [_player, format ["You must take ownership of the vehicle before attmempting to park it", ([typeOf _vehicle] call generic_display_name)], "Parking Error"] call pp_notify;
     };
