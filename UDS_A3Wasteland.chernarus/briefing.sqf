@@ -179,7 +179,7 @@ player createDiaryRecord ["udsrules",["Server Rules","
 <br/><font size='16' color='#FF0000'>Anyone breaking these rules will receive punishments accordingly. (At our the discretion of our staff team)</font>
 "]];
 // Voice
-player createDiaryRecord ["voice",["Teamspeak/Discord","
+player createDiaryRecord ["voice",["Discord","
 <br/>Our Discord is available at:
 <br/>
 <br/><font size='16' color='#FF0000'>discord.gg/S25QBgb47y</font>
