@@ -77,7 +77,7 @@ class playerSettings {
 		// Left Menu
 		class nAInfoButton : w_RscButton2 {
 			idc = -1;
-			text = "Infos";
+			text = "Info";
 			colorBackground[] = {0,0,0,0.7};
 			colorBackgroundActive[] = {0, 0.729, 1, 1};
 			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
