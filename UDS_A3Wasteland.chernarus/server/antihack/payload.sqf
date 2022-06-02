@@ -34,7 +34,6 @@ for "_i" from 0 to (count _cfgPatches - 1) do
 
 		if (_patchName in
 		[
-			"rhs_main", // RHS - Game Options
 			"mcc_sandbox", // MCC keys
 			"agm_core", // AGM Options
 			"ace_optionsmenu", // ACE Options
