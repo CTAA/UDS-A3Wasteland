@@ -150,7 +150,7 @@ JTS_FNC_SEND =
 					};
 
 					ctrlsettext [00007, Format ["PM sent to %1", name _Receiver]];
-					[[_Title, _PM],"JTS_FNC_SENT",_Receiver,false] spawn remoteExec;
+					[[_Title, _PM],"JTS_FNC_SENT",_Receiver,false] spawn BIS_fnc_MP;
 					{ctrlsettext [_x, ""]} foreach [00004, 00006];
 				};
 			};
