@@ -7,7 +7,7 @@
 #define MISSION_CTRL_PVAR_LIST extraMissions
 #define MISSION_CTRL_TYPE_NAME "EXTRA"
 #define MISSION_CTRL_FOLDER "extraMissions"
-#define MISSION_CTRL_DELAY (["A3W_extraMissionDelay", 17*60] call getPublicVar)
+#define MISSION_CTRL_DELAY (["A3W_extraMissionDelay", 5*60] call getPublicVar)
 #define MISSION_CTRL_COLOR_DEFINE extraMissionColor
 
 #include "extraMissions\extraMissionDefines.sqf"
