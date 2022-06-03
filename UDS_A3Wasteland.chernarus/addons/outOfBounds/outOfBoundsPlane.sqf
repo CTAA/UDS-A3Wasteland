@@ -38,7 +38,7 @@
 */
 
 _maxTime = 60; // max out of bounds timer
-_maxHeight = 2500; // max plane height
+_maxHeight = 1500; // max plane height
 
 /*	------------------------------------------------------------------------------------------
 	DO NOT EDIT BELOW HERE!
