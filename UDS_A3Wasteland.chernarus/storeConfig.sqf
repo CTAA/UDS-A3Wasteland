@@ -2032,7 +2032,7 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
-	// General Objects
+	// Building objects
 	["Camo Net", "CamoNet_INDP_open_F", 2000, "object", "HIDDEN"], // unlisted, only for object saving
 	["Pier Ladder", "Land_PierLadder_F", 2500, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 2500, "ammocrate"],
@@ -2349,7 +2349,6 @@ helicoptersArray = compileFinal str
 	["SA-330 Puma HC2", "CUP_B_SA330_Puma_HC2_BAF", 10000, "vehicle"],
 	["Merlin HC3A (Armed)", "CUP_B_Merlin_HC3A_Armed_GB", 15000, "vehicle"],
 	["Merlin HC3A", "CUP_B_Merlin_HC3A_GB", 10000, "vehicle"],
-	["AH1", "CUP_B_AH1_DL_BAF", 140000, "vehicle"],
 	["Chinook HC-4", "CUP_B_CH47F_GB", 20000, "vehicle"],
 	["Chinook HC-4 (VIV)", "CUP_B_CH47F_VIV_GB", 20000, "vehicle"],
 	["Chinook HC-6", "CUP_B_MH47E_GB", 20000, "vehicle"],
@@ -2357,15 +2356,11 @@ helicoptersArray = compileFinal str
 	["AW159 Wildcat (Black Cat, Unarmed)", "CUP_B_AW159_Unarmed_RN_Blackcat", 10000, "vehicle"],
 	["i-6A Hook (VIV)", "CUP_B_MI6A_CDF", 20000, "vehicle"],
 	["Mi-6T Hook", "CUP_B_MI6T_CDF", 20000, "vehicle"],
-	["Mi-8MT Medevac", "CUP_B_Mi17_medevac_CDF", 20000, "vehicle"],
-	["Mi-8MT (VIV)", "CUP_B_Mi17_VIV_CDF", 10000, "vehicle"],
 	["Mi-8MT", "CUP_B_Mi17_CDF", 10000, "vehicle"],
-	["MH-60S Seahawk (M3M)", "CUP_B_UH60S_USN", 10000, "vehicle"],
 	["MH-60S Seahawk", "CUP_B_MH60S_USMC", 10000, "vehicle"],
 	["MH-60S Seahawk (FFV)", "CUP_B_MH60S_FFV_USMC", 10000, "vehicle"],
 	["AH-1Z", "CUP_B_AH1Z_Dynamic_USMC", 110000, "vehicle"],
 	["UH-1Y Venom (Gunship)", "CUP_B_UH1Y_Gunship_Dynamic_USMC", 70000, "vehicle"],
-	["UH-1Y Venom (MEDVAC)", "CUP_B_UH1Y_MEV_USMC", 20000, "vehicle"],
 	["UH-1Y Venom (Transport)", "CUP_B_UH1Y_UNA_USMC", 15000, "vehicle"],
 	["UH-60M (FFV)", "CUP_B_UH60M_FFV_US", 10000, "vehicle"],
 	["UH-60M unarmed (FFV)", "CUP_B_UH60M_Unarmed_FFV_US", 10000, "vehicle"], //*Neu
