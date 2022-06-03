@@ -36,11 +36,10 @@ switch (_boxType) do {
 	case "mission_Launchers1": {
 		_boxItems = [
 			["wep", ["Laserdesignator", "Laserdesignator_02", "Laserdesignator_03"], 1, 1],
-			["wep", ["launch_RPG32_F", "launch_NLAW_F", "launch_RPG32_ghex_F","launch_RPG7_F"], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(1,2)],
-			["wep", ["launch_NLAW_F",["launch_RPG32_F", "launch_RPG32_ghex_F"],
-				["launch_Titan_short_F", "launch_O_Titan_short_F", "launch_I_Titan_short_F", "launch_B_Titan_short_tna_F", "launch_O_Titan_short_ghex_F"],
-				["launch_MRAWS_green_rail_F", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F", "launch_MRAWS_green_F", "launch_MRAWS_olive_F", "launch_MRAWS_sand_F"],
-				["launch_O_Vorona_brown_F", "launch_O_Vorona_green_F"]
+			["wep", ["9K32 Strela-2", "CUP_launch_9K32Strela", "Igla 9K38", "CUP_launch_Igla"], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
+			["wep", ["M136 Granatenwerfer", "CUP_launch_M136",["M47 Dragon", "CUP_launch_M47"],
+				["Metis AT-13", "CUP_launch_Metis", "Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", "Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", "RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V"],
+				["RPG18", "CUP_launch_RPG18", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"],
 			], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(1,3)],
 			["mag", ["APERSTripMine_Wire_Mag", "APERSBoundingMine_Range_Mag", "APERSMine_Range_Mag", "ClaymoreDirectionalMine_Remote_Mag"], RANDOM_BETWEEN(2,5)],
 			["mag", ["SLAMDirectionalMine_Wire_Mag", "ATMine_Range_Mag", "DemoCharge_Remote_Mag", "SatchelCharge_Remote_Mag"], RANDOM_BETWEEN(2,5)],
@@ -58,60 +57,59 @@ switch (_boxType) do {
 	case "mission_Launchers2": {
 		_boxItems = [
 			["wep", ["SMG_03_TR_khaki", "SMG_03C_TR_khaki"], RANDOM_BETWEEN(2,4)], //Weapons
-			["wep", ["launch_MRAWS_green_F", "launch_O_Vorona_green_F"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(3,7)], //Weapons
+			["wep", ["CUP_launch_RPG18_Loaded"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(3,7)], //Weapons
 			["itm", ["V_PlateCarrier1_rgr", "V_PlateCarrier2_rgr_noflag_F", "V_PlateCarrier2_tna_F", "V_PlateCarrier1_tna_F","V_PlateCarrier1_rgr_noflag_F"], RANDOM_BETWEEN(2,5)], //Vests
 			["bac", ["B_ViperLightHarness_ghex_F", "B_LegStrapBag_coyote_F", "B_LegStrapBag_olive_F"], RANDOM_BETWEEN(3,5)], //Backpack
 			["itm", ["U_O_V_Soldier_Viper_F","U_O_V_Soldier_Viper_hex_F"], RANDOM_BETWEEN(2,4)], //Uniform
 			["itm", ["H_HelmetB_TI_tna_F","H_PASGT_basic_olive_F"], RANDOM_BETWEEN(3,6)], //Headgear
 			["mag", "30Rnd_9x21_Mag_SMG_02", RANDOM_BETWEEN(5,20)], //Ammo
-			["mag", ["MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"], RANDOM_BETWEEN(2,4)], //Ammo
-			["mag", ["Vorona_HEAT", "Vorona_HE"], RANDOM_BETWEEN(2,4)] //Ammo
+			["mag", "CUP_RPG18_M", RANDOM_BETWEEN(2,4)], //Ammo
 		];
 	};
 	case "mission_Launchers3": { //Umbau
 		_boxItems = [
-			["wep", ["arifle_AK12_GL_F", "arifle_AK12_GL_arid_F", "arifle_AK12_GL_lush_F"], RANDOM_BETWEEN(1,4)], //Weapons
-			["wep", ["arifle_CTAR_GL_ghex_F", "arifle_CTAR_GL_blk_F", "arifle_CTAR_GL_hex_F"], RANDOM_BETWEEN(3,8)], //Weapons
+			["wep", ["CUP_arifle_AS_VAL_VFG_top_rail"], RANDOM_BETWEEN(0,1)], //Weapons
+			["wep", ["CUP_arifle_AK47_top_rail", "CUP_arifle_AKS_top_rail", "CUP_arifle_AK74"], RANDOM_BETWEEN(3,6)], //Weapons
 			["wep", "arifle_Katiba_GL_F", RANDOM_BETWEEN(1,4)], //Weapons
-			["wep", "arifle_MX_GL_khk_F", RANDOM_BETWEEN(1,3)], //Weapons
+			["wep", "CUP_glaunch_M32", RANDOM_BETWEEN(1,2)], //Weapons
 			["wep", "arifle_MX_GL_F", RANDOM_BETWEEN(2,4)], //Weapons
-			["wep", ["launch_MRAWS_green_rail_F", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"], RANDOM_BETWEEN(1,3)], //Weapons
+			["wep", ["CUP_launch_Mk153Mod0_blk"], RANDOM_BETWEEN(1,3)], //Weapons
 			["wep", ["launch_MRAWS_green_F", "launch_MRAWS_olive_F", "launch_MRAWS_sand_F"], RANDOM_BETWEEN(1,3)], //Weapons
-			["wep", ["launch_O_Vorona_brown_F", "launch_O_Vorona_green_F"], RANDOM_BETWEEN(1,3)], //Weapons
+			["wep", ["CUP_launch_MAAWS"], RANDOM_BETWEEN(1,3)], //Weapons
 			["itm", ["optic_ACO_grn", "optic_Aco"], RANDOM_BETWEEN(1,3)], //Scopes
 			["itm", "U_Tank_green_F", RANDOM_BETWEEN(2,4)], //Uniform
 			["bac", ["B_Bergen_dgtl_F", "B_Bergen_hex_F", "B_Bergen_mcamo_F", "B_Bergen_tna_F"], RANDOM_BETWEEN(2,4)], //Backpack
 			["itm", ["H_Tank_black_F", "H_Tank_eaf_F"], RANDOM_BETWEEN(2,4)], //Headgear
-			["mag", "30rnd_762x39_AK12_Lush_Mag_F", RANDOM_BETWEEN(3,10)], //Ammo
 			["mag", "1Rnd_HE_Grenade_shell", RANDOM_BETWEEN(7,10)], //Ammo
 			["mag", ["UGL_FlareWhite_F", "UGL_FlareGreen_F"], RANDOM_BETWEEN(5,8)], //Ammo
 			["mag", ["UGL_FlareRed_F", "UGL_FlareYellow_F"], RANDOM_BETWEEN(2,5)], //Ammo
 			["mag", ["1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell"], RANDOM_BETWEEN(2,5)], //Ammo
 			["mag", ["1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell"], RANDOM_BETWEEN(2,5)], //Ammo
-			["mag", "30Rnd_580x42_Mag_F", RANDOM_BETWEEN(2,8)], //Ammo
+			["mag", ["CUP_30Rnd_762x39_AK47_M", "CUP_30Rnd_762x39_AK103_bakelite_M", "CUP_30Rnd_762x39_AK47_TK_M"]  RANDOM_BETWEEN(2,8)], //Ammo
 			["mag", "30Rnd_65x39_caseless_green", RANDOM_BETWEEN(2,8)], //Ammo
 			["mag", "30Rnd_65x39_caseless_khaki_mag", RANDOM_BETWEEN(2,4)], //Ammo
 			["mag", "30Rnd_65x39_caseless_mag", RANDOM_BETWEEN(4,8)], //Ammo
 			["mag", "3Rnd_HE_Grenade_shell", RANDOM_BETWEEN(2,4)], //Ammo
 			["mag", ["3Rnd_UGL_FlareWhite_F", "3Rnd_UGL_FlareGreen_F", "3Rnd_UGL_FlareRed_F", "3Rnd_UGL_FlareYellow_F", "3Rnd_UGL_FlareCIR_F"], RANDOM_BETWEEN(2,4)], //Ammo
+			["mag", ["CUP_6Rnd_HE_M203"], RANDOM_BETWEEN(2,3)]
 			["mag", ["3Rnd_Smoke_Grenade_shell", "3Rnd_SmokePurple_Grenade_shell", "3Rnd_SmokeBlue_Grenade_shell"], RANDOM_BETWEEN(2,4)], //Ammo
-			["mag", ["MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"], RANDOM_BETWEEN(2,4)], //Ammo
-			["mag", ["Vorona_HEAT", "Vorona_HE"], RANDOM_BETWEEN(2,4)] //Ammo
+			["mag", ["CUP_SMAW_HEAA_M", "CUP_SMAW_HEDP_M", "CUP_SMAW_Spotting"], RANDOM_BETWEEN(2,4)], //Ammo
+			["mag", ["CUP_MAAWS_HEAT_M", "CUP_MAAWS_HEDP_M"], RANDOM_BETWEEN(2,4)] //Ammo
 		];
 	};
 	
 	case "mission_Launchers4": {
 		_boxItems = [
-			["wep", ["srifle_DMR_07_blk_F", "arifle_MXM_Black_F"], RANDOM_BETWEEN(2,4)], //Weapons
-			["wep", ["launch_MRAWS_green_F", "launch_O_Vorona_green_F"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(3,7)], //Weapons
+			["wep", ["CUP_srifle_DMR", "arifle_MXM_Black_F"], RANDOM_BETWEEN(2,4)], //Weapons
+			["wep", ["CUP_launch_NLAW_Loaded", "CUP_launch_Metis"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(3,7)], //Weapons
 			["itm", ["V_PlateCarrierSpec_blk", "V_PlateCarrier2_blk", "V_PlateCarrier1_blk"], RANDOM_BETWEEN(2,5)], //Vests
 			["bac", ["B_ViperLightHarness_ghex_F", "B_LegStrapBag_coyote_F", "B_LegStrapBag_olive_F"], RANDOM_BETWEEN(3,5)], //Backpack
 			["itm", ["U_O_R_Gorka_01_black_F"], RANDOM_BETWEEN(2,4)], //Uniform
 			["itm", ["H_Tank_black_F", "H_PASGT_basic_black_F", "H_HelmetSpecO_blk"], RANDOM_BETWEEN(3,6)], //Headgear
 			["mag", "30Rnd_65x39_caseless_mag", RANDOM_BETWEEN(4,8)], //Ammo
-			["mag", "20Rnd_650x39_Cased_Mag_F", RANDOM_BETWEEN(2,4)], //Ammo
-			["mag", ["MRAWS_HEAT_F", "MRAWS_HE_F", "MRAWS_HEAT55_F"], RANDOM_BETWEEN(2,4)], //Ammo
-			["mag", ["Vorona_HEAT", "Vorona_HE"], RANDOM_BETWEEN(2,4)] //Ammo
+			["mag", "CUP_20Rnd_762x51_DMR", RANDOM_BETWEEN(2,4)], //Ammo
+			["mag", "CUP_NLAW_M", RANDOM_BETWEEN(2,4)], //Ammo
+			["mag", ["CUP_AT13_M", "Vorona_HE"], RANDOM_BETWEEN(2,4)] //Ammo
 		];
 	};
 
@@ -142,7 +140,7 @@ switch (_boxType) do {
 			["wep", ["LMG_Mk200_F", "LMG_Zafir_F"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(2,4)],
 			["wep", ["arifle_AKM_F", "arifle_AKS_F", "arifle_CTARS_hex_F", "arifle_CTAR_hex_F", "arifle_MX_F", "arifle_MXM_F", "arifle_ARX_hex_F", "arifle_SPAR_01_khk_F"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(4,8)],
 			["wep", ["srifle_EBR_F", "srifle_DMR_01_F"], RANDOM_BETWEEN(0,2), RANDOM_BETWEEN(4,8)],
-			["wep", ["srifle_LRR_LRPS_F", "srifle_LRR_camo_LRPS_F", "srifle_LRR_tna_LRPS_F", "srifle_GM6_LRPS_F", "srifle_GM6_camo_LRPS_F", "srifle_GM6_ghex_LRPS_F"], RANDOM_BETWEEN(0,2), RANDOM_BETWEEN(6,12)],
+			["wep", "CUP_smg_MP5A5_flashlight", RANDOM_BETWEEN(2,3)],
 			["wep", "arifle_SDAR_F", RANDOM_BETWEEN(0,2), RANDOM_BETWEEN(3,5)],
 			["wep", ["hgun_Pistol_heavy_01_F", "hgun_Pistol_heavy_01_MRD_F", "hgun_Pistol_heavy_02_F", "hgun_Pistol_heavy_02_Yorris_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,8)],
 			["mag", "30Rnd_556x45_Stanag", RANDOM_BETWEEN(5,10)],
@@ -150,6 +148,7 @@ switch (_boxType) do {
 			["mag", "30Rnd_65x39_caseless_green", RANDOM_BETWEEN(5,10)],
 			["mag", "9Rnd_45ACP_Mag", RANDOM_BETWEEN(5,10)],
 			["mag", "16Rnd_9x21_Mag", RANDOM_BETWEEN(5,10)],
+			["mag", "CUP_30Rnd_9x19_MP5", RANDOM_BETWEEN(5,10)],
 			["itm", [["H_HelmetB", "H_HelmetIA"], ["H_HelmetSpecB", "H_HelmetSpecO_ocamo"], "H_HelmetLeaderO_ocamo"], RANDOM_BETWEEN(1,4)],
 			["itm", [
 				["V_PlateCarrier1_rgr", "V_PlateCarrier1_blk", "V_PlateCarrierIA1_dgtl"], // Lite
@@ -162,8 +161,8 @@ switch (_boxType) do {
 	
 	case "mission_Weapon2": {
 		_boxItems = [
-			["wep", ["srifle_LRR_LRPS_F", "srifle_LRR_camo_LRPS_F", "srifle_GM6_LRPS_F", "srifle_GM6_camo_LRPS_F"], RANDOM_BETWEEN(1,4), RANDOM_BETWEEN(5,10)],
-			["wep", ["launch_O_Titan_ghex_F", "launch_RPG7_F", "launch_NLAW_F"], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(3,5)],
+			["wep", ["CUP_arifle_AKS74_pso", "CUP_arifle_AKS74UN_kobra_snds"], RANDOM_BETWEEN(5,10)],
+			["wep", ["CUP_launch_M136_Loaded", "CUP_launch_M72A6_Special", "CUP_launch_M72A6_Loaded"], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(3,5)],
 			["itm", ["V_RebreatherB", "V_PlateCarrierIAGL_dgtl", "V_TacVest_camo", "V_PlateCarrierGL_rgr"], RANDOM_BETWEEN(1,8)],
 			["bac", ["B_Carryall_mcamo", "B_Kitbag_mcamo"], RANDOM_BETWEEN(1,5)],
 			["itm", ["U_B_HeliPilotCoveralls", "U_B_Wetsuit", "U_B_CombatUniform_mcam_vest"], RANDOM_BETWEEN(1,4)],
@@ -172,7 +171,7 @@ switch (_boxType) do {
 	};
 	case "mission_Weapon3": {
 		_boxItems = [
-			["wep", ["SMG_03C_TR_camo", "SMG_03_TR_camo", "SMG_03_TR_hex", "SMG_03C_TR_hex"], RANDOM_BETWEEN(2,5)], //ADRs
+			["wep", ["	CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds", "CUP_smg_EVO", "CUP_arifle_FNFAL5061", "CUP_smg_EVO_MRad_Flashlight_Snds"], RANDOM_BETWEEN(2,5)], //ADRs
 			["wep", ["srifle_DMR_05_blk_F", "srifle_DMR_02_F", "LMG_03_F", "MMG_02_camo_F", "srifle_LRR_tna_F"], RANDOM_BETWEEN(3,6)], //Snipers
 			["itm", ["optic_DMS", "optic_AMS", "optic_SOS", "optic_NVS"], RANDOM_BETWEEN(4,6)], //Scopes
 			["itm", "muzzle_snds_570", RANDOM_BETWEEN(3,5)], //Silencer
@@ -180,7 +179,9 @@ switch (_boxType) do {
 			["itm", ["U_O_V_Soldier_Viper_F", "U_O_V_Soldier_Viper_hex_F"], RANDOM_BETWEEN(2,4)], //Uniform
 			["itm", ["H_HelmetB_TI_tna_F", "H_PASGT_basic_olive_F"], RANDOM_BETWEEN(2,5)], //Headgear
 			["bac", ["B_ViperLightHarness_ghex_F", "B_LegStrapBag_coyote_F", "B_LegStrapBag_olive_F"], RANDOM_BETWEEN(2,5)], //Backpack
-			["mag", "30Rnd_9x21_Mag_SMG_02", RANDOM_BETWEEN(5,10)], //Ammo
+			["mag", "CUP_30Rnd_9x19_EVO", RANDOM_BETWEEN(5,10)], //Ammo
+			["mag", "CUP_20Rnd_762x51_FNFAL_M", RANDOM_BETWEEN(5,10)], //Ammo
+			["mag", "CUP_30Rnd_556x45_G36", RANDOM_BETWEEN(5,10)], //Ammo
 			["mag", "10Rnd_93x64_DMR_05_Mag", RANDOM_BETWEEN(2,5)], //Ammo
 			["mag", "10Rnd_338_Mag", RANDOM_BETWEEN(3,5)], //Ammo
 			["mag", "7Rnd_408_Mag", RANDOM_BETWEEN(3,5)], //Ammo
@@ -191,7 +192,7 @@ switch (_boxType) do {
 	
 	case "mission_Weapon_camo": {
 		_boxItems = [
-			["wep", ["arifle_MSBS65_UBS_camo_F", "arifle_MSBS65_Mark_camo_F", "arifle_MSBS65_GL_camo_F", "arifle_MSBS65_camo_F"], RANDOM_BETWEEN(3,8), RANDOM_BETWEEN(4,7)], //Weapons Rifle
+			["wep", ["CUP_arifle_G36A_camo", "CUP_arifle_AG36_camo", "CUP_arifle_G36A_AG36_RIS_camo", "CUP_arifle_MG36_camo	"], RANDOM_BETWEEN(3,8), RANDOM_BETWEEN(4,7)], //Weapons Rifle
 			["wep", ["srifle_DMR_06_camo_F", "srifle_DMR_03_woodland_F", "srifle_DMR_03_multicam_F", "srifle_DMR_02_camo_F", "srifle_LRR_camo_F"], RANDOM_BETWEEN(3,8), RANDOM_BETWEEN(3,6)], //Weapons Sniper
 			["itm", ["optic_Arco_lush_F", "optic_Arco_AK_lush_F"], RANDOM_BETWEEN(1,3)], //Scopes
 			["itm", ["V_PlateCarrier1_wdl", "V_PlateCarrier2_wdl"], RANDOM_BETWEEN(2,4)], //Vests
