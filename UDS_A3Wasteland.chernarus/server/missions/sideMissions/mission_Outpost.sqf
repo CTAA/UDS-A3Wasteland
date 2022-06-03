@@ -54,15 +54,15 @@ _successExec =
 	uiSleep 1;
 
 	_vehicleClass =
-	[	"B_APC_Wheeled_01_cannon_F",
-		"O_MBT_02_cannon_F",
-		"O_Heli_Attack_02_F",
-		"O_APC_Tracked_02_AA_F",
-		"O_APC_Tracked_02_cannon_F",
-		"B_Heli_Light_01_dynamicLoadout_F",
-		"B_APC_Tracked_01_AA_F",
-		"I_MBT_03_cannon_F",
-		"B_T_VTOL_01_armed_F"
+	[	"CUP_B_MCV80_GB_D_SLAT",
+		"CUP_B_M1A2_TUSK_MG_USMC",
+		"CUP_B_AH6X_USA",
+		"CUP_B_FV432_Bulldog_GB_W",
+		"CUP_B_M163_USA",
+		"CUP_O_Mi24_P_Dynamic_RU",
+		"CUP_B_MV22_USMC_RAMPGUN",
+		"CUP_B_M270_DPICM_USA",
+		"CUP_B_M1128_MGS_Desert"
 	] call BIS_fnc_selectRandom;
 
 	_vehicle = [_vehicleClass, _missionPos] call createMissionVehicle;

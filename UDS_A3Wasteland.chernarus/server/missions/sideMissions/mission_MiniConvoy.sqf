@@ -26,13 +26,13 @@ _setupObjects =
 	// pick the vehicles for the convoy
 	_convoyVeh = if (missionDifficultyHard) then
 	{
-		["I_G_Offroad_01_armed_F", "I_Truck_02_transport_F", "I_G_Offroad_01_F"]
+		["I_G_Offroad_01_armed_F", "CUP_I_V3S_Covered_TKG", "CUP_C_Datsun_4seat"]
 	}
 	else
 	{
 		[
-			["B_Quadbike_01_F", "C_Van_01_box_F", "B_Quadbike_01_F"],
-			["I_G_Offroad_01_F", "I_Truck_02_transport_F", "I_G_Offroad_01_F"]
+			["B_Quadbike_01_F", "CUP_I_V3S_Covered_TKG", "B_Quadbike_01_F"],
+			["CUP_C_Datsun_4seat", "CUP_I_V3S_Covered_TKG", "CUP_C_Datsun_4seat"]
 		] call BIS_fnc_selectRandom;
 	};
 
@@ -69,7 +69,7 @@ _setupObjects =
 				_soldier = [_aiGroup, _position] call createRandomSoldier;
 				_soldier moveInGunner _vehicle;
 			};
-			case (_type isKindOf "C_Van_01_box_F"):
+			case (_type isKindOf "CUP_I_V3S_Covered_TKG"):
 			{
 				[_vehicle, "\A3\Soft_F_Bootcamp\Van_01\Data\Van_01_ext_IG_01_CO.paa", [0]] call applyVehicleTexture; // Apply camo instead of civilian color
 			};
