@@ -8,7 +8,7 @@ class EditorData
 	toggles=77;
 	class ItemIDProvider
 	{
-		nextID=6999;
+		nextID=7003;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=261;
+		nextID=271;
 	};
 	class Camera
 	{
-		pos[]={3615.241,14.831082,2457.7017};
-		dir[]={-0.40695575,-0.18633345,0.89436418};
-		up[]={-0.077210419,0.98245412,0.16968428};
-		aside[]={0.91029483,2.6655471e-007,0.41420087};
+		pos[]={3587.9656,9.1075907,2469.6382};
+		dir[]={-0.63433295,-0.26760012,0.72543544};
+		up[]={-0.17621306,0.96347171,0.20152061};
+		aside[]={0.75286692,9.5547875e-007,0.6583212};
 	};
 };
 binarizationWanted=0;
@@ -93,13 +93,14 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Argo_Walls_Military",
 	"A3_Animals_F_Rabbit",
-	"A3_Structures_F_Civ_Dead"
+	"A3_Structures_F_Civ_Dead",
+	"CUP_Ind_Garage01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=40;
+		items=41;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -362,6 +363,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item40
+		{
+			className="CUP_Ind_Garage01";
+			name="CUP_Ind_Garage01";
+		};
 	};
 };
 dlcs[]=
@@ -414,7 +420,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=690;
+		items=691;
 		class Item0
 		{
 			dataType="Group";
@@ -1658,7 +1664,7 @@ class Mission
 					name="Parking6_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=221.54033;
+					angle=221.54031;
 					id=5897;
 					atlOffset=-0.11764526;
 				};
@@ -1945,8 +1951,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3605.5,7.8764391,2478.175};
-						angles[]={0,2.7970526,0};
+						position[]={3584.125,6.8764224,2473.55};
+						angles[]={0,2.174401,0};
 					};
 					side="Civilian";
 					flags=7;
@@ -1975,14 +1981,56 @@ class Mission
 					};
 					id=1742;
 					type="C_man_1_1_F";
-					atlOffset=0.035508156;
+					atlOffset=0.038100719;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=1741;
-			atlOffset=0.035508156;
+			atlOffset=0.038100719;
 		};
 		class Item19
 		{
@@ -11014,7 +11062,7 @@ class Mission
 			name="Airstrip_2";
 			type="Empty";
 			colorName="ColorRed";
-			angle=221.79576;
+			angle=221.79575;
 			id=3812;
 		};
 		class Item264
@@ -11688,7 +11736,7 @@ class Mission
 			name="Mission_4";
 			type="Empty";
 			colorName="ColorOrange";
-			angle=227.10785;
+			angle=227.10783;
 			id=3897;
 		};
 		class Item324
@@ -11905,7 +11953,7 @@ class Mission
 			name="Roadblock_5";
 			type="Empty";
 			colorName="ColorUNKNOWN";
-			angle=56.307972;
+			angle=56.307968;
 			id=3927;
 		};
 		class Item346
@@ -21269,7 +21317,7 @@ class Mission
 			name="VehStore7_heliSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=302.29251;
+			angle=302.29248;
 			id=6850;
 			atlOffset=-0.010000229;
 		};
@@ -21901,7 +21949,7 @@ class Mission
 			fillName="DiagGrid";
 			a=160;
 			b=160;
-			angle=90.904976;
+			angle=90.904968;
 			id=6990;
 			atlOffset=416.25827;
 		};
@@ -22060,6 +22108,45 @@ class Mission
 			};
 			id=6998;
 			type="Land_Workshop_02_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item690
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3586.125,8.0722885,2471};
+				angles[]={6.2805324,5.9582748,0.0079936078};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=7002;
+			type="Land_Ind_Garage01";
 			class CustomAttributes
 			{
 				class Attribute0
