@@ -39,7 +39,7 @@ switch (_boxType) do {
 			["wep", ["9K32 Strela-2", "CUP_launch_9K32Strela", "Igla 9K38", "CUP_launch_Igla"], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
 			["wep", ["M136 Granatenwerfer", "CUP_launch_M136",["M47 Dragon", "CUP_launch_M47"],
 				["Metis AT-13", "CUP_launch_Metis", "Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", "Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", "RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V"],
-				["RPG18", "CUP_launch_RPG18", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"],
+				["RPG18", "CUP_launch_RPG18", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"]
 			], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(1,3)],
 			["mag", ["APERSTripMine_Wire_Mag", "APERSBoundingMine_Range_Mag", "APERSMine_Range_Mag", "ClaymoreDirectionalMine_Remote_Mag"], RANDOM_BETWEEN(2,5)],
 			["mag", ["SLAMDirectionalMine_Wire_Mag", "ATMine_Range_Mag", "DemoCharge_Remote_Mag", "SatchelCharge_Remote_Mag"], RANDOM_BETWEEN(2,5)],
