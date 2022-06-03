@@ -25,7 +25,7 @@ _setupObjects =
 	}
 	else
 	{
-		selectRandom [["B_Heli_Light_01_dynamicLoadout_F", "pawneeNormal"], ["O_Heli_Light_02_dynamicLoadout_F", "orcaDAGR"], "I_Heli_light_03_dynamicLoadout_F"];
+		selectRandom [["CUP_B_AH64D_DL_USA"],["CUP_B_AH1Z_Dynamic_USMC"],["CUP_O_Mi24_Mk4_CSAT_T"],["CUP_O_Ka52_RU"]];
 	};
 
 	_createVehicle =
@@ -73,7 +73,7 @@ _setupObjects =
 				_soldier moveInTurret [_vehicle, [2]];
 			};
 
-			case (_type isKindOf "Heli_Attack_01_base_F" || _type isKindOf "Heli_Attack_02_base_F"):
+			case (_type isKindOf "CUP_B_AH64D_DL_USA" || _type isKindOf "CUP_B_AH1Z_Dynamic_USMC" || _type isKindOf "CUP_O_Mi24_Mk4_CSAT_T" || _type isKindOf "CUP_O_Ka52_RU"):
 			{
 				// these choppers need 1 gunner
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;
@@ -127,7 +127,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> (_vehicleClass param [0,""]) >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> (_vehicleClass param [0,""]) >> "displayName");
 
-	_missionHintText = format ["An armed <t color='%2'>%1</t> is patrolling the island. Intercept it and recover its cargo!", _vehicleName, sideMissionColor];
+	_missionHintText = format ["An armed <t color='%2'>%1</t> is patrolling the island. Intercept it and recover its cargo.", _vehicleName, sideMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -165,7 +165,7 @@ _successExec =
 		[_box2, "mission_Launchers3"] call fn_refillbox;
 	};
 
-	_successHintMessage = "The sky is clear again, the enemy patrol was taken out! Ammo crates have fallen near the wreck.";
+	_successHintMessage = "The sky is clear again, the enemy patrol was taken out. Ammo crates have fallen near the wreck.";
 };
 
 _this call sideMissionProcessor;
