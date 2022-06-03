@@ -6,8 +6,7 @@
 
 A3W_smallVehicles =
 [
-	"C_Quadbike_01_F",
-	["B_Quadbike_01_F", "O_Quadbike_01_F", "I_Quadbike_01_F", "I_G_Quadbike_01_F"]
+	
 ];
 
 //Civilian Vehicle List - Random Spawns
@@ -46,7 +45,6 @@ waterVehicles =
 [
 	"C_Scooter_Transport_01_F",
 	"C_Boat_Civil_01_F",
-	//"C_Boat_Civil_01_F",
 	["C_Boat_Civil_01_police_F", "C_Boat_Civil_01_rescue_F"],
 	["C_Boat_Transport_02_F", "I_C_Boat_Transport_02_F"],
 	["B_Boat_Armed_01_minigun_F", "O_Boat_Armed_01_hmg_F", "I_Boat_Armed_01_minigun_F"]
