@@ -16,17 +16,12 @@ _setupVars =
 {
 	_vehicleClass = selectRandom
 	[
-		["I_Plane_Fighter_03_dynamicLoadout_F", "buzzardEX"],
-		["I_Plane_Fighter_03_dynamicLoadout_F", "buzzardCAS"],
-		["I_Plane_Fighter_04_F", "GryphonXL"],
-		["I_Plane_Fighter_04_F", "GryphonAA"],
-		["B_Plane_Fighter_01_F", "blackwaspCAS"],
-		["B_Plane_Fighter_01_F", "blackwaspXL"],
-		["O_Plane_Fighter_02_Stealth_F", "shikraDEF"],
-		["O_Plane_Fighter_02_F", "shikraEX"],
-		"B_Plane_CAS_01_dynamicLoadout_F",
-		"O_Plane_CAS_02_dynamicLoadout_F",
-		["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianAntiInf"]
+		[["CUP_B_A10_DYN_USA","A10aWarthog"],
+		["CUP_B_F35B_BAF","F35bCAS"],
+		["CUP_B_GR9_DYN_GB","GR9Extra"],
+		["CUP_B_Su25_Dyn_CDF","Su25AT"],
+		["CUP_B_AV8B_DYN_USMC","Av8bAA"],
+		"CUP_I_L39_AAF"]
 	];
 
 	_missionType = "Abandoned Jet";

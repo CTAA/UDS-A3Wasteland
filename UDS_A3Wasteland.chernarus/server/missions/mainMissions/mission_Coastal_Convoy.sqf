@@ -27,9 +27,9 @@ _setupObjects =
 	
 	_vehChoices =
 	[
-		["B_Boat_Armed_01_minigun_F", "B_Heli_Transport_01_F"],
-		["O_Boat_Armed_01_hmg_F", ["O_Heli_Light_02_dynamicLoadout_F", "orcaDAGR"]],
-		["I_Boat_Armed_01_minigun_F", "I_Heli_light_03_dynamicLoadout_F"]
+		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"],
+		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"],
+		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"]
 	];
 
 	if (missionDifficultyHard) then

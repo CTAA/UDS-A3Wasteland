@@ -13,7 +13,7 @@ private ["_vehicleClass", "_nbUnits"];
 
 _setupVars =
 {
-	_vehicleClass = selectRandom ["I_Heli_Transport_02_F", "B_Heli_Transport_03_unarmed_F", "O_Heli_Transport_04_covered_F"];
+	_vehicleClass = selectRandom ["CUP_B_Merlin_HC3A_GB", "CUP_I_SA330_Puma_HC2_RACS", "CUP_O_MI6A_RU"];
 
 	_missionType = "Supply Helicopter";
 	_locationsArray = MissionSpawnMarkers;

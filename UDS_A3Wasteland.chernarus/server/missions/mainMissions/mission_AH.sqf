@@ -16,11 +16,7 @@ _setupVars =
 {
 	_vehicleClass = selectRandom
 	[
-		["O_Heli_Attack_02_dynamicLoadout_F", "KajmanAG"],
-		["O_Heli_Attack_02_dynamicLoadout_F", "KajmanDelta"],
-		["B_Heli_Light_01_dynamicLoadout_F", "pawneeGun"],
-		["B_Heli_Light_01_dynamicLoadout_F", "pawneeDelta"],
-		["B_Heli_Light_01_dynamicLoadout_F", "pawneeNormal"]
+		["CUP_O_Ka52_RU","CUP_O_Mi24_Mk3_CSAT_T","CUP_B_AH64D_DL_USA","CUP_B_AH1Z_Dynamic_USMC"]
 	];
 	
 	_missionType = "Attack Helicopter";

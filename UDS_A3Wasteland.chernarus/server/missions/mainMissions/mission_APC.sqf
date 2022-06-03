@@ -15,10 +15,7 @@ _setupVars =
 {
 	_vehicleClass = // to specify a vehicleLoadouts variant, simply write "class/variant", e.g. "O_Heli_Light_02_dynamicLoadout_F/orcaDAR"
 	[
-		["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F"],
-		["O_APC_Wheeled_02_rcws_v2_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"],
-		["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F"],
-		["B_AFV_Wheeled_01_cannon_F", "B_AFV_Wheeled_01_cannon_F"] // Tanks DLC
+		["CUP_B_FV510_GB_W_SLAT", "CUP_B_FV510_GB_W", "CUP_B_M163_USA","CUP_B_M2Bradley_USA_W","CUP_B_M2A3Bradley_USA_W","CUP_B_M6LineBacker_NATO_T"]
 	];
 
 	while {_vehicleClass isEqualType []} do { _vehicleClass = selectRandom _vehicleClass };
@@ -27,13 +24,7 @@ _setupVars =
 	private _vehicleClassTmp = _vehicleClass;
 	if (_vehicleClassTmp isEqualType []) then { _vehicleClassTmp = _vehicleClassTmp select 0 };
 
-	_missionType = switch (true) do
-	{
-		case ({_vehicleClassTmp isKindOf _x} count ["B_APC_Tracked_01_AA_F", "O_APC_Tracked_02_AA_F"] > 0): { "Anti Aircraft Vehicle" };
-		case (_vehicleClassTmp isKindOf "Tank_F"):                                                          { "Infantry Fighting Vehicle" };
-		case (_vehicleClassTmp isKindOf "AFV_Wheeled_01_base_F"):                                           { "Armored Fighting Vehicle" };
-		default                                                                                             { "Armored Personnel Carrier" };
-	};
+	_missionType = "Armored Vehicle"
 
 	_locationsArray = MissionSpawnMarkers;
 

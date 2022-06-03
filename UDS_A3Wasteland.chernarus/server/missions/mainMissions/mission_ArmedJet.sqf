@@ -16,9 +16,12 @@ _setupVars =
 {
 	_vehicleClass = selectRandom
 	[
-		"B_T_VTOL_01_armed_F",
-		"B_Plane_CAS_01_dynamicLoadout_F",
-		["O_T_VTOL_02_infantry_dynamicLoadout_F", "xianAntiInf"]
+		[["CUP_B_A10_DYN_USA","A10aWarthog"],
+		["CUP_B_F35B_BAF","F35bCAS"],
+		["CUP_B_GR9_DYN_GB","GR9Extra"],
+		["CUP_B_Su25_Dyn_CDF","Su25AT"],
+		["CUP_B_AV8B_DYN_USMC","Av8bAA"],
+		"CUP_I_L39_AAF"]
 	];
 
 	_missionType = "Armed Jet";

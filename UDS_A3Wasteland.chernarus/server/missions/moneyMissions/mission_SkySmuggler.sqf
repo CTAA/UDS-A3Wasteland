@@ -23,9 +23,9 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["O_Heli_Light_02_dynamicLoadout_F", ["B_Heli_Attack_01_dynamicLoadout_F", "BlackfootAG"]],
- 		["I_Heli_light_03_dynamicLoadout_F", ["B_Heli_Attack_01_dynamicLoadout_F", "BlackfootAG"]],
- 		["O_Heli_Attack_02_dynamicLoadout_F", ["B_Heli_Attack_01_dynamicLoadout_F", "BlackfootAA"]]
+		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAG"]],
+ 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAG"]],
+ 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAA"]]
 	];
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;
@@ -78,7 +78,7 @@ _setupObjects =
 				_soldier moveInTurret [_vehicle, [2]];
 			};
 
-			case (_type isKindOf "Heli_Attack_01_base_F" || _type isKindOf "Heli_Attack_02_base_F"):
+			case (_type isKindOf "CUP_B_AH1Z_Dynamic_USMC" || _type isKindOf ""):
 			{
 				// these choppers need 1 gunner
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;

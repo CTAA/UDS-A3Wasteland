@@ -28,16 +28,16 @@ _setupVars =
 			25000, // Money
 			[
 				[ // NATO convoy
-					["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F", "B_APC_Tracked_01_AA_F"], // Veh 1
-					["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"] // Veh 2
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D", "CUP_B_M163_USA"], // Veh 1
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"] // Veh 2
 				],
 				[ // CSAT convoy
-					["O_MRAP_02_hmg_F", "O_MRAP_02_gmg_F", "B_APC_Tracked_01_AA_F"], // Veh 1
-					["O_MRAP_02_hmg_F", "O_MRAP_02_gmg_F"] // Veh 2
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D", "CUP_B_M163_USA"], // Veh 1
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"] // Veh 2
 				],
 				[ // AAF convoy
-					["I_LT_01_AT_F", "I_MRAP_03_gmg_F", "I_LT_01_AA_F"], // Veh 1
-					["I_MRAP_03_hmg_F", "I_LT_01_AA_F", "I_LT_01_AT_F"] // Veh 2
+					["CUP_B_M1135_ATGMV_Woodland", "CUP_B_BAF_Coyote_GMG_D", "CUP_B_M163_USA"], // Veh 1
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_M163_USA", "CUP_B_M1135_ATGMV_Woodland"] // Veh 2
 				]
 			]
 		],
@@ -47,19 +47,19 @@ _setupVars =
 			50000, // Money
 			[
 				[ // NATO convoy
-					["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"], // Veh 1
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F"], // Veh 2
-					["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"] // Veh 3
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"], // Veh 1
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 2
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"] // Veh 3
 				],
 				[ // CSAT convoy
-					["O_MRAP_02_hmg_F", "O_MRAP_02_gmg_F"], // Veh 1
-					["O_APC_Wheeled_02_rcws_v2_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 2
-					["O_MRAP_02_hmg_F", "O_MRAP_02_gmg_F"] // Veh 3
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"], // Veh 1
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 2
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D"] // Veh 3
 				],
 				[ // AAF convoy
-					["I_MRAP_03_hmg_F", "I_MRAP_03_gmg_F", "I_LT_01_cannon_F"], // Veh 1
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F"], // Veh 2
-					["I_MRAP_03_hmg_F", "I_MRAP_03_gmg_F", "I_LT_01_AT_F"] // Veh 3
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D", "CUP_B_M1128_MGS_Woodland"], // Veh 1
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat"], // Veh 2
+					["CUP_B_BAF_Coyote_L2A1_D", "CUP_B_BAF_Coyote_GMG_D", "CUP_B_M1135_ATGMV_Woodland"] // Veh 3
 				]
 			]
 		],
@@ -69,19 +69,19 @@ _setupVars =
 			75000, // Money
 			[
 				[ // NATO convoy
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F"], // Veh 1
-					["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F", "B_APC_Tracked_01_AA_F"], // Veh 2
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F"] // Veh 3
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 1
+					["B_MBT_01_cannon_F", "CUP_O_T90_RU", "CUP_B_M163_USA"], // Veh 2
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"] // Veh 3
 				],
 				[ // CSAT convoy
-					["O_APC_Wheeled_02_rcws_v2_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 1
-					["O_MBT_02_cannon_F", "O_MBT_04_cannon_F"], // Veh 2
-					["O_APC_Wheeled_02_rcws_v2_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"] // Veh 3
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 1
+					["CUP_B_Challenger2_Woodland_BAF", "O_MBT_04_cannon_F"], // Veh 2
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"] // Veh 3
 				],
 				[ // AAF convoy
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F"], // Veh 1
-					["I_MBT_03_cannon_F", "B_APC_Tracked_01_AA_F"], // Veh 2
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F"] // Veh 3
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat"], // Veh 1
+					["CUP_B_M1A2_TUSK_MG_USMC", "CUP_B_M163_USA"], // Veh 2
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat"] // Veh 3
 				]
 			]
 		],
@@ -91,26 +91,26 @@ _setupVars =
 			100000, // Money
 			[
 				[ // NATO convoy
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F", "B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"], // Veh 1
-					["B_APC_Tracked_01_AA_F", "B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"], // Veh 2
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F", "B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"], // Veh 3
-					["B_APC_Tracked_01_AA_F", "I_APC_tracked_03_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 4
-					["B_APC_Wheeled_01_cannon_F", "B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_AA_F", "B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"] // Veh 5
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "B_MBT_01_cannon_F", "CUP_O_T90_RU"], // Veh 1
+					["CUP_B_M163_USA", "B_MBT_01_cannon_F", "CUP_O_T90_RU"], // Veh 2
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "B_MBT_01_cannon_F", "CUP_O_T90_RU"], // Veh 3
+					["CUP_B_M163_USA", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 4
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "B_MBT_01_cannon_F", "CUP_O_T90_RU"] // Veh 5
 				],
 				[ // CSAT convoy
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "O_MBT_02_cannon_F"], // Veh 1
-					["O_APC_Tracked_02_AA_F", "O_MBT_02_cannon_F"], // Veh 2
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "O_MBT_02_cannon_F"], // Veh 3
-					["B_APC_Tracked_01_AA_F", "I_APC_tracked_03_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 4
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "O_MBT_02_cannon_F"] // Veh 5
+					["O_APC_Wheeled_02_rcws_F", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "CUP_B_Challenger2_Woodland_BAF"], // Veh 1
+					["CUP_B_M163_USA", "CUP_B_Challenger2_Woodland_BAF"], // Veh 2
+					["O_APC_Wheeled_02_rcws_F", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "CUP_B_Challenger2_Woodland_BAF"], // Veh 3
+					["CUP_B_M163_USA", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 4
+					["O_APC_Wheeled_02_rcws_F", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA", "CUP_B_Challenger2_Woodland_BAF"] // Veh 5
 				],
 				[ // AAF convoy
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F", "I_MBT_03_cannon_F"], // Veh 1
-					["I_APC_tracked_03_cannon_F", "I_MBT_03_cannon_F"], // Veh 2
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F", "I_MBT_03_cannon_F"], // Veh 3
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F", "I_MBT_03_cannon_F"], // Veh 4
-					["B_APC_Tracked_01_AA_F", "I_APC_tracked_03_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 4
-					["I_APC_Wheeled_03_cannon_F", "I_APC_tracked_03_cannon_F", "I_MBT_03_cannon_F"] // Veh 5
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M1A2_TUSK_MG_USMC"], // Veh 1
+					["CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M1A2_TUSK_MG_USMC"], // Veh 2
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M1A2_TUSK_MG_USMC"], // Veh 3
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M1A2_TUSK_MG_USMC"], // Veh 4
+					["CUP_B_M163_USA", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M163_USA"], // Veh 4
+					["CUP_B_LAV25_green", "CUP_B_M1126_ICV_M2_Woodland_Slat", "CUP_B_M1A2_TUSK_MG_USMC"] // Veh 5
 				]
 			]
 		]

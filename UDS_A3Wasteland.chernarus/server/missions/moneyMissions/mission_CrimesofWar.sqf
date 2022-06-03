@@ -33,7 +33,7 @@ _setupVars = {
 };
 
 _setupObjects = {	
-	private _veh1 = "B_G_Offroad_01_armed_F";
+	private _veh1 = "CUP_O_Datsun_PK_Random";
 
 	_createVehicle = {
 		private _type = _this select 0;
@@ -46,7 +46,7 @@ _setupObjects = {
 
 		switch (true) do
 		{
-			case (_type isKindOf "B_G_Offroad_01_armed_F"):
+			case (_type isKindOf "CUP_O_Datsun_PK_Random"):
 			{
 				[_vehicle, "client\images\vehicleTextures\zero_mixcamo.paa", [0]] call applyVehicleTexture; 
 			};

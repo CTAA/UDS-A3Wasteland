@@ -20,7 +20,7 @@ _setupObjects =
 	_town = (call cityList) call BIS_fnc_selectRandom;
 	_missionPos = markerPos (_town select 0);
 
-	_convoyVeh = ["I_MRAP_03_hmg_F","I_MBT_03_cannon_F","O_APC_Tracked_02_AA_F","I_MBT_03_cannon_F","I_MRAP_03_gmg_F"];
+	_convoyVeh = ["	CUP_I_MATV_HMG_ION","CUP_O_T90_RU","CUP_I_M163_AAF","CUP_O_T90_RU","CUP_I_MATV_GMG_ION"];
 	
 	_veh1 = _convoyVeh select 0;
 	_veh2 = _convoyVeh select 1;

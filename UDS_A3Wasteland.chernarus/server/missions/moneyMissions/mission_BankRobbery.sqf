@@ -22,9 +22,9 @@ _setupObjects = {
 	diag_log format["Error Logger: BankRob %1",_missionLocation];
     
     _convoyVeh = [
-		["C_Van_01_transport_red_F"],
-		["C_Van_01_transport_white_F"],
-		["C_Van_01_transport_F"]
+		["CUP_I_SUV_Armored_ION"],
+		["CUP_I_SUV_Armored_ION"],
+		["CUP_I_SUV_Armored_ION"]
 	] call BIS_fnc_selectRandom;
 
 	_veh1 = _convoyVeh select 0;
