@@ -63,7 +63,7 @@ switch (_boxType) do {
 			["itm", ["U_O_V_Soldier_Viper_F","U_O_V_Soldier_Viper_hex_F"], RANDOM_BETWEEN(2,4)], //Uniform
 			["itm", ["H_HelmetB_TI_tna_F","H_PASGT_basic_olive_F"], RANDOM_BETWEEN(3,6)], //Headgear
 			["mag", "30Rnd_9x21_Mag_SMG_02", RANDOM_BETWEEN(5,20)], //Ammo
-			["mag", "CUP_RPG18_M", RANDOM_BETWEEN(2,4)], //Ammo
+			["mag", "CUP_RPG18_M", RANDOM_BETWEEN(2,4)] //Ammo
 		];
 	};
 	case "mission_Launchers3": { //Umbau
