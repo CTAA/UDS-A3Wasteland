@@ -50,8 +50,7 @@ if (_packetName == "BIS_fnc_MP_packet") then
 			"BIS_fnc_effectKilledAirDestruction",
 			"BIS_fnc_effectKilledAirDestructionStage2",
 			"BIS_fnc_effectKilledSecondaries",
-			"BIS_fnc_objectVar"/*,
-	
+			"BIS_fnc_objectVar"
 
 			// NOTE: You also need to whitelist individual functions in client\CfgRemoteExec_fnc.hpp
 		];
