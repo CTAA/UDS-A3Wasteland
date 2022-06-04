@@ -26,11 +26,7 @@ _createRandomVehicle =
 		[mediumMilitaryVehicles, 0.15]
 	] call fn_selectRandomWeightedPairs call fn_selectRandomNested;
 
-	if (_vehicleType isKindOf "Quadbike_01_base_F") then {
-		_mindist = 1.5;
-	} else {
-		_mindist = 4;
-	};
+	_mindist = 4;
 
 	_pos = [_pos, _minrad, _maxrad, _mindist, 0, 60*(pi/180), 0, _vehicleType] call findSafePos;
 
