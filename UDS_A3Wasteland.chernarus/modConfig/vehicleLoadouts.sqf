@@ -13,6 +13,17 @@
     Note: You can use any pylon type you want in the script, even if not shown in the editor, it should normally work! e.g. "PylonRack_12Rnd_missiles" for "B_Plane_Fighter_01_F"
 */
 
+
+	// VANILLA MAG EXAMPLE
+	/* _mags =
+		[
+			["magazine_Fighter01_Gun20mm_AA_x450", [-1]],
+			["magazine_Fighter01_Gun20mm_AA_x450", [-1]], // extra gun mag (non-explosive ammo)
+			["Laserbatteries", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
+		]; */
+
+		
 switch (true) do
 {
 	// A10-A Thunderbolt II
