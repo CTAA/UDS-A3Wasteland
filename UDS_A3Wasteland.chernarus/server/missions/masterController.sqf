@@ -8,7 +8,6 @@ _ctrlTypes =
 [
 	"mainMission",
 	"moneyMission",
-	"extraMission",
 	"sideMission"
 ];
 
@@ -20,7 +19,8 @@ _ctrlQuantity = (["A3W_missionsQuantity", 6] call getPublicVar) max 0 min 6;
 
 // It is possible to change it so you can have multiple missions of the same type running along, the line to change is commented in missionController.sqf
 
-if (count _ctrlTypes < _ctrlQuantity) then {
+if (count _ctrlTypes < _ctrlQuantity) then
+{
 	_ctrlTypes deleteRange [_ctrlQuantity, count _ctrlTypes];
 };
 
@@ -44,11 +44,13 @@ if (_ctrlQuantity > _nbTypes) then
 	_extraNumber = 2;
 	_iType = 0;
 
-	for "_i" from 1 to ((ceil (_extraQuantity / _nbTypes)) * _nbTypes) do {
+	for "_i" from 1 to ((ceil (_extraQuantity / _nbTypes)) * _nbTypes) do
+	{
 		_extraControllers pushBack [_ctrlTypes select _iType, _extraNumber, false];
 
 		_iType = _iType + 1;
-		if (_iType >= _nbTypes) then {
+		if (_iType >= _nbTypes) then
+		{
 			_iType = 0;
 			_extraNumber = _extraNumber + 1;
 		};
@@ -57,29 +59,43 @@ if (_ctrlQuantity > _nbTypes) then
 	_extraNumber = 2;
 
 	// Spawn extra controllers
-	for "_i" from 1 to _extraQuantity do {
-		[_extraControllers, _extraNumber, _extraControllers select (_i - 1)] spawn {
+	for "_i" from 1 to _extraQuantity do
+	{
+		[_extraControllers, _extraNumber, _extraControllers select (_i - 1)] spawn
+		{
 			_extraControllers = _this select 0;
 			_extraNumber = _this select 1;
 			_current = _this select 2;
 
-			for "_i" from 0 to 1 step 0 do { //ARYX
-				while {isNil "_current"} do {
+			while {true} do
+			{
+				while {isNil "_current"} do
+				{
 					_availables = [_extraControllers, {_x select 1 == _extraNumber && !(_x select 2)}] call BIS_fnc_conditionalSelect;
 
-					if (count _availables > 0) then {
+					if (count _availables > 0) then
+					{
 						_current = _availables call BIS_fnc_selectRandom;
 
-						if !(_current select 2) then {
+						if !(_current select 2) then
+						{
 							_current set [2, true];
-						} else {
+						}
+						else
+						{
 							_current = nil;
 							sleep 0.5;
 						};
-					} else {
+					}
+					else
+					{
 						sleep 5;
 					};
 				};
+
+				//diag_log format ["_extraControllers = %1", _extraControllers];
+				//diag_log format ["_extraNumber = %1", _extraNumber];
+				//diag_log format ["_current = %1", _current];
 
 				[_extraNumber, true] call compile preProcessFileLineNumbers format ["server\missions\%1Controller.sqf", _current select 0];
 
@@ -89,7 +105,8 @@ if (_ctrlQuantity > _nbTypes) then
 			};
 		};
 
-		if (_i % _nbTypes == 0) then {
+		if (_i % _nbTypes == 0) then
+		{
 			_extraNumber = _extraNumber + 1;
 		};
 

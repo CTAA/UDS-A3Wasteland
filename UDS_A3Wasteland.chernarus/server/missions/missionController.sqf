@@ -6,36 +6,47 @@
 
 if (!isServer) exitWith {};
 
-private ["_availableMissions", "_missionsList", "_nextMission"];
+private ["_controllerNum", "_tempController", "_controllerSuffix", "_missionsFolder", "_missionDelay", "_availableMissions", "_missionsList", "_nextMission"];
 
-private _controllerNum = param [0, 1, [0]];
-private _tempController = param [1, false, [false]];
-private _controllerSuffix = "";
+_controllerNum = param [0, 1, [0]];
+_tempController = param [1, false, [false]];
+_controllerSuffix = "";
 
-if (_controllerNum > 1) then {
+if (_controllerNum > 1) then
+{
 	_controllerSuffix = format [" %1", _controllerNum];
 };
 
-private _missionsFolder = MISSION_CTRL_FOLDER;
+diag_log format ["WASTELAND SERVER - Started %1 Mission%2 Controller", MISSION_CTRL_TYPE_NAME, _controllerSuffix];
+
+_missionsFolder = MISSION_CTRL_FOLDER;
 [MISSION_CTRL_PVAR_LIST, MISSION_CTRL_FOLDER] call attemptCompileMissions;
 
-private _missionDelay = MISSION_CTRL_DELAY;
+_missionDelay = MISSION_CTRL_DELAY;
 
-for "_i" from 0 to 1 step 0 do { //ARYX
+while {true} do
+{
 	_nextMission = nil;
 
-	while {isNil "_nextMission"} do {
+	while {isNil "_nextMission"} do
+	{
 		_availableMissions = [MISSION_CTRL_PVAR_LIST, { !(_x select 2) }] call BIS_fnc_conditionalSelect;
-		
-		if (count _availableMissions > 0) then {
+		// _availableMissions = MISSION_CTRL_PVAR_LIST; // If you want to allow multiple missions of the same type running along, uncomment this line and comment the one above
+
+		if (count _availableMissions > 0) then
+		{
 			_missionsList = _availableMissions call generateMissionWeights;
 			_nextMission = _missionsList call fn_selectRandomWeighted;
-		} else {
+		}
+		else
+		{
 			uiSleep 60;
 		};
 	};
 
 	[MISSION_CTRL_PVAR_LIST, _nextMission, true] call setMissionState;
+
+	diag_log format ["WASTELAND SERVER - %1 Mission%2 waiting to run: %3", MISSION_CTRL_TYPE_NAME, _controllerSuffix, _nextMission];
 
 	[
 		format
