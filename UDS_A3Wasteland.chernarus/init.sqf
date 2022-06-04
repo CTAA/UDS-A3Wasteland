@@ -96,19 +96,15 @@ if (hasInterface || isServer) then {
   	[] execVM "addons\outOfBounds\outOfBoundsShip.sqf";
   	[] execVM "addons\outOfBounds\outOfBoundsLandVehicle.sqf";
   	[] execVM "addons\outOfBounds\outOfBoundsRemote.sqf";
-	//[] execVM "addons\proving_ground\init.sqf";
 	
-	[] execVM "addons\proving_ground\init.sqf";
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	
 	// noAim Stuff
-	[] execVM "addons\JTS_PM\Functions.sqf";			  // messages
 	[] execVM "addons\scripts\HvT.sqf";                   // High Value Target
 	[] execVM "addons\scripts\HvD.sqf";
 	[] execVM "addons\scripts\initGrenades.sqf"; 		  // Toxic Gas Grenades
-	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";     // Fastrope
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 	[] execVM "addons\laptop\init.sqf";
 	[] execVM "addons\noaim\intro.sqf";

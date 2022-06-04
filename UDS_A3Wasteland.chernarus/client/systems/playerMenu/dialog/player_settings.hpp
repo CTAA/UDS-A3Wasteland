@@ -96,17 +96,6 @@ class playerSettings {
 			w = 0.175; h = 0.033 * safezoneH;
 		};
 		
-		class btnDistanceCustom : w_RscButton2 {
-			idc = -1;
-			// text = "Messages";
-			text = "$STR_PMenu_Messages";
-			colorBackground[] = {0,0,0,0.7};
-			colorBackgroundActive[] = {0, 0.729, 1, 1};
-			onButtonClick = "[] execVM 'addons\JTS_PM\JTS_PM.sqf'";
-			x = 0.02; y = 0.39;
-			w = 0.175; h = 0.033 * safezoneH;
-		};
-		
 		class btnDistanceFar : w_RscButton2 {
 			idc = -1;
 			// text = "View Distance";
