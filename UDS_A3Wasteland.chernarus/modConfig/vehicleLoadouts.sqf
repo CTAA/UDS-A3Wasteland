@@ -33,9 +33,7 @@ switch (true) do
 		{
 			// MUST ADD MAGS
 			case "A149Gun" : { _pylons = ["","","","","",""] };
-			// Testing CAS variant to see if weapons that normally don't go on certain pylons will work with this config
 			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
-			// Testing CAS variant to see if weapons that normally don't go on certain pylons will work with this config
 		}
 	}
 };
