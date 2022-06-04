@@ -20,7 +20,6 @@ _createRandomVehicle =
 
 	_vehicleType =
 	[
-		[A3W_smallVehicles, 0.30],
 		[civilianVehicles, 0.40],
 		[lightMilitaryVehicles, 0.15],
 		[mediumMilitaryVehicles, 0.15]
