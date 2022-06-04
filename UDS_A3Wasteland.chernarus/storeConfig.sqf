@@ -2399,6 +2399,9 @@ helicoptersArray = compileFinal str
 	["Mi-24D", "CUP_O_Mi24_D_Dynamic_SLA", 130000, "vehicle"],
 	["Mi-24P", "CUP_O_Mi24_P_Dynamic_RU", 120000, "vehicle"],
 	["Mi-24D MEV", "CUP_B_Mi24_D_MEV_Dynamic_CDF", 70000, "vehicle"],
+	["MV-22B Osprey", "CUP_B_MV22_USMC", 30000, "vehicle"],
+	["MV-22B Osprey (Ramp Gun)", "CUP_B_MV22_USMC_RAMPGUN", 40000, "vehicle"],
+	["MV-22B Osprey (VIV)", "CUP_B_MV22_VIV_USMC", 30000, "vehicle"],
 	["UH-1H (Armed)", "CUP_O_UH1H_armed_SLA", 50000, "vehicle"],
 	["UH-1H (Gunship)", "CUP_O_UH1H_gunship_SLA", 70000, "vehicle"],
 	["UH-1H", "CUP_O_UH1H_SLA", 15000, "vehicle"],
@@ -2408,7 +2411,7 @@ helicoptersArray = compileFinal str
 planesArray = compileFinal str
 [
 	// Planes
-
+	// MUST ADD MAGS
 	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"],
 	["A-10A Thunderbolt II Light CAS", "CUP_B_A10_DYN_USA", 200000, "vehicle", "variant_A10aLight"],
 	["A-10A Thunderbolt II Heavy CAS", "CUP_B_A10_DYN_USA", 325000, "vehicle", "variant_A10aHeavy"],
@@ -2416,39 +2419,32 @@ planesArray = compileFinal str
 	["A-149 Gryphon Gun", "CUP_B_JAS39_HIL", 100000, "vehicle", "variant_A149Gun"],
 	["A-149 Gryphon CAS", "CUP_B_JAS39_HIL", 150000, "vehicle", "variant_A149CAS"],
 
+	["AC-47D Spooky", "CUP_B_AC47_Spooky_USA", 65000, "vehicle"],
 	["Antonov An-2", "CUP_C_AN2_CIV", 15000, "vehicle"],
-	["Antonov An-2 (Military)", "CUP_O_AN2_TK", 20000, "vehicle"],
-
+	// MUST ADD MAGS
 	["AV-8B Harrier II Gun", "CUP_B_AV8B_DYN_USMC", 100000, "vehicle", "variant_AV8BGun"],
 	["AV-8B Harrier II CAS", "CUP_B_AV8B_DYN_USMC", 165000, "vehicle", "variant_AV8BCAS"],
 
-	["C-130J", "CUP_B_C130J_GB", 80000, "vehicle"],
-	["C-130J (VIV)", "CUP_B_C130J_Cargo_GB", 80000, "vehicle"],
+	["C-130J Cargo", "CUP_B_C130J_Cargo_GB", 80000, "vehicle"],
+	["C-130J Transport", "CUP_B_C130J_GB", 80000, "vehicle"],
 
 	["C-47 Skytrain", "CUP_C_C47_CIV", 30000, "vehicle"],
-
 	["Cessna 172 Skyhawk", "CUP_C_CESSNA_CIV", 15000, "vehicle"]
 
 	["Caesar BTT", "C_Plane_Civil_01_F", 40000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 50000, "vehicle"],
+	// MUST ADD MAGS
+	["F-35B Lightning II Gun", "CUP_B_F35B_BAF", 100000, "vehicle", "variant_F35Gun"],
+	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 200000, "vehicle", "variant_F35CAS"],
 
-	["F-35B Lightning II Gun", "CUP_B_F35B_BAF", 160000, "vehicle", "variant_F35Gun"],
-	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 160000, "vehicle", "variant_F35CAS"],
-
-	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"],
+	["L-39ZA Gun", "CUP_B_L39_CZ", 85000, "vehicle", "variant_L39Gun"],
+	["L-39ZA CAS", "CUP_B_L39_CZ", 135000, "vehicle", "variant_L39CAS"],
 	
-	["SU-25 Frogfoot", "CUP_B_Su25_Dyn_CDF", 150000, "vehicle"],
-	["SU-25 Frogfoot AT", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle"],
+	["SU-25 Frogfoot Gun", "CUP_B_Su25_Dyn_CDF", 100000, "vehicle", "variant_SU25Gun"],
+	["SU-25 Frogfoot CAS", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle", "variant_SU25CAS"],
 
-	["Su-34", "CUP_B_SU34_CDF", 200000, "vehicle"],
-
-	["Li-2 (Chernavia)", "CUP_C_DC3_ChernAvia_CIV", 30000, "vehicle"],
-	["Li-2 (Military)", "CUP_O_C47_SLA", 40000, "vehicle"],
-
-	["MV-22B Osprey", "CUP_B_MV22_USMC", 30000, "vehicle"],
-	["MV-22B Osprey (Ramp Gun)", "CUP_B_MV22_USMC_RAMPGUN", 40000, "vehicle"],
-	["MV-22B Osprey (VIV)", "CUP_B_MV22_VIV_USMC", 30000, "vehicle"],
-
+	["Su-34 CAS", "CUP_B_SU34_CDF", 200000, "vehicle"],
+	["T-41 Mescalero", "CUP_I_CESSNA_T41_ARMED_HIL", 60000, "vehicle"]
 ];
 boatsArray = compileFinal str
 [
