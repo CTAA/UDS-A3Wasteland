@@ -4,10 +4,6 @@
 //	@file Name: vehicleSpawnClasses.sqf
 //	@file Author: AgentRev
 
-A3W_smallVehicles =
-[
-	
-];
 
 //Civilian Vehicle List - Random Spawns
 civilianVehicles =
