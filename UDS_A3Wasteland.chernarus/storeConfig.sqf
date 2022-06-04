@@ -2424,9 +2424,9 @@ planesArray = compileFinal str
 
 	["Su-34", "CUP_B_SU34_CDF", 200000, "vehicle"],
 
-	["A-10A Thunderbolt II", "CUP_B_A10_DYN_USA", 150000, "vehicle"],
-	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"], // by jared
-	["A-10A Thunderbolt II Warthog", "CUP_B_A10_DYN_USA", 185000, "vehicle", "variant_A10aWarthog"], // by jared
+	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"],
+	["A-10A Thunderbolt II Light CAS", "CUP_B_A10_DYN_USA", 200000, "vehicle", "variant_A10aLight"],
+	["A-10A Thunderbolt II Heavy CAS", "CUP_B_A10_DYN_USA", 200000, "vehicle", "variant_A10aHeavy"],
 
 	["AV-8B Harrier II", "CUP_B_AV8B_DYN_USMC", 145000, "vehicle"],
 	["AV-8B Harrier II AT", "CUP_B_AV8B_DYN_USMC", 175000, "vehicle", "variant_Av8bAT"], // by jared
