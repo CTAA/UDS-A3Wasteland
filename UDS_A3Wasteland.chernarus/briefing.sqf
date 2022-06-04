@@ -180,7 +180,7 @@ player createDiaryRecord ["udsrules",["Server Rules","
 "]];
 // Voice
 player createDiaryRecord ["voice",["Discord","
-<br/>Our Discord is available at:
+<br/>Our Discord is available at: https://discord.gg/G7GwH9fT
 <br/>
 <br/><font size='16' color='#FF0000'>discord.gg/S25QBgb47y</font>
 "]];
