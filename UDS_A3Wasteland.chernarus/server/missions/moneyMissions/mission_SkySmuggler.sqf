@@ -23,9 +23,9 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAG"]],
- 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAG"]],
- 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC", "BlackfootAA"]]
+		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC"]],
+ 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC"]],
+ 		["CUP_B_AH6X_USA", ["CUP_B_AH1Z_Dynamic_USMC"]]
 	];
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;

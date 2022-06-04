@@ -2366,11 +2366,11 @@ helicoptersArray = compileFinal str
 	["UH-60M unarmed (FFV)", "CUP_B_UH60M_Unarmed_FFV_US", 10000, "vehicle"], //*Neu
 
 	["UH_60L DAP (2 Stores)", "CUP_B_MH60L_DAP_2x_US", 50000, "vehicle"],
-	["UH_60L DAP (2 Stores) AT", "CUP_B_MH60L_DAP_2x_US", 87500, "vehicle", "variant_UH60LAT2"], // by jared
+	["UH_60L DAP (2 Stores) AT", "CUP_B_MH60L_DAP_2x_US", 87500, "vehicle"], // by jared
 
 	["UH_60L DAP (4 Stores)", "CUP_B_MH60L_DAP_4x_US", 75000, "vehicle"],
-	["UH_60L DAP (4 Stores) AT", "CUP_B_MH60L_DAP_4x_US", 100000, "vehicle", "variant_UH60LAT4"], // jared
-	["UH_60L DAP (4 Stores) Delta", "CUP_B_MH60L_DAP_4x_US", 130000, "vehicle", "variant_UH60LDelta"], // jared
+	["UH_60L DAP (4 Stores) AT", "CUP_B_MH60L_DAP_4x_US", 100000, "vehicle"], // jared
+	["UH_60L DAP (4 Stores) Delta", "CUP_B_MH60L_DAP_4x_US", 130000, "vehicle"], // jared
 
 	["MH-6J Little Bird", "CUP_B_MH6J_USA", 8000, "vehicle"],
 	["MH-6J Recon", "CUP_B_MH6J_OBS_USA", 8000, "vehicle"],
@@ -2380,7 +2380,7 @@ helicoptersArray = compileFinal str
 	["AH-6M", "CUP_B_AH6M_USA", 50000, "vehicle"],
 
 	["AH-64D", "CUP_B_AH64D_DL_USA", 125000, "vehicle"],
-	["AH-64D Delta", "CUP_B_AH64D_DL_USA", 150000, "vehicle", "variant_AH64DDelta"], // jared
+	["AH-64D Delta", "CUP_B_AH64D_DL_USA", 150000, "vehicle"], // jared
 
 	["AH-64", "CUP_B_AH64_DL_USA", 115000, "vehicle"],
 	["UH-1D", "CUP_B_UH1D_GER_KSK", 15000, "vehicle"],
@@ -2413,14 +2413,11 @@ planesArray = compileFinal str
 
 	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"], //(Grün)
 	
-	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 160000, "vehicle", "variant_F35bCAS"], // by jared
-	["F-35B Lightning II AA", "CUP_B_F35B_BAF", 175000, "vehicle", "variant_F35bAA"], // by jared
-	// ["F-35B Lightning II", "CUP_B_F35B_BAF", 150000, "vehicle"],
-
+	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 160000, "vehicle"],
 	["Harrier GR.9", "CUP_B_GR9_DYN_GB", 120000, "vehicle"],
 
 	["SU-25 Frogfoot", "CUP_B_Su25_Dyn_CDF", 150000, "vehicle"],
-	["SU-25 Frogfoot AT", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle", "variant_Su25AT"],
+	["SU-25 Frogfoot AT", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle"],
 
 	["Su-34", "CUP_B_SU34_CDF", 200000, "vehicle"],
 
@@ -2429,8 +2426,6 @@ planesArray = compileFinal str
 	["A-10A Thunderbolt II Heavy CAS", "CUP_B_A10_DYN_USA", 350000, "vehicle", "variant_A10aHeavy"],
 
 	["AV-8B Harrier II", "CUP_B_AV8B_DYN_USMC", 145000, "vehicle"],
-	["AV-8B Harrier II AT", "CUP_B_AV8B_DYN_USMC", 175000, "vehicle", "variant_Av8bAT"], // by jared
-	["AV-8B Harrier II Mk82", "CUP_B_AV8B_DYN_USMC", 145000, "vehicle", "variant_Av82MK82"], // by jared
 
 	["Li-2 (Chernavia)", "CUP_C_DC3_ChernAvia_CIV", 30000, "vehicle"],
 	["Li-2 (Military)", "CUP_O_C47_SLA", 40000, "vehicle"],
