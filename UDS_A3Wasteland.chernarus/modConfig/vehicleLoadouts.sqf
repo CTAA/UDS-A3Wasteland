@@ -26,4 +26,16 @@ switch (true) do
 			default           { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_3Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_3Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28"] };
 		};
     };
+	// A-149 Gryphon
+	case (_class isKindOf "CUP_B_JAS39_HIL"):
+	{
+		switch (_variant) do
+		{
+			// MUST ADD MAGS
+			case "A149Gun" : { _pylons = ["","","","","",""] };
+			// Testing CAS variant to see if weapons that normally don't go on certain pylons will work with this config
+			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
+			// Testing CAS variant to see if weapons that normally don't go on certain pylons will work with this config
+		}
+	}
 };
