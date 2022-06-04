@@ -36,7 +36,7 @@ switch (true) do
 			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
 		}
 	}
-	// AV8B Harrier
+	// AV-8B Harrier II
 	case (_class isKindOf "CUP_B_AV8B_DYN_USMC"):
 	{
 		switch (_variant) do
@@ -44,6 +44,16 @@ switch (true) do
 			// MUST ADD MAGS
 			case "AV8BGun" : { _pylons = ["","","","","",""]};
 			case "AV8BCAS" : { _pylons = ["CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
+		}
+	}
+	// F-35B Lightning II
+	case (_class isKindOf "CUP_B_F35B_USMC"):
+	{
+		switch (_variant) do
+		{
+			// MUST ADD MAGS
+			case "F35BGun" : { _pylons = ["","","","","","","","","","",""]};
+			case "F35BCAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
 		}
 	}
 };
