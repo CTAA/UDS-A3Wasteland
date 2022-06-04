@@ -2408,10 +2408,18 @@ helicoptersArray = compileFinal str
 planesArray = compileFinal str
 [
 	// Planes
+
+	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"],
+	["A-10A Thunderbolt II Light CAS", "CUP_B_A10_DYN_USA", 200000, "vehicle", "variant_A10aLight"],
+	["A-10A Thunderbolt II Heavy CAS", "CUP_B_A10_DYN_USA", 350000, "vehicle", "variant_A10aHeavy"],
+	// MUST ADD MAGS 
+	["A-149 Gryphon Gun", "CUP_B_JAS39_HIL", 100000, "vehicle", "variant_A149Gun"],
+	["A-149 Gryphon CAS", "CUP_B_JAS39_HIL", 150000, "vehicle", "variant_A149CAS"],
+
 	["Caesar BTT", "C_Plane_Civil_01_F", 6000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 8000, "vehicle"],
 
-	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"], //(Grün)
+	["L-39ZA", "CUP_B_L39_CZ", 130000, "vehicle"],
 	
 	["F-35B Lightning II CAS", "CUP_B_F35B_BAF", 160000, "vehicle"],
 	["Harrier GR.9", "CUP_B_GR9_DYN_GB", 120000, "vehicle"],
@@ -2420,10 +2428,6 @@ planesArray = compileFinal str
 	["SU-25 Frogfoot AT", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle"],
 
 	["Su-34", "CUP_B_SU34_CDF", 200000, "vehicle"],
-
-	["A-10A Thunderbolt II Gun", "CUP_B_A10_DYN_USA", 100000, "vehicle", "variant_A10aGun"],
-	["A-10A Thunderbolt II Light CAS", "CUP_B_A10_DYN_USA", 200000, "vehicle", "variant_A10aLight"],
-	["A-10A Thunderbolt II Heavy CAS", "CUP_B_A10_DYN_USA", 350000, "vehicle", "variant_A10aHeavy"],
 
 	["AV-8B Harrier II", "CUP_B_AV8B_DYN_USMC", 145000, "vehicle"],
 
