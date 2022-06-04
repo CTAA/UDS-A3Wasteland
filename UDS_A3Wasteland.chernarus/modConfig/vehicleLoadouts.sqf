@@ -20,8 +20,8 @@ switch (true) do
     {
 		switch (_variant) do
 		{
-			case "A10aGun": { _pylons = ["","","","","","","","","","",""] };
-			case "A10aLight": { _pylons = [[
+			case "A10aGun": { _pylons = ["","","","","","","","","","",""]};
+			case "A10aLight": { _pylons = [
 				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
 				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
 				"PylonMissile_1Rnd_Mk82_F",
@@ -32,8 +32,8 @@ switch (true) do
 				"PylonMissile_1Rnd_Mk82_F",
 				"PylonMissile_1Rnd_Mk82_F",
 				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
-				"CUP_PylonPod_ANAAQ_28"]]}
-			case "A10aHeavy" : { _pylons = [[
+				"CUP_PylonPod_ANAAQ_28"]}
+			case "A10aHeavy" : { _pylons = [
 				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
 				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
 				"CUP_PylonPod_3Rnd_Mk82_M",
@@ -44,7 +44,7 @@ switch (true) do
 				"CUP_PylonPod_1Rnd_GBU12_M",
 				"CUP_PylonPod_3Rnd_Mk82_M",
 				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
-				"CUP_PylonPod_ANAAQ_28"]]}
+				"CUP_PylonPod_ANAAQ_28"]}
 		};
     };
 	
