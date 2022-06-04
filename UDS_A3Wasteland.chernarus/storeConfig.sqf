@@ -2429,7 +2429,7 @@ planesArray = compileFinal str
 	["C-130J Transport", "CUP_B_C130J_GB", 80000, "vehicle"],
 
 	["C-47 Skytrain", "CUP_C_C47_CIV", 30000, "vehicle"],
-	["Cessna 172 Skyhawk", "CUP_C_CESSNA_CIV", 15000, "vehicle"]
+	["Cessna 172 Skyhawk", "CUP_C_CESSNA_CIV", 15000, "vehicle"],
 
 	["Caesar BTT", "C_Plane_Civil_01_F", 40000, "vehicle"],
 	["Caesar Racing", "C_Plane_Civil_01_racing_F", 50000, "vehicle"],
