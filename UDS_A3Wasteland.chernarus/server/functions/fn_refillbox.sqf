@@ -85,7 +85,7 @@ switch (_boxType) do {
 			["mag", ["UGL_FlareRed_F", "UGL_FlareYellow_F"], RANDOM_BETWEEN(2,5)], //Ammo
 			["mag", ["1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell"], RANDOM_BETWEEN(2,5)], //Ammo
 			["mag", ["1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell"], RANDOM_BETWEEN(2,5)], //Ammo
-			["mag", ["CUP_30Rnd_762x39_AK47_M", "CUP_30Rnd_762x39_AK103_bakelite_M", "CUP_30Rnd_762x39_AK47_TK_M"]  RANDOM_BETWEEN(2,8)], //Ammo
+			["mag", ["CUP_30Rnd_762x39_AK47_M", "CUP_30Rnd_762x39_AK103_bakelite_M", "CUP_30Rnd_762x39_AK47_TK_M"],  RANDOM_BETWEEN(2,8)], //Ammo
 			["mag", "30Rnd_65x39_caseless_green", RANDOM_BETWEEN(2,8)], //Ammo
 			["mag", "30Rnd_65x39_caseless_khaki_mag", RANDOM_BETWEEN(2,4)], //Ammo
 			["mag", "30Rnd_65x39_caseless_mag", RANDOM_BETWEEN(4,8)], //Ammo
