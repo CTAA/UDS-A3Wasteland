@@ -47,7 +47,7 @@ switch (true) do
 	{
 		switch (_variant) do
 		{
-			case "Su25AT": { _pylons = ["","","","","","","","","",""] };
+			case "Su25Gun": { _pylons = ["","","","","","","","","",""] };
 		};
     };
 
