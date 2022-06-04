@@ -24,7 +24,7 @@ _setupVars =
 	private _vehicleClassTmp = _vehicleClass;
 	if (_vehicleClassTmp isEqualType []) then { _vehicleClassTmp = _vehicleClassTmp select 0 };
 
-	_missionType = "Armored Vehicle"
+	_missionType = "Armored Vehicle";
 
 	_locationsArray = MissionSpawnMarkers;
 
