@@ -73,10 +73,7 @@ switch (true) do
 		switch (_variant) do
 		{
 			// MUST ADD MAGS
-			case "L39Gun" : { _pylons = ["","","",""];
-							  _mags = [["CUP_B_23mm_APHE_Tracer_Green",[-1]],
-							  		   ["CUP_B_23mm_APHE_Tracer_Green",[-1]]]
-			};
+			case "L39Gun" : { _pylons = ["","","",""]};
 			case "L39CAS" : { _pylons = ["CUP_PylonPod_16Rnd_S5_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_16Rnd_S5_plane_M"]};
 		};
 	};
