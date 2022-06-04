@@ -23,7 +23,7 @@ _setupObjects =
 	// Pick the vehicles for the patrol. Only one set at the moment. Will add more later.
 	_convoyVeh = 
 	[	
-		["CUP_B_Mastiff_HMG_GB_W","CUP_B_M1A1_Woodland_US_Army","CUP_B_Mastiff_HMG_GB_W","CUP_B_M163_USA","CUP_B_M1A1_Woodland_US_Army","CUP_B_M2Bradley_USA_W"],
+		["CUP_B_Mastiff_HMG_GB_W","CUP_B_M1A1_Woodland_US_Army","CUP_B_Mastiff_HMG_GB_W","CUP_B_M163_USA","CUP_B_M1A1_Woodland_US_Army","CUP_B_M2Bradley_USA_W"]
 	] call BIS_fnc_selectRandom;
 	
 	_veh1 = _convoyVeh select 0;
