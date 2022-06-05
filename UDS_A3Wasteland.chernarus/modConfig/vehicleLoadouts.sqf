@@ -78,8 +78,8 @@ switch (true) do
 	{
 		_mags =
 		[
-			["", [-1]],
-			["", [-1]], // extra gun mag (non-explosive ammo)
+			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
+			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]], // extra gun mag (non-explosive ammo)
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
