@@ -62,7 +62,7 @@ ExtraMissions = [
 	["mission_DeltaForce", 1],
 	["mission_SpecOps", 1],
 	["mission_Spetsnaz", 1],
-	["mission_Assassin", 1],
+	["mission_Assassins", 1],
 	["mission_HnS", 1],
 	["mission_HostageRescue", 1],
 	["mission_HostilePlane", 0.5],
@@ -72,7 +72,7 @@ ExtraMissions = [
 	["mission_Pawnee", 1],
 	["mission_Falcon", 0.2],
 	["mission_Graveyard", 1],
-	["mission_BlackHawkDown", 1]
+	["mission_BlackHawkPatrol}", 1]
 ];
 
 MissionSpawnMarkers = (allMapMarkers select {["Mission_", _x] call fn_startsWith}) apply {[_x, false]};
