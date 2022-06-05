@@ -156,7 +156,7 @@ switch (true) do
 	// Ka-52
 	case (_class isKindOf "CUP_O_Ka52_RU"):
 	{
-		_pylons = ["CUP_PylonPod_4Rnd_Ataka_Empty_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_4Rnd_Ataka_Empty_M"];
+		_pylons = ["CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_2Rnd_Ataka_M"];
 	};
 	// Ka-60 Kasatka Transport
 	case (_class isKindOf "CUP_O_Ka60_Grey_RU"):

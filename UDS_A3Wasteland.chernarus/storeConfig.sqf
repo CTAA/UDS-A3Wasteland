@@ -147,8 +147,6 @@ rifleArray = compileFinal str
 	["HK416 CQC", "CUP_arifle_HK416_CQB_Black", 2000],
 	["HK417 CQC M203", "CUP_arifle_HK417_12_M203", 3500],
 
-	["Katiba GL Rifle", "arifle_Katiba_GL_F", 2500],
-
 	["L129a1", "CUP_srifle_L129A1", 2500],
 	["L129a1 w/HG", "CUP_srifle_L129A1_HG", 3200],
 
