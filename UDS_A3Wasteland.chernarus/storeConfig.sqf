@@ -2343,69 +2343,78 @@ tanksArray = compileFinal str
 helicoptersArray = compileFinal str
 [
 	// Helicopters
-	["Mi-171Sh (Rockets)", "CUP_B_Mi171Sh_ACR", 120000, "vehicle"],
-	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 20000, "vehicle"],
-	["Mi-35", "CUP_B_Mi35_Dynamic_CZ", 140000, "vehicle"],
-	["SA-330 Puma HC2", "CUP_B_SA330_Puma_HC2_BAF", 10000, "vehicle"],
-	["Merlin HC3A (Armed)", "CUP_B_Merlin_HC3A_Armed_GB", 15000, "vehicle"],
-	["Merlin HC3A", "CUP_B_Merlin_HC3A_GB", 10000, "vehicle"],
-	["Chinook HC-4", "CUP_B_CH47F_GB", 20000, "vehicle"],
-	["Chinook HC-4 (VIV)", "CUP_B_CH47F_VIV_GB", 20000, "vehicle"],
-	["Chinook HC-6", "CUP_B_MH47E_GB", 20000, "vehicle"],
-	["AW159 Wildcat (Black Cat)", "CUP_B_AW159_RN_Blackcat", 70000, "vehicle"],
-	["AW159 Wildcat (Black Cat, Unarmed)", "CUP_B_AW159_Unarmed_RN_Blackcat", 10000, "vehicle"],
-	["i-6A Hook (VIV)", "CUP_B_MI6A_CDF", 20000, "vehicle"],
-	["Mi-6T Hook", "CUP_B_MI6T_CDF", 20000, "vehicle"],
-	["Mi-8MT", "CUP_B_Mi17_CDF", 10000, "vehicle"],
-	["MH-60S Seahawk", "CUP_B_MH60S_USMC", 10000, "vehicle"],
-	["MH-60S Seahawk (FFV)", "CUP_B_MH60S_FFV_USMC", 10000, "vehicle"],
-	["AH-1Z", "CUP_B_AH1Z_Dynamic_USMC", 110000, "vehicle"],
-	["UH-1Y Venom (Gunship)", "CUP_B_UH1Y_Gunship_Dynamic_USMC", 70000, "vehicle"],
-	["UH-1Y Venom (Transport)", "CUP_B_UH1Y_UNA_USMC", 15000, "vehicle"],
-	["UH-60M (FFV)", "CUP_B_UH60M_FFV_US", 10000, "vehicle"],
-	["UH-60M unarmed (FFV)", "CUP_B_UH60M_Unarmed_FFV_US", 10000, "vehicle"], //*Neu
+	// MUST PRICE ALL HELIS 
+	// MUST PRICE ALL HELIS 
+	// MUST PRICE ALL HELIS 
+	// MUST PRICE ALL HELIS 
+	// MUST PRICE ALL HELIS 
+	["412 Transport", "CUP_C_IDAP_412", 1, "vehicle"],
+	["412 Utility", "CUP_C_IDAP_412_Utility", 1, "vehicle"],
 
-	["UH_60L DAP (2 Stores)", "CUP_B_MH60L_DAP_2x_US", 50000, "vehicle"],
-	["UH_60L DAP (2 Stores) AT", "CUP_B_MH60L_DAP_2x_US", 87500, "vehicle"], // by jared
+	["AH-1Z", "CUP_B_AH1Z_Dynamic_USMC", 1, "vehicle"],
+	["AH-6M", "CUP_B_AH6M_USA", 1, "vehicle"],
+	["AH-64D", "CUP_B_AH64D_DL_USA", 1, "vehicle"],
 
-	["UH_60L DAP (4 Stores)", "CUP_B_MH60L_DAP_4x_US", 75000, "vehicle"],
-	["UH_60L DAP (4 Stores) AT", "CUP_B_MH60L_DAP_4x_US", 100000, "vehicle"], // jared
-	["UH_60L DAP (4 Stores) Delta", "CUP_B_MH60L_DAP_4x_US", 130000, "vehicle"], // jared
+	["AW159 Wildcat Armed", "CUP_B_A159_RN_Blackcat", 1, "vehicle"],
+	["AW159 Wildcat Transport", "CUP_B_A159_Unarmed_RN_Blackcat", 1, "vehicle"],
 
-	["MH-6J Little Bird", "CUP_B_MH6J_USA", 8000, "vehicle"],
-	["MH-6J Recon", "CUP_B_MH6J_OBS_USA", 8000, "vehicle"],
-	["MH-6M MELB", "CUP_B_MH6M_USA", 8000, "vehicle"],
-	["MH-6M Recon", "CUP_B_MH6M_OBS_USA", 8000, "vehicle"],
-	["AH-6J", "CUP_B_AH6J_USA", 50000, "vehicle"],
-	["AH-6M", "CUP_B_AH6M_USA", 50000, "vehicle"],
+	["CH-53E Super Stallion Cargo", "CUP_B_CH53E_VIV_USMC", 1, "vehicle"],
+	["CH-53E Super Stallion Transport", "CUP_B_CH53E_USMC", 1, "vehicle"],
 
-	["AH-64D", "CUP_B_AH64D_DL_USA", 125000, "vehicle"],
-	["AH-64D Delta", "CUP_B_AH64D_DL_USA", 150000, "vehicle"], // jared
+	["Chinook HC-4 Cargo", "CUP_B_CH47F_VIV_GB", 1, "vehicle"],
+	["Chinook HC-4 Transport", "CUP_B_CH47F_GB", 1, "vehicle"],
+	["Chinook HC-6 Transport", "CUP_B_MH47E_GB", 1, "vehicle"],
 
-	["AH-64", "CUP_B_AH64_DL_USA", 115000, "vehicle"],
-	["UH-1D", "CUP_B_UH1D_GER_KSK", 15000, "vehicle"],
-	["UH-1D (Armed)", "CUP_B_UH1D_armed_GER_KSK_Des", 50000, "vehicle"],
-	["UH-1D (Gunship)", "CUP_B_UH1D_gunship_GER_KSK_Des", 70000, "vehicle"],
-	["UH-1D (Slick)", "CUP_B_UH1D_slick_GER_KSK_Des", 15000, "vehicle"],
-	["CH-53G Super Stallion", "CUP_B_CH53E_GER", 20000, "vehicle"],
-	["CH-53G Super Stallion (VIV)", "CUP_B_CH53E_VIV_GER", 20000, "vehicle"],
-	["Ka-60 Kasatka Black (M3 Rockets)", "CUP_I_Ka60_GL_Blk_ION", 55000, "vehicle"],
-	["Ka-60 Kasatka Black (Rockets)", "CUP_I_Ka60_Blk_ION", 50000, "vehicle"],
-	["Ka-50 Black Shark", "CUP_O_Ka50_DL_SLA", 50000, "vehicle"], //*Neu
-	["Ka-52", "CUP_O_Ka52_RU", 130000, "vehicle"],
-	["Mi-24 Superhind Mk.3", "CUP_I_Mi24_Mk3_ION", 150000, "vehicle"],
-	["Mi-24 Superhind Mk.4 (S8)", "CUP_I_Mi24_Mk4_ION", 150000, "vehicle"],
-	["Mi-24V ", "CUP_O_Mi24_V_Dynamic_RU", 125000, "vehicle"],
-	["Mi-24D", "CUP_O_Mi24_D_Dynamic_SLA", 130000, "vehicle"],
-	["Mi-24P", "CUP_O_Mi24_P_Dynamic_RU", 120000, "vehicle"],
-	["Mi-24D MEV", "CUP_B_Mi24_D_MEV_Dynamic_CDF", 70000, "vehicle"],
-	["MV-22B Osprey", "CUP_B_MV22_USMC", 30000, "vehicle"],
-	["MV-22B Osprey (Ramp Gun)", "CUP_B_MV22_USMC_RAMPGUN", 40000, "vehicle"],
-	["MV-22B Osprey (VIV)", "CUP_B_MV22_VIV_USMC", 30000, "vehicle"],
-	["UH-1H (Armed)", "CUP_O_UH1H_armed_SLA", 50000, "vehicle"],
-	["UH-1H (Gunship)", "CUP_O_UH1H_gunship_SLA", 70000, "vehicle"],
-	["UH-1H", "CUP_O_UH1H_SLA", 15000, "vehicle"],
-	["UH-1H (Slick)", "CUP_O_UH1H_slick_SLA", 15000, "vehicle"]
+	["Ka-50 Black Shark", "CUP_O_Ka50_DL_RU", 1, "vehicle"],
+	["Ka-52", "CUP_O_Ka52_RU", 1, "vehicle"],
+
+	["Ka-60 Kasatka Armed", "CUP_O_Ka60_Grey_RU", 1, "vehicle"],
+	["Ka-60 Kasatka Transport", "CUP_O_Ka60_Grey_RU", 1, "vehicle", "variant_KA60Unarmed"],
+
+	["Merlin HC3 Cargo", "CUP_B_Merlin_HC3_VIV_GB", 1, "vehicle"],
+	["Merlin HC3 Ramp Gun", "CUP_B_Merlin_HC3_Armed_GB", 1, "vehicle"],
+	["Merlin HC3 Transport", "CUP_B_Merlin_HC3_GB", 1, "vehicle"],
+
+	["MH-60L Armed", "CUP_B_MH60L_DAP_4x_US", 1, "vehicle"],
+	["MH-6M Recon", "CUP_B_MH60M_OBS_USA", 1, "vehicle"],
+
+	["Mi8MTV3", "CUP_O_Mi8_RU", 1, "vehicle"],
+
+	["Mi-171Sh", "CUP_B_Mi171Sh_Unarmed_ACR", 1, "vehicle"],
+	["Mi-171Sh Armed", "CUP_B_Mi171Sh_ACR", 1, "vehicle"],
+
+	["Mi-24D", "CUP_B_Mi23_D_Dynamic_CDF", 1, "vehicle"],
+	["Mi-24P", "CUP_O_Mi24_P_Dynamic_RU", 1, "vehicle"],
+	["Mi-24V", "CUP_O_Mi24_V-Dynamic_RU", 1, "vehicle"],
+	["Mi-24 Superhind Mk. III", "CUP_O_Mi24_Mk3_CSAT_T", 1, "vehicle"],
+	["Mi-24 Superhind Mk. IV", "CUP_O_Mi24_Mk4_CSAT_T", 1, "vehicle"],
+
+	["Mi-35", "CUP_B_Mi35_Dynamic_CZ", 1, "vehicle"],
+
+	["Mi-6T Hook Transport", "CUP_B_MI6T_CDF", 1, "vehicle"],
+	["Mi-6A Hook Cargo", "CUP_B_MI6A_CDF", 1, "vehicle"],
+
+	["Mi-8MT Transport", "CUP_B_Mi17_CDF", 1, "vehicle"],
+	["Mi-8MT Cargo", "CUP_B_Mi17_VIV_CDF", 1, "vehicle"],
+
+	["MV-22B Osprey Cargo", "CUP_B_MV22_VIV_USMC", 1, "vehicle"],
+	["MV-22B Osprey Ramp Gun", "CUP_B_MV22_USMC_RAMPGUN", 1, "vehicle"],
+	["MV-22B Osprey Transport", "CUP_B_MV22_USMC", 1, "vehicle"],
+
+	["SA-330 Puma HC2", "CUP_B_SA330_Puma_HC2_BAF", 1, "vehicle"],
+
+	["UH-60M", "CUP_B_UH60M_US", 1, "vehicle"],
+	["UH-60M Transport", "CUP_B_UH60M_Unarmed_US", 1, "vehicle"],
+
+	["UH-1H Armed", "CUP_I_UH1H_armed_TK_GUE", 1, "vehicle"],
+	["UH-1H Gunship", "CUP_I_UH1H_gunship_TK_GUE", 1, "vehicle"],
+	["UH-1H Transport", "CUP_I_UH1H_TK_GUE", 1, "vehicle"],
+	
+	["UH-1Y Venom Gunship", "CUP_B_UH1Y_Gunship_Dynamic_USMC", 1, "vehicle"],
+	["UH-1Y Venom Transport", "CUP_B_UH1Y_UNA_USMC", 1, "vehicle"],
+
+	["UH-60M", "CUP_B_UH60M_US", 1, "vehicle"],
+	["UH-60M Transport", "CUP_B_UH60M_Unarmed_US", 1, "vehicle"]
 ];
 
 planesArray = compileFinal str
