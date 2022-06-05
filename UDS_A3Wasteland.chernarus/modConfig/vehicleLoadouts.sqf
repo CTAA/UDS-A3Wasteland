@@ -40,7 +40,7 @@ switch (true) do
 		{
 			case "A149Gun" : { _pylons = ["","","","","",""]};
 			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
-			default           { _pylons = ["","","","","",""]};
+			default          { _pylons = ["","","","","",""]};
 		};
 	};
 	// AV-8B Harrier II
@@ -57,7 +57,7 @@ switch (true) do
 		{
 			case "AV8BGun" : { _pylons = ["","","","","",""]};
 			case "AV8BCAS" : { _pylons = ["CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
-			default           { _pylons = ["","","","","",""]};
+			default          { _pylons = ["","","","","",""]};
 		};
 	};
 	// F-35B Lightning II
@@ -65,6 +65,7 @@ switch (true) do
 	{
 		_mags =
 		[
+			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
 			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
 			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
 			["Laserbatteries", [-1]],
@@ -78,7 +79,7 @@ switch (true) do
 		{
 			case "F35BGun" : { _pylons = ["","","","","","","","","","",""]};
 			case "F35BCAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
-			default           { _pylons = ["","","","","","","","","","",""]};
+			default          { _pylons = ["","","","","","","","","","",""]};
 		};
 	};
 	// L-39ZA
@@ -97,7 +98,7 @@ switch (true) do
 		{
 			case "L39Gun" : { _pylons = ["","","",""]};
 			case "L39CAS" : { _pylons = ["CUP_PylonPod_16Rnd_S5_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_16Rnd_S5_plane_M"]};
-			default           { _pylons = ["","","",""]};
+			default         { _pylons = ["","","",""]};
 		};
 	};
 	// Su-25 Frogfoot
@@ -113,7 +114,7 @@ switch (true) do
 		{
 			case "SU25Gun" : { _pylons = ["","","","","","","","","",""]};
 			case "SU25CAS" : { _pylons = ["CUP_PylonPod_1Rnd_R73_Vympel","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_R73_Vympel"]};
-			default           { _pylons = ["","","","","","","","","",""]};
+			default          { _pylons = ["","","","","","","","","",""]};
 		};
 	};
 	// Su-34
