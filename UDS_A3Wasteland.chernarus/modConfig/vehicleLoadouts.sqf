@@ -70,6 +70,10 @@ switch (true) do
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
+		_weapons =
+        [
+            ["CUP_Vacannon_GAU22_veh", [-1]]
+        ];
 		switch (_variant) do
 		{
 			case "F35BGun" : { _pylons = ["","","","","","","","","","",""]};
