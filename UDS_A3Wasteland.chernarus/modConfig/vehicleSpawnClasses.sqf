@@ -12,7 +12,7 @@ civilianVehicles =
 	"CUP_C_Golf4_random_Civ",
 	"CUP_C_Datsun",
 	"CUP_C_Datsun_4seat",
-	"CUP_O_SUV_TKA",
+	"CUP_O_SUV_TKA"
 ];
 
 //Light Military Vehicle List - Random Spawns
