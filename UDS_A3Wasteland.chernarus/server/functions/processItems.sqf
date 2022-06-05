@@ -40,7 +40,7 @@ _items = _this select 1;
 							_vehicle addMagazineCargoGlobal [_mag, _magsQty];
 						};
 					};
-				}
+				};
 				else
 				{
 					_vehicle addWeaponCargoGlobal [_class, _quantity];
