@@ -383,7 +383,7 @@ dlcs[]=
 randomSeed=10669201;
 class ScenarioData
 {
-	author="A3Wasteland.com Edited by Exonical";
+	author="A3Wasteland.com Edited by CTA";
 	overViewPicture="mapConfig\logo.paa";
 	overViewPictureLocked="mapConfig\logo.paa";
 	loadScreen="mapConfig\logo.paa";
@@ -400,7 +400,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="UDS A3Wasteland Chernarus v1.0 ";
+		briefingName="A3Wasteland Chernarus";
 		overviewText="Wasteland survival sandbox";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
