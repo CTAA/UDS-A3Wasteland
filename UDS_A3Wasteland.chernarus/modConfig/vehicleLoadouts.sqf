@@ -43,7 +43,12 @@ switch (true) do
 		switch (_variant) do
 		{
 			// MUST ADD MAGS
-			case "A149Gun" : { _pylons = ["","","","","",""]};
+			case "A149Gun" : { _pylons = ["","","","","",""]
+			_mags =
+		[
+			["magazine_Fighter01_Gun20mm_AA_x450", [-1]],
+			["magazine_Fighter01_Gun20mm_AA_x450", [-1]]
+		]};
 			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
 			default           { _pylons = ["","","","","",""]};
 		};
