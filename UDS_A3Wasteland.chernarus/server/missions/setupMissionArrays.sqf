@@ -21,7 +21,7 @@ MainMissions = [
 	["mission_wreckedJet", 0.5],
 	["mission_ArmedHeli", 1],
 	["mission_CivHeli", 1],
-	["mission_AH", 1],
+	["mission_AttackHeli", 1],
 	["mission_ArmedJet", 1],
 	["mission_LightTank", 1],
 	["mission_SealTeams", 1]

@@ -16,12 +16,13 @@ _setupVars =
 {
 	_vehicleClass = selectRandom
 	[
-		[["CUP_B_A10_DYN_USA","A10aWarthog"],
-		["CUP_B_F35B_BAF","F35bCAS"],
-		["CUP_B_GR9_DYN_GB","GR9Extra"],
-		["CUP_B_Su25_Dyn_CDF","Su25AT"],
-		["CUP_B_AV8B_DYN_USMC","Av8bAA"],
-		"CUP_I_L39_AAF"]
+		["CUP_B_A10_DYN_USA","A10aHeavy"],
+		["CUP_B_F35B_BAF","F35BCAS"],
+		["CUP_B_Su25_Dyn_CDF","SU25CAS"],
+		["CUP_B_AV8B_DYN_USMC","AV8BCAS"],
+		["CUP_B_JAS39_HIL","A149CAS"],
+		["CUP_B_L39_CZ","L39CAS"],
+		["CUP_B_SU34_CDF"]
 	];
 
 	_missionType = "Abandoned Jet";
