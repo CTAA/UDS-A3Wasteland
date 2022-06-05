@@ -15,6 +15,7 @@
 
 switch (true) do
 {
+	// PLANES
 	// A10-A Thunderbolt II
     case (_class isKindOf "CUP_B_A10_DYN_USA"):
     {
@@ -122,4 +123,26 @@ switch (true) do
 	{
 		_pylons = ["CUP_PylonPod_1Rnd_R73_Vympel","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_2Rnd_Ataka_M","","","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_R73_Vympel"]
 	};
+	// SDV SDAR turret
+    case (_class isKindOf "SDV_01_base_F"):
+    {
+        _mags =
+        [
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["20Rnd_556x45_UW_mag", [0]],
+            ["30Rnd_556x45_Stanag", [0]],
+            ["30Rnd_556x45_Stanag", [0]],
+            ["30Rnd_556x45_Stanag", [0]],
+            ["Laserbatteries", [0]]
+        ];
+        _weapons =
+        [
+            ["arifle_SDAR_F", [0]],
+            ["Laserdesignator_mounted", [0]]
+        ];
+    };
 };
