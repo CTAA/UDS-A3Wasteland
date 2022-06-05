@@ -58,6 +58,13 @@ switch (true) do
 	// AV-8B Harrier II
 	case (_class isKindOf "CUP_B_AV8B_DYN_USMC"):
 	{
+		_mags =
+		[
+			["CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M", [-1]],
+			["CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M", [-1]], // extra gun mag (non-explosive ammo)
+			["Laserbatteries", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
+		];
 		switch (_variant) do
 		{
 			// MUST ADD MAGS
@@ -69,6 +76,13 @@ switch (true) do
 	// F-35B Lightning II
 	case (_class isKindOf "CUP_B_F35B_USMC"):
 	{
+		_mags =
+		[
+			["", [-1]],
+			["", [-1]], // extra gun mag (non-explosive ammo)
+			["Laserbatteries", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
+		];
 		switch (_variant) do
 		{
 			// MUST ADD MAGS
