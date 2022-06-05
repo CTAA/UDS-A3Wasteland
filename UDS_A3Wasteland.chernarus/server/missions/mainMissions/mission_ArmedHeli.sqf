@@ -19,7 +19,7 @@ _setupVars =
 		["CUP_B_AH6X_USA","CUP_B_AH6X_USA","CUP_B_AH6X_USA"]
 	];
 
-	_missionType = "Armed Helicopter";
+	_missionType = "Armed Helicopters";
 	_locationsArray = MissionSpawnMarkers;
 
 	_nbUnits = if (missionDifficultyHard) then { AI_GROUP_LARGE } else { AI_GROUP_MEDIUM };

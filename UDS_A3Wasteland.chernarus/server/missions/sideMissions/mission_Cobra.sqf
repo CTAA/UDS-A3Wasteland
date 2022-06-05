@@ -12,7 +12,7 @@ if (!isServer) exitWith {};
 private ["_planeChoices", "_veh", "_randVeh", "_vehVar", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_numWaypoints", "_cash", "_box1", "_box2"];
 
 _setupVars = {
-	_missionType = "Cobra maneuver!";
+	_missionType = "Cobra Patrol";
 	_locationsArray = nil;
 };
 
@@ -151,7 +151,7 @@ _successExec =
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 
-	_successHintMessage = "The AH-1Z has been taken down.";
+	_successHintMessage = "The Cobra has been taken down.";
 };
 
 _this call extraMissionProcessor;

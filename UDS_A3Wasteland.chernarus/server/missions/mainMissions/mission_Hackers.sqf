@@ -93,7 +93,7 @@ _successExec =
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_obj1, _obj2, _obj3, _obj4];
 	{ _x setVariable ["allowDamage", true, true] } forEach [_obj1, _obj2, _obj3, _obj4];
 
-	_successHintMessage = format ["The laptop is hacked. Go and kill the hacker to get your money back!"];
+	_successHintMessage = format ["The laptop is hacked. Go and kill the hacker to get your money back."];
 };
 
 _this call mainMissionProcessor;

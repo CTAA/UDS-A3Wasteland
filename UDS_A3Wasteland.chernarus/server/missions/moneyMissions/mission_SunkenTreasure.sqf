@@ -79,7 +79,7 @@ _successExec =
 		_x setVariable ["owner", "world", true];
 	} forEach _cashObjects;
 
-	_successHintMessage = "The treasure has been captured, well done.";
+	_successHintMessage = "The treasure has been captured.";
 };
 
 _this call moneyMissionProcessor;

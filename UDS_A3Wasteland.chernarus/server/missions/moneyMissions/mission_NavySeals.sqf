@@ -102,7 +102,7 @@ _setupObjects =
 	//assaultBoat = "O_Boat_Transport_01_F" createVehicle _assaultBoatPos;
 	//assaultBoat setDir random 360;
 	{ _x lock 3 } forEach [boat,trawler];
-	_missionHintText = "Navy Seals have been spotted approching land and setting up a beach head, intercept them and take the loot";
+	_missionHintText = "Navy Seals have been spotted approching land and setting up a beach head, intercept them and take the loot.";
 	{ _x setMarkerPos _flatPos; } forEach ["noCoastal_1"];
 };
 
@@ -124,7 +124,7 @@ _successExec =
 	{boat deleteVehicleCrew _x} forEach crew boat;
 	sleep 0.5;
 	{ deleteVehicle _x } forEach [boat,trawler];
-	_successHintMessage = "The Navy Seals have been eliminated, well done.";
+	_successHintMessage = "The Navy Seals have been eliminated.";
 
 	_drop_item = 
 	{

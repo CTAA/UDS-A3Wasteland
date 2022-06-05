@@ -15,10 +15,12 @@ _setupVars =
 {
 	_vehicleClass = // to specify a vehicleLoadouts variant, simply write "class/variant", e.g. "O_Heli_Light_02_dynamicLoadout_F/orcaDAR"
 	[
-		"B_MBT_01_cannon_F",
-		"O_MBT_02_cannon_F",
-		"I_MBT_03_cannon_F",
-		["O_MBT_04_cannon_F", "O_MBT_04_command_F"] // Tanks DLC
+		"CUP_B_Challenger2_Woodland_BAF",
+		"CUP_B_Leopard2A6_GER",
+		"CUP_B_M1A1_Woodland_US_Army",
+		"CUP_B_M1A2_TUSK_MG_US_Army",
+		"CUP_O_T90_RU",
+		"CUP_O_T72_SLA"
 	];
 
 	while {_vehicleClass isEqualType []} do { _vehicleClass = selectRandom _vehicleClass };

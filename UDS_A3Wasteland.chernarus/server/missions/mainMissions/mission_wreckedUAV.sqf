@@ -15,13 +15,7 @@ _setupVars =
 {
 	_vehicleClass =
 	[
-		"B_T_UAV_03_F", 
-		"B_T_UAV_03_dynamicLoadout_F",
-		"O_T_UAV_04_CAS_F",
-		"B_UAV_05_F",
-		"B_UAV_02_dynamicLoadout_F",
-		"O_UAV_02_dynamicLoadout_F",
-		"I_UAV_02_dynamicLoadout_F"
+		["B_UAV_02_dynamicLoadout_F","B_UAV_02_dynamicLoadout_F","CUP_B_USMC_DYN_MQ9","B_UAV_05_F","B_UAV_05_F"]
 	] call BIS_fnc_selectRandom;
 
 	_missionType = "UAV Wrecked";
@@ -43,7 +37,7 @@ _setupObjects =
 
 	_vehDeterminer = if ("AEIMO" find (_vehicleName select [0,1]) != -1) then { "An" } else { "A" };
 
-	_missionHintText = format ["%1 <t color='%3'>%2</t> has been immobilized, go get it for your team!", _vehDeterminer, _vehicleName, mainMissionColor];	
+	_missionHintText = format ["%1 <t color='%3'>%2</t> has been immobilized.", _vehDeterminer, _vehicleName, mainMissionColor];	
 };
 
 _waitUntilMarkerPos = nil;
@@ -63,7 +57,7 @@ _successExec =
 	_vehicle lock 1;
 	_vehicle setVariable ["R3F_LOG_disabled", false, true];
 
-	_successHintMessage = format ["The %1 has been captured, well done.", _vehicleName];
+	_successHintMessage = format ["The %1 has been captured.", _vehicleName];
 };
 
 _this call mainMissionProcessor;

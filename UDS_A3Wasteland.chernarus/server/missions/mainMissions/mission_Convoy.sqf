@@ -122,7 +122,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh2 >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh2 >> "displayName");
 
-	_missionHintText = format ["A <t color='%2'>%1</t> transporting 2 weapon crates is being escorted by armed vehicles. Stop them!", _vehicleName, mainMissionColor];
+	_missionHintText = format ["A <t color='%2'>%1</t> transporting 2 weapon crates is being escorted by armed vehicles.", _vehicleName, mainMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };

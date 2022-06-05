@@ -11,7 +11,7 @@ private ["_planeChoices", "_convoyVeh", "_veh1", "_veh2", "_createVehicle", "_ve
 
 _setupVars =
 {
-	_missionType = "Hostile Jets Formation";
+	_missionType = "Hostile Jet Formation";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
@@ -21,11 +21,13 @@ _setupObjects =
 
 	_planeChoices =
 	[
-		["B_Plane_CAS_01_dynamicLoadout_F", "B_Plane_CAS_01_dynamicLoadout_F"],
-		["O_Plane_CAS_02_dynamicLoadout_F", "O_Plane_CAS_02_dynamicLoadout_F"],
-		["O_Plane_Fighter_02_F", "O_Plane_Fighter_02_F"],
-		["I_Plane_Fighter_04_F", "I_Plane_Fighter_04_F"],
-		["B_Plane_Fighter_01_F", "B_Plane_Fighter_01_F"]
+		[["CUP_B_A10_DYN_USA","A10aHeavy"],["CUP_B_A10_DYN_USA","A10aHeavy"]],
+		[["CUP_B_AV8B_DYN_USMC","AV8BCAS"],["CUP_B_AV8B_DYN_USMC","AV8BCAS"]],
+		[["CUP_B_F35B_BAF","F35BCAS"],["CUP_B_F35B_BAF","F35BCAS"]],
+		[["CUP_B_JAS39_HIL","A149CAS"],["CUP_B_JAS39_HIL","A149CAS"]],
+		[["CUP_B_L39_CZ","L39CAS"],["CUP_B_L39_CZ","L39CAS"]],
+		[["CUP_B_Su25_Dyn_CDF","SU25CAS"],["CUP_B_Su25_Dyn_CDF","SU25CAS"]],
+		[["CUP_B_SU34_CDF"],["CUP_B_SU34_CDF"]]
 	];
 
 	_convoyVeh = _planeChoices call BIS_fnc_selectRandom;
@@ -152,7 +154,7 @@ _successExec =
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 
-	_successHintMessage = "The sky is clear again, the enemy patrol was taken out! Ammo crates and some money have fallen near the pilot.";
+	_successHintMessage = "The sky is clear again, the enemy patrol was taken out. Ammo crates and some money have fallen near the pilot.";
 };
 
 _this call mainMissionProcessor;

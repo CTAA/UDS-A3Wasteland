@@ -53,7 +53,7 @@ _successExec =
 	// Mission completed
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 
-	_successHintMessage = "The weapon cache have been collected, well done.";
+	_successHintMessage = "The weapon cache have been collected.";
 };
 
 _this call sideMissionProcessor;

@@ -13,7 +13,7 @@ private ["_convoyVeh", "_veh1", "_veh2", "_createVehicle", "_vehicles", "_leader
 
 _setupVars =
 {
-	_missionType = "Drugs Runners";
+	_missionType = "Drug Runners";
 	_locationsArray = nil;
 };
 

@@ -87,7 +87,7 @@ _setupObjects = {
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh1 >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh1 >> "displayName");
 
-	_missionHintText = format ["Bank robbers driving a <t color='%2'>%1</t> have been spotted moving at fast speeds through the Country. Try to stop them and get their bounty!", _vehicleName, moneyMissionColor];
+	_missionHintText = format ["Bank robbers driving a <t color='%2'>%1</t> have been spotted moving at fast speeds through the Country.", _vehicleName, moneyMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -116,7 +116,7 @@ _successExec = {
 	_explosive = createMine ["SatchelCharge_F", _explosivePos, [], 0];
 	_explosive setDamage 1;
 
-	_successHintMessage = "The robbers rigged the car to explode with a deadman switch. The money is yours to take!";
+	_successHintMessage = "The bank robbers have been stopped.";
 };
 
 _this call moneyMissionProcessor;

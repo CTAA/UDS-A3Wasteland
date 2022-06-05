@@ -31,7 +31,6 @@ _setupObjects =
 	else
 	{
 		[
-			["B_Quadbike_01_F", "CUP_I_V3S_Covered_TKG", "B_Quadbike_01_F"],
 			["CUP_C_Datsun_4seat", "CUP_I_V3S_Covered_TKG", "CUP_C_Datsun_4seat"]
 		] call BIS_fnc_selectRandom;
 	};
@@ -64,7 +63,7 @@ _setupObjects =
 
 		switch (true) do
 		{
-			case (_type isKindOf "Offroad_01_armed_base_F"):
+			case (_type isKindOf "CUP_I_V3S_Covered_TKG"):
 			{
 				_soldier = [_aiGroup, _position] call createRandomSoldier;
 				_soldier moveInGunner _vehicle;

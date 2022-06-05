@@ -27,8 +27,6 @@ _setupObjects =
 	
 	_vehChoices =
 	[
-		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"],
-		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"],
 		["CUP_B_RHIB2Turret_USMC", "CUP_B_MH60L_DAP_2x_US"]
 	];
 
@@ -79,7 +77,7 @@ _setupObjects =
 
 		switch (true) do
 		{
-			case (_type isKindOf "Boat_Armed_01_base_F"):
+			case (_type isKindOf "CUP_B_RHIB2Turret_USMC"):
 			{
 				// the boats need a gunner (rear) and a commander (frontgunner) aside from a driver
 				if (missionDifficultyHard) then
@@ -93,7 +91,7 @@ _setupObjects =
 				_soldier moveInTurret [_vehicle, [1]]; // rear gunner
 			};
 
-			case (_type isKindOf "Heli_Transport_01_base_F"):
+			case (_type isKindOf "CUP_B_MH60L_DAP_2x_US"):
 			{
 				// these choppers have 2 turrets so we need 2 gunners
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;
@@ -163,7 +161,7 @@ _setupObjects =
 	_vehicleName = getText (configFile >> "CfgVehicles" >> (_veh1 param [0,""]) >> "displayName");
 	_vehicleName2 = getText (configFile >> "CfgVehicles" >> (_veh2 param [0,""]) >> "displayName");
 
-	_missionHintText = format ["Two <t color='%3'>%1</t> are patrolling the coasts, escorted by a <t color='%3'>%2</t>.<br/>Intercept them and recover their cargo!", _vehicleName, _vehicleName2, mainMissionColor];
+	_missionHintText = format ["Two <t color='%3'>%1</t> are patrolling the coasts, escorted by a <t color='%3'>%2</t>.", _vehicleName, _vehicleName2, mainMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -188,7 +186,7 @@ _successExec =
 	_box2 setDir random 360;
 	[_box2, "mission_Launchers2"] call fn_refillbox;
 	
-	_successHintMessage = "The patrol has been stopped, the ammo crates are yours to take. Find them near the wreck!";
+	_successHintMessage = "The patrol has been stopped, the ammo crates are yours to take.";
 };
 
 _this call mainMissionProcessor;

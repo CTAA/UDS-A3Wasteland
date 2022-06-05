@@ -9,70 +9,70 @@ if (!isServer) exitWith {};
 // Mission filename, spawnrate
 
 MainMissions = [
+	["mission_AbandonedJet", 1],
+	["mission_APC", 1],
 	["mission_ArmedDiversquad", 1],
+	["mission_ArmedHeli", 1],
+	["mission_ArmedJet", 1],
+	["mission_AttackHeli", 1],
+	["mission_CivHeli", 1],
 	["mission_Coastal_Convoy", 0.5],
 	["mission_Convoy", 1],
 	["mission_HostileHeliFormation", 0.5],
 	["mission_HostileJetFormation", 0.5],
-	["mission_APC", 1],
-	["mission_MBT", 1],
-	["mission_AbandonedJet", 1],
-	["mission_wreckedUAV", 0.5],
-	["mission_wreckedJet", 0.5],
-	["mission_ArmedHeli", 1],
-	["mission_CivHeli", 1],
-	["mission_AttackHeli", 1],
-	["mission_ArmedJet", 1],
 	["mission_LightTank", 1],
-	["mission_SealTeams", 1]
+	["mission_MBT", 1],
+	["mission_SealTeams", 1],
+	["mission_wreckedJet", 0.5],
+	["mission_wreckedUAV", 0.5]
 ];
 
 SideMissions = [
+	["mission_BountyHunter", 1],
+	["mission_Cobra", 0.5],
+	["mission_Diplomats", 1],
+	["mission_DrugsRunners", 1],
+	["mission_FakePolice", 1],
+	["mission_GeoCache", 1],
 	["mission_HostileHelicopter", 0.5],
 	["mission_HostileJet", 0.5],
 	["mission_MiniConvoy", 1],
-	["mission_SunkenSupplies", 1],
-	["mission_TownInvasion", 1],
 	["mission_Outpost", 1],
-	["mission_Truck", 1],
-	["mission_diplomats", 1],
-	["mission_drugsRunners", 1],
-	["mission_GeoCache", 1],
+	["mission_Roadblock", 1],
 	["mission_Smugglers", 1],
 	["mission_Sniper", 1],
-	["mission_Roadblock", 1],
-	["mission_WepCache", 1],
-	["mission_FakePolice", 1],
-	["mission_Cobra", 0.5],
-	["mission_BountyHunter", 1]
+	["mission_SunkenSupplies", 1],
+	["mission_TownInvasion", 1],
+	["mission_Truck", 1],
+	["mission_WepCache", 1]
 ];
 
 MoneyMissions = [
+	["mission_ArmedPatrol", 1],
+	["mission_BankRobbery", 0.5],
+	["mission_CrimesofWar", 1],
+	["mission_MilitaryPatrol", 0.5],
 	["mission_MoneyShipment", 1],
-	["mission_SunkenTreasure", 1],
-	["mission_NavySeals", 1],
-	["mission_militaryPatrol", 1],
-	["mission_armaPatrol", 1],
-	["mission_BankRobbery", 1],
+	["mission_NavySeals", 0.5],
 	["mission_SkySmuggler", 0.5],
-	["mission_CrimesofWar", 1]
+	["mission_SunkenTreasure", 1]
 ];
 
 ExtraMissions = [
-	["mission_DeltaForce", 1],
-	["mission_SpecOps", 1],
-	["mission_Spetsnaz", 1],
+	["mission_AH6XPatrol", 0.75],
 	["mission_Assassins", 1],
-	["mission_HnS", 1],
+	["mission_BlackHawkPatrol", 0.75],
+	["mission_DeltaForce", 1],
+	["mission_Graveyard", 1],
+	["mission_HnS", 0.25],
 	["mission_HostageRescue", 1],
 	["mission_HostilePlane", 0.5],
-	["mission_TransportHeli", 0.5],
-	["mission_WepDeal", 1],
 	["mission_InfGroup", 1],
-	["mission_AH6XPatrol", 1],
-	["mission_Reaper", 0.2],
-	["mission_Graveyard", 1],
-	["mission_BlackHawkPatrol}", 1]
+	["mission_Reaper", 0.25],
+	["mission_SpecOps", 1],
+	["mission_Spetsnaz", 1],
+	["mission_TransportHeli", 0.5],
+	["mission_WepDeal", 1]
 ];
 
 MissionSpawnMarkers = (allMapMarkers select {["Mission_", _x] call fn_startsWith}) apply {[_x, false]};

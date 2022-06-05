@@ -79,7 +79,7 @@ _successExec =
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 	_vehicle lockDriver false;
 
-	_successHintMessage = "The sunken crates have been captured, well done.";
+	_successHintMessage = "The sunken crates have been captured.";
 };
 
 _this call mainMissionProcessor;

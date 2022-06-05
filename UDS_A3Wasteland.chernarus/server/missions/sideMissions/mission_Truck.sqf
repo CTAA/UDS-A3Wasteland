@@ -24,18 +24,24 @@ _setupObjects =
 
 	_vehicleClass =
 	[
-		"B_Truck_01_covered_F",
-		"B_Truck_01_fuel_F",
-		"B_Truck_01_medical_F",
-		"B_Truck_01_Repair_F",
-		"O_Truck_03_covered_F",
-		"O_Truck_03_fuel_F",
-		"O_Truck_03_medical_F",
-		"O_Truck_03_repair_F",
-		"I_Truck_02_covered_F",
-		"I_Truck_02_fuel_F",
-		"I_Truck_02_medical_F",
-		"I_Truck_02_box_F"
+		"CUP_B_T810_Unarmed_CZ_WDL",
+		"CUP_B_T810_Refuel_CZ_WDL",
+		"CUP_B_T810_Reammo_CZ_WDL",
+		"CUP_B_T810_Repair_CZ_WDL",
+		"CUP_B_Kamaz_CDF",
+		"CUP_B_Kamaz_Open_CDF",
+		"CUP_B_Kamaz_Refuel_CDF",
+		"CUP_B_Kamaz_Repair_CDF",
+		"CUP_B_Kamaz_Reammo_CDF",
+		"CUP_B_MTVR_USA",
+		"CUP_B_MTVR_Ammo_USA",
+		"CUP_B_MTVR_Refuel_USA",
+		"CUP_B_MTVR_Repair_USA",
+		"CUP_B_Ural_CDF",
+		"CUP_B_Ural_Open_CDF",
+		"CUP_B_Ural_Refuel_CDF",
+		"CUP_B_Ural_Repair_CDF",
+		"CUP_B_Ural_Reammo_CDF"
 	] call BIS_fnc_selectRandom;
 
 	// Class, Position, Fuel, Ammo, Damage, Special
@@ -67,7 +73,7 @@ _successExec =
 	_vehicle allowDamage true;
 	[_vehicle, 1] call A3W_fnc_setLockState; // Unlock
 
-	_successHintMessage = "The truck has been captured, well done.";
+	_successHintMessage = "The truck has been captured.";
 };
 
 _this call sideMissionProcessor;

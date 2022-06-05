@@ -11,7 +11,7 @@ private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicl
 
 _setupVars =
 {
-	_missionType = "Hostile Helicopters";
+	_missionType = "Hostile Helicopter Formation";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
@@ -21,17 +21,10 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["B_Heli_Transport_01_F", ["B_Heli_Light_01_dynamicLoadout_F", "pawneeNormal"]],
-		["B_Heli_Transport_01_camo_F", ["O_Heli_Light_02_dynamicLoadout_F", "orcaDAGR"]],
-		["B_Heli_Transport_01_F", "I_Heli_light_03_dynamicLoadout_F"]
+		["CUP_O_Mi24_Mk4_CSAT_T","CUP_O_Mi24_Mk3_CSAT_T","CUP_O_Mi24_Mk3_CSAT_T"],
+		["CUP_O_Ka52_RU","CUP_O_Ka50_DL_RU","CUP_O_Ka50_DL_RU"],
+		["CUP_B_AH64D_DL_USA","CUP_B_AH1Z_Dynamic_USMC","CUP_B_AH1Z_Dynamic_USMC"]
 	];
-
-	if (missionDifficultyHard) then
-	{
-		(_heliChoices select 0) set [0, "B_Heli_Attack_01_dynamicLoadout_F"];
-		(_heliChoices select 1) set [0, "O_Heli_Attack_02_dynamicLoadout_F"];
-		(_heliChoices select 2) set [0, "O_Heli_Attack_02_dynamicLoadout_F"];
-	};
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;
 
@@ -73,17 +66,7 @@ _setupObjects =
 
 		switch (true) do
 		{
-			case (_type isKindOf "Heli_Transport_01_base_F"):
-			{
-				// these choppers have 2 turrets so we need 2 gunners
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInTurret [_vehicle, [1]];
-
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInTurret [_vehicle, [2]];
-			};
-
-			case (_type isKindOf "Heli_Attack_01_base_F" || _type isKindOf "Heli_Attack_02_base_F"):
+			case (_type isKindOf "CUP_O_Mi24_Mk4_CSAT_T" || _type isKindOf "CUP_O_Mi24_Mk3_CSAT_T" || _type isKindOf "CUP_O_Ka52_RU" || _type isKindOf "CUP_B_AH1Z_Dynamic_USMC" || _type isKindOf "CUP_B_AH64D_DL_USA"):
 			{
 				// these choppers need 1 gunner
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;
@@ -151,7 +134,7 @@ _setupObjects =
 	_vehicleName = getText (configFile >> "CfgVehicles" >> (_veh1 param [0,""]) >> "displayName");
 	_vehicleName2 = getText (configFile >> "CfgVehicles" >> (_veh2 param [0,""]) >> "displayName");
 
-	_missionHintText = format ["A formation of armed helicopters containing a <t color='%3'>%1</t> and two <t color='%3'>%2</t> are patrolling the island. Destroy them and recover their cargo!", _vehicleName, _vehicleName2, mainMissionColor];
+	_missionHintText = format ["A formation of armed helicopters containing a <t color='%3'>%1</t> and two <t color='%3'>%2</t> are patrolling the island.", _vehicleName, _vehicleName2, mainMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -186,7 +169,7 @@ _successExec =
 	private _flare2 = "F_40mm_Green" createVehicle getPos _box2;
 	_flare2 attachto [_box2,[0,0,-0.5]];
 
-	_successHintMessage = "The sky is clear again, the enemy patrol was taken out! Ammo crates have fallen near the wreck.";
+	_successHintMessage = "The sky is clear again, the enemy patrol was taken out. Ammo crates have fallen near the wreck.";
 };
 
 _this call mainMissionProcessor;

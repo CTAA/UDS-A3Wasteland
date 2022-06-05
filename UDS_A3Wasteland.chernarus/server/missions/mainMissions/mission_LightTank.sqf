@@ -13,8 +13,10 @@ private ["_vehicleClass", "_nbUnits"];
 
 _setupVars = {
 	_vehicleClass = [
-		"I_MBT_03_cannon_F",
-		"O_MBT_02_cannon_F"
+		"CUP_B_M1128_MGS_Woodland_Slat",
+		"CUP_B_M60A3_TTS_USMC",
+		"CUP_O_T55_CSAT_T",
+		"CUP_O_T34_TKA"
 	] call BIS_fnc_selectRandom;
 
 	_missionType = "Light Tank";

@@ -78,7 +78,7 @@ _setupObjects =
 				_soldier moveInTurret [_vehicle, [2]];
 			};
 
-			case (_type isKindOf "CUP_B_AH1Z_Dynamic_USMC" || _type isKindOf ""):
+			case (_type isKindOf "CUP_B_AH1Z_Dynamic_USMC"):
 			{
 				// these choppers need 1 gunner
 				_soldier = [_aiGroup, _position] call createRandomSoldierC;

@@ -25,14 +25,8 @@ _setupObjects =
 	
 	diag_log format["Error Logger: SealTeam %1",_missionLocation];
 
-	_vehChoices =
-	[
-		["B_Boat_Armed_01_minigun_F", "B_Boat_Armed_01_minigun_F"],
-		["O_Boat_Armed_01_hmg_F", "O_Boat_Armed_01_hmg_F"],
-		["I_Boat_Armed_01_minigun_F", "I_Boat_Armed_01_minigun_F"]
-	];
 
-	_convoyVeh = _vehChoices call BIS_fnc_selectRandom;
+	_convoyVeh = ["CUP_B_RHIB2Turret_USMC","CUP_B_RHIB2Turret_USMC"]
 
 	_veh1 = _convoyVeh select 0;
 	_veh2 = _convoyVeh select 1;

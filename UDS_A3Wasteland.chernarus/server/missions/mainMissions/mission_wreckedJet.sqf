@@ -14,17 +14,13 @@ _setupVars =
 {
 	_vehicleClass =
 	[
-		["B_Plane_Fighter_01_F", "blackwaspAA"],
-		["B_Plane_Fighter_01_F", "blackwaspCAS"],
-		["B_Plane_Fighter_01_F", "blackwaspXL"],
-		"B_Plane_Fighter_01_Stealth_F",
-		["O_Plane_Fighter_02_F", "shikraXL"],
-		["O_Plane_Fighter_02_F", "shikraEX"],
-		["O_Plane_Fighter_02_F", "shikraCAS"],
-		["O_Plane_Fighter_02_Stealth_F", "shikraDEF"],
-		["I_Plane_Fighter_04_F", "GryphonXL"],
-		["I_Plane_Fighter_04_F", "GryphonAA"],
-		["I_Plane_Fighter_04_F", "GryphonCAS"]
+		["CUP_B_A10_DYN_USA","A10aHeavy"],
+		["CUP_B_AV8B_DYN_USMC","AV8BCAS"],
+		["CUP_B_F35B_BAF","F35BCAS"],
+		["CUP_B_JAS39_HIL","A149CAS"],
+		["CUP_B_L39_CZ","L39CAS"],
+		["CUP_B_Su25_Dyn_CDF","SU25CAS"],
+		["CUP_B_SU34_CDF"]
 	] call BIS_fnc_selectRandom;
 
 	_missionType = "Wrecked Jet";
@@ -52,7 +48,7 @@ _setupObjects =
 
 	_vehDeterminer = if ("AEIMO" find (_vehicleName select [0,1]) != -1) then { "An" } else { "A" };
 
-	_missionHintText = format ["%1 <t color='%3'>%2</t> has been immobilized, go get it for your team!", _vehDeterminer, _vehicleName, mainMissionColor];	
+	_missionHintText = format ["%1 <t color='%3'>%2</t> has been immobilized.", _vehDeterminer, _vehicleName, mainMissionColor];	
 };
 
 _waitUntilMarkerPos = nil;
@@ -72,7 +68,7 @@ _successExec =
 	_vehicle lock 1;
 	_vehicle setVariable ["R3F_LOG_disabled", false, true];
 
-	_successHintMessage = format ["The %1 has been captured, well done.", _vehicleName];
+	_successHintMessage = format ["The %1 has been captured.", _vehicleName];
 };
 
 _this call mainMissionProcessor;

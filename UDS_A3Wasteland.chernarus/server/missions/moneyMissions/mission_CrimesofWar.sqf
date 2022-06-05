@@ -68,7 +68,7 @@ _setupObjects = {
 	
 	_aiGroup setCombatMode "Red";
 	
-	_missionHintText = format ["A Team of SpecOps have taken over <br/><t size='1.25' color='%1'>%2</t><br/><br/>Indications are that <t color='%1'>%3 enemies</t> are lurking in that area. Eliminate them and claim their cash.", moneyMissionColor, _townName, _nbUnits];
+	_missionHintText = format ["A Team of Spec Ops have taken over <br/><t size='1.25' color='%1'>%2</t><br/><br/>Indications are that <t color='%1'>%3 enemies</t> are lurking in that area.", moneyMissionColor, _townName, _nbUnits];
 };
 
 _waitUntilMarkerPos = nil;
@@ -91,7 +91,7 @@ _successExec = {
 		_cash setVariable["owner","world",true];
 	};
 
-	_successHintMessage = format ["The SpecOps were killed.<br/><br/>The Town: <t color='%1'>%2</t><br/> is cleared!<br/> now collect the cash and loot!", moneyMissionColor, _townName];
+	_successHintMessage = format ["The SpecOps were killed.<br/><br/>The Town: <t color='%1'>%2</t><br/> is cleared.", moneyMissionColor, _townName];
 };
 
 _this call moneyMissionProcessor;
