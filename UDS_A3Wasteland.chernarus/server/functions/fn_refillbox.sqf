@@ -36,14 +36,19 @@ switch (_boxType) do {
 	case "mission_Launchers1": {
 		_boxItems = [
 			["wep", ["Laserdesignator", "Laserdesignator_02", "Laserdesignator_03"], 1, 1],
-			["wep", ["CUP_launch_9K32Strela", "CUP_launch_Igla"], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
-			["wep", [["M136 Granatenwerfer", "CUP_launch_M136"],["M47 Dragon", "CUP_launch_M47"],["Metis AT-13", "CUP_launch_Metis", "Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", "Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", "RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V"],["RPG18", "CUP_launch_RPG18", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"]], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(1,3)],
+			["wep", [["CUP_launch_9K32Strela"], ["CUP_launch_Igla"]], RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
+			["wep", [["CUP_launch_M136", "CUP_launch_M47", "CUP_launch_Metis"], ["CUP_launch_Mk153Mod0", "CUP_launch_Mk153Mod0_blk", "CUP_launch_RPG7V", "CUP_launch_RPG18", "launch_MRAWS_olive_rail_F", "launch_MRAWS_sand_rail_F"]], RANDOM_BETWEEN(2,5), RANDOM_BETWEEN(1,3)],
 			["mag", ["APERSTripMine_Wire_Mag", "APERSBoundingMine_Range_Mag", "APERSMine_Range_Mag", "ClaymoreDirectionalMine_Remote_Mag"], RANDOM_BETWEEN(2,5)],
 			["mag", ["SLAMDirectionalMine_Wire_Mag", "ATMine_Range_Mag", "DemoCharge_Remote_Mag", "SatchelCharge_Remote_Mag"], RANDOM_BETWEEN(2,5)],
 			["mag", "HandGrenade", RANDOM_BETWEEN(5,10)],
 			["mag", "1Rnd_HE_Grenade_shell", RANDOM_BETWEEN(5,10)],
 			["itm", [["H_HelmetB", "H_HelmetIA"], ["H_HelmetSpecB", "H_HelmetSpecO_ocamo"], "H_HelmetLeaderO_ocamo"], RANDOM_BETWEEN(1,4)],
-			["itm", [["V_PlateCarrier1_rgr", "V_PlateCarrier1_blk", "V_PlateCarrierIA1_dgtl"], ["V_PlateCarrier2_rgr", "V_PlateCarrier2_blk", "V_PlateCarrierIA2_dgtl"], ["V_PlateCarrierSpec_rgr", "V_PlateCarrierSpec_blk", "V_PlateCarrierSpec_mtp"], ["V_PlateCarrierGL_rgr", "V_PlateCarrierGL_blk", "V_PlateCarrierGL_mtp", "V_PlateCarrierIAGL_dgtl", "V_PlateCarrierIAGL_oli"]], RANDOM_BETWEEN(1,4)]
+			["itm", [
+				["V_PlateCarrier1_rgr", "V_PlateCarrier1_blk", "V_PlateCarrierIA1_dgtl"], 
+				["V_PlateCarrier2_rgr", "V_PlateCarrier2_blk", "V_PlateCarrierIA2_dgtl"], 
+				["V_PlateCarrierSpec_rgr", "V_PlateCarrierSpec_blk", "V_PlateCarrierSpec_mtp"], 
+				["V_PlateCarrierGL_rgr", "V_PlateCarrierGL_blk", "V_PlateCarrierGL_mtp", "V_PlateCarrierIAGL_dgtl", "V_PlateCarrierIAGL_oli"]
+				], RANDOM_BETWEEN(1,4)]
 		];
 	};
 	case "mission_Launchers2": {
@@ -158,7 +163,7 @@ switch (_boxType) do {
 	};
 	case "mission_Weapon3": {
 		_boxItems = [
-			["wep", ["	CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds", "CUP_smg_EVO", "CUP_arifle_FNFAL5061", "CUP_smg_EVO_MRad_Flashlight_Snds"], RANDOM_BETWEEN(2,5)], //ADRs
+			["wep", ["CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds", "CUP_smg_EVO", "CUP_arifle_FNFAL5061", "CUP_smg_EVO_MRad_Flashlight_Snds"], RANDOM_BETWEEN(2,5)], //ADRs
 			["wep", ["srifle_DMR_05_blk_F", "srifle_DMR_02_F", "LMG_03_F", "MMG_02_camo_F", "srifle_LRR_tna_F"], RANDOM_BETWEEN(3,6)], //Snipers
 			["itm", ["optic_DMS", "optic_AMS", "optic_SOS", "optic_NVS"], RANDOM_BETWEEN(4,6)], //Scopes
 			["itm", "muzzle_snds_570", RANDOM_BETWEEN(3,5)], //Silencer
