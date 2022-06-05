@@ -286,7 +286,7 @@ launcherArray = compileFinal str
 	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], // Ammo missing from store, must fix
 	["FGM-148 Javelin", "CUP_launch_Javelin", 8000],
 	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], // Ammo missing from store, must fix
-	["Igla 9K38", "CUP_launch_Igla_Loaded", 8000], // Ammo missing from store, must fix
+	["Igla 9K38", "CUP_launch_Igla", 8000], // Ammo missing from store, must fix
 	["M136 Granatenwerfer", "CUP_launch_M136", 8000], // Ammo missing from store, must fix
 	["M47 Dragon", "CUP_launch_M47", 8000],
 	["M72A6", "CUP_launch_M72A6", 8000], // Ammo missing from store, must fix
