@@ -49,7 +49,7 @@ SideMissions = [
 
 MoneyMissions = [
 	["mission_ArmedPatrol", 1],
-	["mission_BankRobbery", 0.5],
+//  ["mission_BankRobbery", 0.5], Fails quickly after start
 	["mission_CrimesofWar", 1],
 	["mission_MilitaryPatrol", 0.5],
 	["mission_MoneyShipment", 1],

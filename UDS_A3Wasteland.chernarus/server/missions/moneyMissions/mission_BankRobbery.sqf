@@ -5,7 +5,7 @@
 //	@file Name: mission_MiniConvoy.sqf
 //	@file Author: JoSchaap / routes by Del1te - (original idea by Sanjo), AgentRev
 //	@file Created: 31/08/2013 18:19
-if (!isServer) exitWith {};
+/* if (!isServer) exitWith {};
 #include "moneyMissionDefines.sqf";
 
 private ["_convoyVeh", "_veh1", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_numWaypoints", "_cash", "_explosivePos", "_explosive"];
@@ -119,4 +119,5 @@ _successExec = {
 	_successHintMessage = "The bank robbers have been stopped.";
 };
 
-_this call moneyMissionProcessor;
+_this call moneyMissionProcessor; 
+*/ 

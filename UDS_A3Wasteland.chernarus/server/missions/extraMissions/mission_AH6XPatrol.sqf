@@ -61,26 +61,6 @@ _setupObjects =
 		_soldier = [_aiGroup, _position] call createRandomSoldierC;
 		_soldier moveInDriver _vehicle;
 
-		switch (true) do
-		{
-			case (_type isKindOf "Heli_Transport_01_base_F"):
-			{
-				// these choppers have 2 turrets so we need 2 gunners
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInTurret [_vehicle, [1]];
-
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInTurret [_vehicle, [2]];
-			};
-
-			case (_type isKindOf "Heli_Attack_01_base_F" || _type isKindOf "Heli_Attack_02_base_F"):
-			{
-				// these choppers need 1 gunner
-				_soldier = [_aiGroup, _position] call createRandomSoldierC;
-				_soldier moveInGunner _vehicle;
-			};
-		};
-
 		// remove flares because it overpowers AI choppers
 		if (_type isKindOf "Air") then
 		{
@@ -157,7 +137,7 @@ _successExec =
 	_box2 setDir random 360;
 	[_box2, "mission_Weapon2"] call fn_refillbox;
 
-	_successHintMessage = "The pawnee formation has been taken out.";
+	_successHintMessage = "The AH-6X patrol has been taken out.";
 };
 
 _this call extraMissionProcessor;
