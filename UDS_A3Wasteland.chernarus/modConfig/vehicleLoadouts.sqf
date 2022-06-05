@@ -13,17 +13,6 @@
     Note: You can use any pylon type you want in the script, even if not shown in the editor, it should normally work! e.g. "PylonRack_12Rnd_missiles" for "B_Plane_Fighter_01_F"
 */
 
-
-	// VANILLA MAG EXAMPLE
-	/* _mags =
-		[
-			["magazine_Fighter01_Gun20mm_AA_x450", [-1]],
-			["magazine_Fighter01_Gun20mm_AA_x450", [-1]], // extra gun mag (non-explosive ammo)
-			["Laserbatteries", [-1]],
-			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
-		]; */
-
-		
 switch (true) do
 {
 	// A10-A Thunderbolt II
@@ -43,13 +32,12 @@ switch (true) do
 		_mags =
 		[
 			["magazine_Fighter01_Gun20mm_AA_x450", [-1]],
-			["magazine_Fighter01_Gun20mm_AA_x450", [-1]], // extra gun mag (non-explosive ammo)
+			["magazine_Fighter01_Gun20mm_AA_x450", [-1]],
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
 		switch (_variant) do
 		{
-			// MUST ADD MAGS
 			case "A149Gun" : { _pylons = ["","","","","",""]};
 			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
 			default           { _pylons = ["","","","","",""]};
@@ -61,13 +49,12 @@ switch (true) do
 		_mags =
 		[
 			["CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M", [-1]],
-			["CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M", [-1]], // extra gun mag (non-explosive ammo)
+			["CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M", [-1]],
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
 		switch (_variant) do
 		{
-			// MUST ADD MAGS
 			case "AV8BGun" : { _pylons = ["","","","","",""]};
 			case "AV8BCAS" : { _pylons = ["CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
 			default           { _pylons = ["","","","","",""]};
@@ -79,13 +66,12 @@ switch (true) do
 		_mags =
 		[
 			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
-			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]], // extra gun mag (non-explosive ammo)
+			["CUP_220Rnd_TE1_White_Tracer_30mm_GAU22_M", [-1]],
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
 		switch (_variant) do
 		{
-			// MUST ADD MAGS
 			case "F35BGun" : { _pylons = ["","","","","","","","","","",""]};
 			case "F35BCAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
 			default           { _pylons = ["","","","","","","","","","",""]};
@@ -94,9 +80,17 @@ switch (true) do
 	// L-39ZA
 	case (_class isKindOf "CUP_B_L39_CZ"):
 	{
+		_mags =
+		[
+			["CUP_150Rnd_TE2_Green_Tracer_GSh23_23mm_APHE_M", [-1]],
+			["CUP_150Rnd_TE2_Green_Tracer_GSh23_23mm_APHE_M", [-1]],
+			["CUP_150Rnd_TE2_Green_Tracer_GSh23_23mm_APHE_M", [-1]],
+			["CUP_150Rnd_TE2_Green_Tracer_GSh23_23mm_APHE_M", [-1]],
+			["Laserbatteries", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
+		];
 		switch (_variant) do
 		{
-			// MUST ADD MAGS
 			case "L39Gun" : { _pylons = ["","","",""]};
 			case "L39CAS" : { _pylons = ["CUP_PylonPod_16Rnd_S5_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_16Rnd_S5_plane_M"]};
 			default           { _pylons = ["","","",""]};
@@ -105,9 +99,14 @@ switch (true) do
 	// Su-25 Frogfoot
 	case (_class isKindOf "CUP_B_Su25_Dyn_CDF"):
 	{
+		_mags =
+		[
+			["CUP_750Rnd_TE1_30mm_GSh302K_HE_M", [-1]],
+			["Laserbatteries", [-1]],
+			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
+		];
 		switch (_variant) do
 		{
-			// MUST ADD MAGS
 			case "SU25Gun" : { _pylons = ["","","","","","","","","",""]};
 			case "SU25CAS" : { _pylons = ["CUP_PylonPod_1Rnd_R73_Vympel","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_R73_Vympel"]};
 			default           { _pylons = ["","","","","","","","","",""]};
