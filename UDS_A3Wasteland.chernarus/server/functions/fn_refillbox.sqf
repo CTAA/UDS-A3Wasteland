@@ -54,7 +54,7 @@ switch (_boxType) do {
 	case "mission_Launchers2": {
 		_boxItems = [
 			["wep", ["SMG_03_TR_khaki", "SMG_03C_TR_khaki"], RANDOM_BETWEEN(2,4)], //Weapons
-			["wep", ["CUP_launch_RPG18_Loaded"], RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(3,7)], //Weapons
+			["wep", ["CUP_launch_RPG18_Loaded"], RANDOM_BETWEEN(2,4)], //Weapons
 			["itm", ["V_PlateCarrier1_rgr", "V_PlateCarrier2_rgr_noflag_F", "V_PlateCarrier2_tna_F", "V_PlateCarrier1_tna_F","V_PlateCarrier1_rgr_noflag_F"], RANDOM_BETWEEN(2,5)], //Vests
 			["bac", ["B_ViperLightHarness_ghex_F", "B_LegStrapBag_coyote_F", "B_LegStrapBag_olive_F"], RANDOM_BETWEEN(3,5)], //Backpack
 			["itm", ["U_O_V_Soldier_Viper_F","U_O_V_Soldier_Viper_hex_F"], RANDOM_BETWEEN(2,4)], //Uniform
@@ -65,7 +65,7 @@ switch (_boxType) do {
 	};
 	case "mission_Launchers3": { //Umbau
 		_boxItems = [
-			["wep", ["CUP_arifle_AS_VAL_VFG_top_rail"], RANDOM_BETWEEN(0,1)], //Weapons
+			["wep", "CUP_arifle_AS_VAL_VFG_top_rail", RANDOM_BETWEEN(0,1)], //Weapons
 			["wep", ["CUP_arifle_AK47_top_rail", "CUP_arifle_AKS_top_rail", "CUP_arifle_AK74"], RANDOM_BETWEEN(3,6)], //Weapons
 			["wep", "arifle_Katiba_GL_F", RANDOM_BETWEEN(1,4)], //Weapons
 			["wep", "CUP_glaunch_M32", RANDOM_BETWEEN(1,2)], //Weapons
