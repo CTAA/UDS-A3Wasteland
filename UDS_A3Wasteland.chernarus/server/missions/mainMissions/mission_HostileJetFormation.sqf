@@ -21,13 +21,13 @@ _setupObjects =
 
 	_planeChoices =
 	[
-		[["CUP_B_A10_DYN_USA","A10aHeavy"],["CUP_B_A10_DYN_USA","A10aHeavy"]],
-		[["CUP_B_AV8B_DYN_USMC","AV8BCAS"],["CUP_B_AV8B_DYN_USMC","AV8BCAS"]],
-		[["CUP_B_F35B_BAF","F35BCAS"],["CUP_B_F35B_BAF","F35BCAS"]],
-		[["CUP_B_JAS39_HIL","A149CAS"],["CUP_B_JAS39_HIL","A149CAS"]],
-		[["CUP_B_L39_CZ","L39CAS"],["CUP_B_L39_CZ","L39CAS"]],
-		[["CUP_B_Su25_Dyn_CDF","SU25CAS"],["CUP_B_Su25_Dyn_CDF","SU25CAS"]],
-		[["CUP_B_SU34_CDF"],["CUP_B_SU34_CDF"]]
+		["CUP_B_A10_DYN_USA","CUP_B_A10_DYN_USA"],
+		["CUP_B_AV8B_DYN_USMC","CUP_B_AV8B_DYN_USMC"],
+		["CUP_B_F35B_BAF","CUP_B_F35B_BAF"],
+		["CUP_B_JAS39_HIL","CUP_B_JAS39_HIL"],
+		["CUP_B_L39_CZ","CUP_B_L39_CZ"],
+		["CUP_B_Su25_Dyn_CDF","CUP_B_Su25_Dyn_CDF"],
+		["CUP_B_SU34_CDF","CUP_B_SU34_CDF"]
 	];
 
 	_convoyVeh = _planeChoices call BIS_fnc_selectRandom;

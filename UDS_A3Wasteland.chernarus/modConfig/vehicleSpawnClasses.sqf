@@ -101,7 +101,7 @@ vehicleWeapons =
 	"CUP_arifle_HK417_12_M203",
 	"CUP_srifle_L129A1",
 	"CUP_arifle_L85A2_G",
-	"CUP_arifle_M16A",
+	"CUP_arifle_M16A1",
 	"CUP_arifle_M16A4_Base",
 	"CUP_arifle_SBR_od",
 	"CUP_arifle_M4A1_black",

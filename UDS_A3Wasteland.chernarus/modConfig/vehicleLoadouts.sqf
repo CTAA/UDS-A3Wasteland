@@ -29,9 +29,42 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "A10aGun": { _pylons = ["","","","","","","","","","",""]};
-			case "A10aLight": { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","PylonMissile_1Rnd_Mk82_F","PylonMissile_1Rnd_Mk82_F","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","PylonMissile_1Rnd_Mk82_F","PylonMissile_1Rnd_Mk82_F","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28"]};
-			case "A10aHeavy": { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_3Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_3Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28"]};
-			default           { _pylons = ["","","","","","","","","","",""]};
+			case "A10aLight": { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"PylonMissile_1Rnd_Mk82_F",
+				"PylonMissile_1Rnd_Mk82_F",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"PylonMissile_1Rnd_Mk82_F",
+				"PylonMissile_1Rnd_Mk82_F",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_ANAAQ_28"]};
+			case "A10aHeavy": { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_3Rnd_Mk82_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_3Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_ANAAQ_28"]};
+			default           { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_3Rnd_Mk82_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_3Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_ANAAQ_28"]};
 		};
     };
 	// A-149 Gryphon
@@ -47,8 +80,20 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "A149Gun" : { _pylons = ["","","","","",""]};
-			case "A149CAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_Mk82_M"]};
-			default          { _pylons = ["","","","","",""]};
+			case "A149CAS" : { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_2Rnd_Mk82_M"]};
+			default          { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_2Rnd_Mk82_M"]};
 		};
 	};
 	// AV-8B Harrier II
@@ -64,8 +109,20 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "AV8BGun" : { _pylons = ["","","","","",""]};
-			case "AV8BCAS" : { _pylons = ["CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
-			default          { _pylons = ["","","","","",""]};
+			case "AV8BCAS" : { _pylons = [
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_2Rnd_GBU12_M",
+				"CUP_PylonPod_2Rnd_GBU12_M",
+				"CUP_PylonPod_2Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
+			default          { _pylons = [
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_2Rnd_GBU12_M",
+				"CUP_PylonPod_2Rnd_GBU12_M",
+				"CUP_PylonPod_2Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M"]};
 		};
 	};
 	// F-35B Lightning II
@@ -86,8 +143,30 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "F35BGun" : { _pylons = ["","","","","","","","","","",""]};
-			case "F35BCAS" : { _pylons = ["CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_ANAAQ_28","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_Mk82_M","CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M","CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
-			default          { _pylons = ["","","","","","","","","","",""]};
+			case "F35BCAS" : { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_1Rnd_Mk82_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
+			default          { _pylons = [
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_1Rnd_Mk82_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_ANAAQ_28",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_GBU12_M",
+				"CUP_PylonPod_1Rnd_Mk82_M",
+				"CUP_PylonPod_19Rnd_Rocket_FFAR_plane_M",
+				"CUP_PylonPod_1Rnd_AIM_9L_LAU_Sidewinder_M"]};
 		};
 	};
 	// L-39ZA
@@ -105,8 +184,16 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "L39Gun" : { _pylons = ["","","",""]};
-			case "L39CAS" : { _pylons = ["CUP_PylonPod_16Rnd_S5_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_16Rnd_S5_plane_M"]};
-			default         { _pylons = ["","","",""]};
+			case "L39CAS" : { _pylons = [
+				"CUP_PylonPod_16Rnd_S5_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_16Rnd_S5_plane_M"]};
+			default         { _pylons = [
+				"CUP_PylonPod_16Rnd_S5_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_16Rnd_S5_plane_M"]};
 		};
 	};
 	// Su-25 Frogfoot
@@ -121,8 +208,28 @@ switch (true) do
 		switch (_variant) do
 		{
 			case "SU25Gun" : { _pylons = ["","","","","","","","","",""]};
-			case "SU25CAS" : { _pylons = ["CUP_PylonPod_1Rnd_R73_Vympel","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_R73_Vympel"]};
-			default          { _pylons = ["","","","","","","","","",""]};
+			case "SU25CAS" : { _pylons = [
+				"CUP_PylonPod_1Rnd_R73_Vympel",
+				"CUP_PylonPod_20Rnd_S8_plane_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_20Rnd_S8_plane_M",
+				"CUP_PylonPod_1Rnd_R73_Vympel"]};
+			default          { _pylons = [
+				"CUP_PylonPod_1Rnd_R73_Vympel",
+				"CUP_PylonPod_20Rnd_S8_plane_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_FAB250_plane_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_1Rnd_KAB250_M",
+				"CUP_PylonPod_20Rnd_S8_plane_M",
+				"CUP_PylonPod_1Rnd_R73_Vympel"]};
 		};
 	};
 	// Su-34
@@ -133,7 +240,19 @@ switch (true) do
 			["Laserbatteries", [-1]],
 			["240Rnd_CMFlare_Chaff_Magazine", [-1]]
 		];
-		_pylons = ["CUP_PylonPod_1Rnd_R73_Vympel","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_2Rnd_Ataka_M","","","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_1Rnd_FAB250_plane_M","CUP_PylonPod_1Rnd_KAB250_M","CUP_PylonPod_20Rnd_S8_plane_M","CUP_PylonPod_1Rnd_R73_Vympel"];
+		_pylons = [
+			"CUP_PylonPod_1Rnd_R73_Vympel",
+			"CUP_PylonPod_20Rnd_S8_plane_M",
+			"CUP_PylonPod_1Rnd_KAB250_M",
+			"CUP_PylonPod_1Rnd_FAB250_plane_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"",
+			"",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_1Rnd_FAB250_plane_M",
+			"CUP_PylonPod_1Rnd_KAB250_M",
+			"CUP_PylonPod_20Rnd_S8_plane_M",
+			"CUP_PylonPod_1Rnd_R73_Vympel"];
 	};
 
 	// HELICOPTERS
@@ -141,22 +260,42 @@ switch (true) do
 	// AH-1Z
 	case (_class isKindOf "CUP_B_AH1Z_Dynamic_USMC"):
 	{
-		_pylons = ["","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M",""];
+		_pylons = [
+			"",
+			"CUP_PylonPod_19Rnd_Rocket_FFAR_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_19Rnd_Rocket_FFAR_M",
+			""];
 	};
 	// AH-64D
 	case (_class isKindOf "CUP_B_AH64D_DL_USA"):
 	{
-		_pylons = ["CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_19Rnd_Rocket_FFAR_M","CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_2Rnd_Ataka_M"];
+		_pylons = [
+			"CUP_PylonPod_19Rnd_Rocket_FFAR_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_19Rnd_Rocket_FFAR_M",
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_2Rnd_Ataka_M"];
 	};
 	// Ka-50 Black Shark
 	case (_class isKindOf "CUP_O_Ka50_DL_RU"):
 	{
-		_pylons = ["CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M"];
+		_pylons = [
+			"CUP_PylonPod_20Rnd_S8_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8_CCIP_M"];
 	};
 	// Ka-52
 	case (_class isKindOf "CUP_O_Ka52_RU"):
 	{
-		_pylons = ["CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_20Rnd_S8_CCIP_M","CUP_PylonPod_2Rnd_Ataka_M"];
+		_pylons = [
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_20Rnd_S8_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8_CCIP_M",
+			"CUP_PylonPod_2Rnd_Ataka_M"];
 	};
 	// Ka-60 Kasatka Transport
 	case (_class isKindOf "CUP_O_Ka60_Grey_RU"):
@@ -166,12 +305,24 @@ switch (true) do
 	// Mi-24 Superhind Mk. III
 	case (_class isKindOf "CUP_O_Mi24_Mk3_CSAT_T"):
 	{
-		_pylons = ["CUP_PylonPod_2Rnd_Ataka_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_2Rnd_Ataka_M"];
+		_pylons = [
+			"CUP_PylonPod_2Rnd_Ataka_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_2Rnd_Ataka_M"];
 	};
 	// Mi-24 Superhind Mk. IV
 	case (_class isKindOf "CUP_O_Mi24_Mk4_CSAT_T"):
 	{
-		_pylons = ["CUP_PylonPod_4Rnd_Ataka_Empty_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_20Rnd_S8N_CCIP_M","CUP_PylonPod_4Rnd_Ataka_Empty_M"];
+		_pylons = [
+			"CUP_PylonPod_4Rnd_Ataka_Empty_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_20Rnd_S8N_CCIP_M",
+			"CUP_PylonPod_4Rnd_Ataka_Empty_M"];
 	};
 
 	// DRONES
@@ -179,12 +330,18 @@ switch (true) do
 	// MQ-4A Greyhawk
 	case (_class isKindOf "B_UAV_02_dynamicLoadout_F"):
 	{
-		_pylons = ["CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M"];
+		_pylons = [
+			"CUP_PylonPod_1Rnd_GBU12_M",
+			"CUP_PylonPod_1Rnd_GBU12_M"];
 	};
 	// MQ-9 Reaper
 	case (_class isKindOf "CUP_B_USMC_DYN_MQ9"):
 	{
-		_pylons = ["CUP_PylonPod_1Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_2Rnd_GBU12_M","CUP_PylonPod_1Rnd_GBU12_M"];
+		_pylons = [
+			"CUP_PylonPod_1Rnd_GBU12_M",
+			"CUP_PylonPod_2Rnd_GBU12_M",
+			"CUP_PylonPod_2Rnd_GBU12_M",
+			"CUP_PylonPod_1Rnd_GBU12_M"];
 	};
 	// UCAV Sentinel
 	case (_class isKindOf "B_UAV_05_F"):
