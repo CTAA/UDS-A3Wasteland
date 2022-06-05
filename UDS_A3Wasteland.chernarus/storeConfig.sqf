@@ -2348,8 +2348,8 @@ helicoptersArray = compileFinal str
 	// MUST PRICE ALL HELIS 
 	// MUST PRICE ALL HELIS 
 	// MUST PRICE ALL HELIS 
-	["412 Transport", "CUP_C_IDAP_412", 1, "vehicle"],
-	["412 Utility", "CUP_C_IDAP_412_Utility", 1, "vehicle"],
+	["412 Transport", "CUP_C_IDAP_412", 10000, "vehicle"],
+	["412 Utility", "CUP_C_IDAP_412_Utility", 12000, "vehicle"],
 
 	["AH-1Z", "CUP_B_AH1Z_Dynamic_USMC", 1, "vehicle"],
 	["AH-6M", "CUP_B_AH6M_USA", 1, "vehicle"],
