@@ -26,7 +26,7 @@ _setupObjects =
 	diag_log format["Error Logger: SealTeam %1",_missionLocation];
 
 
-	_convoyVeh = ["CUP_B_RHIB2Turret_USMC","CUP_B_RHIB2Turret_USMC"]
+	_convoyVeh = ["CUP_B_RHIB2Turret_USMC","CUP_B_RHIB2Turret_USMC"];
 
 	_veh1 = _convoyVeh select 0;
 	_veh2 = _convoyVeh select 1;
