@@ -69,8 +69,8 @@ ExtraMissions = [
 	["mission_TransportHeli", 0.5],
 	["mission_WepDeal", 1],
 	["mission_InfGroup", 1],
-	["mission_Pawnee", 1],
-	["mission_Falcon", 0.2],
+	["mission_AH6XPatrol", 1],
+	["mission_Reaper", 0.2],
 	["mission_Graveyard", 1],
 	["mission_BlackHawkPatrol}", 1]
 ];

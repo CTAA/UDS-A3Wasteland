@@ -13,7 +13,7 @@ private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicl
 
 _setupVars =
 {
-	_missionType = "Pawnee formation patrol";
+	_missionType = "AH-6X patrol";
 	_locationsArray = nil; // locations are generated on the fly from towns
 };
 
