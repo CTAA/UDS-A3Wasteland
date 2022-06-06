@@ -15,8 +15,8 @@ _setupVars =
 {
 	_vehicleClass = selectRandom
 	[
-		["CUP_B_AH6X_USA","CUP_B_UH1Y_Gunship_Dynamic_USMC"],
-		["CUP_B_AH6X_USA","CUP_B_AH6X_USA","CUP_B_AH6X_USA"]
+		["CUP_B_AH6J_USA","CUP_B_UH1Y_Gunship_Dynamic_USMC"],
+		["CUP_B_AH6J_USA","CUP_B_AH6J_USA","CUP_B_AH6J_USA"]
 	];
 
 	_missionType = "Armed Helicopters";

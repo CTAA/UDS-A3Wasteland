@@ -56,7 +56,7 @@ _successExec =
 	_vehicleClass =
 	[	"CUP_B_MCV80_GB_D_SLAT",
 		"CUP_B_M1A2_TUSK_MG_USMC",
-		"CUP_B_AH6X_USA",
+		"CUP_B_AH6J_USA",
 		"CUP_B_FV432_Bulldog_GB_W",
 		"CUP_B_M163_USA",
 		"CUP_O_Mi24_P_Dynamic_RU",

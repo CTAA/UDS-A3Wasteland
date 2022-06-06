@@ -59,7 +59,7 @@ MoneyMissions = [
 ];
 
 ExtraMissions = [
-	["mission_AH6XPatrol", 0.75],
+	["mission_AH6JPatrol", 0.75],
 	["mission_Assassins", 1],
 	["mission_BlackHawkPatrol", 0.75],
 	["mission_DeltaForce", 1],

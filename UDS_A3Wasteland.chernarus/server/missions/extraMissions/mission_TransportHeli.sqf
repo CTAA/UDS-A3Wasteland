@@ -21,7 +21,7 @@ _setupObjects = {
 
 	_transportChoicesUnarmed = ["CUP_B_Merlin_HC3A_GB"];
 	_transportChoicesArmed = ["CUP_B_CH47F_GB", "CUP_B_UH1Y_Gunship_Dynamic_USMC","CUP_B_UH60M_US"];
-	_supportChoices = ["CUP_B_AH6X_USA"];
+	_supportChoices = ["CUP_B_AH6J_USA"];
 
 	_veh1 = [];
 
