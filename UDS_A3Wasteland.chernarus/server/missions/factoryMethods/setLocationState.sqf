@@ -6,11 +6,11 @@
 
 if (!isServer) exitWith {};
 
-params [
-	["_locArray", [], [[]]],
-	["_locName", "", [""]],
-	["_locState", false, [false]]
-];
+private ["_locArray", "_locName", "_locState"];
+
+_locArray = param [0, [], [[]]];
+_locName = param [1, "", [""]];
+_locState = param [2, false, [false]];
 
 {
 	if (_x select 0 == _locName) exitWith
@@ -19,9 +19,3 @@ params [
 		_x set [2, diag_tickTime];
 	};
 } forEach _locArray;
-
-/*private ["_locArray", "_locName", "_locState"];
-_locArray = param [0, [], [[]]];
-_locName = param [1, "", [""]];
-_locState = param [2, false, [false]];
-*/

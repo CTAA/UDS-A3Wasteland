@@ -15,26 +15,28 @@ if (!isServer) exitWith {};
 #define ROOF_CHECK 4
 #define ROOF_EDGE 2
 
-private ["_j", "_building", "_randomIndex", "_startAngle", "_i", "_k", "_hitCount", "_isRoof", "_housePos", "_edge", "_checkPos"];
+private ["_unitIndex","_aiGroup","_missionPos","_units","_buildingsArray", "_j", "_building", "_randomIndex", "_housePos", "_startAngle", "_i", "_k", "_hitCount", "_fillEvenly", "_putOnRoof", "_isRoof", "_housePos", "_edge", "_checkPos"];
 
-private _aiGroup = _this select 0;
-private _missionPos = _this select 1;
+_aiGroup = _this select 0;
+_missionPos = _this select 1;
 _buildingRadius = _this select 2;
-private _fillEvenly = _this select 3;
-private _putOnRoof = _this select 4;
-private _units = units _aiGroup;
-private _unitIndex = 0;
+_fillEvenly = _this select 3;
+_putOnRoof = _this select 4;
+_units = units _aiGroup;
+_unitIndex = 0;
 
 //
-_ExtendPosition = {
-	private _missionPos = _this select 0;
-	private _dist = _this select 1;
-	private _phi = _this select 2;
+_ExtendPosition =
+{
+	private ["_missionPos", "_dist", "_phi"];
+	_missionPos = _this select 0;
+	_dist = _this select 1;
+	_phi = _this select 2;
 	([(_missionPos select 0) + (_dist * (cos _phi)),(_missionPos select 1) + (_dist * (sin _phi)), (_this select 3)])
 };
 
 // find available buildings
-private _buildingsArray = nearestObjects [_missionPos, ["house"], _buildingRadius];
+_buildingsArray = nearestObjects [_missionPos, ["house"], _buildingRadius];
 _buildingPosArray = [];
 {
 	_buildingPositions = 0;

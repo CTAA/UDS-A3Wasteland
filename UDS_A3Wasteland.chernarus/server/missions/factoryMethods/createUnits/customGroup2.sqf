@@ -6,15 +6,15 @@
 
 if (!isServer) exitWith {};
 
-private "_uPos";
-private "_unit";
+private ["_group", "_pos", "_nbUnits", "_unitTypes", "_uPos", "_unit"];
 
-private _group = _this select 0;
-private _pos = _this select 1;
-private _nbUnits = param [2, 7, [0]];
-private _radius = param [3, 10, [0]];
+_group = _this select 0;
+_pos = _this select 1;
+_nbUnits = param [2, 7, [0]];
+_radius = param [3, 10, [0]];
 
-_unitTypes = [
+_unitTypes =
+[
 	"C_man_hunter_1_F","C_man_p_beggar_F","C_man_p_beggar_F_afro",
 	"C_man_p_fugitive_F","C_man_p_shorts_1_F","C_man_polo_1_F",
 	"C_man_polo_2_F","C_man_polo_3_F","C_man_polo_4_F",
@@ -26,7 +26,8 @@ _unitTypes = [
 	"C_man_p_fugitive_F"
 ];
 
-for "_i" from 1 to _nbUnits do {
+for "_i" from 1 to _nbUnits do
+{
 	_uPos = _pos vectorAdd ([[random _radius, 0, 0], random 360] call BIS_fnc_rotateVector2D);
 	_unit = _group createUnit [_unitTypes call BIS_fnc_selectRandom, _uPos, [], 0, "Form"];
 	_unit setPosATL _uPos;
@@ -40,16 +41,19 @@ for "_i" from 1 to _nbUnits do {
 	_unit addMagazine "30Rnd_556x45_Stanag";
 	_unit addMagazine "30Rnd_556x45_Stanag";
 
-	switch (true) do {
+	switch (true) do
+	{
 		// Grenadier every 3 units
-		case (_i % 3 isEqualTo 0): {
+		case (_i % 3 == 0):
+		{
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 			_unit addWeapon "arifle_TRG21_GL_F";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 		};
 		// RPG every 7 units, starting from second one
-		case ((_i + 5) % 7 isEqualTo 0): {
+		case ((_i + 5) % 7 == 0):
+		{
 			_unit addBackpack "B_Kitbag_mcamo";
 			_unit addWeapon "arifle_TRG20_F";
 			_unit addMagazine "Titan_AT";
@@ -58,18 +62,22 @@ for "_i" from 1 to _nbUnits do {
 			_unit addMagazine "Titan_AT";
 		};
 		// Rifleman
-		default {
-			if (_unit isEqualTo leader _group) then {
+		default
+		{
+			if (_unit == leader _group) then
+			{
 				_unit addWeapon "arifle_TRG21_F";
 				_unit setRank "SERGEANT";
-			} else {
+			}
+			else
+			{
 				_unit addWeapon "arifle_TRG20_F";
 			};
 		};
 	};
 
 	_unit addPrimaryWeaponItem "acc_flashlight";
-	_unit enableGunLights "forceOn";
+	_unit enablegunlights "forceOn";
 
 	_unit addRating 1e11;
 	_unit spawn refillPrimaryAmmo;

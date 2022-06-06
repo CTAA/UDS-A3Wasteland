@@ -17,22 +17,21 @@
 	Exsample:
 	["fuelDepot_us", 0, getpos player] execVM "Createcomposition.sqf";
 */
-private "_fuel";
-private "_damage";
-private _fileName = _this select 0;
-private _pos = _this select 1;
-private _dir = _this select 2;
+private ["_fileName", "_dir", "_pos", "_objList", "_objs", "_class", "_relPos", "_relDir", "_fuel", "_damage", "_init"];
+_fileName = _this select 0;
+_pos = _this select 1;
+_dir = _this select 2;
 
-private _objList = call compile preprocessFileLineNumbers format ["server\missions\outposts\%1.sqf", _fileName];
-private _objs = [];
+_objList = call compile preprocessFileLineNumbers format ["server\missions\outposts\%1.sqf", _fileName];
+_objs = [];
 
 {
-	private _class = _x select 0;
-	private _relPos = _x select 1;
-	private _relDir = _x select 2;
-	private _init = _x param [3, nil];
+	_class = _x select 0;
+	_relPos = _x select 1;
+	_relDir = _x select 2;
+	_init = _x param [3, nil];
 
-	if (count _relPos isEqualTo 2) then { _relPos set [2, 0] };
+	if (count _relPos == 2) then { _relPos set [2, 0] };
 
 	_finalPos = _pos vectorAdd ([_relPos, -(_dir)] call BIS_fnc_rotateVector2D);
 	_obj = createVehicle [_class, _finalPos, [], 0, "None"];

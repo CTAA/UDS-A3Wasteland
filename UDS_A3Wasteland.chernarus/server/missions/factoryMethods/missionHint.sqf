@@ -6,11 +6,13 @@
 //	@file Author: AgentRev
 //	@file Created: 09/01/2014 20:30
 
-private _title = param [0, "?"];
-private _subtitle = param [1, ""];
-private _picture = param [2, "", [""]];
-private _text = param [3, ""];
-private _titleColor = param [4, "", [""]];
+private ["_title", "_subTitle", "_picture", "_text", "_titleColor"];
+
+_title = param [0, "?"];
+_subtitle = param [1, ""];
+_picture = param [2, "", [""]];
+_text = param [3, ""];
+_titleColor = param [4, "", [""]];
 
 [
 	format

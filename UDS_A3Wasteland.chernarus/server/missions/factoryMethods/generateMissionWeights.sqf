@@ -4,10 +4,11 @@
 //	@file Name: generateMissionWeights.sqf
 //	@file Author: AgentRev
 
-private _missionsArray = _this;
+private ["_missionsArray", "_missionTypes", "_missionOdds"];
+_missionsArray = _this;
 
-private _missionTypes = [];
-private _missionOdds = [];
+_missionTypes = [];
+_missionOdds = [];
 
 {
 	_missionTypes set [_forEachIndex, _x param [0, "", [""]]];

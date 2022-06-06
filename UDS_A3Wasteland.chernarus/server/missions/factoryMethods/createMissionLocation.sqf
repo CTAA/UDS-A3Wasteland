@@ -6,12 +6,14 @@
 //	@file Author: [404] Deadbeat, AgentRev
 //	@file Created: 26/1/2013 15:19
 
-if (!isServer) exitWith {};
+if (!isServer) exitwith {};
 
-private _validLocations = [MissionSpawnMarkers, { !(_x select 1) }] call BIS_fnc_conditionalSelect;
+private ["_validLocations", "_selectedMarker", "_markerIndex"];
 
-private _selectedMarker = (_validLocations call BIS_fnc_selectRandom) select 0;
-private _markerIndex = [MissionSpawnMarkers, _selectedMarker] call BIS_fnc_findInPairs;
+_validLocations = [MissionSpawnMarkers, { !(_x select 1) }] call BIS_fnc_conditionalSelect;
+
+_selectedMarker = (_validLocations call BIS_fnc_selectRandom) select 0;
+_markerIndex = [MissionSpawnMarkers, _selectedMarker] call BIS_fnc_findInPairs;
 
 (MissionSpawnMarkers select _markerIndex) set [1, true];
 

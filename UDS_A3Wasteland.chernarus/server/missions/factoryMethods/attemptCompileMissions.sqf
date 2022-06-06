@@ -4,8 +4,10 @@
 //	@file Name: attemptCompileMissions.sqf
 //	@file Author: AgentRev
 
-private _missionsArray = _this select 0;
-private _missionsFolder = _this select 1;
+private ["_missionsArray", "_missionsFolder"];
+
+_missionsArray = _this select 0;
+_missionsFolder = _this select 1;
 
 {
 	//Attempt to compile every mission for early bug detection

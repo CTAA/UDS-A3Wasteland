@@ -6,15 +6,15 @@
 
 if (!isServer) exitWith {};
 
-private "_uPos";
-private "_unit";
+private ["_group", "_pos", "_nbUnits", "_unitTypes", "_uPos", "_unit"];
 
-private _group = _this select 0;
-private _pos = _this select 1;
-private _nbUnits = param [2, 7, [0]];
-private _radius = param [3, 10, [0]];;
+_group = _this select 0;
+_pos = _this select 1;
+_nbUnits = param [2, 7, [0]];
+_radius = param [3, 10, [0]];
 
-_unitTypes = [
+_unitTypes =
+[
 	"C_man_polo_1_F", "C_man_polo_1_F_euro", "C_man_polo_1_F_afro", "C_man_polo_1_F_asia",
 	"C_man_polo_2_F", "C_man_polo_2_F_euro", "C_man_polo_2_F_afro", "C_man_polo_2_F_asia",
 	"C_man_polo_3_F", "C_man_polo_3_F_euro", "C_man_polo_3_F_afro", "C_man_polo_3_F_asia",
@@ -23,7 +23,8 @@ _unitTypes = [
 	"C_man_polo_6_F", "C_man_polo_6_F_euro", "C_man_polo_6_F_afro", "C_man_polo_6_F_asia"
 ];
 
-for "_i" from 1 to _nbUnits do {
+for "_i" from 1 to _nbUnits do
+{
 	_uPos = _pos vectorAdd ([[random _radius, 0, 0], random 360] call BIS_fnc_rotateVector2D);
 	_unit = _group createUnit [_unitTypes call BIS_fnc_selectRandom, _uPos, [], 0, "Form"];
 	_unit setPosATL _uPos;
@@ -41,9 +42,11 @@ for "_i" from 1 to _nbUnits do {
 	_unit addMagazine "30Rnd_556x45_Stanag";
 	_unit addMagazine "30Rnd_556x45_Stanag";
 
-	switch (true) do{
+	switch (true) do
+	{
 		// Grenadier every 3 units, starting from #2
-		case ((_i + 4) % 3 isEqualTo 0): {
+		case ((_i + 4) % 3 == 0):
+		{
 			_unit addUniform "U_B_CombatUniform_mcam_vest";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 			_unit addWeapon "arifle_TRG21_GL_F";
@@ -51,17 +54,19 @@ for "_i" from 1 to _nbUnits do {
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 		};
 		// PCML every 6 units, starting from #6
-		case (_i % 6 isEqualTo 0): {
+		case (_i % 6 == 0):
+		{
 			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
 			_unit addBackpack "B_Kitbag_mcamo";
 			_unit addWeapon "arifle_TRG20_F";
-			_unit addMagazine "Titan_AT";
-			_unit addWeapon "launch_Titan_short_F";
-			_unit addMagazine "Titan_AT";
-			_unit addMagazine "Titan_AT";
+			_unit addMagazine "NLAW_F";
+			_unit addWeapon "launch_NLAW_F";
+			_unit addMagazine "NLAW_F";
+			_unit addMagazine "NLAW_F";
 		};
 		// RPG-42 every 6 units, starting from #3
-		case ((_i + 3) % 6 isEqualTo 0): {
+		case ((_i + 3) % 6 == 0):
+		{
 			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
 			_unit addBackpack "B_Kitbag_mcamo";
 			_unit addWeapon "arifle_TRG20_F";
@@ -71,20 +76,24 @@ for "_i" from 1 to _nbUnits do {
 			_unit addMagazine "RPG32_F";
 		};
 		// Rifleman
-		default {
+		default
+		{
 			_unit addUniform "U_B_CombatUniform_mcam";
 
-			if (_unit isEqualTo leader _group) then {
+			if (_unit == leader _group) then
+			{
 				_unit addWeapon "arifle_TRG21_F";
 				_unit setRank "SERGEANT";
-			} else {
+			}
+			else
+			{
 				_unit addWeapon "arifle_TRG20_F";
 			};
 		};
 	};
 
 	_unit addPrimaryWeaponItem "acc_flashlight";
-	_unit enableGunLights "forceOn";
+	_unit enablegunlights "forceOn";
 
 	_unit addRating 1e11;
 	_unit spawn addMilCap;

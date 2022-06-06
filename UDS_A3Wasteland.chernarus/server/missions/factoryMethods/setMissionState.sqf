@@ -6,11 +6,11 @@
 
 if (!isServer) exitWith {};
 
-params [
-	["_mArray", [], [[]]],
-	["_mType", "", [""]],
-	["_mState", false, [false]]
-];
+private ["_mArray", "_mType", "_mState"];
+
+_mArray = param [0, [], [[]]];
+_mType = param [1, "", [""]];
+_mState = param [2, false, [false]];
 
 {
 	if (_x select 0 == _mType) exitWith
@@ -18,11 +18,3 @@ params [
 		_x set [2, _mState];
 	};
 } forEach _mArray;
-
-/*
-private ["_mArray", "_mType", "_mState"];
-
-_mArray = param [0, [], [[]]];
-_mType = param [1, "", [""]];
-_mState = param [2, false, [false]];
-*/

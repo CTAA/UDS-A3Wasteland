@@ -8,18 +8,22 @@ if (!isServer) exitWith {};
 
 #define CLEANUP_RADIUS 50
 
-private  _locArray = param [0, [], [[]]];
-private  _locName = param [1, "", [""]];
-private  _locPos = param [2, [], [[]]];
+private ["_locArray", "_locName", "_locPos"];
+
+_locArray = param [0, [], [[]]];
+_locName = param [1, "", [""]];
+_locPos = param [2, [], [[]]];
 
 if (_locPos isEqualTo [0,0,0]) exitWith {};
 
 {
-	if (_x select 0 == _locName) exitWith {
+	if (_x select 0 == _locName) exitWith
+	{
 		_locObjects = _x param [3, [], [[]]];
 
 		{
-			if (_x distance _locPos <= CLEANUP_RADIUS && _x getVariable ["ownerUID", ""] == "") then {
+			if (_x distance _locPos <= CLEANUP_RADIUS && _x getVariable ["ownerUID", ""] == "") then
+			{
 				deleteVehicle _x;
 			};
 		} forEach _locObjects;

@@ -6,11 +6,11 @@
 
 if (!isServer) exitWith {};
 
-params [
-	["_locArray", [], [[]]],
-	["_locName", "", [""]],
-	["_locObjects", [], [[]]]
-];
+private ["_locArray", "_locName", "_locObjects"];
+
+_locArray = param [0, [], [[]]];
+_locName = param [1, "", [""]];
+_locObjects = param [2, [], [[]]];
 
 {
 	if (_x select 0 == _locName) exitWith
@@ -18,10 +18,3 @@ params [
 		_x set [3, _locObjects];
 	};
 } forEach _locArray;
-
-/*private ["_locArray", "_locName", "_locObjects"];
-
-_locArray = param [0, [], [[]]];
-_locName = param [1, "", [""]];
-_locObjects = param [2, [], [[]]];
-*/
