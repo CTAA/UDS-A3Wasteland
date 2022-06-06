@@ -42,7 +42,7 @@ _failedExec = {
 
 _successExec = {
 	// Mission completed
-	_randomBox = ["mission_Snipers4","mission_Snipers2"] call BIS_fnc_selectRandom;
+	_randomBox = ["mission_Weapon3","mission_Snipers2"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	_box1 = createVehicle [_randomCase, _missionPos, [], 5, "None"];
