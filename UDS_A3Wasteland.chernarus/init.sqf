@@ -5,7 +5,7 @@
 //	@file Name: init.sqf
 //	@file Author: [404] Deadbeat, [GoT] JoSchaap, AgentRev
 //	@file Description: The main init.
-// Ich bin der beste by AryX
+
 #include "debugFlag.hpp"
 
 #ifdef A3W_DEBUG
@@ -15,8 +15,6 @@
 #endif
 
 enableSaving [false, false];
-
-// block script injection exploit
 A3W_sessionTimeStart = diag_tickTime;
 
 _descExtPath = str missionConfigFile;
@@ -28,8 +26,8 @@ X_JIP = false;
 
 CHVD_allowNoGrass = false;
 CHVD_allowTerrain = false; // terrain option has been disabled out from the menu due to terrible code, this variable has currently no effect
-CHVD_maxView = 4200; // Set maximum view distance (default: 12000)
-CHVD_maxObj = 4200; // Set maximimum object view distance (default: 12000)
+CHVD_maxView = 4000; // Set maximum view distance (default: 12000)
+CHVD_maxObj = 4000; // Set maximimum object view distance (default: 12000)
 
 // versionName = ""; // Set in STR_WL_WelcomeToWasteland in stringtable.xml
 
@@ -46,10 +44,13 @@ A3W_scriptThreads = [];
 [] execVM "storeConfig.sqf"; // Separated as its now v large
 [] execVM "briefing.sqf";
 
-if (!isDedicated) then {
-	[] spawn {
-		if (hasInterface) then {
-			9999 cutText ["Welcome to UDS A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
+if (!isDedicated) then
+{
+	[] spawn
+	{
+		if (hasInterface) then // Normal player
+		{
+			9999 cutText ["Welcome to A3Wasteland, please wait for your client to initialize", "BLACK", 0.01];
 
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
@@ -64,7 +65,9 @@ if (!isDedicated) then {
 			execVM "client\init.sqf";
 
 			if ((vehicleVarName player) select [0,17] == "BIS_fnc_objectVar") then { player setVehicleVarName "" }; // undo useless crap added by BIS
-		} else {
+		}
+		else // Headless
+		{
 			waitUntil {!isNull player};
 			if (getText (configFile >> "CfgVehicles" >> typeOf player >> "simulation") == "headlessclient") then
 			{
@@ -74,16 +77,15 @@ if (!isDedicated) then {
 	};
 };
 
-if (isServer) then {
-	[] execVM "\waste_server\init.sqf";
-	diag_log "WASTE SERVER - Init Loaded";
-	//no_log format ["############################# %1 #############################", missionName];
-	//no_log "WASTELAND SERVER - Initializing Server";
+if (isServer) then
+{
+	diag_log format ["############################# %1 #############################", missionName];
+	diag_log "WASTELAND SERVER - Initializing Server";
 	[] execVM "server\init.sqf";
-	diag_log "WASTELAND SERVER - Init Loaded";
 };
 
-if (hasInterface || isServer) then {
+if (hasInterface || isServer) then
+{
 	//init 3rd Party Scripts
 	[] execVM "addons\parking\functions.sqf";
 	[] execVM "addons\storage\functions.sqf";
@@ -119,23 +121,3 @@ if (hasInterface || isServer) then {
 	"thisTrigger setTriggerTimeout [30,30,30,false]",
 	"{if (markerShape _x == 'POLYLINE') then {deleteMarker _x}} forEach allMapMarkers"
 ];
-
-[] spawn {
-	for "_i" from 0 to 1 step 0 do {
-		sleep 10;
-		0 setFog 0;
-		0 setRain 0;
-		0 setOvercast 0;
-		forceWeatherChange;
-		200 setFog 0;
-		200 setRain 0;
-		200 setOvercast 0;
-		sleep 590;
-	};
-};
-
-// Clean Up
-[
-	7*60 //Suitcases Cleanup
-] execVM "addons\noaim\clean.sqf";
-[] execVM "addons\scripts\ir_to_incendiary.sqf";
