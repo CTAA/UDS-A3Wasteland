@@ -2,7 +2,7 @@
 
 Live server: 144.48.104.156:2326
 
-Discord: discord.gg/S25QBgb47y
+[Discord](discord.gg/S25QBgb47y)
 
 ## Required Mods
 [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
