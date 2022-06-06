@@ -1,5 +1,7 @@
 # UDS-A3Wasteland
 
+discord.gg/S25QBgb47y
+
 ## Required Mods
 [CUP Terrains - Core](https://steamcommunity.com/workshop/filedetails/?id=583496184)
 
