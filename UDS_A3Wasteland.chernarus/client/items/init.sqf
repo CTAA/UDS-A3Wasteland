@@ -15,9 +15,11 @@
 [_this, "camonet"] call mf_init;
 [_this, "warchest"] call mf_init;
 [_this, "cratemoney"] call mf_init;
-[_this, "stash"] call mf_init;
-[_this, "drugs"] call mf_init; 
-[_this, "quad"] call mf_init; 
+
+if (["A3W_artilleryStrike"] call isConfigOn) then
+{
+	[_this, "artillery"] call mf_init;
+};
 
 if (["A3W_atmEnabled"] call isConfigOn) then
 {

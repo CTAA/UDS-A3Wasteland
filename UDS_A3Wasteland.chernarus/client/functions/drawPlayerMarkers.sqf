@@ -40,7 +40,10 @@ A3W_mapDraw_eventCode =
 			_drawArr set [2, _unit call _posCode];
 		};
 
-		_mapCtrl drawIcon _drawArr;
+		if (!isNil {_drawArr select 2}) then
+		{
+			_mapCtrl drawIcon _drawArr;
+		};
 	} forEach A3W_mapDraw_arrIcons;
 
 	{ _mapCtrl drawLine _x } forEach A3W_mapDraw_arrLines;
@@ -128,7 +131,7 @@ A3W_mapDraw_thread = [] spawn
 					_newArrayIcons pushBack [["\A3\ui_f_curator\Data\CfgMarkers\kia_ca.paa", [0,0,0,0.6], nil, 22, 22, 0], _x, A3W_mapDraw_iconPos]; // draw skull
 				};
 			} forEach _allDeadMen;
-			
+
 			// player body marker (disappear if the corpse is deleted)
 			_playerCorpse = player getVariable ["A3W_oldCorpse", objNull];
 			if (!isNull _playerCorpse) then
@@ -140,7 +143,7 @@ A3W_mapDraw_thread = [] spawn
 				if (alive _x && IS_FRIENDLY_PLAYER(_x) && !(_x getVariable ["playerSpawning", false])) then
 				{
 					_veh = vehicle _x;
-					_driver = (crew _veh) select 0;
+					_driver = (crew _veh) param [0, objNull];
 
 					if (_driver == _x || {isAgent teamMember _driver && effectiveCommander _veh == _x}) then
 					{

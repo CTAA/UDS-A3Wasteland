@@ -39,7 +39,7 @@ _code =
 
 	if (count _objs > 0) then
 	{
-		// player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
+		//player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
 		player playActionNow "PutDown";
 
 		_obj = _objs select 0;
@@ -76,7 +76,7 @@ _code =
 
 	if (count _objs > 0) then
 	{
-		// player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
+		//player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
 		player playActionNow "PutDown";
 
 		_obj = _objs select 0;
@@ -116,9 +116,9 @@ _label = "<img image='client\icons\water.paa'/> Fill Water Bottle";
 _condition = "player distance cursorObject <= 3 && {{(str cursorObject) find _x != -1} count [': stallwater_f',': water_source_f'] > 0 && !(MF_ITEMS_WATER call mf_inventory_is_full)}";
 _code =
 {
-	// player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
+	//player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
 	player playActionNow "PutDown";
-	
+
 	[MF_ITEMS_WATER, 1] call mf_inventory_add;
 	["You have filled a water bottle.", 5] call mf_notify_client;
 };

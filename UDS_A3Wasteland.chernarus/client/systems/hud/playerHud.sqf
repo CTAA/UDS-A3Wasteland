@@ -85,7 +85,7 @@ _displayTerritoryActivity =
 	[_topLeftIconText, _activityMessage]
 };
 
-// _survivalSystem = ["A3W_survivalSystem"] call isConfigOn;
+_survivalSystem = ["A3W_survivalSystem"] call isConfigOn;
 _unlimitedStamina = ["A3W_unlimitedStamina"] call isConfigOn;
 _atmEnabled = ["A3W_atmEnabled"] call isConfigOn;
 _disableUavFeed = ["A3W_disableUavFeed"] call isConfigOn;
@@ -93,7 +93,8 @@ _disableUavFeed = ["A3W_disableUavFeed"] call isConfigOn;
 private ["_mapCtrls", "_mapCtrl"];
 _ui = displayNull;
 
-for "_i" from 0 to 1 step 0 do {
+while {true} do
+{
 	if (isNull _ui) then
 	{
 		1000 cutRsc ["WastelandHud","PLAIN"];
@@ -134,7 +135,7 @@ for "_i" from 0 to 1 step 0 do {
 	// Icons in bottom right
 
 	_strArray = [];
-/*
+
 	if (_atmEnabled) then {
 		_strArray pushBack format ["%1 <img size='0.7' image='client\icons\suatmm_icon.paa'/>", [player getVariable ["bmoney", 0]] call fn_numbersText];
 	};
@@ -151,7 +152,7 @@ for "_i" from 0 to 1 step 0 do {
 	};
 
 	_strArray pushBack format ["<t color='%1'>%2</t> <img size='0.7' image='client\icons\health.paa'/>", _healthTextColor, _health];
-*/
+
 	_str = "";
 
 	{ _str = format ["%1%2<br/>", _str, _x] } forEach _strArray;
@@ -334,12 +335,12 @@ for "_i" from 0 to 1 step 0 do {
 	{
 		setTerrainGrid 10;
 	};
-	
+
 	// fix for disappearing chat
 	if (!shownChat && isNull findDisplay 49) then
 	{
 		showChat true;
 	};
 
-	uiSleep 1;
+	uiSleep 1; // do NOT set higher than 1, this will cause unintended side effects
 };

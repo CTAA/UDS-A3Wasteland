@@ -19,7 +19,9 @@
 
 disableSerialization;
 
-private _uid = getPlayerUID player;
+private ["_uid"];
+
+_uid = getPlayerUID player;
 if (_uid call isAdmin) then
 {
 	private ["_display", "_objectSearchTermCtrl", "_objectListBoxCtrl", "_switch"];
@@ -77,12 +79,7 @@ if (_uid call isAdmin) then
 			_positionStr = _objectListBoxCtrl lbData _index;
 			// Convert the string back to the position array it was
 			_objPos = call compile _positionStr;
-			
-			if(isNil "_objPos") exitWith {
-				// _objPos = [0,0,0];
-			};
-			
-			//diag_log format["_objPos is %1", _objPos];
+			diag_log format["_objPos is %1", _objPos];
 			// Find us somewhere safe to spawn close by
 			_safePos = [_objPos,2,20,0.2,0,1,0,[],[[0,0], [0,0]]] call BIS_fnc_findSafePos;
 			if (_safePos select 0 == 0 and _safePos select 1 == 0) exitWith {

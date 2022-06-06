@@ -1212,7 +1212,7 @@ class ObjectSearch
 		class ObjectSearchEditBox: tw_RscEdit
 		{
 			idc = idc_objectSearchFindTexteditBox;
-			text = "Land_TentDome_F";
+			text = "LandVehicle";
 			x = 12 * GUI_GRID_W + GUI_GRID_X;
 			y = 5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 17 * GUI_GRID_W;

@@ -21,7 +21,7 @@ if (isNull _crate) exitWith { closeDialog IDD_WARCHEST };
 _input = _dialog displayCtrl IDC_AMOUNT;
 _amount = _input call mf_verify_money_input;
 
-if (_amount < 100) exitWith {systemChat "Number must be over 100"};
+if (_amount < 1) exitWith {};
 
 if (_crate getVariable ["cmoney", 0] < _amount) exitWith
 {

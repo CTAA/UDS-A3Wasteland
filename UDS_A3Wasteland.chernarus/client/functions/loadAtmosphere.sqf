@@ -7,22 +7,22 @@
 "colorCorrections" ppEffectAdjust [1, 0.8, -0.001, [0.0, 0.0, 0.0, 0.0], [0.8*2, 0.5*2, 0.0, 0.7], [0.9, 0.9, 0.9, 0.0]];
 "colorCorrections" ppEffectCommit 3;
 "colorCorrections" ppEffectEnable true;
-/*"filmGrain" ppEffectEnable true;
+"filmGrain" ppEffectEnable true;
 "filmGrain" ppEffectAdjust [0.02, 1, 1, 0.1, 1, false];
-"filmGrain" ppEffectCommit 5;*/
+"filmGrain" ppEffectCommit 5;
 if !(_this) exitWith{};
 //--- Wind & Dust
 [] spawn {
-	waitUntil {isplayer player};
+	waituntil {isplayer player};
 	setwind [0.201112,0.204166,true];
 	while {true} do {
 		_ran = ceil random 5;
-		playSound format ["wind_%1",_ran];
+		playsound format ["wind_%1",_ran];
 		_obj = vehicle player;
 		_pos = position _obj;
 
 		//--- Dust
-		setWind [0.201112*2,0.204166*2,false];
+			setwind [0.201112*2,0.204166*2,false];
 		_velocity = [random 10,random 10,-1];
 		_color = [1.0, 0.9, 0.8];
 		_alpha = 0.02 + random 0.02;
@@ -33,7 +33,7 @@ if !(_this) exitWith{};
 		_ps setDropInterval 0.01;
 
 		sleep (random 1);
-		deleteVehicle _ps;
+		deletevehicle _ps;
 		_delay = 10 + random 20;
 		sleep _delay;
 
@@ -42,7 +42,7 @@ if !(_this) exitWith{};
 
 //--- Ash
 [] spawn {
-	waitUntil {isPlayer player};
+	waituntil {isplayer player};
 	_pos = position player;
 	_parray = [
 	/* 00 */        ["\Ca\Data\ParticleEffects\Universal\Universal", 16, 12, 8, 1],//"\Ca\Data\cl_water",
@@ -73,7 +73,7 @@ if !(_this) exitWith{};
 
 	_oldPlayer = vehicle player;
 	while {true} do {
-		waitUntil {vehicle player != _oldPlayer};
+		waituntil {vehicle player != _oldPlayer};
 		_parray set [18,vehicle player];
 		_snow setParticleParams _parray;
 		_oldPlayer = vehicle player;

@@ -44,7 +44,6 @@ if !(_unit isUniformAllowed _uniform) then
 		["U_BG_Guerilla2_3", "U_OG_Guerilla2_3", "U_IG_Guerilla2_3"],
 		["U_BG_Guerilla3_1", "U_OG_Guerilla3_1", "U_IG_Guerilla3_1"],
 		["U_BG_Guerilla3_2", "U_OG_Guerilla3_2", "U_IG_Guerilla3_2"],
-		["U_BG_Guerrilla_6_1", "U_OG_Guerrilla_6_1", "U_IG_Guerrilla_6_1"],
 		["U_BG_leader", "U_OG_leader", "U_IG_leader"],
 		//["U_O_OfficerUniform_ocamo", "U_I_OfficerUniform"],
 		["U_B_HeliPilotCoveralls", "U_I_HeliPilotCoveralls"],
@@ -64,7 +63,6 @@ if !(_unit isUniformAllowed _uniform) then
 				    (side group _unit == INDEPENDENT && {{_uniX == _x} count ["U_B_CTRG_Soldier_F","U_B_T_FullGhillie_tna_F"] > 0})) exitWith
 				{
 					_uniform = _uniX;
-					//systemChat format ["_uniform: %1", _uniX];
 				};
 			} forEach _uniArray;
 		};

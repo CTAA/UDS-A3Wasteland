@@ -155,7 +155,6 @@ if (_vehClass isKindOf "Static_Designator_01_base_F") exitWith {};
 // default initPhase
 _animSources = configProperties [_vehCfg >> "AnimationSources", "getText (_x >> 'displayName') != ''"];
 
-// animationList initPhase override
 if (!isNil "_vehicle" && {!isNull _vehicle}) then // repaint old vehicle
 {
 	_animSources = _animSources apply { [configName _x, _vehicle animationSourcePhase configName _x] };

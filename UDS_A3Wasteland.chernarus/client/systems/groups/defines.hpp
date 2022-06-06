@@ -29,7 +29,7 @@
 #define PURCHASED_CRATE_TYPE_AMMO 60
 #define PURCHASED_CRATE_TYPE_WEAPON 61
 
-// Logs out more info via no_log, changes mission spawn times, adds god mode etc.
+// Logs out more info via diag_log, changes mission spawn times, adds god mode etc.
 #define __DEBUG__
 
 // Controls whether iniDB is used to persist player data
@@ -39,7 +39,7 @@
 #define __SPAWN_WITH_PLENTY_DOLLA__ 1
 
 // Do we skip from night to morning? serverTimeSync.sqf
-//#define __SERVER_SKIP_NIGHT__ 1
+#define __SERVER_SKIP_NIGHT__ 1
 
 // Define this if you want to enable long periods of running to drain your water level
 #define __RUNNING_EXHAUSTION__

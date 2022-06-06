@@ -14,7 +14,6 @@
 #define ERR_TOO_FAR_AWAY "Stealing Spawn Beacon Failed! You are too far away to do that."
 #define ERR_CANCELLED "Stealing Spawn Beacon Cancelled"
 #define ERR_SOMEONE_ELSE_TAKEN "Packing Spawn Beacon Failed! Someone else finished packing it up before you"
-#define ERR_ALREADY_HAVE_SPAWNBEACON "You can not carry another spawn beacon"
 private ["_beacon", "_error", "_isIndie", "_ownerSide", "_ownerUID", "_hasFailed", "_success"];
 _beacon = [] call mf_items_spawn_beacon_nearest;
 _error = [_beacon] call mf_items_spawn_beacon_can_steal;
@@ -35,7 +34,6 @@ _hasFailed = {
 		case (isNull _beacon): {_text = ERR_SOMEONE_ELSE_TAKEN};
 		case (vehicle player != player): {_text = ERR_IN_VEHICLE};
 		case ((!_isIndie && _ownerSide == playerSide) || (_isIndie && {{getPlayerUID _x == _ownerUID} count units player > 0})): {_text = ERR_NOT_OPP_SIDE};
-		case (MF_ITEMS_SPAWN_BEACON call mf_inventory_is_full): {_error = ERR_ALREADY_HAVE_SPAWNBEACON};
 		case (player distance _beacon > 5): {_text = ERR_TOO_FAR_AWAY;};
 		case (doCancelAction): {doCancelAction = false; _text = ERR_CANCELLED;};
 		default {

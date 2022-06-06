@@ -22,17 +22,19 @@
  *      abs {bool}   - is the quantity absolute or relative
  */
 #include "define.sqf";
-private _id = _this select 0;
-private _qty = _this select 1;
+private ["_id", "_qty"];
+_id = _this select 0;
+_qty = _this select 1;
 _abs = false;
 if (count _this > 2) then {
 	if (_this select 2) then {
 		_abs = true;
 	};
 };
-private _item = _id call mf_inventory_get;
+private ["_item", "_current"];
+_item = _id call mf_inventory_get;
 if (_item isEqualTo objNull) exitWith {};
-private _current = _item select QTY;
+_current = _item select QTY;
 if (_abs) then {
 	_item set [QTY, _qty];
 } else {

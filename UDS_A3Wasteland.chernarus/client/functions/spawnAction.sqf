@@ -22,12 +22,15 @@ spawnActionHandle = (_this select 1) spawn
 {
 	disableSerialization;
 
-	private _switch = _this select 0;
-	private _data = [_this select 1, false];
+	private ["_switch", "_data"];
+	_switch = _this select 0;
+	_data = [_this select 1, false];
 
 	if (isNil "playerData_resetPos") then
 	{
+		// Deal with money here
 		_baseMoney = ["A3W_startingMoney", 100] call getPublicVar;
+		//player setVariable ["cmoney", _baseMoney, true];
 		[player, _baseMoney, true] call A3W_fnc_setCMoney;
 
 		if (["A3W_survivalSystem"] call isConfigOn) then
@@ -37,7 +40,6 @@ spawnActionHandle = (_this select 1) spawn
 		};
 
 		[MF_ITEMS_REPAIR_KIT, 1] call mf_inventory_add;
-		[MF_ITEMS_QUAD, 1] call mf_inventory_add;
 	};
 
 	if (cbChecked ((uiNamespace getVariable "RespawnSelectionDialog") displayCtrl respawn_Preload_Checkbox)) then
@@ -53,7 +55,6 @@ spawnActionHandle = (_this select 1) spawn
 	{
 		case 1: { _data call spawnInTown };
 		case 2: { _data call spawnOnBeacon };
-		case 3: { _data call HalospawnRandom };
 		default { _data call spawnRandom };
 	};
 
@@ -63,8 +64,10 @@ spawnActionHandle = (_this select 1) spawn
 	};
 };
 
-private _dialog = uiNamespace getVariable ["RespawnSelectionDialog", displayNull];
-private _header = _dialog displayCtrl respawn_Content_Text;
+private ["_dialog", "_ctrlButton", "_header", "_spawnActionHandle"];
+_dialog = uiNamespace getVariable ["RespawnSelectionDialog", displayNull];
+_header = _dialog displayCtrl respawn_Content_Text;
+//_ctrlButton = (uiNamespace getVariable "RespawnSelectionDialog") displayCtrl (_this select 0);
 
 if (cbChecked (_dialog displayCtrl respawn_Preload_Checkbox)) then
 {
@@ -73,12 +76,15 @@ if (cbChecked (_dialog displayCtrl respawn_Preload_Checkbox)) then
 
 if (typeName spawnActionHandle == "SCRIPT") then
 {
-	private _spawnActionHandle = spawnActionHandle;
+	_spawnActionHandle = spawnActionHandle;
 	waitUntil {scriptDone _spawnActionHandle};
 	spawnActionHandle = nil;
 };
 
-_header ctrlSetStructuredText parseText "It appears there was an error,<br/>please try again.";
-{
-	(_dialog displayCtrl _x) ctrlEnable true;
-} forEach [respawn_Random_Button, respawn_Spawn_Button, respawn_Locations_Type, respawn_Locations_List, respawn_Preload_Checkbox];
+//if (!isNull _ctrlButton) then
+//{
+	_header ctrlSetStructuredText parseText "It appears there was an error,<br/>please try again.";
+	{
+		(_dialog displayCtrl _x) ctrlEnable true;
+	} forEach [respawn_Random_Button, respawn_Spawn_Button, respawn_Locations_Type, respawn_Locations_List, respawn_Preload_Checkbox];
+//};

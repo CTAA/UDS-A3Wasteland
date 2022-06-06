@@ -10,6 +10,7 @@
 #*********************************************************/
 
 // Generally called from buyVehicles.sqf
+
 params [["_veh",objNull,[objNull]], ["_texture","",["",[]]], ["_selections",[],[[]]]];
 
 if (isNull _veh || _texture isEqualTo []) exitWith {};
@@ -17,11 +18,13 @@ if (isNull _veh || _texture isEqualTo []) exitWith {};
 _veh setVariable ["BIS_enableRandomization", false, true];
 
 scopeName "applyVehicleTexture";
+
 private _textures = _veh getVariable ["A3W_objectTextures", []];
 private _vehCfg = configFile >> "CfgVehicles" >> typeOf _veh;
 private _defaultTextures = getArray (_vehCfg >> "hiddenSelectionsTextures");
 private "_textureSource";
 
+// if _texture == ["string"], extract data from TextureSources config
 if (_texture isEqualType [] && {_texture isEqualTypeArray [""]}) then
 {
 	_textureSource = _texture select 0;
@@ -106,6 +109,7 @@ if (_texture isEqualType "") then
 //			case (_veh isKindOf "Heli_Transport_04_base_F"):       { [] };
 
 			case (_veh isKindOf "Heli_Light_01_armed_base_F"):     { [1] };
+
 //			case (_veh isKindOf "Heli_Attack_02_base_F"):          { [] };
 
 //			case (_veh isKindOf "VTOL_Base_F"):                    { [] };
@@ -118,7 +122,7 @@ if (_texture isEqualType "") then
 
 //			case (_veh isKindOf "UAV_03_base_F"):                  { [] };
 			case (_veh isKindOf "UAV_05_Base_F"):                  { [2,3,4,5] };
-			// case (_veh isKindOf "UAV_06_medical_base_F"):          { [1] };
+//			case (_veh isKindOf "UAV_06_medical_base_F"):          { [1] };
 
 			case (_veh isKindOf "Boat_Civil_01_base_F"):           { [1] };
 

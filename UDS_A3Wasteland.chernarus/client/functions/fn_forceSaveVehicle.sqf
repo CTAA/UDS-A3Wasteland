@@ -13,4 +13,3 @@ if (_veh getVariable ["A3W_skipAutoSave", false]) then
 
 pvar_manualVehicleSave = netId _veh;
 publicVariableServer "pvar_manualVehicleSave";
-cutText ["\nVehicle saved!", "PLAIN DOWN", 0.2];

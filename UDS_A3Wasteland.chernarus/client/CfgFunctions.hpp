@@ -23,6 +23,4 @@ class ClientDir
 	class markerLogParams {file = "client\functions\fn_markerLogParams.sqf";};
 	class markerLogPvar {file = "client\functions\fn_markerLogPvar.sqf";};
 	class markerLogInit {preInit = 1; file = "client\functions\fn_markerLogInit.sqf";};
-	class flashBang {file = "client\functions\fn_flashBang.sqf";};
-	class pulloutVeh {file = "client\functions\fn_pulloutVeh.sqf";};
 };

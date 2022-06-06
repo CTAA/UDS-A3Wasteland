@@ -38,28 +38,8 @@ _resupplyThread = [_vehicle, _unit] spawn
 
 	scopeName "resupplyTruckThread";
 
-	_price = 11000; // price = 1000 for vehicles not found in vehicle store
-	
-	if (_vehicle isKindOf "B_SAM_System_02_F") then {
-		_price = 35000;
-		if (player getVariable ["cmoney",0] < _price) exitWith {
-			hint "Not enough money";
-		};
-		[player, - _price] call A3W_fnc_setCMoney;
-		_vehicle setVehicleAmmo 0.5;
-		_vehicle setVehicleAmmoDef 0.5;
-		hint format["You payed %1 for new Turret Ammo please re-enter the Turret to use Ammo.",_price];
-	};
-	
-	if (_vehicle isKindOf "B_AAA_System_01_F") then {
-		_price = 35000;
-		if (player getVariable ["cmoney",0] < _price) exitWith {
-			hint "Not enough money";
-		};
-		[player, - _price] call A3W_fnc_setCMoney;
-		_vehicle setVehicleAmmo 1;
-		hint format["You payed %1 for new Turret Ammo",_price];
-	};
+	_price = 1000; // price = 1000 for vehicles not found in vehicle store
+
 	_variant = _vehicle getVariable ["A3W_vehicleVariant", ""];
 	if (_variant != "") then { _variant = "variant_" + _variant };
 
@@ -303,7 +283,8 @@ _resupplyThread = [_vehicle, _unit] spawn
 		} forEach _pathArrs;
 
 		_pylonPaths = (configProperties [_vehCfg >> "Components" >> "TransportPylonsComponent" >> "Pylons", "isClass _x"]) apply {getArray (_x >> "turret")};
-*/
+		*/
+
 		{
 			if (_x != "") then
 			{

@@ -26,14 +26,6 @@ if (_unit == player && (_showWindow || _menuOpen)) then
 				[format ["You are not allowed to place explosives within %1m of a store.", _minDist], 5] call mf_notify_client;
 				_handled = true;
 			};
-			
-			{
-				if ((typeof _x) in ["Land_Carrier_01_base_F", "Land_Destroyer_01_base_F"]) exitWith {
-					playSound "FD_CP_Not_Clear_F";
-					[format ["You are not allowed to place explosives on a carrier.", _minDist], 5] call mf_notify_client;
-					_handled = true;
-				}
-			} forEach (lineIntersectsWith [getPosWorld player, getPosWorld player vectorAdd [0, 0, 50], player, objNull]);
 
 			_nearbyMissions = allMapMarkers select {markerType _x == "Empty" && {[["Mission_","ForestMission_","LandConvoy_"], _x] call fn_startsWith && {player distance markerPos _x < _minDist}}};
 
@@ -63,7 +55,6 @@ if (_unit == player && (_showWindow || _menuOpen)) then
 			};
 		};
 
-		// now done via enableWeaponDisassembly in vehicleSetup.sqf
 		case (_action == "DisAssemble" && {unitIsUAV _target && !((_target getVariable ["ownerUID",""]) in ["", getPlayerUID player])}):
 		{
 			playSound "FD_CP_Not_Clear_F";
@@ -99,7 +90,7 @@ if (_unit == player && (_showWindow || _menuOpen)) then
 				};
 			};
 		};
-		
+
 		case (_target isKindOf "UGV_02_Base_F" && _action == "MoveToTurret"): // Block glitched "To Gunner's seat" action on Demining UGV
 		{
 			_handled = true;

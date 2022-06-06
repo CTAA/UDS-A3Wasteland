@@ -13,15 +13,6 @@ waitUntil {!isNull findDisplay 49}; // 49 = Esc menu
 // Disable field manual to prevent scriptkiddie exploits
 ((findDisplay 49) displayCtrl 122) ctrlEnable false;
 
-// createDialog "AryX_Dialog";
-// disableSerialization;
-// private _dialog = findDisplay 77310;
-
-// private _data = param [0,[],[[]]];
-// _data = call compile format["%1", _data];
-// private _list = _dialog displayCtrl 77311;
-// lbClear _list;
-
 _getPublicVar = if (!isNil "getPublicVar") then { getPublicVar } else { missionNamespace getVariable "getPublicVar" };
 _isConfigOn = if (!isNil "isConfigOn") then { isConfigOn } else { missionNamespace getVariable "isConfigOn" };
 _isUnconscious = if (!isNil "A3W_fnc_isUnconscious") then { A3W_fnc_isUnconscious } else { missionNamespace getVariable "A3W_fnc_isUnconscious" };
@@ -54,21 +45,6 @@ if (!isNil "_getPublicVar" && !isNil "_isConfigOn") then
 	   {!(["playerSpawning", false] call _getPublicVar)}) then
 	{
 		_abortDelay = ["A3W_combatAbortDelay", 0] call _getPublicVar;
-		
-		if (player getVariable ["cmoney",0] >= 300000) then {
-			private _display = findDisplay 49;
-			if (!isNull _display) then
-			{
-				(_display displayCtrl 104) ctrlEnable false; // Abort
-			};
-			systemChat "Cannot leave with more then 300000 Cash! Go to a Bank";
-		} else {
-			private _display = findDisplay 49;
-			if (!isNull _display) then
-			{
-				(_display displayCtrl 104) ctrlEnable true; // Abort
-			};
-		};
 
 		if (_abortDelay > 0) then
 		{

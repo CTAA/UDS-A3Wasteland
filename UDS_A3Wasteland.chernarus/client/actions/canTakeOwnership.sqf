@@ -1,5 +1,5 @@
 // ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright © 2016 A3Wasteland.com *
+// * This project is licensed under the GNU Affero GPL v3. Copyright Â© 2016 A3Wasteland.com *
 // ******************************************************************************************
 //	@file Name: canTakeOwnership.sqf
 //	@file Author: MercyfulFate, AgentRev

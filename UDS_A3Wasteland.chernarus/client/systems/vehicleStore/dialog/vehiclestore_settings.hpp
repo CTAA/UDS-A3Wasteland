@@ -102,7 +102,7 @@ class vehshopd
 		class ColorList: w_RscList
 		{
 			idc = vehshop_color_list;
-			// onLBSelChanged = "[] execVM 'client\systems\vehicleStore\colorInfo.sqf'";
+			//onLBSelChanged = "[] execVM 'client\systems\vehicleStore\colorInfo.sqf'";
 			font = "RobotoCondensed";
 			sizeEx = 0.034 * TEXT_SCALE;
 			rowHeight = 0.06 * TEXT_SCALE;

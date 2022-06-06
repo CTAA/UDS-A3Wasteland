@@ -192,7 +192,6 @@ class gunshopd
 		class StoreButton0: w_RscButton
 		{
 			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
 			action = "[0] call populateGunStore";
 			text = "Handguns";
 			sizeEx = GunStoreButton_textSize;
@@ -206,7 +205,6 @@ class gunshopd
 		class StoreButton1: w_RscButton
 		{
 			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
 			action = "[1] call populateGunStore";
 			text = "SMGs";
 			sizeEx = GunStoreButton_textSize;
@@ -220,9 +218,21 @@ class gunshopd
 		class StoreButton2: w_RscButton
 		{
 			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
 			action = "[2] call populateGunStore";
 			text = "Rifles";
+			sizeEx = GunStoreButton_textSize;
+
+			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
+			y = GunStoreMainBG_Y + (0.175 * SZ_SCALE);
+			w = 0.1173 * SZ_SCALE;
+			h = 0.040 * SZ_SCALE;
+		};
+
+		class StoreButton3: w_RscButton
+		{
+			idc = -1;
+			action = "[3] call populateGunStore";
+			text = "LMGs";
 			sizeEx = GunStoreButton_textSize;
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
@@ -231,30 +241,15 @@ class gunshopd
 			h = 0.040 * SZ_SCALE;
 		};
 
-		class StoreButton3: w_RscButton
-		{
-			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
-			action = "[3] call populateGunStore";
-			text = "LMGs";
-			sizeEx = GunStoreButton_textSize;
-
-			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.275 * SZ_SCALE);
-			w = 0.1173 * SZ_SCALE;
-			h = 0.040 * SZ_SCALE;
-		};
-
 		class StoreButton5: w_RscButton
 		{
 			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
 			action = "[5] call populateGunStore";
 			text = "Launchers";
 			sizeEx = GunStoreButton_textSize;
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.325 * SZ_SCALE);
+			y = GunStoreMainBG_Y + (0.275 * SZ_SCALE);
 			w = 0.1173 * SZ_SCALE;
 			h = 0.040 * SZ_SCALE;
 		};
@@ -267,7 +262,7 @@ class gunshopd
 			sizeEx = GunStoreButton_textSize;
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.375 * SZ_SCALE);
+			y = GunStoreMainBG_Y + (0.325 * SZ_SCALE);
 			w = 0.1173 * SZ_SCALE;
 			h = 0.040 * SZ_SCALE;
 		};
@@ -280,7 +275,7 @@ class gunshopd
 			sizeEx = GunStoreButton_textSize;
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.425 * SZ_SCALE);
+			y = GunStoreMainBG_Y + (0.375 * SZ_SCALE);
 			w = 0.1173 * SZ_SCALE;
 			h = 0.040 * SZ_SCALE;
 
@@ -294,21 +289,7 @@ class gunshopd
 			sizeEx = GunStoreButton_textSize;
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.475 * SZ_SCALE);
-			w = 0.1173 * SZ_SCALE;
-			h = 0.040 * SZ_SCALE;
-		};
-		
-		class StoreButton9: w_RscButton
-		{
-			idc = -1;
-			//colorBackground[] = {1,0,0,0.5};
-			action = "[9] call populateGunStore";
-			text = "Grenadelauncher";
-			sizeEx = GunStoreButton_textSize;
-
-			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
-			y = GunStoreMainBG_Y + (0.175 * SZ_SCALE);
+			y = GunStoreMainBG_Y + (0.425 * SZ_SCALE);
 			w = 0.1173 * SZ_SCALE;
 			h = 0.040 * SZ_SCALE;
 		};

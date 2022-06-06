@@ -33,8 +33,8 @@
 #define A3W_killFeed_fadeTime_defaultVal 60
 #define A3W_killFeed_showIcons_defaultVal true
 #define A3W_killFeed_showChat_defaultVal false
-#define A3W_killFeed_offsetX_defaultVal 1 //test
-#define A3W_killFeed_offsetY_defaultVal 1.29 //test
+#define A3W_killFeed_offsetX_defaultVal 0
+#define A3W_killFeed_offsetY_defaultVal 0
 #define A3W_killFeed_opacity_defaultVal 0.75
 
 #define A3W_killFeed_selfColorArr [1,0.85,0,1] // gold

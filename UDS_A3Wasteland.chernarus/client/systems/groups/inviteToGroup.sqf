@@ -13,35 +13,39 @@ if(player != leader group player) exitWith {player globalChat format["you are no
 
 disableSerialization;
 
-private "_target";
-private "_hasInvite";
+private["_dialog","_playerListBox","_groupInvite","_target","_index","_playerData","_check","_unitCount","_hasInvite"];
 
-private _dialog = findDisplay groupManagementDialog;
-private _playerListBox = _dialog displayCtrl groupManagementPlayerList;
+_dialog = findDisplay groupManagementDialog;
+_playerListBox = _dialog displayCtrl groupManagementPlayerList;
 
-private _index = lbCurSel _playerListBox;
-private _playerData = _playerListBox lbData _index;
+_index = lbCurSel _playerListBox;
+_playerData = _playerListBox lbData _index;
 _hasInvite = false;
 
 //Check selected data is valid
-{ if (getPlayerUID _x isEqualTo _playerData) exitWith { _target = _x } } forEach allPlayers;
+{ if (getPlayerUID _x == _playerData) exitWith { _target = _x } } forEach allPlayers;
 
-//Prevent bounty hunters and bounty victims from being in the same group
-_bountyCheck = [player, _target] call bountyGroupCheck;
-if (!isNil "_bountyCheck") exitWith { [format ["Can't add new member to group because '%1' has collected bounty on '%2'", name (_bountyCheck select 0), name (_bountyCheck select 1)]] spawn BIS_fnc_guiMessage };
+diag_log "Invite to group: Before the checks";
 
 //Checks
 if(isNil "_target") exitWith {player globalChat "you must select someone to invite first"};
-if(_target isEqualTo player) exitWith {player globalChat "you can't invite yourself"};
+if(_target == player) exitWith {player globalChat "you can't invite yourself"};
 if((count units group _target) > 1) exitWith {player globalChat "This player is already in a group"};
 
-{ if (_x select 1 isEqualTo getPlayerUID _target) then { _hasInvite = true } } forEach currentInvites;
+{ if (_x select 1 == getPlayerUID _target) then { _hasInvite = true } } forEach currentInvites;
 if(_hasInvite) exitWith {player globalChat "This player already has a pending invite"};
 
+diag_log "Invite to group: After the checks";
+
+//currentInvites pushBack [getPlayerUID player, getPlayerUID _target];
+//publicVariable "currentInvites";
 
 pvar_processGroupInvite = ["send", player, _target];
 publicVariableServer "pvar_processGroupInvite";
 
+//[format ["You have been invited to join %1's group", name player], "A3W_fnc_titleTextMessage", _target, false] call A3W_fnc_MP;
+
 player globalChat format["You have invited %1 to join the group", name _target];
+
 player setVariable ["currentGroupRestore", group player, true];
 player setVariable ["currentGroupIsLeader", true, true];

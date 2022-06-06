@@ -39,10 +39,18 @@ if not(isNull _obj) then {
 
 	if (!isNull _obj) then
 	{
-		sleep 0.25;
-		deleteVehicle _obj;
-		[_id,1] call mf_inventory_add;
-		titleText [format ['You have picked up "%1"', (_id call mf_inventory_get) select NAME], "PLAIN DOWN", 0.5];
+		if (_id == "artillery") then
+		{
+			[player, _obj] remoteExecCall ["A3W_fnc_takeArtilleryStrike", 2];
+			sleep 0.25;
+		}
+		else
+		{
+			sleep 0.25;
+			deleteVehicle _obj;
+			[_id,1] call mf_inventory_add;
+			titleText [format ['You have picked up "%1"', (_id call mf_inventory_get) select NAME], "PLAIN DOWN", 0.5];
+		};
 	};
 
 	sleep 0.5;

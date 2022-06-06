@@ -66,52 +66,53 @@ switch (true) do
 	case (_vehClass isKindOf "Plane_Base_F"): // Planes (UAV_02 is not in Plane_Base_F)
 	{
 		_time = 30;
-		_money = 30000;
+		_money = 3000;
 	};
 	case (_vehClass isKindOf "Tank"): // Tanks & IFVs
 	{
 		_time = 30;
-		_money = 20000;
+		_money = 2000;
 	};
 	case (_vehClass isKindOf "Helicopter_Base_F" && !(_vehClass isKindOf "UAV_01_base_F")): // Helicopters (except UAV_01)
 	{
 		_time = 25;
-		_money = 17500;
+		_money = 1750;
 	};
 	case (_vehClass isKindOf "Wheeled_APC_F"): // Wheeled APCs
 	{
 		_time = 20;
-		_money = 15000;
+		_money = 1500;
 	};
 	case (_vehClass isKindOf "Truck_F" && !(_vehClass isKindOf "Van_01_base_F")): // Trucks (except Vans)
 	{
 		_time = 20;
-		_money = 10000;
+		_money = 1000;
 	};
 	case ({_vehClass isKindOf _x} count ["MRAP_01_base_F", "MRAP_02_base_F", "MRAP_03_base_F", "UAV_02_base_F"] > 0): // MRAPs and UAV_02
 	{
 		_time = 15;
-		_money = 7500;
+		_money = 750;
 	};
 	case (_vehClass isKindOf "Boat_Armed_01_base_F"): // Speedboats
 	{
 		_time = 10;
-		_money = 5000;
+		_money = 500;
 	};
 	case ({_vehClass isKindOf _x} count ["Quadbike_01_base_F", "Kart_01_Base_F", "Rubber_duck_base_F", "UAV_01_base_F"] > 0): // Quadbikes, karts, rubber boats, UAV_01
 	{
 		_time = 3;
-		_money = 500;
+		_money = 50;
 	};
 	default // Everything else
 	{
 		_time = 5;
-		_money = 1000;
+		_money = 100;
 	};
 };
 
 private _variant = _vehicle getVariable ["A3W_vehicleVariant", ""];
 if (_variant != "") then { _variant = "variant_" + _variant };
+
 // Final money reward is decided from vehicle store price
 {
 	if (_vehClass == _x select 1 && (_variant == "" || {_variant in _x})) exitWith

@@ -80,14 +80,6 @@ switch(_switch) do
 		_itemsArray = call genObjectsArray;
 		_showPicture = false;
 	};
-	case 7:
-	{
-		_itemsArray = call goggleArray;
-	};
-	case 8:
-	{
-		_itemsArray = call gasItemArray;
-	};
 	default
 	{
 		_itemsArray = [];

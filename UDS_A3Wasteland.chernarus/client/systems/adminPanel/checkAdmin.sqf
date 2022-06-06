@@ -22,12 +22,12 @@ switch (true) do
 	case ([_uid, highAdmins] call isAdmin):
 	{
 		execVM "client\systems\adminPanel\loadAdministratorMenu.sqf";
-		hint "Welcome Admin";
+		hint "Welcome High Admin";
 	};
 	case ([_uid, lowAdmins] call isAdmin):
 	{
 		execVM "client\systems\adminPanel\loadModeratorMenu.sqf";
-		hint "Welcome Supporter";
+		hint "Welcome Low Admin";
 	};
 	case (serverCommandAvailable "#kick"):
 	{

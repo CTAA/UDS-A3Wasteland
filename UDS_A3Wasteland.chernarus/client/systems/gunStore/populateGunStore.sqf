@@ -79,12 +79,14 @@ switch(_switch) do
 	};
 	case 8:
 	{
-		_itemsArray = call staticGunsArray;
-	};
-	case 9:
-	{
-		_itemsArray = call gLauncherArray;
-		_showAmmo = true;
+		_itemsArray = [];
+
+		{
+			if (getNumber (configFile >> "CfgVehicles" >> _x select 1 >> "side") in [_playerSideNum, 3]) then
+			{
+				_itemsArray pushBack _x;
+			};
+		} forEach (call staticGunsArray);
 	};
 	default
 	{

@@ -7,17 +7,17 @@
 // remoteExec & BIS_fnc_MP functions whitelist (client only, server calls are not filtered)
 
 // BIS
-// class BIS_fnc_debugConsoleExec {};
+class BIS_fnc_debugConsoleExec {}; // secure function made by Killzone Kid for BIS, only works for logged-in admins
 class BIS_fnc_effectKilledAirDestruction {};
 class BIS_fnc_effectKilledSecondaries {};
 class BIS_fnc_initVehicle {}; // required for vehicle parts like tank cages
 class BIS_fnc_setCustomSoundController {}; // police siren
 class BIS_fnc_objectVar {};
-
-// do NOT whitelist BIS_fnc_execVM or BIS_fnc_spawn, it will allow exploits!
+// do NOT whitelist BIS_fnc_execVM or BIS_fnc_spawn, hackers will exploit them!
 
 // A3W vanilla
 class A3W_fnc_adminMenuLog { allowedTargets = 2; };
+class A3W_fnc_artilleryStrike { allowedTargets = 2; };
 class A3W_fnc_chatBroadcast {};
 class A3W_fnc_checkHackedVehicles { allowedTargets = 2; };
 class A3W_fnc_checkPlayerFlag { allowedTargets = 2; };
@@ -32,7 +32,6 @@ class A3W_fnc_killBroadcast { allowedTargets = 2; };
 class A3W_fnc_logMemAnomaly { allowedTargets = 2; };
 class A3W_fnc_playerRespawnServer { allowedTargets = 2; };
 class A3W_fnc_processTransaction { allowedTargets = 2; };
-class A3W_fnc_cleanupObjects { allowedTargets = 2; };
 class A3W_fnc_pushVehicle {};
 //class A3W_fnc_registerKillScore { allowedTargets = 2; }; // only needed for injury kill points, not currently enabled due to point farming concerns
 class A3W_fnc_requestPlayerData { allowedTargets = 2; };
@@ -43,8 +42,9 @@ class A3W_fnc_setCMoney { allowedTargets = 2; };
 class A3W_fnc_setItemCleanup { allowedTargets = 2; };
 class A3W_fnc_setLockState {};
 class A3W_fnc_setName { jip = 1; };
-class A3W_fnc_takeOwnership { allowedTargets = 2; };
 class A3W_fnc_setVarServer { allowedTargets = 2; };
+class A3W_fnc_takeArtilleryStrike { allowedTargets = 2; };
+class A3W_fnc_takeOwnership { allowedTargets = 2; };
 class A3W_fnc_titleTextMessage {};
 class A3W_fnc_towingHelper {};
 class A3W_fnc_updateSpawnTimestamp { allowedTargets = 2; };
@@ -71,6 +71,5 @@ class A3W_fnc_removeMagazinesTurret {};
 class A3W_fnc_setVectorUpAndDir { jip = 1; };
 class A3W_fnc_setVehicleAmmoDef {};
 class A3W_fnc_unflip {};
-class saky_fnc_irToIncendiary { jip = 1; };
-class A3W_fnc_flashBang { allowedTargets = 1; };
-class A3W_fnc_pulloutVeh { allowedTargets = 0; };
+class APOC_srv_startAirdrop { allowedTargets = 2; };
+class JTS_FNC_SENT {};

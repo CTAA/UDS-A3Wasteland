@@ -6,13 +6,15 @@
 //	@file Author: [404] Deadbeat, [404] Costlyy, AgentRev
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
-#define UNCONSCIOUS (player call A3W_fnc_isUnconscious)
-private "_handled";
 
-private _key = _this select 1;
-private _shift = _this select 2;
-private _ctrl = _this select 3;
-private _alt = _this select 4;
+#define UNCONSCIOUS (player call A3W_fnc_isUnconscious)
+
+private ["_key", "_shift", "_ctrl", "_alt", "_handled"];
+
+_key = _this select 1;
+_shift = _this select 2;
+_ctrl = _this select 3;
+_alt = _this select 4;
 
 _handled = false;
 
@@ -20,7 +22,6 @@ _handled = false;
 // keycodes are defined in client\clientEvents\customKeys.sqf
 switch (true) do
 {
-	//-- ARYX SYSTEM
 	// U key
 	case (_key in A3W_customKeys_adminMenu):
 	{
@@ -30,7 +31,6 @@ switch (true) do
 	// Tilde (key above Tab)
 	case (_key in A3W_customKeys_playerMenu):
 	{
-		// [] spawn loadPlayerMenu;
 		if (alive player && !UNCONSCIOUS) then { [] spawn loadPlayerMenu } else { [] call A3W_fnc_killFeedMenu };
 		_handled = true;
 	};
@@ -44,63 +44,24 @@ switch (true) do
 	// Earplugs - End Key
 	case (_key in A3W_customKeys_earPlugs):
 	{
-		switch (soundVolume) do {
-			case 1: { // Audio 100%
-
-				0 fadeSound 0.8;
-				[parseText "<t align='right' font='PuristaBold' size='2'>Volume set to 80%</t>", true, nil, 3, 0.7, 0] spawn BIS_fnc_textTiles;
-
-			};
-			case 0.8: { // Audio 80%
-
-				0 fadeSound 0.5;
-				[parseText "<t align='right' font='PuristaBold' size='2'>Volume set to 50%</t>", true, nil, 3, 0.7, 0] spawn BIS_fnc_textTiles;
-
-			};
-			case 0.5: { // Audio 50%
-
-				0 fadeSound 0.2;
-				[parseText "<t align='right' font='PuristaBold' size='2'>Volume set to 20%</t>", true, nil, 3, 0.7, 0] spawn BIS_fnc_textTiles;
-
-			};
-			case 0.2: { // Audio 20%
-
-				0 fadeSound 0.01;
-				[parseText "<t align='right' font='PuristaBold' size='2'>Volume set to 1%</t>", true, nil, 3, 0.7, 0] spawn BIS_fnc_textTiles;
-
-			};
-			case 0.01: { // Audio 1%
-
-				0 fadeSound 1;
-				[parseText "<t align='right' font='PuristaBold' size='2'>Volume set to 100%</t>", true, nil, 3, 0.7, 0] spawn BIS_fnc_textTiles;
-
-			};
-		};
-	};
-	
-	// Emergency Eject - Del Key 211
-    case (_key in A3W_customKeys_Eject):
-    {
-        [-9, false, true, ""] execVM "client\actions\forceEject.sqf";
-    };
-	
-	// Holster Unholster Weapon - H Key
-	case (_key in A3W_customKeys_holster):
-	{
-		if (vehicle player == player && currentWeapon player != "" && (stance player != 'CROUCH' || currentWeapon player != handgunWeapon player)) then
+		if (soundVolume > 0.5) then
 		{
-			player action ["SwitchWeapon", player, player, 100];
+			0.5 fadeSound 0.2;
+			["You've inserted your earplugs.", 5] call mf_notify_client;
 		}
 		else
 		{
-			player action ["SwitchWeapon", player, player, 0];
+			0.5 fadeSound 1;
+			["You've taken out your earplugs.", 5] call mf_notify_client;
 		};
 	};
 };
 
 // ********** Action keys **********
+
 if (!UNCONSCIOUS) then // ####################
 {
+
 // Parachute
 if (!_handled && _key in actionKeys "GetOver") then
 {
@@ -144,7 +105,7 @@ if (!_handled && _key in actionKeys "GetOut") then
 				if !(["Are you sure you want to eject?", "Confirm", true, true] call BIS_fnc_guiMessage) exitWith {};
 				[[], fn_emergencyEject] execFSM "call.fsm";
 			};
-			
+
 			_handled = true;
 		};
 	};

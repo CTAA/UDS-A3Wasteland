@@ -51,12 +51,8 @@ _respawnMarkers = [];
 
 _respawnPos = markerPos (_respawnMarkers call BIS_fnc_selectRandom);
 
-_respawnPos set [0, (_respawnPos select 0) + ((random 16) -8)];
-_respawnPos set [1, (_respawnPos select 1) + ((random 16) -8)];
-
 if !(_respawnPos isEqualTo [0,0,0]) then
 {
-	// _player setPos _respawnPos;
 	private "_waterPos";
 	if (surfaceIsWater _respawnPos) then
 	{
@@ -74,6 +70,8 @@ if !(_respawnPos isEqualTo [0,0,0]) then
 
 _player call playerSetup;
 
+//[] execVM "client\clientEvents\onMouseWheel.sqf";
+
 call playerSpawn;
 
 if !(pvar_PlayerTeamKiller isEqualTo []) then
@@ -83,7 +81,3 @@ if !(pvar_PlayerTeamKiller isEqualTo []) then
 
 	[] execVM "client\functions\createTeamKillDialog.sqf";
 };
-
-// Backpacks invisible 
-unitBackpack player setObjectTextureGlobal [0,""];
-player addEventHandler ["InventoryOpened", { unitBackpack player setObjectTextureGlobal [0,""]; }]; // Will be updated every now and again without having a loop running

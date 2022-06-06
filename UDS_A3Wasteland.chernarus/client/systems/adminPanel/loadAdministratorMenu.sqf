@@ -10,22 +10,18 @@
 #define adminMenu_option 50001
 disableSerialization;
 
+private ["_start","_panelOptions","_adminSelect","_displayAdmin"];
 _uid = getPlayerUID player;
-
 if ([_uid, 2] call isAdmin) then {
-	private _start = createDialog "AdminMenu";
+	_start = createDialog "AdminMenu";
 
-	private _displayAdmin = uiNamespace getVariable "AdminMenu";
-	private _adminSelect = _displayAdmin displayCtrl adminMenu_option;
+	_displayAdmin = uiNamespace getVariable "AdminMenu";
+	_adminSelect = _displayAdmin displayCtrl adminMenu_option;
 
-	private _panelOptions = [
-		"Player Management",
-		"Map Markers Log",
-		"Unstuck Player",
-		"Object Search",
-		"Clear Mines",
-		"Cleanup Menu",
-		"Show Server FPS"
+	_panelOptions = ["Player Management",
+					"Vehicle Management",
+					"Map Markers Log",
+					"Group Leader Markers"
 	];
 
 	{

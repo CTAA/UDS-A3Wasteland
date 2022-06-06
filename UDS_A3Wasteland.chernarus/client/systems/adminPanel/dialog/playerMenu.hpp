@@ -194,7 +194,7 @@ class PlayersMenu
 			h = 0.04 * SZ_SCALE_ABS;
 		};
 
-		/*class SlayButton: w_RscButton
+		class SlayButton: w_RscButton
 		{
 			idc = -1;
 			text = "Slay";
@@ -203,13 +203,13 @@ class PlayersMenu
 			y = 0.748 * SZ_SCALE_ABS + safezoneY;
 			w = 0.05 * (4/3) * SZ_SCALE_ABS;
 			h = 0.04 * SZ_SCALE_ABS;
-		};*/
+		};
 
 		class UnlockTeamSwitchButton: w_RscButton
 		{
 			idc = -1;
 			text = "Unlock Team Switch";
-			onButtonClick = "[2] execVM 'client\systems\adminPanel\playerSelect.sqf'";
+			onButtonClick = "[3] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.255 * (4/3) * SZ_SCALE_ABS + safezoneX;
 			y = 0.70 * SZ_SCALE_ABS + safezoneY;
 			w = 0.11 * (4/3) * SZ_SCALE_ABS;
@@ -220,13 +220,13 @@ class PlayersMenu
 		{
 			idc = -1;
 			text = "Unlock Team Kill";
-			onButtonClick = "[3] execVM 'client\systems\adminPanel\playerSelect.sqf'";
+			onButtonClick = "[4] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.255 * (4/3) * SZ_SCALE_ABS + safezoneX;
 			y = 0.748 * SZ_SCALE_ABS + safezoneY;
 			w = 0.11 * (4/3) * SZ_SCALE_ABS;
 			h = 0.04 * SZ_SCALE_ABS;
 		};
-		/*
+
 		class RemoveAllMoneyButton: w_RscButton
 		{
 			idc = -1;
@@ -236,7 +236,7 @@ class PlayersMenu
 			y = 0.70 * SZ_SCALE_ABS + safezoneY;
 			w = 0.105 * (4/3) * SZ_SCALE_ABS;
 			h = 0.04 * SZ_SCALE_ABS;
-		};*/
+		};
 
 		/*class RemoveAllWeaponsButton: w_RscButton
 		{

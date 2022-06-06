@@ -72,28 +72,61 @@ if (_uid call isAdmin) then
 			[format ["Message from Admin: %1", _warnText], "A3W_fnc_titleTextMessage", _target, false] call A3W_fnc_MP;
 			["PlayerMgmt_Warn", format ["%1 (%2) - %3", name _target, getPlayerUID _target, _warnText]] call notifyAdminMenu;
 		};
-		case 2: //Unlock Team Switcher
+		case 2: //Slay
 		{
-			pvar_teamSwitchUnlock = getPlayerUID _target;
-			publicVariableServer "pvar_teamSwitchUnlock";
-			["PlayerMgmt_UnlockTeamSwitch", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;
-		};
-		case 3: //Unlock Team Killer
-		{
-			pvar_teamKillUnlock = getPlayerUID _target;
-			publicVariableServer "pvar_teamKillUnlock";
-			["PlayerMgmt_UnlockTeamKill", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;
-		};
-		case 4: //Slay
-		{
-			/*if (damage _target < 1) then // if check required to prevent "Killed" EH from getting triggered twice
+			if (damage _target < 1) then // if check required to prevent "Killed" EH from getting triggered twice
 			{
 				_target setVariable ["A3W_deathCause_remote", ["forcekill",serverTime], true];
 				_target setDamage 1;
 			};
 
-			["PlayerMgmt_Slay", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;*/
-			["This option has been disabled due not being used."] spawn BIS_fnc_guiMessage;
+			["PlayerMgmt_Slay", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;
+		};
+		case 3: //Unlock Team Switcher
+		{
+			pvar_teamSwitchUnlock = getPlayerUID _target;
+			publicVariableServer "pvar_teamSwitchUnlock";
+			["PlayerMgmt_UnlockTeamSwitch", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;
+		};
+		case 4: //Unlock Team Killer
+		{
+			pvar_teamKillUnlock = getPlayerUID _target;
+			publicVariableServer "pvar_teamKillUnlock";
+			["PlayerMgmt_UnlockTeamKill", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;
+		};
+		case 5: //Remove All Money
+		{
+			/*_targetUID = getPlayerUID _target;
+			{
+				if(getPlayerUID _x == _targetUID) exitWith
+				{
+					_x setVariable["cmoney",0,true];
+				};
+			}forEach playableUnits;
+			["PlayerMgmt_RemoveMoney", format ["%1 (%2)", name _target, getPlayerUID _target]] call notifyAdminMenu;*/
+			["This option has been disabled since money is now server-sided."] spawn BIS_fnc_guiMessage;
+		};
+		case 6: //Remove All Weapons
+		{
+			/*_targetUID = getPlayerUID _target;
+			{
+				if(getPlayerUID _x == _targetUID) exitWith
+				{
+					removeAllWeapons _x;
+				};
+			}forEach playableUnits;*/
+			["This option has been disabled due to having never worked at all in the first place."] spawn BIS_fnc_guiMessage;
+		};
+		case 7: //Check Player Gear
+		{
+			/*_targetUID = getPlayerUID _target;
+			{
+				if(getPlayerUID _x == _targetUID) exitWith
+				{
+					createGearDialog [_x, "RscDisplayInventory"];
+				};
+			}forEach playableUnits;*/
+			["This option has been disabled due to having never worked at all in the first place."] spawn BIS_fnc_guiMessage;
 		};
 	};
 };

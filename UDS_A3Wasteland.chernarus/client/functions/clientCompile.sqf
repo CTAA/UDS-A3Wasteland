@@ -13,7 +13,6 @@ getInVehicle = "client\clientEvents\getInVehicle.sqf" call mf_compile;
 getOutVehicle = "client\clientEvents\getOutVehicle.sqf" call mf_compile;
 onRespawn = "client\clientEvents\onRespawn.sqf" call mf_compile;
 onKilled = "client\clientEvents\onKilled.sqf" call mf_compile;
-onFired = "client\clientEvents\onFired.sqf" call mf_compile;
 onKeyPress = "client\clientEvents\onKeyPress.sqf" call mf_compile;
 onKeyRelease = "client\clientEvents\onKeyRelease.sqf" call mf_compile;
 
@@ -21,8 +20,8 @@ onKeyRelease = "client\clientEvents\onKeyRelease.sqf" call mf_compile;
 A3W_fnc_copilotTakeControl = "client\functions\copilotTakeControl.sqf" call mf_compile;
 A3W_fnc_inGameUIActionEvent = "client\functions\fn_inGameUIActionEvent.sqf" call mf_compile;
 A3W_fnc_forceOpenParachute = "client\functions\fn_forceOpenParachute.sqf" call mf_compile;
-A3W_fnc_openParachute = "client\functions\fn_openParachute.sqf" call mf_compile;
 A3W_fnc_killFeedMenu = "client\systems\killFeed\killFeedMenu.sqf" call mf_compile;
+A3W_fnc_openParachute = "client\functions\fn_openParachute.sqf" call mf_compile;
 A3W_fnc_playerEventServer = "client\functions\playerEventServer.sqf" call mf_compile;
 A3W_fnc_titleTextMessage = "client\functions\titleTextMessage.sqf" call mf_compile;
 addWeaponInventory = "client\functions\addWeaponInventory.sqf" call mf_compile;
@@ -33,7 +32,7 @@ canPushVehicleOnFoot = "client\functions\canPushVehicleOnFoot.sqf" call mf_compi
 canPushWatercraft = "client\functions\canPushWatercraft.sqf" call mf_compile;
 findHackedVehicles = "client\systems\adminPanel\findHackedVehicles.sqf" call mf_compile;
 fn_addManagedAction = "client\functions\fn_addManagedAction.sqf" call mf_compile;
-fn_canTakeOwnership = "client\actions\canTakeOwnership.sqf" call mf_compile; //BROKEN
+fn_canTakeOwnership = "client\actions\canTakeOwnership.sqf" call mf_compile;
 fn_ctrlOverlapCheck = "client\functions\fn_ctrlOverlapCheck.sqf" call mf_compile;
 fn_disableCollision = "client\functions\fn_disableCollision.sqf" call mf_compile;
 fn_disableDriverAssist = "client\functions\fn_disableDriverAssist.sqf" call mf_compile;
@@ -65,16 +64,6 @@ unitHandleDamage = "client\functions\unitHandleDamage.sqf" call mf_compile;
 updateTerritoryMarkers = "territory\client\updateTerritoryMarkers.sqf" call mf_compile;
 vehicleSideCfg = "client\functions\vehicleSideCfg.sqf" call mf_compile;
 weaponDisassembledEvent = "client\functions\weaponDisassembledEvent.sqf" call mf_compile;
-deleteBeacon = "client\items\beacon\deleteBeacon.sqf" call mf_compile;
-
-playerGearLevel1 = "client\functions\loadout\playerGearLevel1.sqf" call mf_compile;
-playerGearLevel2 = "client\functions\loadout\playerGearLevel2.sqf" call mf_compile;
-playerGearLevel3 = "client\functions\loadout\playerGearLevel3.sqf" call mf_compile;
-playerGearLevel4 = "client\functions\loadout\playerGearLevel4.sqf" call mf_compile;
-playerGearLevel5 = "client\functions\loadout\playerGearLevel5.sqf" call mf_compile;
-playerGearLevel6 = "client\functions\loadout\playerGearLevel6.sqf" call mf_compile;
-playerGearLevel7 = "client\functions\loadout\playerGearLevel7.sqf" call mf_compile;
-playerGearLevel8 = "client\functions\loadout\playerGearLevel8.sqf" call mf_compile;
 
 // Player details and actions
 loadPlayerMenu = "client\systems\playerMenu\init.sqf" call mf_compile;
@@ -87,7 +76,6 @@ spawnAction = "client\functions\spawnAction.sqf" call mf_compile;
 spawnInTown = "client\functions\spawnInTown.sqf" call mf_compile;
 spawnOnBeacon = "client\functions\spawnOnBeacon.sqf" call mf_compile;
 spawnRandom = "client\functions\spawnRandom.sqf" call mf_compile;
-HalospawnRandom = "client\functions\halospawnRandom.sqf" call mf_compile;
 // placeSpawnBeacon = "client\systems\playerMenu\placeSpawnBeacon.sqf" call mf_compile;
 // refuelVehicle = "client\systems\playerMenu\refuel.sqf" call mf_compile;
 // repairVehicle = "client\systems\playerMenu\repair.sqf" call mf_compile;
@@ -103,7 +91,6 @@ teamkillAction = "client\functions\doTeamKillAction.sqf" call mf_compile;
 teamkillMessage = "client\functions\showTeamKillMessage.sqf" call mf_compile;
 
 // Dialog compiles
-loadTOParmaInfo = "addons\TOParmaInfo\loadTOParmaInfo.sqf" call mf_compile;
 client_respawnDialog = "client\systems\playerMenu\dialog\loadRespawnDialog.sqf" call mf_compile;
 fn_checkStoreItemDLC = "client\functions\fn_checkStoreItemDLC.sqf" call mf_compile;
 fn_respawnTimer = "client\systems\scoreboard\fn_respawnTimer.sqf" call mf_compile;

@@ -89,21 +89,6 @@ if (isNil "_itemEntry") then
 			if (_itemData == _x select 1) exitWith
 			{
 				_itemEntry = _x;
-				_parentCfg = "CfgGlasses";
-			};
-		} forEach (call _x);
-	} forEach [goggleArray];
-};
-
-if (isNil "_itemEntry") then
-{
-	{
-		if (!isNil "_itemEntry") exitWith {};
-
-		{
-			if (_itemData == _x select 1) exitWith
-			{
-				_itemEntry = _x;
 				_parentCfg = "CfgVehicles";
 			};
 		} forEach (call _x);
@@ -132,6 +117,14 @@ if (!isNil "_itemEntry") then
 						//_name = getText (_weapon >> "displayName");
 						_description = "The perfect companion for wanna-be pilots!<br/>One-time use.";
 					};
+					case (_itemType isKindOf "UGV_02_Demining_backpack_base_F"):
+					{
+						_description = "Remote-controlled robo-shotgun to dispose of trespassers, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
+					};
+					case (_itemType isKindOf "UGV_02_backpack_base_F"):
+					{
+						_description = "Remote-controlled robot to spy on your neighbor's wife, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
+					};
 					case (["_UAV_06_antimine_backpack_", _itemType] call fn_findString != -1):
 					{
 						_description = "Remote-controlled hexacopter to bomb the shit out of 'em, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
@@ -147,14 +140,6 @@ if (!isNil "_itemEntry") then
 					case (["_UAV_01_backpack_", _itemType] call fn_findString != -1):
 					{
 						_description = "Remote-controlled quadcopter to spy on your neighbors, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
-					};
-					case (_itemType isKindOf "UGV_02_Demining_backpack_base_F"):
-					{
-						_description = "Remote-controlled robo-shotgun to dispose of trespassers, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
-					};
-					case (_itemType isKindOf "UGV_02_backpack_base_F"):
-					{
-						_description = "Remote-controlled robot to spy on your neighbor's wife, pre-packaged in a backpack.<br/>UAV Terminal sold separately. Ages 8+";
 					};
 					case (["_Static_Designator_", _itemType] call fn_findString != -1):
 					{
@@ -231,17 +216,9 @@ if (!isNil "_itemEntry") then
 			{
 				_weapon = configFile >> "CfgGlasses" >> _itemType;
 
-				if (_itemType isEqualTo "G_Diving") then
+				if (_itemType == "G_Diving") then
 				{
 					_description = "Increases underwater visibility";
-				};
-				if (_itemType in ["G_RegulatorMask_F", "G_AirPurifyingRespirator_01_F", "G_AirPurifyingRespirator_02_sand_F", "G_AirPurifyingRespirator_02_olive_F", "G_AirPurifyingRespirator_02_black_F"]) then
-				{
-					_description = "Immune against Gases and Radioactivity";
-				};
-				if (_itemType in ["G_Bandanna_tan", "G_Bandanna_sport", "G_Bandanna_shades", "G_Bandanna_oli", "G_Bandanna_khk", "G_Bandanna_blk", "G_Bandanna_beast", "G_Bandanna_aviator"]) then
-				{
-					_description = "Immune against Radioactivity (Only Altis)";
 				};
 				if (["G_Balaclava_TI_", _itemType] call fn_startsWith) then
 				{
@@ -262,14 +239,6 @@ if (!isNil "_itemEntry") then
 		};
 
 		if (_itemType isKindOf "UAV_06_backpack_base_F") then
-		{
-			if ({_x == "Ti"} count getArray (configFile >> "CfgVehicles" >> _itemType >> "Viewoptics" >> "visionMode") == 0) then
-			{
-				_description = format ["%1%2%3", _description, ["<br/>",""] select (_description isEqualTo ""), "<t color='#FF8000'>NO THERMAL IMAGING</t>"];
-			};
-		};
-		
-		if (_itemType isKindOf "UGV_02_backpack_base_F") then
 		{
 			if ({_x == "Ti"} count getArray (configFile >> "CfgVehicles" >> _itemType >> "Viewoptics" >> "visionMode") == 0) then
 			{

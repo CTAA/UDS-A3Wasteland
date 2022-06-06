@@ -41,7 +41,7 @@ mf_survival_handle1 = [] spawn
 		if (thirstLevel > 0) then {thirstLevel = thirstLevel - THIRST_DELTA};
 	};
 
-	for "_i" from 0 to 1 step 0 do {
+	while {true} do {
 		sleep TIME_DELTA;
 		waitUntil {!respawnDialogActive && alive player};
 		if (round random 1 == 0) then _decrementHunger;
@@ -67,8 +67,7 @@ mf_survival_handle2 = [] spawn
 	scriptName "mf_survival_handle2";
 
 	_warnf1 = true; _warnf2 = true; _warnf3 = true; _warnf4 = true;
-	// while{true} do {
-	for "_i" from 0 to 1 step 0 do {
+	while{true} do {
 		sleep TIME_DELTA;
 		waitUntil {!respawnDialogActive};
 		switch(true) do {
@@ -87,8 +86,7 @@ mf_survival_handle3 = [] spawn
 	scriptName "mf_survival_handle3";
 
 	_warnd1 = true; _warnd2 = true; _warnd3 = true; _warnd4 = true;
-	// while{true} do {
-	for "_i" from 0 to 1 step 0 do {
+	while{true} do {
 		sleep TIME_DELTA;
 		waitUntil {!respawnDialogActive};
 		switch(true) do {

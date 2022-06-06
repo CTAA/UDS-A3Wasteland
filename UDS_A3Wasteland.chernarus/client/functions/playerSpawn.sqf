@@ -6,6 +6,7 @@
 //	@file Author: [404] Deadbeat, AgentRev
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
+
 playerSpawning = true;
 
 //Teamkiller Kick
@@ -28,7 +29,7 @@ if (!isNil "pvar_teamKillList" && {playerSide in [BLUFOR,OPFOR]}) then
 	};
 };
 //Teamswitcher Kick
-if (!isNil "pvar_teamSwitchList" && playerSide in [BLUFOR,OPFOR,INDEPENDENT] && !((getPlayerUID player) call isAdmin)) then
+if (!isNil "pvar_teamSwitchList" && playerSide in [BLUFOR,OPFOR]) then
 {
 	_prevSide = [pvar_teamSwitchList, getPlayerUID player, playerSide] call fn_getFromPairs;
 
@@ -45,7 +46,6 @@ if (!isNil "pvar_teamSwitchList" && playerSide in [BLUFOR,OPFOR,INDEPENDENT] && 
 		{
 			case BLUFOR: { "BLUFOR" };
 			case OPFOR:  { "OPFOR" };
-			case INDEPENDENT:  { "INDEPENDENT" };
 		};
 
 		_msgBox = [format [localize "STR_WL_Loading_Teamswitched", _sideName]] spawn BIS_fnc_guiMessage;

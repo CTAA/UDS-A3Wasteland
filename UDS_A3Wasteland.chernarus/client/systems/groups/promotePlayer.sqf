@@ -25,6 +25,7 @@ _playerData = _groupListBox lbData _index;
 
 //Check selected data is valid
 { if (getPlayerUID _x == _playerData) exitWith { _target = _x } } forEach allPlayers;
+//diag_log "Promote to leader: Before the checks";
 
 //Checks
 if (isNil "_target") exitWith { player globalChat "You must select someone to promote first." };

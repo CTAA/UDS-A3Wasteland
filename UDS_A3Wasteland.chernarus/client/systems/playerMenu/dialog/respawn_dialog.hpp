@@ -9,7 +9,7 @@
 class RespawnSelectionDialog
 {
 	idd = respawn_dialog;
-	movingEnable = false;
+	movingEnable = true;
 	enableSimulation = true;
 	onLoad = "uiNamespace setVariable ['RespawnSelectionDialog', _this select 0]";
 
@@ -20,6 +20,7 @@ class RespawnSelectionDialog
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
 			colorBackground[] = {1,1,1,0.09};
+			moving = true;
 
 			#define RspnMainBG_W ((0.809 * X_SCALE) min safezoneW)
 			#define RspnMainBG_H ((0.620 * Y_SCALE) min safezoneH)
@@ -166,41 +167,8 @@ class RespawnSelectionDialog
 			x = RspnRandomButton_X;
 			y = RspnRandomButton_Y;
 		};
-		
-		class HaloSpawnButton: RspnButton
- 		{
- 			idc = Halo_Spawn_Button;
- 			onButtonClick = "";
- 			text = "Random Halo Jump";
- 			default = true;
- 			
- 			#define HalosSpawnButton_W (0.2 * X_SCALE)
- 			#define HalosSpawnButton_X RspnLine_X 
- 
- 			x = HalosSpawnButton_X;
- 			y = RspnRandomButton_Y;
- 			w = HalosSpawnButton_W;
-		};
-		
-		class cusLoadoutButton: RspnButton
- 		{
- 			idc = -1;
-			colorBackground[] = {1,0,0,0.5};
- 			onButtonClick = "";
-			tooltip = "Under Construction";
- 			text = "Custom Loadout";
- 			default = true;
- 			
- 			#define customButton_W (0.2 * X_SCALE)
- 			#define customButton_X RspnLine_X
- 
- 			x = customButton_X + 0.7;
- 			y = RspnRandomButton_Y;
- 			w = customButton_W;
-		};
 
-
-		/*class RspnPreloadChk: w_RscCheckBox
+		class RspnPreloadChk: w_RscCheckBox
 		{
 			idc = respawn_Preload_Checkbox;
 
@@ -233,7 +201,7 @@ class RespawnSelectionDialog
 			w = RspnPreloadChkText_W;
 			h = RspnPreloadChkText_H;
 		};
-*/
+
 
 		#define RspnLocType_X RspnLine_X
 		#define RspnLocType_Y (RspnTopLine_Y + RspnLine_H + (0.015 * Y_SCALE))
@@ -342,7 +310,7 @@ class RespawnSelectionDialog
 			y = RspnLobbyButton_Y;
 			//w = RspnGroupButton_W;
 		};
-		
+
 		#define RspnKillfeedButton_X (RspnGroupButton_X + RspnButton_W + (0.015 * X_SCALE))
 		//#define RspnKillfeedButton_W (0.075 * X_SCALE)
 

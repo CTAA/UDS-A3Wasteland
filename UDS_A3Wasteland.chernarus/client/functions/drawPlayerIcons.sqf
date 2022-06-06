@@ -51,7 +51,6 @@ drawPlayerIcons_thread = [] spawn
 	_uiScale = (0.55 / (getResolution select 5)) * ICON_sizeScale; // 0.55 = Interface size "Small"
 
 	_reviveIcon = call currMissionDir + "client\icons\revive.paa";
-  	_uavIcon = call currMissionDir + "client\icons\uav.paa";
 	_teamIcon = switch (playerSide) do
 	{
 		case BLUFOR: { call currMissionDir + "client\icons\igui_side_blufor_ca.paa" };
@@ -109,11 +108,10 @@ drawPlayerIcons_thread = [] spawn
 						     (_isUavUnit && {((objectParent _unit) getVariable ["ownerUID","0"]) in ((units player) apply {getPlayerUID _x})})}) exitWith {}; // but allow friendly indie UAVs
 
 						_alpha = (ICON_limitDistance - _dist) / (ICON_limitDistance - ICON_fadeDistance);
-						
+						_color = [1,1,1,_alpha];
 						_icon = _teamIcon;
 						_size = 0;
 						_shadow = [0,2] select showPlayerNames;
-						_color = [1,1,1,_alpha];
 
 						if (_unit call A3W_fnc_isUnconscious) then
 						{
@@ -161,58 +159,17 @@ drawPlayerIcons_thread = [] spawn
 							_size = (1 - ((_dist / ICON_limitDistance) * 0.7)) * _uiScale * ([0.7, 1] select showPlayerNames);
 						};
 
-						// ########### <CUSTOM> ###########
-						if (_isUavUnit) then {
-							_veh   = vehicle _unit;
-							_icon  = getText (configFile >> "CfgVehicles" >> typeOf _veh >> "icon");
-							
-							_side = side _unit;
-							// diag_log format["Color: %1", _side];
-							
-							switch (true) do {
-								case (_side in [BLUFOR, WEST]): {
-									_color = [0, 0.3, 0.6, _alpha];
-								};
-								case (_side in [OPFOR, EAST]): {
-									_color = [0.5, 0, 0, _alpha];
-								};
-								case (_side in [INDEPENDENT, RESISTANCE]): {
-									_color = [0, 0.5, 0, _alpha];
-								};
-								default {
-									_color = [0.4, 0, 0.5, _alpha];
-								};
-							};
-							
-							_size = _size + 0.5;
-
-							if (_icon == "") then { _icon = _uavIcon; };
-
-							if (showPlayerNames) then {
+						_text = if (showPlayerNames) then
+						{
+							if (isPlayer _unit) then { name _unit }
+							else
+							{
 								_uavOwner = (uavControl vehicle _unit) select 0;
-								_uavText = format ["[AI%1]", if (isPlayer _uavOwner) then { " - " + name _uavOwner } else { "" }];
-								_newArray pushBack [["#(argb,1,1,1)color(0,0,0,0)", [1,1,1,_alpha], _pos, _size, _size, 0, _uavText, _shadow], _unit, _posCode]; //, 0.03, "PuristaMedium"];
+								format ["[AI%1]", if (isPlayer _uavOwner) then { " - " + name _uavOwner } else { "" }]
 							};
+						} else { "" };
 
-							_newArray pushBack [[_icon, _color, _pos, _size, _size, 0, "", _shadow], _unit, _posCode]; //, 0.03, "PuristaMedium"];
-						} else {
-							if (showPlayerNames && isPlayer _unit) then {
-								_nameText = name _unit;
-								_nameColor = [1,1,1,_alpha];
-								_squad = squadParams _unit;
-								_tag = "";
-								if ((count _squad) > 0) then {_tag = ((_squad select 0) select 0)};
-
-								switch (true) do {
-									case (_unit call isAdmin): { _nameColor = [0.941, 0.196, 0.196, _alpha]; };
-									// case (_unit call A3W_fnc_isDonor): { _nameColor = [0.078, 1, 0.901, _alpha]; };
-								};
-								_newArray pushBack [["#(argb,1,1,1)color(0,0,0,0)", _nameColor, _pos, _size, _size, 0, _nameText, _shadow], _unit, _posCode]; //, 0.03, "PuristaMedium"];
-							};
-
-							_newArray pushBack [[_icon, _color, _pos, _size, _size, 0, "", _shadow], _unit, _posCode]; //, 0.03, "PuristaMedium"];
-						};
-						// ########### </CUSTOM> ###########
+						_newArray pushBack [[_icon, _color, _pos, _size, _size, 0, _text, _shadow], _unit, _posCode]; //, 0.03, "PuristaMedium"];
 					};
 				};
 			} forEach allUnits;
@@ -239,25 +196,7 @@ drawPlayerIcons_thread = [] spawn
 					} forEach detectedMines playerSide;
 				};
 			};
-			
-			private _thermalActive2 = currentVisionMode player isEqualTo 2;
-			if (_thermalActive2 && (headgear player isEqualTo "H_HelmetO_ViperSP_ghex_F" || headgear player isEqualTo "H_HelmetO_ViperSP_hex_F" )) then
-			{
-				if (isNil "A3W_builtInThermalOffline2") then
-				{
-					"A3W_thermalOffline2" cutText ["THERMAL IMAGING OFFLINE", "BLACK", 0.001, false];
-					A3W_builtInThermalOffline2 = true;
-				};
-			}
-			else
-			{
-				if (!isNil "A3W_builtInThermalOffline2") then
-				{
-					"A3W_thermalOffline2" cutText ["", "PLAIN", 0.001, false];
-					A3W_builtInThermalOffline2 = nil;
-				};
-			};
-			
+
 			if (_noBuiltInThermal || (currentWeapon player) select [0,15] == "Laserdesignator") then
 			{
 				_thermalActive = currentVisionMode player isEqualTo 2;

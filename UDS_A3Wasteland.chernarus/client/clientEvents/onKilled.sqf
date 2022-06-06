@@ -80,8 +80,8 @@ if (_player == player) then
 	combatTimestamp = -1; // Reset abort timer
 };
 
-// diag_log format ["KILLED by %1", if (isPlayer _killer) then { "player " + str [name _killer, getPlayerUID _killer] } else { _killer }];
-[format ["KILLED: by %1", if (isPlayer _killer) then { "player " + str [name _killer, getPlayerUID _killer] } else { _killer }],"aryx_log",false,false] call Aryx_Logit;
+diag_log format ["KILLED by %1", if (isPlayer _killer) then { "player " + str [name _killer, getPlayerUID _killer] } else { _killer }];
+
 // reset var in case Killed event triggers twice (happens on rare occasions)
 _player setVariable ["FAR_killerUnit", nil];
 

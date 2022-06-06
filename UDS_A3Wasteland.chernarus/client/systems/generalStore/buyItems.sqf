@@ -437,34 +437,6 @@ storePurchaseHandle = _this spawn
 			};
 		} forEach (call backpackArray);
 	};
-	
-	if (isNil "_price") then
-	{
-		{
-			if (_itemData == _x select 1) exitWith
-			{
-				_class = _x select 1;
-				_price = _x select 2;
-
-				if (goggles player == _class) exitWith
-				{
-					["goggles", true] call _showAlreadyHaveItemMessage;
-				};
-
-				// Ensure the player has enough money
-				if (_price > _playerMoney) exitWith
-				{
-					[_itemText] call _showInsufficientFundsError;
-				};
-
-				// Confirm replace
-				if (goggles player != "" && {!(["goggles", true] call _showReplaceConfirmMessage)}) exitWith {};
-
-				removeGoggles player;
-				player addGoggles _class;
-			};
-		} forEach (call goggleArray);
-	};
 
 	if (!isNil "_price" && {_price > -1}) then
 	{
@@ -499,12 +471,5 @@ if (typeName storePurchaseHandle == "SCRIPT") then
 	_storePurchaseHandle = storePurchaseHandle;
 	waitUntil {scriptDone _storePurchaseHandle};
 };
-
-{
-		if (_x isKindOf "B_SAM_System_02_F" || _x isKindOf "B_AAA_System_01_F") then
-		{
-			player disableUAVConnectability [_x, true];
-		};
-} forEach allUnitsUAV;
 
 storePurchaseHandle = nil;

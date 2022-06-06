@@ -25,8 +25,6 @@ groupManagmentActive = false;
 pvar_PlayerTeamKiller = [];
 doCancelAction = false;
 
-BeaconScanInProgress = false;
-
 //Initialization Variables
 playerCompiledScripts = false;
 playerSetupComplete = false;
@@ -54,11 +52,6 @@ if !(playerSide in [BLUFOR,OPFOR,INDEPENDENT]) exitWith
 if (!isNil "client_initEH") then { player removeEventHandler ["Respawn", client_initEH] };
 player addEventHandler ["Respawn", { _this spawn onRespawn }];
 player addEventHandler ["Killed", onKilled];
-player addEventHandler ["Fired", onFired];
-
-// Backpacks invisible 
-unitBackpack player setObjectTextureGlobal [0,""];
-player addEventHandler ["InventoryOpened", { unitBackpack player setObjectTextureGlobal [0,""]; }]; // Will be updated every now and again without having a loop running
 
 call compile preprocessFileLineNumbers "addons\far_revive\FAR_revive_init.sqf";
 
@@ -87,16 +80,13 @@ if (["A3W_playerSaving"] call isConfigOn) then
 		scriptName "savePlayerLoop";
 
 		// Save player every 60s
-		for "_i" from 0 to 1 step 0 do
+		while {true} do
 		{
 			sleep 60;
 			call fn_savePlayerData;
 		};
 	});
 };
-
-// Teambalancer
-call compile preprocessFileLineNumbers "client\functions\teamBalance.sqf";
 
 if (isNil "playerData_alive") then
 {
@@ -113,7 +103,7 @@ diag_log format ["Player starting with $%1", (player getVariable ["cmoney", 0]) 
 if (count (["config_territory_markers", []] call getPublicVar) > 0) then
 {
 	A3W_fnc_territoryActivityHandler = "territory\client\territoryActivityHandler.sqf" call mf_compile;
-	[] execVM "territory\client\CaptureTriggers.sqf";
+	[] execVM "territory\client\setupCaptureTriggers.sqf";
 };
 
 //Setup player menu scroll action.
@@ -168,18 +158,9 @@ A3W_clientSetupComplete = compileFinal "true";
 
 A3W_scriptThreads pushBack execVM "addons\fpsFix\vehicleManager.sqf";
 A3W_scriptThreads pushBack execVM "addons\Lootspawner\LSclientScan.sqf";
-
-// StatusBar
-if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; 
-
 [] execVM "client\functions\drawPlayerIcons.sqf";
 [] execVM "addons\camera\functions.sqf";
 [] execVM "addons\UAV_Control\functions.sqf";
-[] execVM "addons\noaim\K_noAim_flightRestriction.sqf";
-// [] execVM "addons\noaim\deathzone.sqf";
-[] execVM "addons\compass\voyagerCompass.sqf";
-[] execVM "client\items\stash\pack.sqf";
-// [] execVM "addons\noaim\emptyfuel.sqf";
 
 call compile preprocessFileLineNumbers "client\functions\generateAtmArray.sqf";
 [] execVM "client\functions\drawPlayerMarkers.sqf";
@@ -196,25 +177,3 @@ inGameUISetEventHandler ["Action", "_this call A3W_fnc_inGameUIActionEvent"];
 		_x setVariable ["side", playerSide, true];
 	};
 } forEach pvar_spawn_beacons;
-
-[] spawn {
-	for "_i" from 0 to 1 step 0 do {
-		// Check if the player has an AV terminal
-		{
-			if (_x isKindOf "B_SAM_System_02_F" || _x isKindOf "B_AAA_System_01_F") then
-			{
-				player disableUAVConnectability [_x, true];
-			};
-		} forEach allUnitsUAV;
-		sleep 0.01;
-	};
-};
-
-[] spawn {
-	for "_i" from 0 to 1 step 0 do {
-		if ((vehicle player) isKindOf "Air") then {
-			{(vehicle player) enableInfoPanelComponent [_x,"SensorsDisplayComponent",false]} forEach ["left","right"];
-		};
-		sleep 0.01;
-	};
-};

@@ -7,9 +7,9 @@
 //	@file Created: 20/11/2012 05:19
 //	@file Args:
 
-private ["_pos", "_rad", "_townName", "_playerPos"];
-private _marker = _this select 0;
-private _preload = param [1, false, [false]];
+private ["_marker", "_preload", "_pos", "_rad", "_townName", "_playerPos"];
+_marker = _this select 0;
+_preload = param [1, false, [false]];
 
 {
 	if (_x select 0 == _marker) exitWith

@@ -39,7 +39,7 @@ _obj = objNull;
 if (alive player) then
 {
 	MUTEX_LOCK_OR_FAIL;
-	// player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
+	//player playMove ([player, "AmovMstpDnon_AinvMstpDnon", "putdown"] call getFullMove);
 	player playActionNow "PutDown";
 	sleep 0.5;
 

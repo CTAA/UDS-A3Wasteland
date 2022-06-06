@@ -50,7 +50,7 @@ storePurchaseHandle = _this spawn
 	_colorIndex = lbCurSel vehshop_color_list;
 	_colorText = _colorlist lbText _colorIndex;
 	_colorData = call compile (_colorlist lbData _colorIndex);
-	
+
 	_partList = _dialog displayCtrl vehshop_part_list;
 	_defPartsChk = _dialog displayCtrl vehshop_defparts_checkbox;
 	_animList = []; // ["anim1", 1, "anim2", 0, ...] - formatted for BIS_fnc_initVehicle
@@ -173,8 +173,6 @@ storePurchaseHandle = _this spawn
 		{
 			[] spawn fn_savePlayerData;
 		};
-		
-		player moveInDriver _vehicle;
 	};
 
 	if (!isNil "_requestKey" && {!isNil _requestKey}) then

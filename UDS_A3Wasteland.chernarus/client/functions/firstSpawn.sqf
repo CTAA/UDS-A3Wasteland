@@ -10,10 +10,6 @@ client_firstSpawn = true;
 
 [] execVM "client\functions\welcomeMessage.sqf";
 
-if (player getVariable ["bmoney",0] isEqualTo 0) then {
-	[] execVM "addons\TOParmaInfo\loadTOParmaInfo.sqf";
-};
-
 player addEventHandler ["Take",
 {
 	_vehicle = _this select 1;
@@ -83,10 +79,10 @@ player addEventHandler ["WeaponAssembled",
 		if (isNil {_obj getVariable "ownerUID"}) then
 		{
 			_obj setVariable ["A3W_skipAutoSave", true, true]; // SKIPSAVE on first assembly
-			
+
 			_obj allowDamage true;
 			_obj setVariable ["allowDamage", true, true];
-			
+
 			[_obj, true] call A3W_fnc_setVehicleLoadout;
 		};
 
@@ -122,7 +118,8 @@ player addEventHandler ["InventoryOpened",
 
 	if !(_obj isKindOf "Man") then
 	{
-		if ((locked _obj > 1 && _obj getVariable ["ownerUID","0"] != getPlayerUID player) || (_obj getVariable ["A3W_inventoryLockR3F", false] && _obj getVariable ["R3F_LOG_disabled", false])) then
+		if ((locked _obj > 1 && _obj getVariable ["ownerUID","0"] != getPlayerUID player) ||
+		    (_obj getVariable ["A3W_inventoryLockR3F", false] && _obj getVariable ["R3F_LOG_disabled", false])) then
 		{
 			playSound "FD_CP_Not_Clear_F";
 
@@ -224,7 +221,7 @@ player addEventHandler ["GetOutMan", { [_this select 2] call getOutVehicle }];
 
 _uid = getPlayerUID player;
 
-if (playerSide in [BLUFOR, OPFOR, INDEPENDENT] && {{_x select 0 == _uid} count pvar_teamSwitchList == 0}) then
+if (playerSide in [BLUFOR,OPFOR] && {{_x select 0 == _uid} count pvar_teamSwitchList == 0}) then
 {
 	_startTime = diag_tickTime;
 	waitUntil {sleep 1; diag_tickTime - _startTime >= 180};
@@ -236,7 +233,6 @@ if (playerSide in [BLUFOR, OPFOR, INDEPENDENT] && {{_x select 0 == _uid} count p
 	{
 		case BLUFOR: { "BLUFOR" };
 		case OPFOR:  { "OPFOR" };
-		case INDEPENDENT: { "INDEPENDENT" };
 	};
 
 	titleText [format ["You have been locked to %1", _side], "PLAIN", 0.5];

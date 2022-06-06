@@ -261,7 +261,6 @@ class w_RscPicture
 	w = 0.2; h = 0.2;
 
 	text = "";
-
 	tooltipColorText[] = {1, 1, 1, 1};
 	tooltipColorBox[] = {1, 1, 1, 1};
 	tooltipColorShade[] = {0, 0, 0, 0.65};
@@ -349,6 +348,7 @@ class w_RscButtonBase {
 		align = "left";
 
 	};
+
 	tooltipColorText[] = {1, 1, 1, 1};
 	tooltipColorBox[] = {1, 1, 1, 1};
 	tooltipColorShade[] = {0, 0, 0, 0.65};
@@ -377,46 +377,6 @@ class w_RscButton
 	animTextureOver = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\over_ca.paa";
 	animTextureFocused = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\focus_ca.paa";
 	animTexturePressed = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\down_ca.paa";
-	style = 2;
-	x = 0;
-	y = 0;
-	w = 0.055589;
-	h = 0.039216;
-	shadow = 0;
-	font = "PuristaMedium";
-	sizeEx = 0.04;
-	offsetX = 0.003;
-	offsetY = 0.003;
-	offsetPressedX = 0.002;
-	offsetPressedY = 0.002;
-	borderSize = 0;
-	tooltipColorText[] = {1, 1, 1, 1};
-	tooltipColorBox[] = {1, 1, 1, 1};
-	tooltipColorShade[] = {0, 0, 0, 0.65};
-};
-
-class w_RscButton2 {
-	access = 0;
-	type = CT_BUTTON;
-	text = "";
-	colorText[] = {1,1,1,.9};
-	colorDisabled[] = {0.4,0.4,0.4,1};
-	colorBackground[] = {A3W_UICOLOR_R * 0.8, A3W_UICOLOR_G * 0.8, A3W_UICOLOR_B * 0.8, 1}; // normal
-	colorFocused[] = {A3W_UICOLOR_R * 0.55, A3W_UICOLOR_G * 0.55, A3W_UICOLOR_B * 0.55, 1}; // pulse
-	colorBackgroundActive[] = {A3W_UICOLOR_R, A3W_UICOLOR_G, A3W_UICOLOR_B, 1}; // hover
-	colorBackgroundDisabled[] = {0.95,0.95,0.95,1};
-	colorShadow[] = {0,0,0,0};
-	colorBorder[] = {0,0,0,0};
-	soundEnter[] = {"\A3\ui_f\data\sound\RscButton\soundEnter", 0.09, 1};
-	soundPush[] = {"\A3\ui_f\data\sound\RscButton\soundPush", 0.09, 1};
-	soundClick[] = {"\A3\ui_f\data\sound\RscButton\soundClick", 0.09, 1};
-	soundEscape[] = {"\A3\ui_f\data\sound\RscButton\soundEscape", 0.09, 1};
-	// animTextureDefault = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\normal_ca.paa";
-	// animTextureNormal = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\normal_ca.paa";
-	// animTextureDisabled = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\normal_ca.paa";
-	// animTextureOver = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\over_ca.paa";
-	// animTextureFocused = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\focus_ca.paa";
-	// animTexturePressed = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\down_ca.paa";
 	style = 2;
 	x = 0;
 	y = 0;
@@ -478,7 +438,7 @@ class w_RscCombo {
 		arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
 		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
 	};
-	
+
 	tooltipColorText[] = {1, 1, 1, 1};
 	tooltipColorBox[] = {1, 1, 1, 1};
 	tooltipColorShade[] = {0, 0, 0, 0.65};
@@ -496,7 +456,7 @@ class w_RscCheckBox
 	colorFocused[] = {1, 1, 1, 1};
 	colorHover[] = {1, 1, 1, 1};
 	colorPressed[] = {1, 1, 1, 1};
-	colorDisabled[] = {1, 1, 1, 0.2};
+	colorDisabled[] = {1, 1, 1, 0.25};
 	colorBackground[] = {0, 0, 0, 0};
 	colorBackgroundFocused[] = {0, 0, 0, 0};
 	colorBackgroundHover[] = {0, 0, 0, 0};
@@ -519,28 +479,6 @@ class w_RscCheckBox
 	soundPush[] = {1, 1, 1, 1};
 	soundClick[] = {1, 1, 1, 1};
 	soundEscape[] = {1, 1, 1, 1};
-};
-
-class w_RscXSliderH
-{
-	type = CT_XSLIDER;
-	style = SL_HORZ + SL_TEXTURES;
-	color[] = {1, 1, 1, 0.6};
-	colorActive[] = {1, 1, 1, 1};
-	colorDisable[] = {1, 1, 1, 0.4};
-	colorDisabled[] = {1, 1, 1, 0.2};
-	x = 0;
-	y = 0;
-	h = 0.029412;
-	w = 0.4;
-	arrowEmpty = "\A3\ui_f\data\gui\cfg\slider\arrowEmpty_ca.paa";
-	arrowFull = "\A3\ui_f\data\gui\cfg\slider\arrowFull_ca.paa";
-	border = "\A3\ui_f\data\gui\cfg\slider\border_ca.paa";
-	thumb = "\A3\ui_f\data\gui\cfg\slider\thumb_ca.paa";
-	tooltipColorText[] = {1, 1, 1, 1};
-	tooltipColorBox[] = {1, 1, 1, 1};
-	tooltipColorShade[] = {0, 0, 0, 0.65};
-	//onSliderPosChanged = "call stuff";
 };
 
 class w_RscXListBox
@@ -572,62 +510,26 @@ class w_RscXListBox
 	sizeEx = 0.035;
 };
 
-class RscHTML
+class w_RscXSliderH
 {
-	idc = -1;
-	type = CT_HTML;
-	style = ST_LEFT;
-	colorText[] = {Dlg_Color_White, 1};
-    colorLink[] = {0.05, 0.2, 0.05, 1};
-    colorBold[] = {0, 1, 1, 1};
-    colorBackground[] = {0, 0, 0, 0};
-    colorLinkActive[] = {0, 0, 0.2, 1};
-    colorPicture[] = {Dlg_Color_Black, 1};
-    colorPictureLink[] = {Dlg_Color_Black, 1};
-    colorPictureSelected[] = {Dlg_Color_Black, 1};
-    colorPictureBorder[] = {Dlg_Color_Black, 1};
+	type = CT_XSLIDER;
+	style = SL_HORZ + SL_TEXTURES;
+	color[] = {1, 1, 1, 0.6};
+	colorActive[] = {1, 1, 1, 1};
+	colorDisable[] = {1, 1, 1, 0.4};
+	colorDisabled[] = {1, 1, 1, 0.2};
 	x = 0;
 	y = 0;
-	w = 1;
-	h = 1;
-	fileName = "";
-	prevPage = "\ca\ui\data\arrow_left_ca.paa";
-    nextPage = "\ca\ui\data\arrow_right_ca.paa";
-
-
-    class HeadingStyle {
-        font = "PuristaBold";
-        fontBold = "TahomaB";
-        sizeEx = Dlg_TEXTHGT;
-    };
-
-    class H1: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT * 1.5;
-    };
-
-    class H2: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT * 1.4;
-    };
-
-    class H3: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT * 1.3;
-    };
-
-    class H4: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT * 1.2;
-    };
-
-    class H5: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT * 1.1;
-    };
-
-    class H6: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT;
-    };
-
-    class P: HeadingStyle {
-        sizeEx = Dlg_TEXTHGT;
-    };
+	h = 0.029412;
+	w = 0.4;
+	arrowEmpty = "\A3\ui_f\data\gui\cfg\slider\arrowEmpty_ca.paa";
+	arrowFull = "\A3\ui_f\data\gui\cfg\slider\arrowFull_ca.paa";
+	border = "\A3\ui_f\data\gui\cfg\slider\border_ca.paa";
+	thumb = "\A3\ui_f\data\gui\cfg\slider\thumb_ca.paa";
+	tooltipColorText[] = {1, 1, 1, 1};
+	tooltipColorBox[] = {1, 1, 1, 1};
+	tooltipColorShade[] = {0, 0, 0, 0.65};
+	//onSliderPosChanged = "call stuff";
 };
 
 class w_RscMapControl
@@ -688,6 +590,7 @@ class w_RscMapControl
 	alphaFadeEndScale = 2;
 	colorTrails[] = {0.84, 0.76, 0.65, 0.15};
 	colorTrailsFill[] = {0.84, 0.76, 0.65, 0.65};
+	widthRailWay = 4;
 	fontLabel = "RobotoCondensed";
 	sizeExLabel = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	fontGrid = "TahomaB";
@@ -701,7 +604,6 @@ class w_RscMapControl
 	fontLevel = "TahomaB";
 	sizeExLevel = 0.02;
 	text = "#(argb,8,8,3)color(1,1,1,1)";
-	widthRailWay = 4;
 	idcMarkerColor = -1; 
 	idcMarkerIcon = -1; 
 	textureComboBoxColor = "#(argb,8,8,3)color(1,1,1,1)"; 
@@ -753,7 +655,7 @@ class w_RscMapControl
 	};
 	class CustomMark {
 		color[] = {1, 1, 1, 1};
-		icon = "\A3\ui_f\data\map\mapcontrol\custommark_ca.paa";
+		icon = "\a3\ui_f\data\map\mapcontrol\custommark_ca.paa";
 		size = 18;
 		importance = 1;
 		coefMin = 1;
@@ -939,7 +841,7 @@ class w_RscMapControl
 		importance = 1;
 		coefMin = 1;
 		coefMax = 1;
-		icon = "\A3\ui_f\data\map\mapcontrol\waypoint_ca.paa";
+		icon = "\a3\ui_f\data\map\mapcontrol\waypoint_ca.paa";
 		size = 18;
 	};
 	class WaypointCompleted {
@@ -947,7 +849,7 @@ class w_RscMapControl
 		importance = 1;
 		coefMin = 1;
 		coefMax = 1;
-		icon = "\A3\ui_f\data\map\mapcontrol\waypointcompleted_ca.paa";
+		icon = "\a3\ui_f\data\map\mapcontrol\waypointcompleted_ca.paa";
 		size = 18;
 	};
 	class power {
