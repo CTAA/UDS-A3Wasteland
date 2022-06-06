@@ -14,27 +14,27 @@ _DEBUG = format ["%1", _this select 0];
 // Compile a function from a file.
 // if in debug mode, the function will be dyncamically compiled every call.
 // if not in debug mode, the function will be compileFinal'd
-// example: my_fnc_name = ["path/to/folder", "my_fnc.sqf"] call mf_compile;
-// example: my_fnc_name = ["path/to/folder/my_fnc.sqf"] call mf_compile;
+// example: my_fnc_name = ["path\to\folder", "my_fnc.sqf"] call mf_compile;
+// example: my_fnc_name = ["path\to\folder\my_fnc.sqf"] call mf_compile;
 // later in the code you can simply use call my_fnc_name;
 // you can also pass raw code to get it compileFinal'd
+// example: my_fnc_name = {diag_log "hey"} call mf_compile;
 mf_compile = compileFinal
 ('
 	private ["_path", "_isDebug", "_code"];
 	_path = "";
 	_isDebug = ' + _DEBUG + ';
 
-	switch (toUpper typeName _this) do {
-		case "STRING": {
+	switch (true) do {
+		case (_this isEqualType ""): {
 			_path = _this;
 		};
-		case "ARRAY": {
-			_path = format["%1\%2", _this select 0, _this select 1];
+		case (_this isEqualType []): {
+			_path = _this joinString "\";
 		};
-		case "CODE": {
-			_code = toArray str _this;
-			_code set [0, (toArray " ") select 0];
-			_code set [count _code - 1, (toArray " ") select 0];
+		case (_this isEqualType {}): {
+			_code = str _this;
+			_code = _code select [1, count _code - 2];
 		};
 	};
 
@@ -43,14 +43,14 @@ mf_compile = compileFinal
 			compile format ["call compile preProcessFileLineNumbers ""%1""", _path]
 		} else {
 			compileFinal preProcessFileLineNumbers _path
-		};
+		}
 	} else {
 		if (_isDebug) then {
-			compile toString _code
+			_this
 		} else {
-			compileFinal toString _code
-		};
-	};
+			compileFinal _code
+		}
+	}
 ');
 
 // Simple command I use to make initialization scripts clean and simple.
@@ -69,6 +69,7 @@ mf_init =
 _clientFunc = "client\functions";
 _serverFunc = "server\functions";
 
+A3W_fnc_artilleryStrike = "client\items\artillery\fn_artilleryStrike.sqf" call mf_compile;
 A3W_fnc_deathMessage = [_serverFunc, "fn_deathMessage.sqf"] call mf_compile;
 A3W_fnc_getInFast = [_clientFunc, "fn_getInFast.sqf"] call mf_compile;
 A3W_fnc_isBleeding = [_serverFunc, "fn_isBleeding.sqf"] call mf_compile;
@@ -76,11 +77,12 @@ A3W_fnc_isFriendly = [_clientFunc, "fn_isFriendly.sqf"] call mf_compile;
 A3W_fnc_isUnconscious = [_serverFunc, "fn_isUnconscious.sqf"] call mf_compile;
 A3W_fnc_killBroadcast = "client\systems\killFeed\fn_killBroadcast.sqf" call mf_compile;
 A3W_fnc_killFeedEntry = "client\systems\killFeed\fn_killFeedEntry.sqf" call mf_compile;
-A3W_fnc_setVarServer = [_serverFunc, "fn_setVarServer.sqf"] call mf_compile;
 A3W_fnc_processTransaction = [_serverFunc, "processTransaction.sqf"] call mf_compile;
 A3W_fnc_pushVehicle = [_serverFunc, "pushVehicle.sqf"] call mf_compile;
 A3W_fnc_setCMoney = [_serverFunc, "fn_setCMoney.sqf"] call mf_compile;
+A3W_fnc_setVarServer = [_serverFunc, "fn_setVarServer.sqf"] call mf_compile;
 A3W_fnc_setVehicleLoadout = [_serverFunc, "fn_setVehicleLoadout.sqf"] call mf_compile;
+A3W_fnc_takeArtilleryStrike = "client\items\artillery\fn_takeArtilleryStrike.sqf" call mf_compile;
 A3W_fnc_towingHelper = [_serverFunc, "towingHelper.sqf"] call mf_compile;
 applyVehicleTexture = "client\systems\vehicleStore\applyVehicleTexture.sqf" call mf_compile;
 cargoToPairs = [_serverFunc, "cargoToPairs.sqf"] call mf_compile;
@@ -100,14 +102,14 @@ fn_enableSimulationGlobal = [_serverFunc, "fn_enableSimulationGlobal.sqf"] call 
 fn_enableSimulationServer = [_serverFunc, "fn_enableSimulationServer.sqf"] call mf_compile;
 fn_filterString = [_serverFunc, "fn_filterString.sqf"] call mf_compile;
 fn_findInPairs = [_serverFunc, "fn_findInPairs.sqf"] call mf_compile;
-fn_findPilot = [_clientFunc, "fn_findPilot.sqf"] call mf_compile; //
+fn_findPilot = [_clientFunc, "fn_findPilot.sqf"] call mf_compile;
 fn_findString = [_serverFunc, "fn_findString.sqf"] call mf_compile;
 fn_findTurretShooter = [_clientFunc, "fn_findTurretShooter.sqf"] call mf_compile;
 fn_forceAddItem = [_clientFunc, "fn_forceAddItem.sqf"] call mf_compile;
 fn_getFromPairs = [_serverFunc, "fn_getFromPairs.sqf"] call mf_compile;
 fn_getParentWeapon = [_clientFunc, "fn_getParentWeapon.sqf"] call mf_compile;
 fn_getPos3D = [_serverFunc, "fn_getPos3D.sqf"] call mf_compile;
-fn_getPylonsAmmo = [_serverFunc, "fn_getPylonsAmmo.sqf"] call mf_compile; //
+fn_getPylonsAmmo = [_serverFunc, "fn_getPylonsAmmo.sqf"] call mf_compile;
 fn_getScore = [_serverFunc, "fn_getScore.sqf"] call mf_compile;
 fn_getTeamScore = [_serverFunc, "fn_getTeamScore.sqf"] call mf_compile;
 fn_hideObjectGlobal = [_serverFunc, "fn_hideObjectGlobal.sqf"] call mf_compile;
@@ -149,8 +151,6 @@ vehicleDammagedEvent = [_serverFunc, "vehicleDammagedEvent.sqf"] call mf_compile
 vehicleEngineEvent = [_serverFunc, "vehicleEngineEvent.sqf"] call mf_compile;
 vehicleHandleDamage = [_serverFunc, "vehicleHandleDamage.sqf"] call mf_compile;
 vehicleHitTracking = [_serverFunc, "vehicleHitTracking.sqf"] call mf_compile;
-
-A3W_fnc_cleanupObjects = [_serverFunc, "cleanupObjects.sqf"] call mf_compile;
 
 call compile preprocessFileLineNumbers "server\functions\mf_remote.sqf";
 
