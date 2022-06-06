@@ -23,16 +23,16 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"],
-		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"],
-		["CUP_B_AH6X_USA", "CUP_B_AH6X_USA"]
+		["CUP_B_AH6J_USA", "CUP_B_AH6J_USA"],
+		["CUP_B_AH6J_USA", "CUP_B_AH6J_USA"],
+		["CUP_B_AH6J_USA", "CUP_B_AH6J_USA"]
 	];
 
 	if (missionDifficultyHard) then
 	{
-		(_heliChoices select 0) set [0, "CUP_B_AH6X_USA"];
-		(_heliChoices select 1) set [0, "CUP_B_AH6X_USA"];
-		(_heliChoices select 2) set [0, "CUP_B_AH6X_USA"];
+		(_heliChoices select 0) set [0, "CUP_B_AH6J_USA"];
+		(_heliChoices select 1) set [0, "CUP_B_AH6J_USA"];
+		(_heliChoices select 2) set [0, "CUP_B_AH6J_USA"];
 	};
 
 	_convoyVeh = _heliChoices call BIS_fnc_selectRandom;
@@ -131,11 +131,11 @@ _successExec =
 
 	_box1 = createVehicle ["Box_T_East_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_Weapon_tropic"] call fn_refillbox;
+	[_box1, "mission_Launchers1"] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_EAF_Support_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_Weapon2"] call fn_refillbox;
+	[_box2, "mission_Weapon1"] call fn_refillbox;
 
 	_successHintMessage = "The AH-6X patrol has been taken out.";
 };
