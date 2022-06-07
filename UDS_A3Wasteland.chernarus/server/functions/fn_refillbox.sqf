@@ -30,6 +30,56 @@ clearWeaponCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearAllItemsFromBackpack _box;
 
+// Item Loot Arrays
+
+private _bipod = [
+	"bipod_01_F_blk",
+	"bipod_02_F_blk",
+	"bipod_03_F_blk"];
+private _opforScope = [
+	"CUP_optic_PSO_1_1",
+	"CUP_optic_PSO_1_1_open",
+	"CUP_optic_PSO_1",
+	"CUP_optic_PSO_1_open",
+	"CUP_optic_PSO_3",
+	"CUP_optic_PSO_3_open",
+	"CUP_optic_NSPU",
+	"CUP_optic_AN_PVS_10"];
+private _bluforScope = [
+	"CUP_optic_LeupoldMk4_25x50_LRT_DESERT",
+	"CUP_optic_Leupold_VX3",
+	"CUP_optic_LeupoldMk4",
+	"CUP_optic_LeupoldMk4_CQ_T",
+	"optic_AMS",
+	"optic_KHS_blk",
+	"optic_DMS",
+	"optic_SOS",
+	"optic_LRPS",
+	"CUP_optic_SB_11_4x20_PM"];
+private _bluforGhillie = [
+	"U_B_GhillieSuit",
+	"U_B_FullGhillie_ard",
+	"U_B_FullGhillie_lsh",
+	"U_B_FullGhillie_sard",
+	"U_B_T_FullGhillie_tna_F",
+	"CUP_U_B_CZ_WDL_Ghillie",
+	"CUP_U_B_BAF_MTP_GHILLIE",
+	"CUP_U_B_BAF_DDPM_GHILLIE",
+	"CUP_U_B_BAF_DPM_GHILLIE",
+	"CUP_U_B_CZ_DST_Ghillie"];
+private _opforGhillie = [
+	"U_O_GhillieSuit",
+	"U_O_FullGhillie_ard",
+	"U_O_FullGhillie_lsh",
+	"U_O_FullGhillie_sard",
+	"U_O_T_FullGhillie_tna_F",
+	"CUP_U_O_RUS_Ghillie",
+	"CUP_U_O_TK_Ghillie_Top"];
+private _indyGhillie = [
+	
+]
+
+
 switch (_boxType) do {
 	case "mission_rifles1": {
 		_boxItems = [
@@ -54,18 +104,12 @@ switch (_boxType) do {
 			["wep", "srifle_DMR_07_blk_F", 1, RANDOM_BETWEEN(4,9)],
 			["wep", "srifle_DMR_05_blk_F", 1, RANDOM_BETWEEN(4,9)],
 			["wep", "CUP_srifle_CZ550_rail", 1, RANDOM_BETWEEN(4,9)],
-			["itm", [
-				"bipod_01_F_blk",
-				"bipod_02_F_blk",
-				"bipod_03_F_blk",
-				"bipod_01_F_mtp",
-				"bipod_02_F_hex",
-				"bipod_03_F_oli",
-				"bipod_01_F_snd",
-				"bipod_02_F_tan",
-				"bipod_01_F_khk",
-				"bipod_02_F_arid",
-				"bipod_02_F_lush"]]
+			["itm", _bipod, RANDOM_BETWEEN(2,3)],
+			["itm", _opforScope, RANDOM_BETWEEN(1,2)],
+			["itm", _bluforScope, RANDOM_BETWEEN(2,4)],
+			["itm", _bluforGhillie, 1],
+			["itm", _opforGhillie, 1],
+			["itm", _indyGhillie, 1],
 		];
 	};
 	// Diving Loot
