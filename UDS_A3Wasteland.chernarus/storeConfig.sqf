@@ -198,23 +198,23 @@ rifleArray = compileFinal str
 
 	// Sniper/Marskman Rifles
 	["AS VAL", "CUP_arifle_AS_VAL", 10000],
-	["AS VAL (RIS mount/Grip)", "CUP_arifle_AS_VAL_VFG_top_rail", 12000],
+	["AS VAL (RIS mount/Grip)", "CUP_arifle_AS_VAL_VFG_top_rail", 15000],
 
-	["AS50", "CUP_srifle_AS50", 16000],
+	["AS50", "CUP_srifle_AS50", 25000],
 
-	["CMR-76 Stealth Rifle", "srifle_DMR_07_blk_F", 4000],
-	["Cyrus Rifle", "srifle_DMR_05_blk_F", 7500],
+	["CMR-76 Stealth Rifle", "srifle_DMR_07_blk_F", 15000],
+	["Cyrus Rifle", "srifle_DMR_05_blk_F", 20000],
 
-	["CZ 550 (picatinny rail)", "CUP_srifle_CZ550_rail", 4000],
-	["CZ 750", "CUP_srifle_CZ750", 4600],
+	["CZ 550 (picatinny rail)", "CUP_srifle_CZ550_rail", 1000],
+	["CZ 750", "CUP_srifle_CZ750", 7500],
 
-	["G22 (Desert)", "CUP_srifle_G22_des", 6000],
-	["HK417 DMR", "CUP_arifle_HK417_20", 6000],
-	["KSVK", "CUP_srifle_ksvk", 18000],
-	["L115A3 LRR (AWM)", "CUP_srifle_AWM_wdl", 11000],
-	["L82A2 LSW", "CUP_arifle_L86A2", 12000],
-	["Lee Enfield", "CUP_srifle_LeeEnfield_rail", 4000],
-	["M107", "CUP_srifle_M107_Base", 14000],
+	["G22 (Desert)", "CUP_srifle_G22_des", 20000],
+	["HK417 DMR", "CUP_arifle_HK417_20", 15000],
+	["KSVK", "CUP_srifle_ksvk", 30000],
+	["L115A3 LRR (AWM)", "CUP_srifle_AWM_wdl", 22500],
+	["Lee Enfield", "CUP_srifle_LeeEnfield_rail", 7500],
+	["M107", "CUP_srifle_M107_Base", 30000],
+	// zz
 	["M110", "CUP_srifle_m110_kac_black", 4000],
 
 	["M14", "CUP_srifle_M14", 4000],
@@ -258,6 +258,7 @@ lmgArray = compileFinal str
 	["CAR-95-1 LMG", "arifle_CTARS_blk_F", 3000],
 	["L110A2", "CUP_lmg_L110A1", 7500],
 	["L7A2 GPMG", "CUP_lmg_L7A2_Flat", 8500],
+	["L82A2 LSW", "CUP_arifle_L86A2", 12000],
 	["LIM-85 LMG", "LMG_03_F", 3500],
 	["M240", "CUP_lmg_M240", 7500],
 	["M249 (Squantoon Special)", "CUP_lmg_m249_SQuantoon", 7500],
