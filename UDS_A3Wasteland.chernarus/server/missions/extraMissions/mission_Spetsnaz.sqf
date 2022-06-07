@@ -56,11 +56,11 @@ _successExec =
 	// Mission completed
 	private _box1 = createVehicle ["Box_EAF_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_DLC_contact"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	private _box2 = createVehicle ["Box_EAF_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_LMGs1"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 
 	_successHintMessage = "Spetsnaz parachutes killed.<br/>Go take their supplies.";
 };

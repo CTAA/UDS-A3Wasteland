@@ -46,6 +46,27 @@ switch (_boxType) do {
 			["itm", "G_Diving", RANDOM_BETWEEN(4,7)],
 		];
 	};
+	case "mission_TESTING": {
+		_boxItems = [
+			["wep", "CUP_arifle_AK101", RANDOM_BETWEEN(1,5), RANDOM_BETWEEN(3,7)],
+			["wep", "CUP_sgun_AA12", RANDOM_BETWEEN(1,5)],
+			["itm", [
+				"Chemlight_red", 
+				"Chemlight_green", 
+				"Chemlight_yellow", 
+				"Chemlight_blue"], RANDOM_BETWEEN(3,6)],
+			["itm", [
+				"CUP_arifle_M16A1", 
+				"CUP_arifle_M16A2", 
+				"CUP_arifle_M16A4_Base"], RANDOM_BETWEEN(1,5), RANDOM_BETWEEN(3,6)],
+			["itm", [
+      ["V_PlateCarrier1_rgr", "V_PlateCarrier1_blk", "V_PlateCarrierIA1_dgtl"], // Lite
+      ["V_PlateCarrier2_rgr", "V_PlateCarrier2_blk", "V_PlateCarrierIA2_dgtl"], // Rig
+      ["V_PlateCarrierSpec_rgr", "V_PlateCarrierSpec_blk", "V_PlateCarrierSpec_mtp"], // Special
+      ["V_PlateCarrierGL_rgr", "V_PlateCarrierGL_blk", "V_PlateCarrierGL_mtp", "V_PlateCarrierIAGL_dgtl", "V_PlateCarrierIAGL_oli"] // GL
+], RANDOM_BETWEEN(1,4)]
+		];
+	};
 	// Diving Loot
 	case "mission_Gear_Diving": {
 		_boxItems = [

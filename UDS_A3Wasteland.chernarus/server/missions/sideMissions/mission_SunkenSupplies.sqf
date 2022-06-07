@@ -20,10 +20,10 @@ _setupObjects =
 	_missionPos = markerPos _missionLocation;
 
 	_box1 = createVehicle ["Box_East_WpsSpecial_F", _missionPos, [], 5, "None"];
-	[_box1, "mission_Assault1"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_East_WpsLaunch_F", _missionPos, [], 5, "None"];
-	[_box2, "mission_Launchers2"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 
 	{
 		_boxPos = getPosASL _x;

@@ -138,11 +138,11 @@ _successExec =
 	// Mission completed
 	_box1 = createVehicle ["Box_East_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_Weapon_green"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_T_East_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_Weapon_sand"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 
 	_successHintMessage = "The helicopter escort has been taken down! Ammo crates have fallen near the wreck.";
 };

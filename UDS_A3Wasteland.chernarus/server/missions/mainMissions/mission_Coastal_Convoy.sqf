@@ -180,11 +180,11 @@ _successExec =
 
 	_box1 = createVehicle ["Box_NATO_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_Weapon1"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_East_Wps_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_Launchers2"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 	
 	_successHintMessage = "The patrol has been stopped, the ammo crates are yours to take.";
 };

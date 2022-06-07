@@ -22,7 +22,7 @@ _setupObjects =
 	_baseToDelete = nearestObjects [_missionPos, ["All"], 25];
 	{ deleteVehicle _x } forEach _baseToDelete;
 	
-	_randomBox = ["mission_Snipers1","mission_Snipers3","mission_Snipers4","mission_DLC_marks","mission_Snipers2"] call BIS_fnc_selectRandom;
+	_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	_tent = createVehicle ["CamoNet_INDP_big_F", _missionPos, [], 3, "None"];

@@ -60,7 +60,7 @@
 ["I_HMG_01_high_F",[-9.87188,5.36751,0],314.326], // keep static hmg.
 ["Land_HBarrier_3_F",[3.125,-4.125,2],90],
 ["Land_HBarrier_3_F",[-3.36323,3.81883,2],270],
-["B_CargoNet_01_ammo_F",[0,0,0],0,{[_this, "mission_Launchers2"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["B_CargoNet_01_ammo_F",[0,0,0],0,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
 ["Land_BagFence_Round_F",[-9.73823,7.94383,0],180],
 ["Land_BagFence_Round_F",[6.375,-10.625,0],315],
 ["Land_BagFence_Round_F",[13.125,-4.75,0],270],
@@ -85,8 +85,8 @@
 ["Land_BagFence_Long_F",[-1.61323,12.4438,0],270],
 ["Land_BagFence_Long_F",[-7.5,-4,2.75],0],
 ["Land_BagFence_Long_F",[-0.238232,10.9438,0],180],
-["Box_East_WpsSpecial_F",[7.07523,4.21517,0],0,{[_this, "mission_Weapon_tropic"] call fn_refillbox;}],
-["Box_East_WpsSpecial_F",[-7.375,-4.75,0],0,{[_this, "mission_Snipers2"] call fn_refillbox;}],
+["Box_East_WpsSpecial_F",[7.07523,4.21517,0],0,{[_this, "mission_TESTING"] call fn_refillbox;}],
+["Box_East_WpsSpecial_F",[-7.375,-4.75,0],0,{[_this, "mission_TESTING"] call fn_refillbox;}],
 ["Land_BagFence_Short_F",[-8.288,-1.466,0],225],
 ["Land_BagFence_Short_F",[7.625,-7.25,0],45],
 ["Land_BagFence_Short_F",[-7.86323,6.94383,0],225],

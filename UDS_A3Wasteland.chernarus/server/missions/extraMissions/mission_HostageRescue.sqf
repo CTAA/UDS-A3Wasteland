@@ -56,7 +56,7 @@ _setupObjects =
 	_obj3 = createVehicle ["CUP_B_Ridgback_HMG_GB_W", _missionPos,[], 10,"None"]; 
 	_obj3 setPosATL [(_missionPos select 0) + 2, (_missionPos select 1) - 2, _missionPos select 2];
 	
-	_randomBox = selectRandom ["mission_Weapon2","mission_Snipers3","mission_Snipers1"];
+	_randomBox = selectRandom ["mission_TESTING","mission_TESTING","mission_TESTING"];
 	_randomBox2 = selectRandom ["mission_DLC_marks","mission_Snipers2","mission_LMGs1"];
 
 	_box1 = createVehicle ["Box_NATO_Equip_F", _missionPos, [], 5, "None"];

@@ -25,7 +25,7 @@ _setupObjects =
 	_box1 = createVehicle ["Box_NATO_Wps_F", _missionPos, [], 0, "None"];
 	_box1 setVariable ["R3F_LOG_disabled", true, true];
 	_box1 setDir random 360;
-	[_box1, "mission_Weapon1"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	_cashObjects = [];
 

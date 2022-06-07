@@ -22,11 +22,11 @@ _setupObjects = {
 
 	_box1 = createVehicle ["Box_GEN_Equip_F", [(_missionPos select 0) + 10, (_missionPos select 1) + 4, 0], [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_Gear_Cop"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_GEN_Equip_F", [(_missionPos select 0) + 10, (_missionPos select 1) + 6, 0], [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_Gear_BlackBox"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 	
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1, _box2];
 

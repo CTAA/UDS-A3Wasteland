@@ -43,7 +43,7 @@ _successExec =
 	// Mission completed
 	{ deleteVehicle _x } forEach [_GeoCache];
 	
-	_randomBox = ["mission_Launchers1","mission_Weapon1","mission_Snipers1"] call BIS_fnc_selectRandom;
+	_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	private _box1 = createVehicle [_randomCase, _geoPos, [], 5, "None"];

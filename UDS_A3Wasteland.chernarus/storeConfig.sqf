@@ -152,7 +152,7 @@ rifleArray = compileFinal str
 
 	["L85A2 (RIS/GRIP)", "CUP_arifle_L85A2_G", 2500],
 
-	["M16A1", "CUP_arifle_M16A", 2500],
+	["M16A1", "CUP_arifle_M16A1", 2500],
 	["M16A2", "CUP_arifle_M16A2", 2600],
 	["M16A4", "CUP_arifle_M16A4_Base", 2800],
 

@@ -21,7 +21,7 @@ _setupObjects = {
 	_baseToDelete = nearestObjects [_missionPos, ["All"], 25];
 	{ deleteVehicle _x } forEach _baseToDelete; 
 	
-	_randomBox = ["mission_Snipers4", "mission_Snipers2"] call BIS_fnc_selectRandom;
+	_randomBox = ["mission_TESTING", "mission_TESTING"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	_uav = createVehicle ["CUP_B_USMC_DYN_MQ9", _missionPos, [], 3, "None"];

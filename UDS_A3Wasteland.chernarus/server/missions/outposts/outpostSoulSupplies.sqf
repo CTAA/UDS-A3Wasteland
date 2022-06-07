@@ -70,10 +70,10 @@
 ["Land_HBarrier_3_F",[-7.75,-11.25,1.34859],45],
 ["Land_HBarrier_3_F",[-9.125,5.625,1.30799],135],
 ["Land_HBarrier_3_F",[-9,0.125,1.35619],45],
-["Box_FIA_Support_F",[1.125,-1.625,0.601674],0,{[_this, "mission_Launchers1"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
-["Box_IND_WpsSpecial_F",[8.125,1.875,0.722088],0,{[_this, "mission_LMGs1"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
-["Box_IND_WpsLaunch_F",[5.75,1.875,0.722088],0,{[_this, "mission_Weapon1"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
-["Box_IND_Grenades_F",[-0.875,-2.75,3.12652],0,{[_this, "mission_Snipers3"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
-["Box_IND_Support_F",[-0.875,-5.25,3.12652],0,{[_this, "mission_Snipers1"] call fn_refillbox;}] // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_FIA_Support_F",[1.125,-1.625,0.601674],0,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_IND_WpsSpecial_F",[8.125,1.875,0.722088],0,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_IND_WpsLaunch_F",[5.75,1.875,0.722088],0,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_IND_Grenades_F",[-0.875,-2.75,3.12652],0,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_IND_Support_F",[-0.875,-5.25,3.12652],0,{[_this, "mission_TESTING"] call fn_refillbox;}] // leave crate as-is, disallow damage, lock crate until mission complete.
 
 ]

@@ -86,11 +86,11 @@ _successExec =
 {
 	private _box1 = createVehicle ["Box_Syndicate_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_Gear_BlackBox"] call fn_refillbox;
+	[_box1, "mission_TESTING"] call fn_refillbox;
 	
 	private _box2 = createVehicle ["Box_Syndicate_Ammo_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_Launchers4"] call fn_refillbox;
+	[_box2, "mission_TESTING"] call fn_refillbox;
 
 	_successHintMessage = "Good job, you successfully defeated the SpecOps,<br/>Now go and retrieve their supplies!";
 };
