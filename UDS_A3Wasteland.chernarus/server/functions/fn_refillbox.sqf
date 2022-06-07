@@ -54,6 +54,18 @@ switch (_boxType) do {
 			["wep", "srifle_DMR_07_blk_F", 1, RANDOM_BETWEEN(4,9)],
 			["wep", "srifle_DMR_05_blk_F", 1, RANDOM_BETWEEN(4,9)],
 			["wep", "CUP_srifle_CZ550_rail", 1, RANDOM_BETWEEN(4,9)],
+			["itm", [
+				"bipod_01_F_blk",
+				"bipod_02_F_blk",
+				"bipod_03_F_blk",
+				"bipod_01_F_mtp",
+				"bipod_02_F_hex",
+				"bipod_03_F_oli",
+				"bipod_01_F_snd",
+				"bipod_02_F_tan",
+				"bipod_01_F_khk",
+				"bipod_02_F_arid",
+				"bipod_02_F_lush"]]
 		];
 	};
 	// Diving Loot
