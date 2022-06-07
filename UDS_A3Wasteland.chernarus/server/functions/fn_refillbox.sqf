@@ -43,7 +43,7 @@ switch (_boxType) do {
 			["wep", "CUP_arifle_AK109", RANDOM_BETWEEN(0,2), RANDOM_BETWEEN(3,7)],
 			["itm", "U_O_Wetsuit", RANDOM_BETWEEN(2,4)],
 			["itm", "U_I_Wetsuit", RANDOM_BETWEEN(2,4)],
-			["itm", "G_Diving", RANDOM_BETWEEN(4,7)],
+			["itm", "G_Diving", RANDOM_BETWEEN(4,7)]
 		];
 	};
 	case "mission_TESTING": {
