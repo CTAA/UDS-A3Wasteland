@@ -59,7 +59,7 @@
 */
 
 _maxTime = 60; // max out of bounds timer
-_maxHeightRemote = 1500; // max remote-vehicle height - this MUST match the outOfBoundsRemote.sqf entry!
+_maxHeightRemote = 1000; // max remote-vehicle height - this MUST match the outOfBoundsRemote.sqf entry!
 
 /*	------------------------------------------------------------------------------------------
 	DO NOT EDIT BELOW HERE!

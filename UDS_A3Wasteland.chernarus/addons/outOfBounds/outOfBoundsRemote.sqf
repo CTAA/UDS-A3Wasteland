@@ -38,7 +38,7 @@
 */
 
 _maxTime = 60; // max out of bounds timer
-_maxHeight = 1500; // max remote height
+_maxHeight = 1000; // max remote height
 
 /*	------------------------------------------------------------------------------------------
 	DO NOT EDIT BELOW HERE!
