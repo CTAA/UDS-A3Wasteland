@@ -156,6 +156,8 @@ rifleArray = compileFinal str
 	["M16A2", "CUP_arifle_M16A2", 2600],
 	["M16A4", "CUP_arifle_M16A4_Base", 2800],
 
+	["M27 IAR", "CUP_arifle_HK_M27_VFG", 7000],
+
 	["M4 SBR (OD)", "CUP_arifle_SBR_od", 2900],
 	["M4A1", "CUP_arifle_M4A1_black", 2600],
 	["M4A1 (Grip)", "CUP_arifle_M4A3_black", 2800],
@@ -193,7 +195,6 @@ rifleArray = compileFinal str
 
 	["XM8 Carbine", "CUP_arifle_XM8_Carbine", 1000],
 	["XM8 Carbine (RIS)", "CUP_arifle_XM8_Railed", 1000],
-	["XM8 SAW", "CUP_arifle_xm8_SAW", 1000],
 	["XM8 Sharpshooter", "CUP_arifle_xm8_sharpshooter", 1000],
 
 	// Sniper/Marskman Rifles
@@ -213,43 +214,38 @@ rifleArray = compileFinal str
 	["KSVK", "CUP_srifle_ksvk", 30000],
 	["L115A3 LRR (AWM)", "CUP_srifle_AWM_wdl", 22500],
 	["Lee Enfield", "CUP_srifle_LeeEnfield_rail", 7500],
-	["M107", "CUP_srifle_M107_Base", 30000],
-	// zz
-	["M110", "CUP_srifle_m110_kac_black", 4000],
+	["M107", "CUP_srifle_M107_Base", 35000],
+	["M110", "CUP_srifle_m110_kac_black", 15000],
 
-	["M14", "CUP_srifle_M14", 4000],
-	["M14 DMR", "CUP_srifle_M14_DMR", 4000],
+	["M14", "CUP_srifle_M14", 10000],
+	["M14 DMR", "CUP_srifle_M14_DMR", 15000],
 
-	["M24", "CUP_srifle_M24_wdl", 10000],
+	["M24", "CUP_srifle_M24_wdl", 20000],
 
-	["M27 IAR", "CUP_arifle_HK_M27_VFG", 7000],
-	["M27 M320", "CUP_arifle_HK_M27_AG36", 7500],
+	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 30000],
+	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 30000],
 
-	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 10000],
-	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 12000],
+	["M40A3", "CUP_srifle_M40A3", 15000],
+	["MAR-10 Rifle", "srifle_DMR_02_F", 20000],
+	["Mk14 Rifle (Camo)", "srifle_DMR_06_camo_F", 12000],
+	["Mk18 ABR Rifle", "srifle_EBR_F", 10000],
+	["Mk 12 SPR", "CUP_srifle_Mk12SPR", 7500],
+	["Mk-I EMR Rifle", "srifle_DMR_03_F", 10000],
 
-	["M40A3", "CUP_srifle_M40A3", 8000],
-	["MAR-10 Rifle", "srifle_DMR_02_F", 7500],
-	["Mk14 Rifle (Camo)", "srifle_DMR_06_camo_F", 5000],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 4500],
-	["Mk 12 SPR", "CUP_srifle_Mk12SPR", 4500],
-	["Mk-I EMR Rifle", "srifle_DMR_03_F", 5000],
-	["MG 36", "CUP_arifle_MG36", 6500],
+	["MXM Rifle", "arifle_MXM_F", 7500],
+	["MXM Rifle (Black)", "arifle_MXM_Black_F", 7500],
+	["MXM Rifle (Khaki)", "arifle_MXM_khk_F", 7500, "noDLC"],
 
-	["MXM Rifle", "arifle_MXM_F", 3000],
-	["MXM Rifle (Black)", "arifle_MXM_Black_F", 3000],
-	["MXM Rifle (Khaki)", "arifle_MXM_khk_F", 3000, "noDLC"],
+	["Rahim DMR Rifle", "srifle_DMR_01_F", 7500],
 
-	["Rahim DMR Rifle", "srifle_DMR_01_F", 3750],
+	["SPAR-17 Rifle", "arifle_SPAR_03_blk_F", 7500],
+	["SPAR-17 Rifle (Khaki)", "arifle_SPAR_03_khk_F", 7500],
+	["SPAR-17 Rifle (Sand)", "arifle_SPAR_03_snd_F", 7500],
 
-	["SPAR-17 Rifle", "arifle_SPAR_03_blk_F", 4500],
-	["SPAR-17 Rifle (Khaki)", "arifle_SPAR_03_khk_F", 4500],
-	["SPAR-17 Rifle (Sand)", "arifle_SPAR_03_snd_F", 4500],
+	["SVD", "CUP_srifle_SVD", 12500],
+	["SVD (RIS)", "CUP_srifle_SVD_wdl_top_rail", 17500],
 
-	["SVD", "CUP_srifle_SVD", 9000],
-	["SVD (RIS)", "CUP_srifle_SVD_wdl_top_rail", 9000],
-
-	["VSS Vintorez (RIS/Grip)", "CUP_srifle_VSSVintorez_VFG_top_rail", 8000]
+	["VSS Vintorez (RIS/Grip)", "CUP_srifle_VSSVintorez_VFG_top_rail", 10000]
 ];
 
 lmgArray = compileFinal str
@@ -266,6 +262,7 @@ lmgArray = compileFinal str
 	["M60", "CUP_lmg_M60", 7500],
 	["M60E4", "CUP_lmg_M60E4", 7500],
 	["MAG 60.20 (RIS)", "CUP_lmg_FNMAG_RIS", 7500],
+	["MG 36", "CUP_arifle_MG36", 6500],
 	["MG3 (RIS)", "CUP_lmg_MG3_rail", 7500],
 	["Minimi (RIS/Grip)", "CUP_lmg_minimi_railed", 7500],
 	["Mk48 Mod 0", "CUP_lmg_Mk48", 7500],
@@ -276,25 +273,26 @@ lmgArray = compileFinal str
 	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
 	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
 
-	["UK-59", "CUP_lmg_UK59", 7500]
+	["UK-59", "CUP_lmg_UK59", 7500],
+	["XM8 SAW", "CUP_arifle_xm8_SAW", 10000]
 ];
 
 launcherArray = compileFinal str
 [
 	// Launchers
-	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], // Ammo missing from store, must fix
+	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], 
 	["FGM-148 Javelin", "CUP_launch_Javelin", 8000],
-	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], // Ammo missing from store, must fix
-	["Igla 9K38", "CUP_launch_Igla", 8000], // Ammo missing from store, must fix
-	["M136 Granatenwerfer", "CUP_launch_M136", 8000], // Ammo missing from store, must fix
+	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], 
+	["Igla 9K38", "CUP_launch_Igla", 8000], 
+	["M136 Granatenwerfer", "CUP_launch_M136", 8000], 
 	["M47 Dragon", "CUP_launch_M47", 8000],
-	["M72A6", "CUP_launch_M72A6", 8000], // Ammo missing from store, must fix
-	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], // Ammo missing from store, must fix
+	["M72A6", "CUP_launch_M72A6", 8000], 
+	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], 
 	["Metis AT-13", "CUP_launch_Metis", 8000],
 	["Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", 8000],
 	["Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", 8000],
 	["RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V", 8000],
-	["RPG18", "CUP_launch_RPG18", 8000] // Ammo missing from store, must fix
+	["RPG18", "CUP_launch_RPG18", 8000] 
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray + call gLauncherArray);
