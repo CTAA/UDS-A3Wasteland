@@ -21,7 +21,7 @@ A3W_timeMultiplierNight = 18.0;     // Sets the speed of time between 8 PM and 5
 A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 
 // UDS settings
-A3W_customLoadoutEnabled = 1;
+A3W_customLoadoutEnabled = 0;
 A3W_donatorEnabled = 1; 
 A3W_memberEnabled = 1;
 A3W_teamBalance = 1;
