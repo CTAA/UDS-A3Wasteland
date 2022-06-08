@@ -2,27 +2,27 @@
 // * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
 // ******************************************************************************************
 /*********************************************************#
-# @@ScriptName: storeConfig.sqf
-# @@Author: His_Shadow, AgentRev
-# @@Create Date: 2013-09-16 20:40:58
+	# @@scriptName: storeConfig.sqf
+	# @@Author: His_Shadow, AgentRev
+	# @@Create date: 2013-09-16 20:40:58
 #*********************************************************/
 
-// █████ FOR USE WITH APEX SNEAK PREVIEW BRANCH ONLY! █████
+// █████ for USE with APEX SNEAK PREVIEW BRANCH ONLY! █████
 
 // This tracks which store owner the client is interacting with
 currentOwnerName = "";
 
-// Gunstore Weapon List - Gun Store Base List
-// Text name, classname, buy cost
+// Gunstore Weapon list - Gun Store Base list
+// text name, className, buy cost
 
 // empty name = name is extracted from class config
 
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
-// ARRAYS ARE CONFIGURED IN ALPHABETICAL ORDER FOR CLARITY IN SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
+// ARRAYS ARE CONFIGURED in ALPHABETICAL ORDER for CLARITY in SHOP
 
 pistolArray = compileFinal str
 [
@@ -62,7 +62,7 @@ smgArray = compileFinal str
 	["Vermin SMG", "SMG_01_F", 1250]
 ];
 
-gLauncherArray = compileFinal str //Need Check
+gLauncherArray = compileFinal str// Need Check
 [
 	// Grenade Launchers
 	["6G30 Launcher", "CUP_glaunch_6G30", 10000],
@@ -73,7 +73,7 @@ gLauncherArray = compileFinal str //Need Check
 
 rifleArray = compileFinal str
 [
-	// Underwater Rifle
+	// underwater Rifle
 	["SDAR Underwater Rifle", "arifle_SDAR_F", 1000],
 
 	// Shotguns
@@ -82,9 +82,9 @@ rifleArray = compileFinal str
 	["CZ 584 RIS", "CUP_sgun_CZ584_RIS", 4400],
 	["Kozlice 12G (Sawedoff)", "sgun_HunterShotgun_01_sawedoff_F", 1000],
 	["Kozlice 12G", "sgun_HunterShotgun_01_F", 1500],
- 	["M1014", "CUP_sgun_M1014", 1000],
- 	["M1014 (VFG)", "CUP_sgun_M1014_vfg", 1000],
- 	["M1014 Entry Kugel munition zu OP", "CUP_sgun_M1014_Entry", 1000],
+	["M1014", "CUP_sgun_M1014", 1000],
+	["M1014 (VFG)", "CUP_sgun_M1014_vfg", 1000],
+	["M1014 Entry Kugel munition zu OP", "CUP_sgun_M1014_Entry", 1000],
 	["Saiga 12K (RIS)", "CUP_sgun_Saiga12K_top_rail", 2000],
 
 	// Rifles
@@ -113,8 +113,8 @@ rifleArray = compileFinal str
 	["AK-107 (Zenitco/RIS)", "CUP_arifle_AK107_railed", 1900],
 
 	["AK-108", "CUP_arifle_AK108", 1950],
-	["AK-108 (RIS mount)", "CUP_CUP_arifle_AK108_railed", 1950],
-	["AK-108 (Zenitco/RIS)", "arifle_AK108_top_rail", 1950],
+	["AK-108 (RIS mount)", "arifle_AK108_top_rail", 1950],
+	["AK-108 (Zenitco/RIS)", "CUP_CUP_arifle_AK108_railed", 1950],
 
 	["AK-109", "CUP_arifle_AK109", 2000],
 	["AK-109 (RIS mount)", "CUP_arifle_AK109_top_rail", 2000],
@@ -269,7 +269,7 @@ lmgArray = compileFinal str
 	["PKM", "CUP_lmg_PKM", 7500],
 	["PKP (Woodland)", "CUP_lmg_Pecheneg_woodland", 8500],
 	["RPK", "CUP_arifle_RPK74", 7500],
-	
+
 	["SPAR-16S LMG", "arifle_SPAR_02_blk_F", 3000],
 	["SPAR-16S LMG (Sand)", "arifle_SPAR_02_snd_F", 3000],
 
@@ -280,19 +280,19 @@ lmgArray = compileFinal str
 launcherArray = compileFinal str
 [
 	// Launchers
-	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], 
+	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000],
 	["FGM-148 Javelin", "CUP_launch_Javelin", 8000],
-	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], 
-	["Igla 9K38", "CUP_launch_Igla", 8000], 
-	["M136 Granatenwerfer", "CUP_launch_M136", 8000], 
+	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000],
+	["Igla 9K38", "CUP_launch_Igla", 8000],
+	["M136 Granatenwerfer", "CUP_launch_M136", 8000],
 	["M47 Dragon", "CUP_launch_M47", 8000],
-	["M72A6", "CUP_launch_M72A6", 8000], 
-	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], 
+	["M72A6", "CUP_launch_M72A6", 8000],
+	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000],
 	["Metis AT-13", "CUP_launch_Metis", 8000],
 	["Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", 8000],
 	["Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", 8000],
 	["RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V", 8000],
-	["RPG18", "CUP_launch_RPG18", 8000] 
+	["RPG18", "CUP_launch_RPG18", 8000]
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray + call gLauncherArray);
@@ -319,7 +319,7 @@ staticGunsArray = compileFinal str
 	["L16A2 81mm Mortar", "CUP_B_L16A2_BAF_DDPM", 225000],
 	["M119", "CUP_B_M119_US", 40000],
 
-	["M2 HMG .50 High tripod", "I_G_HMG_02_F", 35000], 
+	["M2 HMG .50 High tripod", "I_G_HMG_02_F", 35000],
 	["M2 HMG .50 High tripod", "I_G_HMG_02_high_F", 30000],
 
 	["M2 Machine Gun", "CUP_B_M2StaticMG_US", 30000],
@@ -361,11 +361,11 @@ throwputArray = compileFinal str
 	["Training Mine", "TrainingMine_Mag", 4000]
 ];
 
-//Gun Store Ammo List
-//Text name, classname, buy cost
+// Gun Store ammo list
+// text name, className, buy cost
 ammoArray = compileFinal str
 [
-	// Vanilla Ammo
+	// Vanilla ammo
 	["9mm 10Rnd Mag", "10Rnd_9x21_Mag", 50],
 	["9mm 16Rnd Mag", "16Rnd_9x21_Mag", 100],
 	["9mm 30Rnd Mag", "30Rnd_9x21_Mag", 150],
@@ -457,9 +457,9 @@ ammoArray = compileFinal str
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 500],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 600],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 750],
-	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],         
+	[".50 BW 10Rnd Mag", "10Rnd_50BW_Mag_F", 500],
 
-	// Modded Ammo
+	// Modded ammo
 	["Compact mag", "CUP_10Rnd_9x19_Compact", 100],
 	["Phantom mag", "CUP_18Rnd_9x19_Phantom", 100],
 	["7 Rnd .50 AE", "CUP_7Rnd_50AE_Deagle", 100],
@@ -622,8 +622,8 @@ ammoArray = compileFinal str
 	["40mm Flare Round (IR)", "UGL_FlareCIR_F", 250]
 ];
 
-//Gun Store item List
-//Text name, classname, buy cost, item class
+// Gun Store item list
+// text name, className, buy cost, item class
 accessoriesArray = compileFinal str
 [
 	// Accessories 
@@ -720,7 +720,7 @@ accessoriesArray = compileFinal str
 	["Bipod (Arid)", "bipod_02_F_arid", 1000, "item", "noDLC"],
 	["Bipod (Lush)", "bipod_02_F_lush", 1000, "item", "noDLC"],
 	["Flashlight", "acc_flashlight", 250, "item"],
-	["Pistol Flashlight" ,"acc_flashlight_pistol", 250, "item"],
+	["Pistol Flashlight", "acc_flashlight_pistol", 250, "item"],
 	["IR Laser Pointer", "acc_pointer_IR", 250, "item"],
 	["Yorris J2 (Zubr)", "optic_Yorris", 250, "item"],
 	["MRD (4-five)", "optic_MRD", 250, "item"],
@@ -855,20 +855,20 @@ accessoriesArray = compileFinal str
 	["AN/PVS-4 NVS (M14)", "CUP_optic_AN_PVS_4_M14", 5200, "item"],
 	["AN/PVS-4 NVS (M16)", "CUP_optic_AN_PVS_4_M16", 5300, "item"],
 	["NVS", "optic_NVS", 5000, "item"]
-	//["TWS", "optic_tws", 50000, "item", "HIDDEN"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
-	//["TWS MG", "optic_tws_mg", 60000, "item", "HIDDEN"],
-	//["Nightstalker", "optic_Nightstalker", 75000, "item", "HIDDEN"],
-	// ["CWS", "CUP_optic_CWS", 75000, "item", "HIDDEN"],
-	// ["AN/PAS 13C1 TWS", "CUP_optic_AN_PAS_13c1", 75000, "item", "HIDDEN"],
-	// ["AN/PAS 13C2 HTWS", "CUP_optic_AN_PAS_13c2", 75000, "item", "HIDDEN"],
-	// "CUP_optic_GOSHAWK_RIS"; //Goshawk TWS (RIS)
-	// "CUP_optic_GOSHAWK"; //Goshawk TWS (no RIS)
+// ["TWS", "optic_tws", 50000, "item", "HIDDEN"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
+// ["TWS MG", "optic_tws_mg", 60000, "item", "HIDDEN"],
+// ["Nightstalker", "optic_Nightstalker", 75000, "item", "HIDDEN"],
+// ["CWS", "CUP_optic_CWS", 75000, "item", "HIDDEN"],
+// ["AN/PAS 13C1 TWS", "CUP_optic_AN_PAS_13c1", 75000, "item", "HIDDEN"],
+// ["AN/PAS 13C2 HTWS", "CUP_optic_AN_PAS_13c2", 75000, "item", "HIDDEN"],
+// "CUP_optic_GOSHAWK_RIS";// Goshawk TWS (RIS)
+// "CUP_optic_GOSHAWK";// Goshawk TWS (no RIS)
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
 headArray = compileFinal str
 [
-	// Headgear
+	// headgear
 	["Gas Mask (NATO)", "H_CrewHelmetHeli_B", 1000, "hat"],
 	["Gas Mask (CSAT)", "H_CrewHelmetHeli_O", 1000, "hat"],
 	["Gas Mask (AAF)", "H_CrewHelmetHeli_I", 1000, "hat"],
@@ -959,7 +959,7 @@ headArray = compileFinal str
 	["Beret (Black)", "H_Beret_blk", 100, "hat"],
 	["Beret (Colonel)", "H_Beret_Colonel", 100, "hat"],
 	["Beret (NATO)", "H_Beret_02", 100, "hat"],
-	["RED Beret (TBD)", "H_Beret_CSAT_01_F", 100, "hat"], //OLDMAN DLC
+	["RED Beret (TBD)", "H_Beret_CSAT_01_F", 100, "hat"], // OLDMAN DLC
 	// ["Beret (Green)", "H_Beret_grn", 100, "hat"],
 	// ["Beret (Police)", "H_Beret_blk_POLICE", 100, "hat"],
 	// ["Beret (Red)", "H_Beret_red", 100, "hat"],
@@ -1046,18 +1046,18 @@ headArray = compileFinal str
 	["Bloody Bandage (LawsDLC)", "H_HeadBandage_bloody_F", 150, "hat", "noDLC"],
 	["Stained Bandage (LawsDLC)", "H_HeadBandage_stained_F", 150, "hat", "noDLC"],
 	["Clean Bandage (LawsDLC)", "H_HeadBandage_clean_F", 150, "hat", "noDLC"],
-	//["Viper Tropic Test (ApexDLC)", "H_HelmetO_ViperSP_ghex_F", 120000, "hat", "noDLC"], //Disable Thermal Script noch nicht fertig
-	//["Viper Desert Test (ApexDLC)", "H_HelmetO_ViperSP_hex_F", 120000, "hat", "noDLC"] //Disable Thermal Script noch nicht fertig
-	["6B27 Helmet (Beige Digital/Goggles/Headset)", "CUP_H_RUS_6B27_cover_BeigeDigital_headset_goggles", 250, "hat"], //Armor II
-	["6B27 Helmet (EMR/Goggles/Headset)", "CUP_H_RUS_6B27_cover_headset_goggles", 250, "hat"], //Armor II
-	["6B27 Helmet (Green)", "CUP_H_RUS_6B27_olive", 250, "hat"], //Armor II
-	["6B27 Helmet (Olive/Goggles/Headset)", "CUP_H_RUS_6B27_headset_goggles", 250, "hat"], //Armor II
-	["6B27 Helmet (Desert/Goggles/Headset)", "CUP_H_RUS_6B47_headset_goggles_desert", 200, "hat"], //Armor I
-	["ACVC (Green)", "CUP_H_USMC_ACVC_WDL", 200, "hat"], //Armor I
-	["ACVC (Sand)", "CUP_H_USMC_ACVC_DES", 200, "hat"], //Armor I
-	["Altyn Combat Helmet (Black/Shield down)", "CUP_H_RUS_Altyn_Shield_Down_black", 350, "hat"], //Armor IV
-	["Altyn Combat Helmet (Green/Shield down)", "CUP_H_RUS_Altyn_Shield_Down", 350, "hat"], //Armor IV
-	["Altyn Combat Helmet (Olive/Shield down)", "CUP_H_RUS_Altyn_Shield_Down_khaki", 350, "hat"], //Armor IV
+	// ["Viper Tropic Test (ApexDLC)", "H_HelmetO_ViperSP_ghex_F", 120000, "hat", "noDLC"], // Disable Thermal Script noch nicht fertig
+	// ["Viper Desert Test (ApexDLC)", "H_HelmetO_ViperSP_hex_F", 120000, "hat", "noDLC"]// Disable Thermal Script noch nicht fertig
+	["6B27 Helmet (Beige Digital/Goggles/Headset)", "CUP_H_RUS_6B27_cover_BeigeDigital_headset_goggles", 250, "hat"], // Armor II
+	["6B27 Helmet (EMR/Goggles/Headset)", "CUP_H_RUS_6B27_cover_headset_goggles", 250, "hat"], // Armor II
+	["6B27 Helmet (Green)", "CUP_H_RUS_6B27_olive", 250, "hat"], // Armor II
+	["6B27 Helmet (Olive/Goggles/Headset)", "CUP_H_RUS_6B27_headset_goggles", 250, "hat"], // Armor II
+	["6B27 Helmet (Desert/Goggles/Headset)", "CUP_H_RUS_6B47_headset_goggles_desert", 200, "hat"], // Armor I
+	["ACVC (Green)", "CUP_H_USMC_ACVC_WDL", 200, "hat"], // Armor I
+	["ACVC (Sand)", "CUP_H_USMC_ACVC_DES", 200, "hat"], // Armor I
+	["Altyn Combat Helmet (Black/Shield down)", "CUP_H_RUS_Altyn_Shield_Down_black", 350, "hat"], // Armor IV
+	["Altyn Combat Helmet (Green/Shield down)", "CUP_H_RUS_Altyn_Shield_Down", 350, "hat"], // Armor IV
+	["Altyn Combat Helmet (Olive/Shield down)", "CUP_H_RUS_Altyn_Shield_Down_khaki", 350, "hat"], // Armor IV
 	["Barett (Fallschirmjaeger) Red", "BWA3_Beret_Falli", 100, "hat"],
 	["Barett (Jaeger) Green", "BWA3_Beret_Jaeger", 100, "hat"],
 	["Barett (Wachbattalion, Blau)", "BWA3_Beret_Wach_blue", 100, "hat"],
@@ -1107,7 +1107,7 @@ headArray = compileFinal str
 	["Cup (KSK Tan Flag)", "CUP_H_Ger_Cap_Tan2", 100, "hat"],
 	["Cup (Officer MARPAT)", "CUP_H_USMC_Officer_Cap", 100, "hat"],
 	["Cup (Tan)", "CUP_H_PMC_Cap_Tan", 100, "hat"],
-	["Cup ACR (Desert//DEF)", "CUP_H_CZ_Cap_Headphones_des", 100, "hat"],
+	["Cup ACR (Deser// DEF)", "CUP_H_CZ_Cap_Headphones_des", 100, "hat"],
 	["Cup ACR (Green/DEF)", "CUP_H_CZ_Cap_Headphones", 100, "hat"],
 	["Cup Backwards (Burberry)", "CUP_H_PMC_Cap_Back_Burberry", 100, "hat"],
 	["Cup Backwards (Grey)", "CUP_H_PMC_Cap_Back_Grey", 100, "hat"],
@@ -1123,59 +1123,59 @@ headArray = compileFinal str
 	["CDF Office Cap (Tri Color Mountain)", "CUP_H_CDF_OfficerCap_MNT", 100, "hat"],
 	["CDF Office Cap (Tri Color Winter)", "CUP_H_CDF_OfficerCap_SNW", 100, "hat"],
 	["CDF Office Cap (UN)", "CUP_H_CDF_OfficerCap_UN", 100, "hat"],
-	["CDF PASGT (Tri-Color Desert)", "CUP_H_CDF_H_PASGT_DST", 250, "hat"], //Armor II
-	["CDF PASGT (Tri-Color Forest)", "CUP_H_CDF_H_PASGT_FST", 250, "hat"], //Armor II
-	["CDF PASGT (Tri-Color Mountain)", "CUP_H_CDF_H_PASGT_MNT", 250, "hat"], //Armor II
-	["CDF PASGT (Tri-Color Winter)", "CUP_H_CDF_H_PASGT_SNW", 250, "hat"], //Armor II
-	["CDF PASGT (UN)", "CUP_H_CDF_H_PASGT_UN", 250, "hat"], //Armor II
-	["Combat Helmet ACR (Desert)", "CUP_H_CZ_Helmet01", 250, "hat"], //Armor II
-	["Combat Helmet ACR (Desert/Googles)", "CUP_H_CZ_Helmet02", 250, "hat"], //Armor II
-	["Combat Helmet ACR (Woodland)", "CUP_H_CZ_Helmet03", 250, "hat"], //Armor II
-	["Combat Helmet ACR (Woodland/Googles)", "CUP_H_CZ_Helmet04", 250, "hat"], //Armor II
-	["Crew Helmet (USMC)", "CUP_H_USMC_Crew_Helmet", 200, "hat"], //Armor I
-	["Crew Helmet ACR", "CUP_H_CZ_Helmet05", 250, "hat"], //Armor I
-	["Crewman KSK Helm", "BWA3_CrewmanKSK", 250, "hat"], //Armor II
-	["Crewman KSK Helm (Flecktarn)", "BWA3_CrewmanKSK_Fleck", 250, "hat"], //Armor II
-	["Crewman KSK Helm (Flecktarn, Headset)", "BWA3_CrewmanKSK_Fleck_Headset", 250, "hat"], //Armor II
-	["Crewman KSK Helm (Headset)", "BWA3_CrewmanKSK_Headset", 250, "hat"], //Armor II
-	["Crewman KSK Helm (Tropentarn)", "BWA3_CrewmanKSK_Tropen", 250, "hat"], //Armor II
-	["Crewman KSK Helm (Tropentarn, Headset)", "BWA3_CrewmanKSK_Tropen_Headset", 250, "hat"], //Armor II
-	["Defender Headset", "CUP_H_PMC_EP_Headset", 250, "hat"], //Armor II
-	["ECH (Black)", "CUP_H_USArmy_Helmet_ECH1_Black", 250, "hat"], //Armor II
-	["ECH (Sand)", "CUP_H_FR_ECH", 250, "hat"], //Armor II
-	["ECH (Sand)", "CUP_H_USArmy_Helmet_ECH1_Sand", 250, "hat"], //Armor II
+	["CDF PASGT (Tri-Color Desert)", "CUP_H_CDF_H_PASGT_DST", 250, "hat"], // Armor II
+	["CDF PASGT (Tri-Color Forest)", "CUP_H_CDF_H_PASGT_FST", 250, "hat"], // Armor II
+	["CDF PASGT (Tri-Color Mountain)", "CUP_H_CDF_H_PASGT_MNT", 250, "hat"], // Armor II
+	["CDF PASGT (Tri-Color Winter)", "CUP_H_CDF_H_PASGT_SNW", 250, "hat"], // Armor II
+	["CDF PASGT (UN)", "CUP_H_CDF_H_PASGT_UN", 250, "hat"], // Armor II
+	["Combat Helmet ACR (Desert)", "CUP_H_CZ_Helmet01", 250, "hat"], // Armor II
+	["Combat Helmet ACR (Desert/Googles)", "CUP_H_CZ_Helmet02", 250, "hat"], // Armor II
+	["Combat Helmet ACR (Woodland)", "CUP_H_CZ_Helmet03", 250, "hat"], // Armor II
+	["Combat Helmet ACR (Woodland/Googles)", "CUP_H_CZ_Helmet04", 250, "hat"], // Armor II
+	["Crew Helmet (USMC)", "CUP_H_USMC_Crew_Helmet", 200, "hat"], // Armor I
+	["Crew Helmet ACR", "CUP_H_CZ_Helmet05", 250, "hat"], // Armor I
+	["Crewman KSK Helm", "BWA3_CrewmanKSK", 250, "hat"], // Armor II
+	["Crewman KSK Helm (Flecktarn)", "BWA3_CrewmanKSK_Fleck", 250, "hat"], // Armor II
+	["Crewman KSK Helm (Flecktarn, Headset)", "BWA3_CrewmanKSK_Fleck_Headset", 250, "hat"], // Armor II
+	["Crewman KSK Helm (Headset)", "BWA3_CrewmanKSK_Headset", 250, "hat"], // Armor II
+	["Crewman KSK Helm (Tropentarn)", "BWA3_CrewmanKSK_Tropen", 250, "hat"], // Armor II
+	["Crewman KSK Helm (Tropentarn, Headset)", "BWA3_CrewmanKSK_Tropen_Headset", 250, "hat"], // Armor II
+	["Defender Headset", "CUP_H_PMC_EP_Headset", 250, "hat"], // Armor II
+	["ECH (Black)", "CUP_H_USArmy_Helmet_ECH1_Black", 250, "hat"], // Armor II
+	["ECH (Sand)", "CUP_H_FR_ECH", 250, "hat"], // Armor II
+	["ECH (Sand)", "CUP_H_USArmy_Helmet_ECH1_Sand", 250, "hat"], // Armor II
 	["Fedora (Indiana Jones)", "CUP_H_NAPA_Fedora", 250, "hat"],
-	["Gefechtshelm M92 (Flecktarn)", "BWA3_M92_Fleck", 250, "hat"], //Armor II
-	["Gefechtshelm M92 (Multitarn)", "BWA3_M92_Multi", 250, "hat"], //Armor II
-	["Gefechtshelm M92 (Tropentarn)", "BWA3_M92_Tropen", 250, "hat"], //Armor II
+	["Gefechtshelm M92 (Flecktarn)", "BWA3_M92_Fleck", 250, "hat"], // Armor II
+	["Gefechtshelm M92 (Multitarn)", "BWA3_M92_Multi", 250, "hat"], // Armor II
+	["Gefechtshelm M92 (Tropentarn)", "BWA3_M92_Tropen", 250, "hat"], // Armor II
 	["Headband w/Headset (Woodland)", "CUP_H_FR_Headband_Headset", 100, "hat"],
 	["Headset (light)", "CUP_H_FR_Headset", 100, "hat"],
-	["K6-3 Combat Helmet (Black/Goggles)", "CUP_H_RUS_K6_3_Goggles_black", 350, "hat"], //Armor IV
-	["K6-3 Combat Helmet (Black/Shield down)", "CUP_H_RUS_K6_3_Shield_Down_black", 350, "hat"], //Armor IV
-	["K6-3 Combat Helmet (Green/Shield down)", "CUP_H_RUS_K6_3_Shield_Down", 350, "hat"], //Armor IV
-	["K6-3 Combat Helmet (Khaki/Shield down)", "CUP_H_RUS_K6_3_Shield_Down_khaki", 350, "hat"], //Armor IV
-	["LWH (Flecktarn)", "CUP_H_GER_LWH_Flecktarn", 250, "hat"], //Armor II
-	["LWH (MARPAT Desert)", "CUP_H_USMC_LWH_DES", 250, "hat"], //Armor II
-	["LWH (MARPAT Woodland - ESS)", "CUP_H_USMC_Goggles_HelmetWDL", 250, "hat"], //Armor II
-	["LWH (MARPAT Woodland - Headset)", "CUP_H_USMC_Headset_HelmetWDL", 250, "hat"], //Armor II
-	["LWH (MARPAT Woodland)", "CUP_H_USMC_LWH_WDL", 250, "hat"], //Armor II
-	["LWH (MARPAT Desert)", "CUP_H_USMC_HelmetWDL", 250, "hat"], //Armor II
-	["LWH (Olive - Headset)", "CUP_H_RACS_Helmet_Headset_olive", 250, "hat"], //Armor II
-	["LWH (RACS Desert - Headset)", "CUP_H_RACS_Helmet_Headset_DES", 250, "hat"], //Armor II
-	["LWH (RACS Mech Inf - Headset)", "CUP_H_RACS_Helmet_Headset_mech", 250, "hat"], //Armor II
-	["LWH (RACS Urban - Headset)", "CUP_H_RACS_Helmet_Headset_TPAT", 250, "hat"], //Armor II
-	["LWH (RACS Woodland - Headset)", "CUP_H_RACS_Helmet_Headset_wdl", 250, "hat"], //Armor II
-	["LWH (Tan)", "CUP_H_RACS_Helmet_tan", 250, "hat"], //Armor II
-	["LWH (Tropentarn)", "CUP_H_GER_LWH_Tropentarn", 250, "hat"], //Armor II
+	["K6-3 Combat Helmet (Black/Goggles)", "CUP_H_RUS_K6_3_Goggles_black", 350, "hat"], // Armor IV
+	["K6-3 Combat Helmet (Black/Shield down)", "CUP_H_RUS_K6_3_Shield_Down_black", 350, "hat"], // Armor IV
+	["K6-3 Combat Helmet (Green/Shield down)", "CUP_H_RUS_K6_3_Shield_Down", 350, "hat"], // Armor IV
+	["K6-3 Combat Helmet (Khaki/Shield down)", "CUP_H_RUS_K6_3_Shield_Down_khaki", 350, "hat"], // Armor IV
+	["LWH (Flecktarn)", "CUP_H_GER_LWH_Flecktarn", 250, "hat"], // Armor II
+	["LWH (MARPAT Desert)", "CUP_H_USMC_LWH_DES", 250, "hat"], // Armor II
+	["LWH (MARPAT Woodland - ESS)", "CUP_H_USMC_Goggles_HelmetWDL", 250, "hat"], // Armor II
+	["LWH (MARPAT Woodland - Headset)", "CUP_H_USMC_Headset_HelmetWDL", 250, "hat"], // Armor II
+	["LWH (MARPAT Woodland)", "CUP_H_USMC_LWH_WDL", 250, "hat"], // Armor II
+	["LWH (MARPAT Desert)", "CUP_H_USMC_HelmetWDL", 250, "hat"], // Armor II
+	["LWH (Olive - Headset)", "CUP_H_RACS_Helmet_Headset_olive", 250, "hat"], // Armor II
+	["LWH (RACS Desert - Headset)", "CUP_H_RACS_Helmet_Headset_DES", 250, "hat"], // Armor II
+	["LWH (RACS Mech Inf - Headset)", "CUP_H_RACS_Helmet_Headset_mech", 250, "hat"], // Armor II
+	["LWH (RACS Urban - Headset)", "CUP_H_RACS_Helmet_Headset_TPAT", 250, "hat"], // Armor II
+	["LWH (RACS Woodland - Headset)", "CUP_H_RACS_Helmet_Headset_wdl", 250, "hat"], // Armor II
+	["LWH (Tan)", "CUP_H_RACS_Helmet_tan", 250, "hat"], // Armor II
+	["LWH (Tropentarn)", "CUP_H_GER_LWH_Tropentarn", 250, "hat"], // Armor II
 	["LWH W/ESS (MARPAT Desert)", "CUP_H_USMC_LWH_ESS_DES", 250, "hat"],
-	["LWH W/ESS (MARPAT Woodland)", "CUP_H_USMC_LWH_ESS_WDL", 250, "hat"], //Armor II
-	["M1 (Cup/CUP)", "CUP_H_USArmy_Helmet_M1_btp", 200, "hat"], //Armor I
-	["M1 (Cup/Olive)", "CUP_H_USArmy_Helmet_M1_Olive", 200, "hat"], //Armor I
-	["M1 (Cup/Woodland)", "CUP_H_USArmy_Helmet_M1_m81", 200, "hat"], //Armor I
-	["M92 Helmet (Black)", "CUP_H_Ger_M92_Black", 250, "hat"], //Armor II
-	["M92 Helmet (Olive)", "CUP_H_Ger_M92", 250, "hat"], //Armor II
-	["M92 Helmet (Ranger Green)", "CUP_H_Ger_M92_RGR", 250, "hat"], //Armor II
-	["M92 Helmet (Tan)", "CUP_H_Ger_M92_Tan", 250, "hat"], //Armor II
+	["LWH W/ESS (MARPAT Woodland)", "CUP_H_USMC_LWH_ESS_WDL", 250, "hat"], // Armor II
+	["M1 (Cup/CUP)", "CUP_H_USArmy_Helmet_M1_btp", 200, "hat"], // Armor I
+	["M1 (Cup/Olive)", "CUP_H_USArmy_Helmet_M1_Olive", 200, "hat"], // Armor I
+	["M1 (Cup/Woodland)", "CUP_H_USArmy_Helmet_M1_m81", 200, "hat"], // Armor I
+	["M92 Helmet (Black)", "CUP_H_Ger_M92_Black", 250, "hat"], // Armor II
+	["M92 Helmet (Olive)", "CUP_H_Ger_M92", 250, "hat"], // Armor II
+	["M92 Helmet (Ranger Green)", "CUP_H_Ger_M92_RGR", 250, "hat"], // Armor II
+	["M92 Helmet (Tan)", "CUP_H_Ger_M92_Tan", 250, "hat"], // Armor II
 	["M92 Helmet Covered (Flecktarn)", "CUP_H_Ger_M92_Cover", 200, "hat"],
 	["M92 Helmet Covered (Tropentarn)", "CUP_H_Ger_M92_Cover_Trop", 200, "hat"],
 	["M92 Helmet Covered Goggles (Flecktarn)", "CUP_H_Ger_M92_Cover_GG", 200, "hat"],
@@ -1192,28 +1192,28 @@ headArray = compileFinal str
 	["Ops Core FAST (Black)", "CUP_H_OpsCore_Black", 250, "hat"],
 	["Ops Core FAST (Sprayed)", "CUP_H_OpsCore_Spray", 250, "hat"],
 	["Ops Core FAST Covered SF (Tigerstripe)", "CUP_H_OpsCore_Covered_Tigerstripe_SF", 300, "hat"],
-	["Ops Core FAST Covered SF (Multicam)", "CUP_H_OpsCore_Covered_MCAM_SF", 300, "hat"], //Armor III
+	["Ops Core FAST Covered SF (Multicam)", "CUP_H_OpsCore_Covered_MCAM_SF", 300, "hat"], // Armor III
 	["Pakol (Brown/HS)", "CUP_H_CZ_Pakol_headset_f_brown", 100, "hat"],
 	["Pakol (Grey/HS)", "CUP_H_CZ_Pakol_headset_b_grey", 100, "hat"],
-	["PASGT Helmet (ERDL Highland)", "CUP_H_PASGTv2_ERDL_highland", 250, "hat"], //Armor II
-	["PASGT Helmet (ERDL Lowland)", "CUP_H_PASGTv2_ERDL_lowland", 250, "hat"], //Armor II
-	["PASGT Helmet (M81 Woodland)", "CUP_H_PASGTv2_WDL", 250, "hat"], //Armor II
+	["PASGT Helmet (ERDL Highland)", "CUP_H_PASGTv2_ERDL_highland", 250, "hat"], // Armor II
+	["PASGT Helmet (ERDL Lowland)", "CUP_H_PASGTv2_ERDL_lowland", 250, "hat"], // Armor II
+	["PASGT Helmet (M81 Woodland)", "CUP_H_PASGTv2_WDL", 250, "hat"], // Armor II
 	["Patrol Cap (ERDL Highland)", "CUP_H_US_patrol_cap_ERDL_highland", 100, "hat"],
 	["Patrol Cap (ERDL Lowland)", "CUP_H_US_patrol_cap_ERDL", 100, "hat"],
 	["Patrol Cap (ERDL Woodland)", "CUP_H_US_patrol_cap_WDL", 100, "hat"],
 	["Patrol Cap ACR", "CUP_H_CZ_Patrol_Cap", 100, "hat"],
-	["Pilot Helmet (Takistani)", "CUP_H_TK_PilotHelmet", 200, "hat"], //Armor I
-	["Pilot Helmet ACR", "CUP_H_CZ_Helmet06", 200, "hat"], //Armor I
-	["Pro-Tec", "CUP_H_USArmy_Helmet_Pro", 200, "hat"], //Armor I
-	["SSh-60 (Cover/Net)", "CUP_H_TK_Helmet", 200, "hat"], //Armor I
-	["SSh-60 (Olive/Worn)", "CUP_H_SLA_Helmet_OD_worn", 200, "hat"], //Armor I
-	["SSh-60 (Grey/Worn)", "CUP_H_SLA_Helmet_URB_worn", 200, "hat"], //Armor I
-	["SSh-60 (Desert/Worn)", "CUP_H_SLA_Helmet_DES_worn", 200, "hat"], //Armor I
-	["SSh-68 (Berezka)", "CUP_H_RUS_SSH68_cover_berezka", 200, "hat"], //Armor I
-	["SSh-68 (Olive)", "CUP_H_RUS_SSH68_olive", 200, "hat"], //Armor I
-	["SSh-68 (VSR-84 Dubok)", "CUP_H_RUS_SSH68_cover_vsr84_dubok", 200, "hat"], //Armor I
-	["SSh-68 (VSR-93)", "CUP_H_RUS_SSH68_cover_vsr93", 200, "hat"], //Armor I
-	["SSh-68 (VSR-98)", "CUP_H_RUS_SSH68_cover_vsr98", 200, "hat"], //Armor I
+	["Pilot Helmet (Takistani)", "CUP_H_TK_PilotHelmet", 200, "hat"], // Armor I
+	["Pilot Helmet ACR", "CUP_H_CZ_Helmet06", 200, "hat"], // Armor I
+	["Pro-Tec", "CUP_H_USArmy_Helmet_Pro", 200, "hat"], // Armor I
+	["SSh-60 (Cover/Net)", "CUP_H_TK_Helmet", 200, "hat"], // Armor I
+	["SSh-60 (Olive/Worn)", "CUP_H_SLA_Helmet_OD_worn", 200, "hat"], // Armor I
+	["SSh-60 (Grey/Worn)", "CUP_H_SLA_Helmet_URB_worn", 200, "hat"], // Armor I
+	["SSh-60 (Desert/Worn)", "CUP_H_SLA_Helmet_DES_worn", 200, "hat"], // Armor I
+	["SSh-68 (Berezka)", "CUP_H_RUS_SSH68_cover_berezka", 200, "hat"], // Armor I
+	["SSh-68 (Olive)", "CUP_H_RUS_SSH68_olive", 200, "hat"], // Armor I
+	["SSh-68 (VSR-84 Dubok)", "CUP_H_RUS_SSH68_cover_vsr84_dubok", 200, "hat"], // Armor I
+	["SSh-68 (VSR-93)", "CUP_H_RUS_SSH68_cover_vsr93", 200, "hat"], // Armor I
+	["SSh-68 (VSR-98)", "CUP_H_RUS_SSH68_cover_vsr98", 200, "hat"], // Armor I
 	["Takistani Lungee (Black-SF)", "CUP_H_TK_Lungee", 100, "hat"],
 	["Takistani Lungee (open Pattern 1)", "CUP_H_TKI_Lungee_Open_01", 100, "hat"],
 	["Takistani Lungee (open Pattern 4)", "CUP_H_TKI_Lungee_Open_04", 100, "hat"],
@@ -1224,14 +1224,14 @@ headArray = compileFinal str
 	["Takistani Lungee (Pattern 6)", "CUP_H_TKI_Lungee_06", 100, "hat"],
 	["Takistani Skull cap (Pattern 2)", "CUP_H_TKI_SkullCap_02", 100, "hat"],
 	["Takistani Skull cap (Pattern 5)", "CUP_H_TKI_SkullCap_05", 100, "hat"],
-	["TSh-4 (Black)", "CUP_H_SLA_TankerHelmet", 200, "hat"], //Armor I
-	["TSh-4 (Desert)", "CUP_H_RUS_TSH_4_Brown", 200, "hat"], //Armor I
-	["TSh-4 (Tan)", "CUP_H_TK_TankerHelmet", 200, "hat"], //Armor I
+	["TSh-4 (Black)", "CUP_H_SLA_TankerHelmet", 200, "hat"], // Armor I
+	["TSh-4 (Desert)", "CUP_H_RUS_TSH_4_Brown", 200, "hat"], // Armor I
+	["TSh-4 (Tan)", "CUP_H_TK_TankerHelmet", 200, "hat"], // Armor I
 	["Ushanka (Dark Brown)", "CUP_H_C_Ushanka_03", 100, "hat"],
 	["Ushanka (Green)", "CUP_H_C_Ushanka_02", 100, "hat"],
 	["Ushanka (Light Brown)", "CUP_H_C_Ushanka_01", 100, "hat"],
-	["ZSh-1 Combat Helmet (Green)", "CUP_H_RUS_ZSH_1", 300, "hat"], //Armor IV
-	["ZSh-7 Pilot Helmet (Shield Down)", "CUP_H_RUS_ZSH_Shield_Down", 200, "hat"] //Armor I
+	["ZSh-1 Combat Helmet (Green)", "CUP_H_RUS_ZSH_1", 300, "hat"], // Armor IV
+	["ZSh-7 Pilot Helmet (Shield Down)", "CUP_H_RUS_ZSH_Shield_Down", 200, "hat"]// Armor I
 ];
 
 uniformArray = compileFinal str
@@ -1305,7 +1305,7 @@ uniformArray = compileFinal str
 	["Heli Pilot Coveralls", "U_I_HeliPilotCoveralls", 125, "uni"],
 	["Gendamerie Commando Uniform (ApexDLC)", "U_B_GEN_Commander_F", 125, "uni", "noDLC"],
 	["Gendamerie Uniform (ApexDLC)", "U_B_GEN_Soldier_F", 125, "uni", "noDLC"],
-	["Guerilla Garment", "U_BG_Guerilla1_1", 125, "uni"],  // BLUFOR
+	["Guerilla Garment", "U_BG_Guerilla1_1", 125, "uni"], // blufor
 	["Guerilla Garment New", "U_BG_Guerilla1_2_F", 125, "uni", "noDLC"],
 	["Guerilla Outfit (Plain, Dark)", "U_BG_Guerilla2_1", 125, "uni"],
 	["Guerilla Outfit (Pattern)", "U_BG_Guerilla2_2", 125, "uni"],
@@ -1313,14 +1313,14 @@ uniformArray = compileFinal str
 	["Guerilla Smocks", "U_BG_Guerilla3_1", 125, "uni"],
 	["Guerilla Apparel", "U_BG_Guerrilla_6_1", 125, "uni"],
 	["Guerilla Uniform", "U_BG_leader", 125, "uni"],
-	["Guerilla Garment", "U_OG_Guerilla1_1", 125, "uni"], // OPFOR
+	["Guerilla Garment", "U_OG_Guerilla1_1", 125, "uni"], // opfor
 	["Guerilla Outfit (Plain, Dark)", "U_OG_Guerilla2_1", 125, "uni"],
 	["Guerilla Outfit (Pattern)", "U_OG_Guerilla2_2", 125, "uni"],
 	["Guerilla Outfit (Plain, Light)", "U_OG_Guerilla2_3", 125, "uni"],
 	["Guerilla Smocks", "U_OG_Guerilla3_1", 125, "uni"],
 	["Guerilla Apparel", "U_OG_Guerrilla_6_1", 125, "uni"],
 	["Guerilla Uniform", "U_OG_leader", 125, "uni"],
-	["Guerilla Garment", "U_IG_Guerilla1_1", 125, "uni"], // Independent
+	["Guerilla Garment", "U_IG_Guerilla1_1", 125, "uni"], // independent
 	["Guerilla Outfit (Plain, Dark)", "U_IG_Guerilla2_1", 125, "uni"],
 	["Guerilla Outfit (Pattern)", "U_IG_Guerilla2_2", 125, "uni"],
 	["Guerilla Outfit (Plain, Light)", "U_IG_Guerilla2_3", 125, "uni"],
@@ -1433,65 +1433,65 @@ uniformArray = compileFinal str
 	["Anorak (Brown)", "CUP_U_I_GUE_Anorak_01", 100, "uni"],
 	["Anorak (Brown, no hood) with Jeans", "CUP_U_I_GUE_Anorak_03", 100, "uni"],
 	["Anorak (Brown, no hood) with Khaki", "CUP_U_I_GUE_Anorak_02", 100, "uni"],
-	["BDU (CEU, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_CEU", 100, "uni"], //Dunkel Grün Camo
+	["BDU (CEU, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_CEU", 100, "uni"], // Dunkel Grün Camo
 	["BDU (DCU, Gloves)", "CUP_U_B_BDUv2_gloves_DCU", 100, "uni"],
 	["BDU (DDPM, Gloves)", "CUP_U_B_BDUv2_gloves_DDPM", 100, "uni"],
-	["BDU (Desert, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_desert", 100, "uni"], //Desert Hellbraun dreckig
-	["BDU (DPM, Gloves)", "CUP_U_B_BDUv2_gloves_DPM", 100, "uni"], //Grünbraun dunkel
-	["BDU (ERDL Highland, Dirty)", "CUP_U_B_BDUv2_dirty_ERDL_highland", 100, "uni"], //Hellbraun, Braun, Schwarz, Grün klein camo
-	["BDU (ERDL Lowland, Dirty)", "CUP_U_B_BDUv2_dirty_ERDL_lowland", 100, "uni"], //Hellgrün, Grün, Schwarz, Braun klein camo
-	["BDU (M81, Dirty)", "CUP_U_B_BDUv2_dirty_M81", 100, "uni"], //Braun, Hellbraun, Grün Camo groß
-	["BDU (OD, Gloves)", "CUP_U_B_BDUv2_gloves_OD", 100, "uni"], //Dunkelgrün
-	["BDU (T-pattern, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_Tpattern", 100, "uni"], //Gray Camo Boxes
-	["BDU (Tigerstripe, Dirty)", "CUP_U_B_BDUv2_dirty_Tigerstripe", 100, "uni"], //Grün, Braun, Hellbrown line camo, black lines
-	["BDU (Urban, Dirty)", "CUP_U_B_BDUv2_dirty_Urban", 100, "uni"], //Gray, Darkgray, Black round Camo
-	["BDU (Winter, Dirty)", "CUP_U_B_BDUv2_dirty_Winter", 100, "uni"], //White dirty
+	["BDU (Desert, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_desert", 100, "uni"], // Desert Hellbraun dreckig
+	["BDU (DPM, Gloves)", "CUP_U_B_BDUv2_gloves_DPM", 100, "uni"], // Grünbraun dunkel
+	["BDU (ERDL Highland, Dirty)", "CUP_U_B_BDUv2_dirty_ERDL_highland", 100, "uni"], // Hellbraun, Braun, Schwarz, Grün klein camo
+	["BDU (ERDL Lowland, Dirty)", "CUP_U_B_BDUv2_dirty_ERDL_lowland", 100, "uni"], // Hellgrün, Grün, Schwarz, Braun klein camo
+	["BDU (M81, Dirty)", "CUP_U_B_BDUv2_dirty_M81", 100, "uni"], // Braun, Hellbraun, Grün Camo groß
+	["BDU (OD, Gloves)", "CUP_U_B_BDUv2_gloves_OD", 100, "uni"], // Dunkelgrün
+	["BDU (T-pattern, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_Tpattern", 100, "uni"], // Gray Camo Boxes
+	["BDU (Tigerstripe, Dirty)", "CUP_U_B_BDUv2_dirty_Tigerstripe", 100, "uni"], // Grün, Braun, Hellbrown line camo, black lines
+	["BDU (Urban, Dirty)", "CUP_U_B_BDUv2_dirty_Urban", 100, "uni"], // Gray, Darkgray, Black round Camo
+	["BDU (Winter, Dirty)", "CUP_U_B_BDUv2_dirty_Winter", 100, "uni"], // White dirty
 	["BW Combat Uniform (Flecktarn)", "BWA3_Uniform2_Fleck", 100, "uni"],
-	["BW Combat Uniform (Flecktarn, Sleeves)", "BWA3_Uniform2_sleeves_Fleck", 100, "uni"], //Braun, Grün, Schwarz
+	["BW Combat Uniform (Flecktarn, Sleeves)", "BWA3_Uniform2_sleeves_Fleck", 100, "uni"], // Braun, Grün, Schwarz
 	["BW Combat Uniform (Multitarn)", "BWA3_Uniform2_Multi", 100, "uni"],
-	["BW Combat Uniform (Multitarn, Sleeves)", "BWA3_Uniform2_sleeves_Multi", 100, "uni"], //Weiß, Grün, Braun (Hell)
+	["BW Combat Uniform (Multitarn, Sleeves)", "BWA3_Uniform2_sleeves_Multi", 100, "uni"], // Weiß, Grün, Braun (Hell)
 	["BW Combat Uniform (Tropentarn)", "BWA3_Uniform2_Tropen", 100, "uni"],
-	["BW Combat Uniform (Tropentarn, Sleeves)", "BWA3_Uniform2_sleeves_Tropen", 100, "uni"], //Weiß, Braun (Hell)
+	["BW Combat Uniform (Tropentarn, Sleeves)", "BWA3_Uniform2_sleeves_Tropen", 100, "uni"], // Weiß, Braun (Hell)
 	["BW Ghillie (Flecktarn)", "BWA3_Uniform2_Ghillie_Fleck", 100, "uni"],
 	["BW Ghillie (Multitarn)", "BWA3_Uniform2_Ghillie_Multi", 100, "uni"],
 	["BW Ghillie (Tropentarn)", "BWA3_Uniform2_Ghillie_Tropen", 100, "uni"],
-	["CDF Combat Uniform (Tri-Color Desert)", "CUP_U_B_CDF_DST_1", 100, "uni"], 
-	["CDF Combat Uniform (Tri-Color Forest)", "CUP_U_B_CDF_FST_1", 100, "uni"], //Grün Camo Wald
-	["CDF Combat Uniform (Tri-Color Mountain)", "CUP_U_B_CDF_MNT_1", 100, "uni"],  //Braun Camo Berg
-	["CDF Combat Uniform (Tri-Color Winter)", "CUP_U_B_CDF_SNW_1", 100, "uni"], //White Braun Grau Camo Winter
+	["CDF Combat Uniform (Tri-Color Desert)", "CUP_U_B_CDF_DST_1", 100, "uni"],
+	["CDF Combat Uniform (Tri-Color Forest)", "CUP_U_B_CDF_FST_1", 100, "uni"], // Grün Camo Wald
+	["CDF Combat Uniform (Tri-Color Mountain)", "CUP_U_B_CDF_MNT_1", 100, "uni"], // Braun Camo Berg
+	["CDF Combat Uniform (Tri-Color Winter)", "CUP_U_B_CDF_SNW_1", 100, "uni"], // White Braun Grau Camo Winter
 	["ChDKZ Outfit (Bardak)", "CUP_U_O_CHDKZ_Bardak", 100, "uni"],
 	["ChDKZ Tracksuit (Lopotev)", "CUP_U_O_CHDKZ_Lopotev", 100, "uni"],
-	["ChDKZ Uniform (Kamysh Woodland)", "CUP_U_O_CHDKZ_Kam_02", 100, "uni"], //Bambus style - grün, gelb, braun
-	["ChDKZ Uniform (Kamysh Woodland)", "CUP_U_O_CHDKZ_Commander", 100, "uni"], //Bambus winter style - weiss, grau, braun
-	["ChDKZ Uniform 2 (Smog)", "CUP_U_O_CHDKZ_Kam_06", 100, "uni"], //Grün, Braun, Beige Camo
-	["Biker Clothes (Brown)", "CUP_U_C_Citizen_02", 100, "uni"], //Biker
-	["Biker Clothes (Red Brown)", "CUP_U_C_Citizen_01", 100, "uni"],//Biker
-	["Biker Clothes (Dark Brown)", "CUP_U_C_Citizen_04", 100, "uni"], //Biker
-	["Biker Clothes (Wood Brown)", "CUP_U_C_Citizen_03", 100, "uni"], //Biker
-	["Crye ATACS-AU Full", "CUP_U_CRYE_ATACSAU_Full", 100, "uni"], //Hellgrau standard uniform
-	["Crye ATACS-FG Full", "CUP_U_CRYE_ATACSFG_Full", 100, "uni"], //Hellgrün standard uniform
+	["ChDKZ Uniform (Kamysh Woodland)", "CUP_U_O_CHDKZ_Kam_02", 100, "uni"], // Bambus style - grün, gelb, braun
+	["ChDKZ Uniform (Kamysh Woodland)", "CUP_U_O_CHDKZ_Commander", 100, "uni"], // Bambus winter style - weiss, grau, braun
+	["ChDKZ Uniform 2 (Smog)", "CUP_U_O_CHDKZ_Kam_06", 100, "uni"], // Grün, Braun, Beige Camo
+	["Biker Clothes (Brown)", "CUP_U_C_Citizen_02", 100, "uni"], // Biker
+	["Biker Clothes (Red Brown)", "CUP_U_C_Citizen_01", 100, "uni"]// Biker
+	["Biker Clothes (Dark Brown)", "CUP_U_C_Citizen_04", 100, "uni"], // Biker
+	["Biker Clothes (Wood Brown)", "CUP_U_C_Citizen_03", 100, "uni"], // Biker
+	["Crye ATACS-AU Full", "CUP_U_CRYE_ATACSAU_Full", 100, "uni"], // Hellgrau standard uniform
+	["Crye ATACS-FG Full", "CUP_U_CRYE_ATACSFG_Full", 100, "uni"], // Hellgrün standard uniform
 	["Crye Black Full (Jocking)", "CUP_U_CRYE_BLK_Full", 100, "uni"],
 	["Crye Black Russia (Jocking)", "CUP_U_CRYE_BLK_RUS_Full", 100, "uni"],
-	["Crye Flecktarn", "CUP_U_B_GER_Fleck_Crye", 100, "uni"], //BW
-	["Crye Ranger Green Full", "CUP_U_CRYE_RGR_Full", 100, "uni"], //Braun standard uniform
-	["Crye Rolled Sleeves Flecktarn", "CUP_U_B_GER_Fleck_Crye2", 100, "uni"], //BW
-	["Crye Rolled Sleeves Tropentarn", "CUP_U_B_GER_Crye2", 100, "uni"], //BW Hell
+	["Crye Flecktarn", "CUP_U_B_GER_Fleck_Crye", 100, "uni"], // BW
+	["Crye Ranger Green Full", "CUP_U_CRYE_RGR_Full", 100, "uni"], // Braun standard uniform
+	["Crye Rolled Sleeves Flecktarn", "CUP_U_B_GER_Fleck_Crye2", 100, "uni"], // BW
+	["Crye Rolled Sleeves Tropentarn", "CUP_U_B_GER_Crye2", 100, "uni"], // BW Hell
 	["Firefighter Clothes", "CUP_U_C_Fireman_01", 100, "uni"],
 	["Ghillie Suit MTP", "CUP_U_B_BAF_MTP_GHILLIE", 100, "uni"],
 	["Ghillie Suit DDPM", "CUP_U_B_BAF_DDPM_GHILLIE", 100, "uni"],
 	["Ghillie Suit DPM", "CUP_U_B_BAF_DPM_GHILLIE", 100, "uni"],
 	["Ghillie ACR (Desert)", "CUP_U_B_CZ_DST_Ghillie", 100, "uni"],
-	["Gorka (Gloves)", "CUP_U_O_RUS_Gorka_Green_gloves2", 100, "uni"], //Olive
-	["Gorka (Partizan Autumn/Gloves/Kneepads)", "CUP_U_O_RUS_Gorka_Partizan_A_gloves_kneepads", 100, "uni"], //Brown
-	["Gorka (Partizan Summer/Gloves/Kneepads)", "CUP_U_O_RUS_Gorka_Partizan_gloves_kneepads", 100, "uni"], //Brown+Green
+	["Gorka (Gloves)", "CUP_U_O_RUS_Gorka_Green_gloves2", 100, "uni"], // Olive
+	["Gorka (Partizan Autumn/Gloves/Kneepads)", "CUP_U_O_RUS_Gorka_Partizan_A_gloves_kneepads", 100, "uni"], // Brown
+	["Gorka (Partizan Summer/Gloves/Kneepads)", "CUP_U_O_RUS_Gorka_Partizan_gloves_kneepads", 100, "uni"], // Brown+Green
 	["Half-Ghilie (Wesert)", "CUP_U_O_TK_Ghillie_Top", 100, "uni"],
 	["Half-Ghilie (Woodland)", "CUP_U_I_Ghillie_Top", 100, "uni"],
-	["IdZ-Combat Uniform (Flecktarn)", "BWA3_Uniform_Fleck", 100, "uni"], //BW
-	["IdZ-Combat Uniform (Multitarn)", "BWA3_Uniform_Multi", 100, "uni"], //BW
-	["IdZ-Combat Uniform (Tropentarn)", "BWA3_Uniform_Tropen", 100, "uni"], //BW
-	["IdZ-Ghillie (Flecktarn)", "BWA3_Uniform_Ghillie_Fleck", 100, "uni"], //BW Ghillie
-	["IdZ-Ghillie (Multitarn)", "BWA3_Uniform_Ghillie_Multi", 100, "uni"], //BW Ghillie
-	["IdZ-Ghillie (Tropentarn)", "BWA3_Uniform_Ghillie_Tropen", 100, "uni"], //BW Ghillie
+	["IdZ-Combat Uniform (Flecktarn)", "BWA3_Uniform_Fleck", 100, "uni"], // BW
+	["IdZ-Combat Uniform (Multitarn)", "BWA3_Uniform_Multi", 100, "uni"], // BW
+	["IdZ-Combat Uniform (Tropentarn)", "BWA3_Uniform_Tropen", 100, "uni"], // BW
+	["IdZ-Ghillie (Flecktarn)", "BWA3_Uniform_Ghillie_Fleck", 100, "uni"], // BW Ghillie
+	["IdZ-Ghillie (Multitarn)", "BWA3_Uniform_Ghillie_Multi", 100, "uni"], // BW Ghillie
+	["IdZ-Ghillie (Tropentarn)", "BWA3_Uniform_Ghillie_Tropen", 100, "uni"], // BW Ghillie
 	["Khet Partug (Black)", "CUP_O_TKI_Khet_Partug_04", 100, "uni"],
 	["Khet Partug (Brown)", "CUP_O_TKI_Khet_Partug_02", 100, "uni"],
 	["Khet Partug (Grey)", "CUP_O_TKI_Khet_Partug_01", 100, "uni"],
@@ -1504,33 +1504,33 @@ uniformArray = compileFinal str
 	["Mechanic Overall (Green)", "CUP_U_C_Mechanic_03", 100, "uni"],
 	["NAPA Woodland/Olive", "CUP_U_I_GUE_Woodland1", 100, "uni"],
 	["NAPA Flecktarn/Jeans", "CUP_U_I_GUE_Flecktarn2", 100, "uni"],
-	["NAPA Flecktarn/Jeans Hooded ", "CUP_U_I_GUE_Flecktarn3", 100, "uni"], //(SPAWNEN #1 als INDP)
+	["NAPA Flecktarn/Jeans Hooded ", "CUP_U_I_GUE_Flecktarn3", 100, "uni"], // (SPAWNEN #1 als INDP)
 	["ODKB Uniform VDV (KSOR)", "CUP_U_O_ODKB_KSOR_VDV", 100, "uni"],
 	["Partisan Uniform (TTsKO)", "CUP_U_O_Partisan_TTsKO", 100, "uni"],
 	["Pilot Clothes (Civilian)", "CUP_U_C_Pilot_01", 100, "uni"],
-	["Pilot Coveralls (BW)", "CUP_U_B_GER_Fleck_Overalls_Pilot", 100, "uni"], //Schwarz
-	["PMC Shirt/Cargopants (Black)", "CUP_I_B_PMC_Unit_17", 100, "uni"], //SpecOps
+	["Pilot Coveralls (BW)", "CUP_U_B_GER_Fleck_Overalls_Pilot", 100, "uni"], // Schwarz
+	["PMC Shirt/Cargopants (Black)", "CUP_I_B_PMC_Unit_17", 100, "uni"], // SpecOps
 	["PMC Shirt/Pants w/Gloves Rolled (Burberry/Grey)", "CUP_I_B_PMC_Unit_43", 100, "uni"],
 	["PMC Shirt/Pants w/Gloves Rolled (Burgundy/Black)", "CUP_I_B_PMC_Unit_40", 100, "uni"],
 	["PMC Shirt/Pants w/Gloves Rolled (Plaid/Khaki)", "CUP_I_B_PMC_Unit_37", 100, "uni"],
-	["PMC Sweater/Cargo Pants (Arctic)", "CUP_I_B_PMC_Unit_28", 100, "uni"], //SpecOps White
-	["PMC Sweater/Cargo Pants (Black)", "CUP_I_B_PMC_Unit_24", 100, "uni"], //SpecOps Black
-	["PMC Winter Jacket/Pants (Camo 2)", "CUP_I_B_PMC_Unit_29", 100, "uni"], //Winter Jack mit Hoodie
-	["PMC Winter Jacket/Pants (Camo)", "CUP_I_B_PMC_Unit_26", 100, "uni"], //Winter Jack mit Hoodie
+	["PMC Sweater/Cargo Pants (Arctic)", "CUP_I_B_PMC_Unit_28", 100, "uni"], // SpecOps White
+	["PMC Sweater/Cargo Pants (Black)", "CUP_I_B_PMC_Unit_24", 100, "uni"], // SpecOps Black
+	["PMC Winter Jacket/Pants (Camo 2)", "CUP_I_B_PMC_Unit_29", 100, "uni"], // Winter Jack mit Hoodie
+	["PMC Winter Jacket/Pants (Camo)", "CUP_I_B_PMC_Unit_26", 100, "uni"], // Winter Jack mit Hoodie
 	["Police Uniform", "CUP_U_C_Policeman_01", 100, "uni"],
 	["Priest Uniform", "CUP_U_C_Priest_01", 100, "uni"],
-	["Profiteer Clothes", "CUP_U_C_Profiteer_03", 100, "uni"], //Hosties
-	["Profiteer Clothes (Red)", "CUP_U_C_Profiteer_04", 100, "uni"], //Hosties
-	["Racketeer Clothes 2", "CUP_U_C_racketeer_02", 100, "uni"], //Hosties
-	["Racketeer Clothes 4", "CUP_U_C_racketeer_04", 100, "uni"], //Hosties
-	["RACS Pilot Overall", "CUP_U_I_RACS_PilotOverall", 100, "uni"], //Hosties
+	["Profiteer Clothes", "CUP_U_C_Profiteer_03", 100, "uni"], // Hosties
+	["Profiteer Clothes (Red)", "CUP_U_C_Profiteer_04", 100, "uni"], // Hosties
+	["Racketeer Clothes 2", "CUP_U_C_racketeer_02", 100, "uni"], // Hosties
+	["Racketeer Clothes 4", "CUP_U_C_racketeer_04", 100, "uni"], // Hosties
+	["RACS Pilot Overall", "CUP_U_I_RACS_PilotOverall", 100, "uni"], // Hosties
 	["RACS Uniform (Woodland)", "CUP_U_I_RACS_WDL_1", 100, "uni"],
 	["Rocker Clothes (Black)", "CUP_U_C_Rocker_01", 100, "uni"],
 	["Rocker Clothes (Brown)", "CUP_U_C_Rocker_02", 100, "uni"],
 	["Rocker Clothes (Green)", "CUP_U_C_Rocker_04", 100, "uni"],
 	["Rescue Clothing", "CUP_U_C_Rescuer_01", 100, "uni"],
 	["SLA Officer Uniform", "CUP_U_O_SLA_Officer_Suit", 100, "uni"],
-	["SLA Overalls (Pilot)", "CUP_U_O_SLA_Overalls_Pilot", 100, "uni"], //Totally Blue
+	["SLA Overalls (Pilot)", "CUP_U_O_SLA_Overalls_Pilot", 100, "uni"], // Totally Blue
 	["SLA Uniform (Camo)", "CUP_U_O_SLA_MixedCamo", 100, "uni"],
 	["SLA Uniform (Desert)", "CUP_U_O_SLA_Desert", 100, "uni"],
 	["SLA Uniform (Militia)", "CUP_U_O_SLA_Green", 100, "uni"],
@@ -1550,15 +1550,15 @@ uniformArray = compileFinal str
 	["US BDU (M81, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_M81_US", 100, "uni"],
 	["US BDU (OD)", "CUP_U_B_BDUv2_OD_US", 100, "uni"],
 	["US BDU (OD, Gloves/Dirty)", "CUP_U_B_BDUv2_gloves_dirty_OD_US", 100, "uni"],
-	["Villager Clothes (Blue)", "CUP_U_C_Villager_01", 100, "uni"], //Bauer Hosties
-	["Villager Clothes (Green)", "CUP_U_C_Villager_02", 100, "uni"], //Bauer Hosties
-	["Villager Clothes (Brown)", "CUP_U_C_Villager_03", 100, "uni"], //Bauer Hosties
+	["Villager Clothes (Blue)", "CUP_U_C_Villager_01", 100, "uni"], // Bauer Hosties
+	["Villager Clothes (Green)", "CUP_U_C_Villager_02", 100, "uni"], // Bauer Hosties
+	["Villager Clothes (Brown)", "CUP_U_C_Villager_03", 100, "uni"], // Bauer Hosties
 	["Woodlander Clothes (Blue)", "CUP_U_C_Woodlander_01", 100, "uni"],
 	["Woodlander Clothes (Brown)", "CUP_U_C_Woodlander_02", 100, "uni"],
 	["Woodlander Clothes (Camo)", "CUP_U_C_Woodlander_03", 100, "uni"],
 	["Woodlander Clothes (Green)", "CUP_U_C_Woodlander_04", 100, "uni"],
-	["Worker Clothes (Blue)", "CUP_U_C_Worker_03", 100, "uni"], //Arbeiter Hosties
-	["Worker Clothes (Green)", "CUP_U_C_Worker_02", 100, "uni"] //Arbeiter Hosties********
+	["Worker Clothes (Blue)", "CUP_U_C_Worker_03", 100, "uni"], // Arbeiter Hosties
+	["Worker Clothes (Green)", "CUP_U_C_Worker_02", 100, "uni"]// Arbeiter Hosties********
 ];
 
 vestArray = compileFinal str
@@ -1664,90 +1664,90 @@ vestArray = compileFinal str
 	["6B3 (VSR-93)", "CUP_V_RUS_6B3_1", -1, "vest"], // Armor III
 	["6B3 (VSR-98 Flora)", "CUP_V_RUS_6B3_Flora_1", -1, "vest"], // Armor III
 	["6B3 Flak Vest", "CUP_V_O_SLA_Flak_Vest03", -1, "vest"], // Armor II
-	["6B45 Vest (Beige Digital)", "CUP_V_RUS_6B45_1_BeigeDigital", -1, "vest"], //Armor III
-	["6B45 Vest (EMR)", "CUP_V_RUS_6B45_1", -1, "vest"], //Armor III
-	["ACR Carried Vest (Heavy/Empty)", "CUP_V_CZ_vest01", -1, "vest"], //Armor III
-	["ACR Carried Vest (Light/Combat Knife)", "CUP_V_CZ_vest16", -1, "vest"], //Armor I
-	["ACR Carried Vest (Light/Empty)", "CUP_V_CZ_vest15", -1, "vest"], //Armor I
-	["ACR Carrier Vest Grenadier (Heavy)", "CUP_V_CZ_vest05", -1, "vest"], //Armor III
-	["ACR Carrier Vest Machinegunner (Heavy)", "CUP_V_CZ_vest11", -1, "vest"], //Armor III
-	["ACR NPP-2006 (Black Vest)", "CUP_V_CZ_NPP2006_nk_black", -1, "vest"], //Armor IV
-	["ACR NPP-2006 (Desert)", "CUP_V_CZ_NPP2006_nk_des", -1, "vest"], //Armor IV
-	["ACR NPP-2006 (Woodland)", "CUP_V_CZ_NPP2006_nk_vz95", -1, "vest"], //Armor IV
+	["6B45 Vest (Beige Digital)", "CUP_V_RUS_6B45_1_BeigeDigital", -1, "vest"], // Armor III
+	["6B45 Vest (EMR)", "CUP_V_RUS_6B45_1", -1, "vest"], // Armor III
+	["ACR Carried Vest (Heavy/Empty)", "CUP_V_CZ_vest01", -1, "vest"], // Armor III
+	["ACR Carried Vest (Light/Combat Knife)", "CUP_V_CZ_vest16", -1, "vest"], // Armor I
+	["ACR Carried Vest (Light/Empty)", "CUP_V_CZ_vest15", -1, "vest"], // Armor I
+	["ACR Carrier Vest Grenadier (Heavy)", "CUP_V_CZ_vest05", -1, "vest"], // Armor III
+	["ACR Carrier Vest Machinegunner (Heavy)", "CUP_V_CZ_vest11", -1, "vest"], // Armor III
+	["ACR NPP-2006 (Black Vest)", "CUP_V_CZ_NPP2006_nk_black", -1, "vest"], // Armor IV
+	["ACR NPP-2006 (Desert)", "CUP_V_CZ_NPP2006_nk_des", -1, "vest"], // Armor IV
+	["ACR NPP-2006 (Woodland)", "CUP_V_CZ_NPP2006_nk_vz95", -1, "vest"], // Armor IV
 	["ACR Pilot Vest", "CUP_V_CZ_vest20", -1, "vest"],
 	["ALICE Webbing", "CUP_V_B_ALICE", -1, "vest"],
-	["Armatus Plate Carrier (Black)", "CUP_V_B_Armatus_Black", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier (Coyote)", "CUP_V_B_Armatus_Coyote", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier (Woodland)", "CUP_V_B_GER_Armatus_Fleck", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier (Multicam)", "CUP_V_B_Armatus_MCam", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier (Olive Drab)", "CUP_V_B_Armatus_OD", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier (Tropentarn KSK)", "CUP_V_B_GER_Armatus_Trop", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier w/ Battlebelt (Black)", "CUP_V_B_Armatus_BB_Black", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier w/ Battlebelt (Coyote)", "CUP_V_B_Armatus_BB_Coyote", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier w/ Battlebelt (Flecktarn KSK)", "CUP_V_B_GER_Armatus_BB_Fleck", -1, "vest"], //Armor IV
-	["Armatus Plate Carrier w/ Battlebelt (Multicam US)", "CUP_V_B_Armatus_BB_US_MCam", -1, "vest"], //Armor IV
-	["Carrier Vest w/ pouches (Flecktarn)", "CUP_V_B_GER_Carrier_Vest_3", -1, "vest"], //Armor III
-	["Carrier Vest w/ pouches (Desert)", "CUP_V_I_RACS_Carrier_Vest_3", -1, "vest"], //Armor III
-	["No Front Pouch", "CUP_V_B_Ciras_Black2", -1, "vest"], //Armor IV
-	["CIRAS Driver (Black)", "CUP_V_PMC_CIRAS_Black_Veh", -1, "vest"], //Armor III
-	["CIRAS Driver (Coyote)", "CUP_V_PMC_CIRAS_Coyote_Veh", -1, "vest"], //Armor III
-	["CIRAS Driver (Winter)", "CUP_V_PMC_CIRAS_Winter_Veh", -1, "vest"], //Armor III
-	["Ciras Olive (No Front Pouch)", "CUP_V_B_Ciras_Olive2", -1, "vest"], //Armor IV
-	["Ciras Khaki (No Front Pouch)", "CUP_V_B_Ciras_Khaki2", -1, "vest"], //Armor IV
-	["German Protection Vest (Flecktarn Grenadier)", "CUP_V_B_GER_PVest_Fleck_Gren", -1, "vest"], //Armor IV
-	["German Protection Vest (Flecktarn MGunner)", "CUP_V_B_GER_PVest_Fleck_MG", -1, "vest"], //Armor IV
-	["German Protection Vest (Flecktarn Officer)", "CUP_V_B_GER_PVest_Fleck_OFC", -1, "vest"], //Armor IV
-	["Guerilla Jacket", "CUP_V_I_Guerilla_Jacket", -1, "vest"], //Guerilla Jacket
-	["IdZ Weste (Flecktarn)", "BWA3_Vest_Fleck", -1, "vest"], //Armor IV
-	["IdZ Weste (Flecktarn) - Grenadier", "BWA3_Vest_Grenadier_Fleck", -1, "vest"], //Armor IV
-	["IdZ Weste (Multitarn)", "BWA3_Vest_Multi", -1, "vest"], //Armor IV
-	["IdZ Weste (Multitarn) - Grenadier", "BWA3_Vest_Grenadier_Multi", -1, "vest"], //Armor IV
-	["IdZ Weste (Tropentarn)", "BWA3_Vest_Tropen", -1, "vest"], //Armor IV
-	["IdZ Weste (Tropentarn) - Grenadier", "BWA3_Vest_Grenadier_Tropen", -1, "vest"], //Armor IV
-	["Interceptor (Coyote Brown Base)", "CUP_V_B_Interceptor_Base_Coyote", -1, "vest"], //Armor III
-	["Interceptor (Coyote Brown Grenadier)", "CUP_V_B_Interceptor_Grenadier_Coyote", -1, "vest"], //Armor III
-	["Interceptor (Coyote Brown Rifleman)", "CUP_V_B_Interceptor_Rifleman_Coyote", -1, "vest"], //Armor III
-	["Interceptor (Grey Base)", "CUP_V_B_Interceptor_Base_Grey", -1, "vest"], //Armor III
-	["Interceptor (Grey Grenadier)", "CUP_V_B_Interceptor_Grenadier_Grey", -1, "vest"], //Armor III
-	["Interceptor (Grey Rifleman)", "CUP_V_B_Interceptor_Rifleman_Grey", -1, "vest"], //Armor III
-	["Interceptor (M81 Base)", "CUP_V_B_Interceptor_Base_M81", -1, "vest"], //Armor III
-	["Interceptor (M81 Grenadier)", "CUP_V_B_Interceptor_Grenadier_M81", -1, "vest"], //Armor III
-	["Interceptor (M81 Rifleman)", "CUP_V_B_Interceptor_Rifleman_M81", -1, "vest"], //Armor III
-	["Interceptor (DCU Base)", "CUP_V_B_Interceptor_Base_DCU", -1, "vest"], //Armor III
-	["Interceptor (DCU Grenadier)", "CUP_V_B_Interceptor_Grenadier_DCU", -1, "vest"], //Armor III
-	["Interceptor (DCU Rifleman)", "CUP_V_B_Interceptor_Rifleman_DCU", -1, "vest"], //Armor III
-	["Interceptor (Olive Base)", "CUP_V_B_Interceptor_Base_Olive", -1, "vest"], //Armor III
-	["Interceptor (Olive Grenadier)", "CUP_V_B_Interceptor_Grenadier_Olive", -1, "vest"], //Armor III
-	["Interceptor (Olive Rifleman)", "CUP_V_B_Interceptor_Rifleman_Olive", -1, "vest"], //Armor III
-	["IOTV Grenadier (Black)", "CUP_V_PMC_IOTV_Black_Gren", -1, "vest"], //Armor III
-	["IOTV Grenadier (Coyote)", "CUP_V_PMC_IOTV_Coyote_Gren", -1, "vest"], //Armor III
-	["JPC Vest Light (Flecktarn)", "CUP_V_B_JPC_Fleck_Light", -1, "vest"], //Armor III
-	["JPC Vest Light (Tropentarn)", "CUP_V_B_JPC_MCam_Light", -1, "vest"], //Armor III
-	["LBT Load Bearing Vest w/Plate (Black)", "CUP_V_B_LBT_LBV_Black", -1, "vest"], //Armor IV
-	["LBT Load Bearing Vest w/Plate (Flecktarn)", "CUP_V_B_GER_Carrier_Vest", -1, "vest"], //Armor IV
-	["M23 Pioneer (Brown)", "CUP_V_O_SLA_M23_1_BRN", -1, "vest"], 
+	["Armatus Plate Carrier (Black)", "CUP_V_B_Armatus_Black", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier (Coyote)", "CUP_V_B_Armatus_Coyote", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier (Woodland)", "CUP_V_B_GER_Armatus_Fleck", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier (Multicam)", "CUP_V_B_Armatus_MCam", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier (Olive Drab)", "CUP_V_B_Armatus_OD", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier (Tropentarn KSK)", "CUP_V_B_GER_Armatus_Trop", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier w/ Battlebelt (Black)", "CUP_V_B_Armatus_BB_Black", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier w/ Battlebelt (Coyote)", "CUP_V_B_Armatus_BB_Coyote", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier w/ Battlebelt (Flecktarn KSK)", "CUP_V_B_GER_Armatus_BB_Fleck", -1, "vest"], // Armor IV
+	["Armatus Plate Carrier w/ Battlebelt (Multicam US)", "CUP_V_B_Armatus_BB_US_MCam", -1, "vest"], // Armor IV
+	["Carrier Vest w/ pouches (Flecktarn)", "CUP_V_B_GER_Carrier_Vest_3", -1, "vest"], // Armor III
+	["Carrier Vest w/ pouches (Desert)", "CUP_V_I_RACS_Carrier_Vest_3", -1, "vest"], // Armor III
+	["No Front Pouch", "CUP_V_B_Ciras_Black2", -1, "vest"], // Armor IV
+	["CIRAS Driver (Black)", "CUP_V_PMC_CIRAS_Black_Veh", -1, "vest"], // Armor III
+	["CIRAS Driver (Coyote)", "CUP_V_PMC_CIRAS_Coyote_Veh", -1, "vest"], // Armor III
+	["CIRAS Driver (Winter)", "CUP_V_PMC_CIRAS_Winter_Veh", -1, "vest"], // Armor III
+	["Ciras Olive (No Front Pouch)", "CUP_V_B_Ciras_Olive2", -1, "vest"], // Armor IV
+	["Ciras Khaki (No Front Pouch)", "CUP_V_B_Ciras_Khaki2", -1, "vest"], // Armor IV
+	["German Protection Vest (Flecktarn Grenadier)", "CUP_V_B_GER_PVest_Fleck_Gren", -1, "vest"], // Armor IV
+	["German Protection Vest (Flecktarn MGunner)", "CUP_V_B_GER_PVest_Fleck_MG", -1, "vest"], // Armor IV
+	["German Protection Vest (Flecktarn Officer)", "CUP_V_B_GER_PVest_Fleck_OFC", -1, "vest"], // Armor IV
+	["Guerilla Jacket", "CUP_V_I_Guerilla_Jacket", -1, "vest"], // Guerilla Jacket
+	["IdZ Weste (Flecktarn)", "BWA3_Vest_Fleck", -1, "vest"], // Armor IV
+	["IdZ Weste (Flecktarn) - Grenadier", "BWA3_Vest_Grenadier_Fleck", -1, "vest"], // Armor IV
+	["IdZ Weste (Multitarn)", "BWA3_Vest_Multi", -1, "vest"], // Armor IV
+	["IdZ Weste (Multitarn) - Grenadier", "BWA3_Vest_Grenadier_Multi", -1, "vest"], // Armor IV
+	["IdZ Weste (Tropentarn)", "BWA3_Vest_Tropen", -1, "vest"], // Armor IV
+	["IdZ Weste (Tropentarn) - Grenadier", "BWA3_Vest_Grenadier_Tropen", -1, "vest"], // Armor IV
+	["Interceptor (Coyote Brown Base)", "CUP_V_B_Interceptor_Base_Coyote", -1, "vest"], // Armor III
+	["Interceptor (Coyote Brown Grenadier)", "CUP_V_B_Interceptor_Grenadier_Coyote", -1, "vest"], // Armor III
+	["Interceptor (Coyote Brown Rifleman)", "CUP_V_B_Interceptor_Rifleman_Coyote", -1, "vest"], // Armor III
+	["Interceptor (Grey Base)", "CUP_V_B_Interceptor_Base_Grey", -1, "vest"], // Armor III
+	["Interceptor (Grey Grenadier)", "CUP_V_B_Interceptor_Grenadier_Grey", -1, "vest"], // Armor III
+	["Interceptor (Grey Rifleman)", "CUP_V_B_Interceptor_Rifleman_Grey", -1, "vest"], // Armor III
+	["Interceptor (M81 Base)", "CUP_V_B_Interceptor_Base_M81", -1, "vest"], // Armor III
+	["Interceptor (M81 Grenadier)", "CUP_V_B_Interceptor_Grenadier_M81", -1, "vest"], // Armor III
+	["Interceptor (M81 Rifleman)", "CUP_V_B_Interceptor_Rifleman_M81", -1, "vest"], // Armor III
+	["Interceptor (DCU Base)", "CUP_V_B_Interceptor_Base_DCU", -1, "vest"], // Armor III
+	["Interceptor (DCU Grenadier)", "CUP_V_B_Interceptor_Grenadier_DCU", -1, "vest"], // Armor III
+	["Interceptor (DCU Rifleman)", "CUP_V_B_Interceptor_Rifleman_DCU", -1, "vest"], // Armor III
+	["Interceptor (Olive Base)", "CUP_V_B_Interceptor_Base_Olive", -1, "vest"], // Armor III
+	["Interceptor (Olive Grenadier)", "CUP_V_B_Interceptor_Grenadier_Olive", -1, "vest"], // Armor III
+	["Interceptor (Olive Rifleman)", "CUP_V_B_Interceptor_Rifleman_Olive", -1, "vest"], // Armor III
+	["IOTV Grenadier (Black)", "CUP_V_PMC_IOTV_Black_Gren", -1, "vest"], // Armor III
+	["IOTV Grenadier (Coyote)", "CUP_V_PMC_IOTV_Coyote_Gren", -1, "vest"], // Armor III
+	["JPC Vest Light (Flecktarn)", "CUP_V_B_JPC_Fleck_Light", -1, "vest"], // Armor III
+	["JPC Vest Light (Tropentarn)", "CUP_V_B_JPC_MCam_Light", -1, "vest"], // Armor III
+	["LBT Load Bearing Vest w/Plate (Black)", "CUP_V_B_LBT_LBV_Black", -1, "vest"], // Armor IV
+	["LBT Load Bearing Vest w/Plate (Flecktarn)", "CUP_V_B_GER_Carrier_Vest", -1, "vest"], // Armor IV
+	["M23 Pioneer (Brown)", "CUP_V_O_SLA_M23_1_BRN", -1, "vest"],
 	["M23 Pioneer (Green)", "CUP_V_O_SLA_M23_1_OD", -1, "vest"],
 	["M23 Pioneer (Takistani)", "CUP_V_O_TK_Vest_1", -1, "vest"],
-	["Marom IDF Tacitcal Vest", "CUP_V_IDF_Vest", -1, "vest"], //Armor III
+	["Marom IDF Tacitcal Vest", "CUP_V_IDF_Vest", -1, "vest"], // Armor III
 	["Miltec Chest Rig (Brown)", "CUP_V_B_GER_Carrier_Rig_2_Brown", -1, "vest"],
 	["Miltec Chest Rig (Desert)", "CUP_V_I_RACS_Carrier_Rig_2", -1, "vest"],
 	["Miltec Chest Rig (Flecktarn)", "CUP_V_B_GER_Carrier_Rig_2", -1, "vest"],
 	["Miltec Chest Rig (Olive)", "CUP_V_I_RACS_Carrier_Rig_wdl_2", -1, "vest"],
-	["Modular Tactical Vest (Big Pouch)", "CUP_V_B_MTV_Pouches", -1, "vest"], //Armor III
+	["Modular Tactical Vest (Big Pouch)", "CUP_V_B_MTV_Pouches", -1, "vest"], // Armor III
 	["NAVY Personal Vest (Blue)", "CUP_V_B_LHDVest_Blue", -1, "vest"],
 	["NAVY Personal Vest (Red)", "CUP_V_B_LHDVest_Red", -1, "vest"],
 	["NAVY Personal Vest (Yellow)", "CUP_V_B_LHDVest_Yellow", -1, "vest"],
-	["Osprey Mk3 DDPM (Automatic Rifleman)", "CUP_V_B_BAF_DDPM_Osprey_Mk3_AutomaticRifleman", -1, "vest"], //Armor III
-	["Osprey Mk3 DPM (Automatic Rifleman)", "CUP_V_B_BAF_DPM_Osprey_Mk3_AutomaticRifleman", -1, "vest"], //Armor III
-	["Osprey Mk4 (Automatic Rifleman)", "CUP_V_B_BAF_MTP_Osprey_Mk4_AutomaticRifleman", -1, "vest"], //Armor III
-	["PASGT Vest (M81)", "CUP_V_B_PASGT", -1, "vest"], //Armor II
-	["PASGT Vest (Olive)", "CUP_V_B_PASGT_OD", -1, "vest"], //Armor II
-	["PASGT Vest Light (M81)", "CUP_V_B_PASGT_no_bags", -1, "vest"], //Armor II
-	["PASGT Vest Light (Olive)", "CUP_V_B_PASGT_no_bags_OD", -1, "vest"], //Armor II
-	["Pilot Vest (US Army)", "CUP_V_B_USArmy_PilotVest", -1, "vest"], //Armor I
-	["Pilot Vest (USMC)", "CUP_V_B_PilotVest", -1, "vest"], //Armor I
-	["RRV Carrier (Delta 1)", "CUP_V_B_Delta_1", -1, "vest"], //Armor III
-	["RRV Carrier (Delta 2)", "CUP_V_B_Delta_2", -1, "vest"], //Armor III
+	["Osprey Mk3 DDPM (Automatic Rifleman)", "CUP_V_B_BAF_DDPM_Osprey_Mk3_AutomaticRifleman", -1, "vest"], // Armor III
+	["Osprey Mk3 DPM (Automatic Rifleman)", "CUP_V_B_BAF_DPM_Osprey_Mk3_AutomaticRifleman", -1, "vest"], // Armor III
+	["Osprey Mk4 (Automatic Rifleman)", "CUP_V_B_BAF_MTP_Osprey_Mk4_AutomaticRifleman", -1, "vest"], // Armor III
+	["PASGT Vest (M81)", "CUP_V_B_PASGT", -1, "vest"], // Armor II
+	["PASGT Vest (Olive)", "CUP_V_B_PASGT_OD", -1, "vest"], // Armor II
+	["PASGT Vest Light (M81)", "CUP_V_B_PASGT_no_bags", -1, "vest"], // Armor II
+	["PASGT Vest Light (Olive)", "CUP_V_B_PASGT_no_bags_OD", -1, "vest"], // Armor II
+	["Pilot Vest (US Army)", "CUP_V_B_USArmy_PilotVest", -1, "vest"], // Armor I
+	["Pilot Vest (USMC)", "CUP_V_B_PilotVest", -1, "vest"], // Armor I
+	["RRV Carrier (Delta 1)", "CUP_V_B_Delta_1", -1, "vest"], // Armor III
+	["RRV Carrier (Delta 2)", "CUP_V_B_Delta_2", -1, "vest"], // Armor III
 	["Tactical Vest (Flecktarn)", "CUP_V_B_GER_Tactical_Fleck", -1, "vest"],
 	["Tactical Vest (Tropentarn)", "CUP_V_B_GER_Tactical_Trop", -1, "vest"],
 	["Takistani Jacket (Black)", "CUP_V_OI_TKI_Jacket1_04", -1, "vest"],
@@ -1764,14 +1764,14 @@ vestArray = compileFinal str
 backpackArray = compileFinal str
 [
 	// Backpacks
-	//["Parachute", "B_Parachute", 200, "backpack"],
+	// ["Parachute", "B_Parachute", 200, "backpack"],
 	["Czech Scout Pack (M95)", "CUP_B_ACRScout_m95", 150, "backpack"],
 	["Messenger Pack (Gray)", "B_Messenger_Gray_F", 280, "backpack", "noDLC"],
 	["Messenger Pack (Dust)", "B_Messenger_Coyote_F", 280, "backpack", "noDLC"],
 	["Messenger Pack (Olive)", "B_Messenger_Olive_F", 280, "backpack", "noDLC"],
 	["Messenger Pack (Black)", "B_Messenger_Black_F", 280, "backpack", "noDLC"],
 	["Messenger Pack (IDAP)", "B_Messenger_IDAP_F", 280, "backpack", "noDLC"],
-	
+
 	["USMC Assault Pack (Green)", "CUP_B_USMC_AssaultPack", 400, "backpack"],
 
 	["Assault Pack (Black)", "B_AssaultPack_blk", 500, "backpack"],
@@ -1784,7 +1784,7 @@ backpackArray = compileFinal str
 	["Angriffspack (BW-Fleck)", "BWA3_AssaultPack_Fleck", 500, "backpack"],
 	["Angriffspack (BW-Multi)", "BWA3_AssaultPack_Multi", 500, "backpack"],
 	["Angriffspack (BW-Tropic)", "BWA3_AssaultPack_Tropen", 500, "backpack"],
-	
+
 	["RPG-Pack", "CUP_B_RPGPack_Khaki", 650, "backpack"],
 
 	["Field Pack (Black)", "B_FieldPack_blk", 800, "backpack"],
@@ -1797,7 +1797,7 @@ backpackArray = compileFinal str
 	["Feldpack (BW-Fleck)", "BWA3_FieldPack_Fleck", 800, "backpack"],
 	["Feldpack (BW-Multi)", "BWA3_FieldPack_Multi", 800, "backpack"],
 	["Feldpack (BW-Tropic)", "BWA3_FieldPack_Tropen", 800, "backpack"],
-	
+
 	["Medical Bag (SLA)", "CUP_B_SLA_Medicbag", 800, "backpack"],
 
 	["Kitbag (Coyote)", "B_Kitbag_cbr", 1200, "backpack"],
@@ -1807,7 +1807,7 @@ backpackArray = compileFinal str
 	["Kitbag (Flecktarn)", "BWA3_Kitbag_Fleck", 1200, "backpack"],
 	["Kitbag (Multitarn)", "BWA3_Kitbag_Multi", 1200, "backpack"],
 	["Kitbag (Tropentarn)", "BWA3_Kitbag_Tropen", 1200, "backpack"],
-	
+
 	["Tactical Backpack (Flecktarn)", "BWA3_TacticalPack_Fleck", 1300, "backpack"],
 	["Tactical Backpack (Multitarn)", "BWA3_TacticalPack_Multi", 1300, "backpack"],
 	["Tactical Backpack (Tropentarn)", "BWA3_TacticalPack_Tropen", 1300, "backpack"],
@@ -1817,12 +1817,12 @@ backpackArray = compileFinal str
 	["Viper Light Harness (G Hex)", "B_ViperLightHarness_ghex_F", 1600, "backpack", "noDLC"],
 	["Viper Light Harness (Khaki)", "B_ViperLightHarness_khk_F", 1600, "backpack", "noDLC"],
 	["Viper Light Harness (Olive)", "B_ViperLightHarness_oli_F", 1600, "backpack", "noDLC"],
-	
+
 	["Spetsnaz Backpack (Green)", "CUP_B_RUS_Backpack", 1650, "backpack"],
-	
+
 	["KSK Tactical Backpack (Flecktarn)", "CUP_B_GER_Pack_Flecktarn", 1700, "backpack"],
 	["KSK Tactical Backpack (Tropentarn)", "CUP_B_GER_Pack_Tropentarn", 1700, "backpack"],
-	
+
 	["Civilian Assault Pack (Woodland)", "CUP_B_CivPack_WDL", 1800, "backpack"],
 	["Czech Paratrooper Backpack (M95)", "CUP_B_ACRPara_m95", 1900, "backpack"],
 	["Alice Pack (Khaki)", "CUP_B_AlicePack_Khaki", 2000, "backpack"],
@@ -1834,15 +1834,15 @@ backpackArray = compileFinal str
 	["Viper Harness (G Hex)", "B_ViperHarness_ghex_F", 2200, "backpack", "noDLC"],
 	["Viper Harness (Khaki)", "B_ViperHarness_khk_F", 2200, "backpack", "noDLC"],
 	["Viper Harness (Olive)", "B_ViperHarness_oli_F", 2200, "backpack", "noDLC"],
-	
+
 	["USMC MOLLE Pack (Green)", "CUP_B_USMC_MOLLE", 2300, "backpack"],
 	["USMC MOLLE Pack (Woodland)", "CUP_B_USMC_MOLLE_WDL", 2300, "backpack"],
-	
+
 	["Kombat (Olive)", "CUP_B_Kombat_Olive", 2500, "backpack"],
 	["Hiking Pack", "CUP_B_HikingPack_Civ", 2500, "backpack"],
-	
+
 	["Coyote Backpack", "CUP_B_USPack_Coyote", 2900, "backpack"],
-	
+
 	["Carryall (Khaki)", "B_Carryall_khk", 3500, "backpack"],
 	["Carryall (MTP)", "B_Carryall_mcamo", 3500, "backpack"],
 	["Carryall (Olive)", "B_Carryall_oli", 3500, "backpack"],
@@ -1855,7 +1855,7 @@ backpackArray = compileFinal str
 	["Carryall (BW-Fleck)", "BWA3_Carryall_Fleck", 3500, "backpack"],
 	["Carryall (BW-Multi)", "BWA3_Carryall_Multi", 3500, "backpack"],
 	["Carryall (BW-Tropic)", "BWA3_Carryall_Tropen", 3500, "backpack"],
-	
+
 	["Kampfrucksack (Flecktarn)", "BWA3_PatrolPack_Fleck", 4500, "backpack"],
 	["Kampfrucksack (Multitarn)", "BWA3_PatrolPack_Multi", 4500, "backpack"],
 	["Kampfrucksack (Tropentarn)", "BWA3_PatrolPack_Tropen", 4500, "backpack"],
@@ -1865,7 +1865,7 @@ backpackArray = compileFinal str
 	["Bergen (MTP)", "B_Bergen_mcamo_F", 6500, "backpack", "noDLC"],
 	["Bergen (Tropic)", "B_Bergen_tna_F", 6500, "backpack", "noDLC"],
 	["Self-Contained Breathing Apparatus", "B_SCBA_01_F", 2500, "backpack"],
-	
+
 	["Combination Unit Respirator", "B_CombinationUnitRespirator_01_F", 2500, "backpack"],
 	["Radio Pack (Black)", "B_RadioBag_01_black_F", 1500, "backpack"],
 	["Radio Pack (Digital)", "B_RadioBag_01_digi_F", 1500, "backpack"],
@@ -1880,7 +1880,7 @@ backpackArray = compileFinal str
 
 goggleArray = compileFinal str
 [
-	// Goggles
+	// goggles
 	["Diving Goggles", "G_Diving", 1000, "gogg"],
 	["Stealth Balaclava (Black)", "G_Balaclava_TI_blk_F", 2000, "gogg"],
 	["Stealth Balaclava (Black, Goggles)", "G_Balaclava_TI_G_blk_F", 2500, "gogg"],
@@ -1947,7 +1947,7 @@ goggleArray = compileFinal str
 
 genItemArray = compileFinal str
 [
-	// General Items
+	// General items
 	["UAV Terminal (NATO)", "B_UavTerminal", 2000, "gps"],
 	["UAV Terminal (CSAT)", "O_UavTerminal", 2000, "gps"],
 	["UAV Terminal (AAF)", "I_UavTerminal", 2000, "gps"],
@@ -2009,8 +2009,8 @@ genItemArray = compileFinal str
 ];
 
 gasItemArray = compileFinal str
-[	
-	// Gas Items
+[
+	// Gas items
 	["Gas Mask (NATO)", "H_CrewHelmetHeli_B", 1000, "hat"],
 	["Gas Mask (CSAT)", "H_CrewHelmetHeli_O", 1000, "hat"],
 	["Gas Mask (AAF)", "H_CrewHelmetHeli_I", 1000, "hat"],
@@ -2022,7 +2022,6 @@ gasItemArray = compileFinal str
 	["Regulator Mask", "G_RegulatorMask_F", 10000, "gogg"]
 ];
 
-
 allStoreMagazines = compileFinal str (call ammoArray + call throwputArray + call genItemArray);
 allRegularStoreItems = compileFinal str (call allGunStoreFirearms + call allStoreMagazines + call accessoriesArray);
 allStoreGear = compileFinal str (call headArray + call uniformArray + call vestArray + call backpackArray + call goggleArray);
@@ -2033,8 +2032,8 @@ genObjectsArray = compileFinal str
 	["Camo Net", "CamoNet_INDP_open_F", 2000, "object", "HIDDEN"], // unlisted, only for object saving
 	["Pier Ladder", "Land_PierLadder_F", 2500, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 2500, "ammocrate"],
-	//["Metal Barrel", "Land_MetalBarrel_F", 2500, "object"],
-	//["Toilet Box", "Land_ToiletBox_F", 2500, "object"],
+	// ["Metal Barrel", "Land_MetalBarrel_F", 2500, "object"],
+	// ["Toilet Box", "Land_ToiletBox_F", 2500, "object"],
 	["Lamp Post (Harbour)", "Land_LampHarbour_F", 900, "object"],
 	["Lamp Post (Shabby)", "Land_LampShabby_F", 900, "object"],
 	["Boom Gate", "Land_BarGate_F", 900, "object"],
@@ -2055,7 +2054,7 @@ genObjectsArray = compileFinal str
 	["Concrete Military Wall", "Land_Mil_ConcreteWall_F", 1500, "object"],
 	["Concrete Wall (Long)", "Land_CncWall4_F", 600, "object"],
 	["Military Wall (Big)", "Land_Mil_WallBig_4m_F", 1500, "object"],
-	//["Shoot House Wall", "Land_Shoot_House_Wall_F", 180, "object"],
+	// ["Shoot House Wall", "Land_Shoot_House_Wall_F", 180, "object"],
 	["Canal Wall (Small)", "Land_Canal_WallSmall_10m_F", 1200, "object"],
 	["Canal Stairs", "Land_Canal_Wall_Stairs_F", 2000, "object"],
 	["Bag Fence (Corner)", "Land_BagFence_Corner_F", 800, "object"],
@@ -2075,32 +2074,32 @@ genObjectsArray = compileFinal str
 
 allGenStoreVanillaItems = compileFinal str (call genItemArray + call genObjectsArray + call gasItemArray + call allStoreGear);
 
-//Text name, classname, buy cost, spawn type, sell price (selling not implemented) or spawning color
+// text name, className, buy cost, spawn type, sell price (selling not implemented) or spawning color
 landArray = compileFinal str
 [
 	// SKIPSAVE = will not be autosaved until first manual force save, good for cheap vehicles that usually get abandoned
 
-	// Land Vehicles
+	// land vehicles
 	["Kart", "C_Kart_01_F", 5000, "vehicle", "SKIPSAVE"],
 
 	["Quadbike (Civilian)", "C_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
-	["Quadbike (NATO)", "B_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], //
-	["Quadbike (CSAT)", "O_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], //
-	["Quadbike (AAF)", "I_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], //
+	["Quadbike (NATO)", "B_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], // 
+	["Quadbike (CSAT)", "O_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], // 
+	["Quadbike (AAF)", "I_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE", "HIDDEN"], // 
 	["Quadbike", "I_G_Quadbike_01_F", 5000, "vehicle", "SKIPSAVE"],
-	
+
 	["M1030 (Motorrad)", "CUP_B_M1030_USMC", 4000, "vehicle", "SKIPSAVE"],
-	
-	["TT650", "CUP_O_TT650_TKA", 4000, "vehicle", "SKIPSAVE"], //Opfor Rust
-	// ["TT650 Flames", "CUP_I_TT650_NAPA", 4000, "vehicle", "SKIPSAVE"], //Indp Flames
-	// CUP_O_TT650_CHDKZ //Opfor Flames
-	// ["TT650 Rusty", "CUP_C_TT650_TK_CIV", 4000, "vehicle", "SKIPSAVE"], //Civ Rostig
-	// ["TT650 Red White", "CUP_C_TT650_CIV", 4000, "vehicle", "SKIPSAVE"], //Civ RotWeis CUP_C_TT650_RU
+
+	["TT650", "CUP_O_TT650_TKA", 4000, "vehicle", "SKIPSAVE"], // opfor Rust
+	// ["TT650 Flames", "CUP_I_TT650_NAPA", 4000, "vehicle", "SKIPSAVE"], // Indp Flames
+	// CUP_O_TT650_CHDKZ// opfor Flames
+	// ["TT650 Rusty", "CUP_C_TT650_TK_CIV", 4000, "vehicle", "SKIPSAVE"], // Civ Rostig
+	// ["TT650 Red White", "CUP_C_TT650_CIV", 4000, "vehicle", "SKIPSAVE"], // Civ RotWeis CUP_C_TT650_RU
 
 	["Hatchback", "C_Hatchback_01_F", 8000, "vehicle", "SKIPSAVE"],
 	["Hatchback Sport", "C_Hatchback_01_sport_F", 10000, "vehicle", "SKIPSAVE"],
 	["SUV", "C_SUV_01_F", 11000, "vehicle", "SKIPSAVE"],
-	
+
 	// ["Lada", "CUP_C_Lada_White_CIV", 8000, "vehicle", "SKIPSAVE"],
 	// ["Lada (Green)", "CUP_C_Lada_GreenTK_CIV", 8000, "vehicle", "SKIPSAVE"],
 	["Lada", "CUP_LADA_LM_CIV", 8000, "vehicle", "SKIPSAVE"],
@@ -2110,9 +2109,9 @@ landArray = compileFinal str
 	["Volha", "CUP_O_Volha_SLA", 6000, "vehicle", "SKIPSAVE"],
 	["Datsun 620 Pickup (Covered)", "CUP_C_Datsun_Covered", 6500, "vehicle", "SKIPSAVE"],
 	["Datsun 620 Pickup (PK)", "CUP_I_Datsun_PK_Random", 6500, "vehicle", "SKIPSAVE"],
-	["Datsun 620 Pickup (AA)", "CUP_I_Datsun_PK_Random", 6500, "vehicle", "SKIPSAVE"], //*Neu
-	["Datsun 620 Pickup (4Seat)", "CUP_I_Datsun_PK_Random", 6500, "vehicle", "SKIPSAVE"], //*Neu
-	
+	["Datsun 620 Pickup (AA)", "CUP_I_Datsun_PK_Random", 6500, "vehicle", "SKIPSAVE"], // *Neu
+	["Datsun 620 Pickup (4Seat)", "CUP_I_Datsun_PK_Random", 6500, "vehicle", "SKIPSAVE"], // *Neu
+
 	["SUV (Random Color)", "CUP_C_SUV_CIV", 15000, "vehicle", "SKIPSAVE"],
 	["SUV (Van)", "CUP_I_SUV_ION", 15000, "vehicle", "SKIPSAVE"],
 	["SUV (Van) MG", "CUP_I_SUV_Armored_ION", 25000, "vehicle", "SKIPSAVE"],
@@ -2127,7 +2126,7 @@ landArray = compileFinal str
 	["Offroad Police", "B_GEN_Offroad_01_gen_F", 12500, "vehicle", "SKIPSAVE"],
 	["Offroad Repair", "C_Offroad_01_repair_F", 15000, "vehicle", "SKIPSAVE"],
 	["Offroad HMG", "B_G_Offroad_01_armed_F", 25000, "vehicle", "SKIPSAVE"],
-	
+
 	["Offroad Covered", "C_Offroad_01_covered_F", 12500, "vehicle", "SKIPSAVE"],
 	["Offroad Covered (Com)", "C_Offroad_01_comms_F", 12500, "vehicle", "SKIPSAVE"],
 	["Offroad Covered (Pol)", "B_GEN_Offroad_01_covered_F", 12500, "vehicle", "SKIPSAVE"],
@@ -2136,7 +2135,7 @@ landArray = compileFinal str
 	// ["Towing Tractor", "CUP_B_TowingTractor_CZ", 3000, "vehicle", "SKIPSAVE"],
 	// ["Old Tractor", "CUP_C_Tractor_CIV", 3000, "vehicle", "SKIPSAVE"],
 	// ["Towing Tractor 2", "CUP_O_Tractor_Old_TKA", 3000, "vehicle", "SKIPSAVE"],
-	
+
 	["Ikarus 260", "CUP_C_Ikarus_TKC", 6000, "vehicle", "SKIPSAVE"],
 
 	["Truck", "C_Van_01_transport_F", 7000, "vehicle", "SKIPSAVE"],
@@ -2144,11 +2143,11 @@ landArray = compileFinal str
 	["Truck Box", "C_Van_01_box_F", 9000, "vehicle", "SKIPSAVE"],
 	["Fuel Truck", "C_Van_01_fuel_F", 20000, "vehicle", "SKIPSAVE"],
 	["Fuel Truck Camo", "I_G_Van_01_fuel_F", 2100, "vehicle", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
-	
+
 	// ["Skoda S1203", "CUP_C_S1203_CIV", 5000, "vehicle", "SKIPSAVE"],
 	["Skoda S1203", "CUP_C_S1203_Militia_CIV", 5000, "vehicle", "SKIPSAVE"],
 	// ["Skoda S1203 (Ambulance)", "CUP_B_S1203_Ambulance_CDF", 5000, "vehicle", "SKIPSAVE"],
-	
+
 	// ["Van Cargo", "C_Van_02_vehicle_F", 5000, "vehicle", "SKIPSAVE"],
 	// ["Van Transport", "C_Van_02_transport_F", 5000, "vehicle", "SKIPSAVE"],
 	// ["Van Police Cargo", "B_GEN_Van_02_vehicle_F", 1250, "vehicle", "SKIPSAVE"],
@@ -2174,7 +2173,7 @@ landArray = compileFinal str
 	// ["Tempest Fuel", "O_Truck_03_fuel_F", 20000, "vehicle"],
 	// ["Tempest Medical", "O_Truck_03_medical_F", 14000, "vehicle"],
 	// ["Tempest Repair", "O_Truck_03_repair_F", 24000, "vehicle"],
-	
+
 	// ["Zamak Resupply", "I_Truck_02_ammo_F", 4000, "vehicle"],
 	// ["Zamak Transport", "I_Truck_02_transport_F", 6000, "vehicle"],
 	// ["Zamak Covered", "I_Truck_02_covered_F", 7000, "vehicle"],
@@ -2184,7 +2183,7 @@ landArray = compileFinal str
 	["Ural (ZU-23)", "CUP_B_Ural_ZU23_CDF", 20000, "vehicle"],
 	["Ural (Repair)", "CUP_B_Ural_Repair_CDF", 24000, "vehicle"],
 	["Ural (Refuel)", "CUP_B_Ural_Refuel_CDF", 20000, "vehicle"],
-	["Ural (Empty)", "CUP_B_Ural_Empty_CDF", 4000, "vehicle"], //*Neu
+	["Ural (Empty)", "CUP_B_Ural_Empty_CDF", 4000, "vehicle"], // *Neu
 	["Ural", "CUP_B_Ural_CDF", 6000, "vehicle"],
 	["Ural (Ammo)", "CUP_B_Ural_Reammo_CDF", 5000, "vehicle"],
 	["Ural (Open)", "CUP_B_Ural_Open_CDF", 6000, "vehicle"],
@@ -2215,29 +2214,29 @@ landArray = compileFinal str
 
 armoredArray = compileFinal str
 [
-	// Armored Vehicles
+	// Armored vehicles
 	["UAZ (SPG-9)", "CUP_B_UAZ_SPG9_CDF", 30000, "vehicle", "SKIPSAVE"], // +Raketenwerfer
 	["UAZ (Open)", "CUP_B_UAZ_Open_CDF", 5000, "vehicle", "SKIPSAVE"],
 	["UAZ (Closed)", "CUP_O_UAZ_Militia_SLA", 5000, "vehicle", "SKIPSAVE"],
 	["UAZ (Metis-M)", "CUP_B_UAZ_METIS_CDF", 70000, "vehicle", "SKIPSAVE"], // +Raketenwerfer
-	["UAZ (DShKM)", "CUP_B_UAZ_MG_CDF", 20000, "vehicle", "SKIPSAVE"], //+MG
-	["UAZ (AGS-30) ", "CUP_B_UAZ_AGS30_CDF", 20000, "vehicle", "SKIPSAVE"], //MG
-	["UAZ (AA) ", "CUP_B_UAZ_AA_CDF", 20000, "vehicle", "SKIPSAVE"], //*Neu
+	["UAZ (DShKM)", "CUP_B_UAZ_MG_CDF", 20000, "vehicle", "SKIPSAVE"], // +MG
+	["UAZ (AGS-30) ", "CUP_B_UAZ_AGS30_CDF", 20000, "vehicle", "SKIPSAVE"], // MG
+	["UAZ (AA) ", "CUP_B_UAZ_AA_CDF", 20000, "vehicle", "SKIPSAVE"], // *Neu
 	["UAZ", "CUP_B_UAZ_Unarmed_CDF", 11000, "vehicle", "SKIPSAVE"],
-	// ["UAZ (Ambulance)", "CUP_O_UAZ_AMB_RU", 11000, "vehicle", "SKIPSAVE"], //*Neu
+	// ["UAZ (Ambulance)", "CUP_O_UAZ_AMB_RU", 11000, "vehicle", "SKIPSAVE"], // *Neu
 	["Land Rover 110 (Transport)", "CUP_C_LR_Transport_CTK", 11000, "vehicle", "SKIPSAVE"],
 	["Land Rover 110 (M2)", "CUP_B_LR_MG_CZ_W", 20000, "vehicle", "SKIPSAVE"],
-	["Land Rover 110 (Ambulance)", "CUP_B_LR_Ambulance_GB_D", 11000, "vehicle", "SKIPSAVE"], //Desert Variant Needed?
+	["Land Rover 110 (Ambulance)", "CUP_B_LR_Ambulance_GB_D", 11000, "vehicle", "SKIPSAVE"], // Desert Variant Needed?
 	["Land Rover 110 (GMG Special)", "CUP_B_LR_Special_GMG_GB_D", 20000, "vehicle", "SKIPSAVE"],
-	["Land Rover 110 (SPG-9)", "CUP_O_LR_SPG9_TKA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["Land Rover 110 (AA)", "CUP_O_LR_AA_TKA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["Land Rover 110 (Special)", "CUP_B_LR_Special_Des_CZ_D", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["Land Rover 110 (M2 Special)", "CUP_B_LR_Special_M2_GB_D", 20000, "vehicle", "SKIPSAVE"], //*Neu
+	["Land Rover 110 (SPG-9)", "CUP_O_LR_SPG9_TKA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["Land Rover 110 (AA)", "CUP_O_LR_AA_TKA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["Land Rover 110 (Special)", "CUP_B_LR_Special_Des_CZ_D", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["Land Rover 110 (M2 Special)", "CUP_B_LR_Special_M2_GB_D", 20000, "vehicle", "SKIPSAVE"], // *Neu
 	["HMMWV M1151 M2", "CUP_B_HMMWV_M2_GPK_ACR", 20000, "vehicle", "SKIPSAVE"],
 	["HMMWV M1151 (Mk. 19)", "CUP_B_M1151_Mk19_USA", 20000, "vehicle", "SKIPSAVE"],
-	["HMMWV M1151 (M2)", "CUP_B_M1151_M2_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
+	["HMMWV M1151 (M2)", "CUP_B_M1151_M2_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
 	["HMMWV M1151 (M2) Deployment", "CUP_B_M1151_Deploy_USA", 20000, "vehicle", "SKIPSAVE"],
-	["HMMWV M1151 (MK19)", "CUP_B_M1151_Mk19_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
+	["HMMWV M1151 (MK19)", "CUP_B_M1151_Mk19_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
 	["HMMWV M1114 DSHKM", "CUP_B_HMMWV_DSHKM_GPK_ACR", 20000, "vehicle", "SKIPSAVE"],
 	["HMMWV M1152 ECV", "CUP_B_M1152_USA", 11000, "vehicle", "SKIPSAVE"],
 	["HMMWV M1167 (TOW-2)", "CUP_B_M1167_USA", 70000, "vehicle", "SKIPSAVE"],
@@ -2247,13 +2246,13 @@ armoredArray = compileFinal str
 	["HMMMV (Ambulance)", "CUP_B_HMMWV_Ambulance_ACR", 11000, "vehicle", "SKIPSAVE"],
 	["HMMMV SOV (Mk19)", "CUP_B_HMMWV_SOV_USA", 20000, "vehicle", "SKIPSAVE"],
 	["HMMMV SOV (M2)", "CUP_B_HMMWV_SOV_M2_USA", 20000, "vehicle", "SKIPSAVE"],
-	["HMMMV M1114 AGS", "CUP_B_HMMWV_AGS_GPK_ACR", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV UAV Terminal", "CUP_B_HMMWV_Terminal_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV M2", "CUP_B_HMMWV_M2_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV Unarmed", "CUP_B_HMMWV_Unarmed_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV Transport", "CUP_B_HMMWV_Transport_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV MK19", "CUP_B_HMMWV_MK19_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
-	["HMMMV TOW", "CUP_B_HMMWV_TOW_USA", 20000, "vehicle", "SKIPSAVE"], //*Neu
+	["HMMMV M1114 AGS", "CUP_B_HMMWV_AGS_GPK_ACR", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV UAV Terminal", "CUP_B_HMMWV_Terminal_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV M2", "CUP_B_HMMWV_M2_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV Unarmed", "CUP_B_HMMWV_Unarmed_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV Transport", "CUP_B_HMMWV_Transport_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV MK19", "CUP_B_HMMWV_MK19_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
+	["HMMMV TOW", "CUP_B_HMMWV_TOW_USA", 20000, "vehicle", "SKIPSAVE"], // *Neu
 	["HMMWV Avenger", "CUP_B_HMMWV_Avenger_USMC", 120000, "vehicle", "SKIPSAVE"],
 	["Dingo 2 (MG)", "CUP_B_Dingo_GER_Des", 25000, "vehicle", "SKIPSAVE"],
 	["Dingo 2 (GL)", "CUP_B_Dingo_GL_GER_Des", 28000, "vehicle", "SKIPSAVE"],
@@ -2267,17 +2266,17 @@ armoredArray = compileFinal str
 	["Mastiff PPV GMG", "CUP_B_Mastiff_GMG_GB_D", 25000, "vehicle"],
 	["Mastiff PPV HMG", "CUP_B_Mastiff_HMG_GB_D", 25000, "vehicle"],
 	["Mastiff PPV LMG", "CUP_B_Mastiff_LMG_GB_D", 25000, "vehicle"],
-	["Wolfhound TSV LMG", "CUP_B_Wolfhound_LMG_GB_W", 25000, "vehicle"], //*New
-	["Wolfhound TSV GMG", "CUP_B_Wolfhound_GMG_GB_W", 25000, "vehicle"], //*New
-	["Wolfhound TSV HMG", "CUP_B_Wolfhound_HMG_GB_W", 25000, "vehicle"], //*New
-	["Ridgeback PPV HMG", "CUP_B_Ridgback_HMG_GB_W", 25000, "vehicle"], //*New
-	["Ridgeback PPV LMG", "CUP_B_Ridgback_LMG_GB_W", 25000, "vehicle"], //*New
-	["Ridgeback PPV GMG", "CUP_B_Ridgback_GMG_GB_W", 25000, "vehicle"], //*New
+	["Wolfhound TSV LMG", "CUP_B_Wolfhound_LMG_GB_W", 25000, "vehicle"], // *New
+	["Wolfhound TSV GMG", "CUP_B_Wolfhound_GMG_GB_W", 25000, "vehicle"], // *New
+	["Wolfhound TSV HMG", "CUP_B_Wolfhound_HMG_GB_W", 25000, "vehicle"], // *New
+	["Ridgeback PPV HMG", "CUP_B_Ridgback_HMG_GB_W", 25000, "vehicle"], // *New
+	["Ridgeback PPV LMG", "CUP_B_Ridgback_LMG_GB_W", 25000, "vehicle"], // *New
+	["Ridgeback PPV GMG", "CUP_B_Ridgback_GMG_GB_W", 25000, "vehicle"], // *New
 
 	["FV432 Mortar", "CUP_B_FV432_Mortar", 100000, "vehicle"],
 	["FV432 GPMG", "CUP_B_FV432_GB_GPMG", 70000, "vehicle"],
 	["FV432 Bulldog M2 RWS", "CUP_B_FV432_Bulldog_GB_D_RWS", 50000, "vehicle"],
-	["FV432 Bulldog M2", "CUP_B_FV432_Bulldog_GB_D", 48000, "vehicle"], //*New
+	["FV432 Bulldog M2", "CUP_B_FV432_Bulldog_GB_D", 48000, "vehicle"], // *New
 	["FV432 Ambulance", "CUP_B_FV432_GB_Ambulance", 45000, "vehicle"],
 	["FV510 Warrior", "CUP_B_FV510_GB_D", 70000, "vehicle"],
 	["MCV-80 Warrior", "CUP_B_MCV80_GB_D", 70000, "vehicle"],
@@ -2285,10 +2284,10 @@ armoredArray = compileFinal str
 	["T72", "CUP_B_T72_CDF", 130000, "vehicle"],
 	["MT-LB LV", "CUP_B_MTLB_pk_Winter_CDF", 70000, "vehicle"],
 	["BMP-2 Ambulance", "CUP_B_BMP2_AMB_CDF", 45000, "vehicle"],
-	["M1128 MGS", "CUP_B_M1128_MGS_Desert", 42000, "vehicle"], //*New
-	["M1126 ICV M2 CROWS", "CUP_B_M1126_ICV_M2_Woodland", 45000, "vehicle"], //*New
-	["M1126 ICV MK19 CROWS", "CUP_B_M1126_ICV_MK19_Desert", 45000, "vehicle"], //*New
-	["M6 Linebacker", "CUP_B_M6LineBacker_USA_W", 90000, "vehicle"], //*New
+	["M1128 MGS", "CUP_B_M1128_MGS_Desert", 42000, "vehicle"], // *New
+	["M1126 ICV M2 CROWS", "CUP_B_M1126_ICV_M2_Woodland", 45000, "vehicle"], // *New
+	["M1126 ICV MK19 CROWS", "CUP_B_M1126_ICV_MK19_Desert", 45000, "vehicle"], // *New
+	["M6 Linebacker", "CUP_B_M6LineBacker_USA_W", 90000, "vehicle"], // *New
 	["BMP-2", "CUP_B_BMP2_CDF", 70000, "vehicle"],
 	["BMP-2K", "CUP_B_BMP_HQ_CDF", 70000, "vehicle"],
 	["BRDM-2 (HQ)", "CUP_B_BRDM2_HQ_CDF", 45000, "vehicle"],
@@ -2299,7 +2298,7 @@ armoredArray = compileFinal str
 	["M2A2 Bradley IFV", "CUP_B_M2Bradley_USA_D", 100000, "vehicle"],
 	["M1135 ATGMV", "CUP_B_M1135_ATGMV_Desert", 70000, "vehicle"],
 	["M1133 MEV", "CUP_B_M1133_MEV_Desert", 45000, "vehicle"],
-	["M1133 CV M2 CROWS", "CUP_B_M1130_CV_M2_Desert", 45000, "vehicle"], //*New
+	["M1133 CV M2 CROWS", "CUP_B_M1130_CV_M2_Desert", 45000, "vehicle"], // *New
 	["M113", "CUP_B_M113_USA", 45000, "vehicle"],
 	["M113A Super-Gavin", "CUP_I_M113_RACS_URB", 70000, "vehicle"],
 	["M113A Medi-Gavin", "CUP_I_M113_Med_RACS", 70000, "vehicle"],
@@ -2308,16 +2307,16 @@ armoredArray = compileFinal str
 	["AAVC7/A1 (Command)", "CUP_B_AAV_Unarmed_USMC", 45000, "vehicle"],
 	["LAV-25A1 (240)", "CUP_B_LAV25M240_USMC", 70000, "vehicle"],
 	["LAV-C2", "CUP_B_LAV25_HQ_USMC", 45000, "vehicle"],
-	["BTR-80", "CUP_O_BTR80_TK", 47000, "vehicle"], //*New
-	["BTR-80A", "CUP_O_BTR80A_TK", 47000, "vehicle"], //*New
+	["BTR-80", "CUP_O_BTR80_TK", 47000, "vehicle"], // *New
+	["BTR-80A", "CUP_O_BTR80A_TK", 47000, "vehicle"], // *New
 	["BMP-1", "CUP_I_BMP1_TK_GUE", 70000, "vehicle"],
-	["BMP-3", "CUP_O_BMP3_RU", 72000, "vehicle"], //*New
+	["BMP-3", "CUP_O_BMP3_RU", 72000, "vehicle"], // *New
 	["BTR-40 (DSHKM)", "CUP_O_BTR40_MG_TKA", 15000, "vehicle"],
 	["BMP-1P TKA", "CUP_O_BMP1P_TKA", 70000, "vehicle"],
 	["BTR60 TK", "CUP_O_BTR60_TK", 60000, "vehicle"],
 	["BTR40 TKA", "CUP_O_BTR40_TKA", 15000, "vehicle"],
 	["BTR90", "CUP_O_BTR90_RU", 80000, "vehicle"],
-	["BTR90 (HQ)", "CUP_O_BTR90_HQ_RU", 82000, "vehicle"] //*New
+	["BTR90 (HQ)", "CUP_O_BTR90_HQ_RU", 82000, "vehicle"]// *New
 ];
 
 tanksArray = compileFinal str
@@ -2335,7 +2334,6 @@ tanksArray = compileFinal str
 	["M163A1 VADS", "CUP_B_M163_USA", 80000, "vehicle"],
 	["T-90A", "CUP_O_T90_RU", 150000, "vehicle"]
 ];
-
 
 helicoptersArray = compileFinal str
 [
@@ -2406,7 +2404,7 @@ helicoptersArray = compileFinal str
 	["UH-1H Armed", "CUP_I_UH1H_armed_TK_GUE", 1, "vehicle"],
 	["UH-1H Gunship", "CUP_I_UH1H_gunship_TK_GUE", 1, "vehicle"],
 	["UH-1H Transport", "CUP_I_UH1H_TK_GUE", 1, "vehicle"],
-	
+
 	["UH-1Y Venom Gunship", "CUP_B_UH1Y_Gunship_Dynamic_USMC", 1, "vehicle"],
 	["UH-1Y Venom Transport", "CUP_B_UH1Y_UNA_USMC", 1, "vehicle"],
 
@@ -2445,7 +2443,7 @@ planesArray = compileFinal str
 
 	["L-39ZA Gun", "CUP_B_L39_CZ", 85000, "vehicle", "variant_L39Gun"],
 	["L-39ZA CAS", "CUP_B_L39_CZ", 135000, "vehicle", "variant_L39CAS"],
-	
+
 	["SU-25 Frogfoot Gun", "CUP_B_Su25_Dyn_CDF", 100000, "vehicle", "variant_SU25Gun"],
 	["SU-25 Frogfoot CAS", "CUP_B_Su25_Dyn_CDF", 180000, "vehicle", "variant_SU25CAS"],
 
@@ -2457,27 +2455,27 @@ boatsArray = compileFinal str
 	// Boats
 	["Water Scooter", "C_Scooter_Transport_01_F", 3000, "boat"],
 	["Rescue Boat", "C_Rubberboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], // hidden, just a paintjob
-	["Rescue Boat (NATO)", "B_Lifeboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], //
+	["Rescue Boat (NATO)", "B_Lifeboat", 5000, "boat", "SKIPSAVE", "HIDDEN"], // 
 	["Assault Boat (NATO)", "B_Boat_Transport_01_F", 6000, "boat", "SKIPSAVE"],
-	
+
 	["LCU Mk.10", "CUP_B_MK10_GB", 3000, "boat"],
 	["LCU-1610", "CUP_B_LCU1600_USMC", 3000, "boat"],
 	["Fishing Boat", "CUP_C_Fishing_Boat_Chernarus", 3000, "boat"],
 	["LCVP", "CUP_O_LCVP_SLA", 3000, "boat"],
-	
-	["RHIB","I_C_Boat_Transport_02_F", 10000, "boat", "SKIPSAVE"],
+
+	["RHIB", "I_C_Boat_Transport_02_F", 10000, "boat", "SKIPSAVE"],
 	["Motorboat", "C_Boat_Civil_01_F", 10000, "boat", "SKIPSAVE"],
-	["Cup RHIB", "CUP_I_RHIB_RACS", 10000, "boat", "SKIPSAVE"], //*Neu
-	["Cup RHIB (Mk19)", "CUP_I_RHIB2Turret_RACS", 12000, "boat", "SKIPSAVE"], //*Neu
-	["Motorboat Rescue", "C_Boat_Civil_01_rescue_F", 9000, "boat", "SKIPSAVE", "HIDDEN"], //
-	["Motorboat Police", "C_Boat_Civil_01_police_F", 11000, "boat", "SKIPSAVE", "HIDDEN"], //
+	["Cup RHIB", "CUP_I_RHIB_RACS", 10000, "boat", "SKIPSAVE"], // *Neu
+	["Cup RHIB (Mk19)", "CUP_I_RHIB2Turret_RACS", 12000, "boat", "SKIPSAVE"], // *Neu
+	["Motorboat Rescue", "C_Boat_Civil_01_rescue_F", 9000, "boat", "SKIPSAVE", "HIDDEN"], // 
+	["Motorboat Police", "C_Boat_Civil_01_police_F", 11000, "boat", "SKIPSAVE", "HIDDEN"], // 
 	["Speedboat Minigun (NATO)", "B_Boat_Armed_01_minigun_F", 30000, "boat", "SKIPSAVE"],
 	["SDV Submarine (NATO)", "B_SDV_01_F", 20000, "submarine", "SKIPSAVE"],
 	["SDV Submarine (CSAT)", "O_SDV_01_F", 20000, "submarine", "SKIPSAVE"],
 	["SDV Submarine (AAF)", "I_SDV_01_F", 20000, "submarine", "SKIPSAVE"]
-	
-	// ["ANZAC Class Frigate", "CUP_B_Frigate_ANZAC", 2000000, "boat", "SKIPSAVE"], //*Neu Test
-	// ["MEKO 200 Frigate", "CUP_I_Frigate_RACS", 2000000, "boat", "SKIPSAVE"] //*Neu Test
+
+	// ["ANZAC Class Frigate", "CUP_B_Frigate_ANZAC", 2000000, "boat", "SKIPSAVE"], // *Neu Test
+	// ["MEKO 200 Frigate", "CUP_I_Frigate_RACS", 2000000, "boat", "SKIPSAVE"]// *Neu Test
 ];
 
 allVehStoreVehicles = compileFinal str (call landArray + call armoredArray + call tanksArray + call helicoptersArray + call planesArray + call boatsArray);
@@ -2497,7 +2495,7 @@ rgbOnlyVehicles = compileFinal str
 	// Deprecated
 ];
 
-_color = "#(rgb,1,1,1)color";
+_color = "#(rgb, 1, 1, 1)color";
 _texDir = "client\images\vehicleTextures\";
 _kartDir = "\A3\soft_f_kart\Kart_01\Data\";
 _mh9Dir = "\A3\air_f\Heli_Light_01\Data\";
@@ -2514,21 +2512,21 @@ colorsArray = compileFinal str
 	[ // Main colors
 		"All",
 		[
-			["Black", _color + "(0.01,0.01,0.01,1)"], // #(argb,8,8,3)color(0.1,0.1,0.1,0.1)
-			["Gray", _color + "(0.15,0.151,0.152,1)"], // #(argb,8,8,3)color(0.5,0.51,0.512,0.3)
-			["White", _color + "(0.01,0.01,0.01,1)"], // #(argb,8,8,3)color(1,1,1,0.5) //0.75,0.75,0.75,1
-			["Dark Blue", _color + "(0,0.05,0.15,1)"], // #(argb,8,8,3)color(0,0.3,0.6,0.05)
-			// ["Blue", _color + "(0,0.03,0.5,1)"], // #(argb,8,8,3)color(0,0.2,1,0.75)
-			// ["Teal", _color + "(0,0.3,0.3,1)"], // #(argb,8,8,3)color(0,1,1,0.15)
-			["Green", _color + "(0,0.5,0,1)"], // #(argb,8,8,3)color(0,1,0,0.15)
-			// ["Yellow", _color + "(0.5,0.4,0,1)"], // #(argb,8,8,3)color(1,0.8,0,0.4)
-			// ["Orange", _color + "(0.4,0.09,0,1)"], // #(argb,8,8,3)color(1,0.5,0,0.4)
-			// ["Red", _color + "(0.45,0.005,0,1)"], // #(argb,8,8,3)color(1,0.1,0,0.3)
-			// ["Pink", _color + "(0.5,0.03,0.3,1)"], // #(argb,8,8,3)color(1,0.06,0.6,0.5)
-			// ["Purple", _color + "(0.1,0,0.3,1)"], // #(argb,8,8,3)color(0.8,0,1,0.1)
-			["NATO Tan", _texDir + "nato.paa"], // #(argb,8,8,3)color(0.584,0.565,0.515,0.3)
-			["CSAT Brown", _texDir + "csat.paa"], // #(argb,8,8,3)color(0.624,0.512,0.368,0.3)
-			["AAF Green", _texDir + "aaf.paa"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
+			["Black", _color + "(0.01, 0.01, 0.01, 1)"], // #(argb, 8, 8, 3)color(0.1, 0.1, 0.1, 0.1)
+			["Gray", _color + "(0.15, 0.151, 0.152, 1)"], // #(argb, 8, 8, 3)color(0.5, 0.51, 0.512, 0.3)
+			["White", _color + "(0.01, 0.01, 0.01, 1)"], // #(argb, 8, 8, 3)color(1, 1, 1, 0.5)// 0.75, 0.75, 0.75, 1
+			["Dark Blue", _color + "(0, 0.05, 0.15, 1)"], // #(argb, 8, 8, 3)color(0, 0.3, 0.6, 0.05)
+			// ["Blue", _color + "(0, 0.03, 0.5, 1)"], // #(argb, 8, 8, 3)color(0, 0.2, 1, 0.75)
+			// ["Teal", _color + "(0, 0.3, 0.3, 1)"], // #(argb, 8, 8, 3)color(0, 1, 1, 0.15)
+			["Green", _color + "(0, 0.5, 0, 1)"], // #(argb, 8, 8, 3)color(0, 1, 0, 0.15)
+			// ["Yellow", _color + "(0.5, 0.4, 0, 1)"], // #(argb, 8, 8, 3)color(1, 0.8, 0, 0.4)
+			// ["Orange", _color + "(0.4, 0.09, 0, 1)"], // #(argb, 8, 8, 3)color(1, 0.5, 0, 0.4)
+			// ["Red", _color + "(0.45, 0.005, 0, 1)"], // #(argb, 8, 8, 3)color(1, 0.1, 0, 0.3)
+			// ["Pink", _color + "(0.5, 0.03, 0.3, 1)"], // #(argb, 8, 8, 3)color(1, 0.06, 0.6, 0.5)
+			// ["Purple", _color + "(0.1, 0, 0.3, 1)"], // #(argb, 8, 8, 3)color(0.8, 0, 1, 0.1)
+			["NATO Tan", _texDir + "nato.paa"], // #(argb, 8, 8, 3)color(0.584, 0.565, 0.515, 0.3)
+			["CSAT Brown", _texDir + "csat.paa"], // #(argb, 8, 8, 3)color(0.624, 0.512, 0.368, 0.3)
+			["AAF Green", _texDir + "aaf.paa"], // #(argb, 8, 8, 3)color(0.546, 0.59, 0.363, 0.2)
 			// ["Bloodshot", _texDir + "bloodshot.paa"],
 			// ["Bloody", _texDir + "axbloody.paa"],
 			// ["Blue Camo", _texDir + "axbluecamo.paa"],
@@ -2665,9 +2663,9 @@ colorsArray = compileFinal str
 	]
 ];
 
-//General Store Item List
-//Display Name, Class Name, Description, Picture, Buy Price, Sell Price.
-// ["Medical Kit", "medkits", localize "STR_WL_ShopDescriptions_MedKit", "client\icons\medkit.paa", 400, 200],  // not needed since there are First Ait Kits
+// General Store Item list
+// Display name, Class name, Description, Picture, Buy Price, Sell Price.
+// ["Medical Kit", "medkits", localize "STR_WL_ShopDescriptions_MedKit", "client\icons\medkit.paa", 400, 200], // not needed since there are First Ait Kits
 customPlayerItems = compileFinal str
 [
 	// Supplies
@@ -2686,7 +2684,7 @@ customPlayerItems = compileFinal str
 	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\camonet.paa", 200, 100],
 	["Syphon Hose", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\syphonhose.paa", 200, 100],
 	["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],
-	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\warchest.paa", 20000, 500, "HIDDEN"] 
+	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\warchest.paa", 20000, 500, "HIDDEN"]
 ];
 
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
