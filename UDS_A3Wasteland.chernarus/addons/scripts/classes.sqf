@@ -60,9 +60,6 @@ switch (playerSide) do {
 			_player addPrimaryWeaponItem "optic_aco_smg";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
-			_player addWeapon "launch_RPG32_F";
-			_player addMagazine "RPG32_F";
-			_player addMagazine "RPG32_F";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
@@ -139,9 +136,6 @@ switch (playerSide) do {
 			_player addPrimaryWeaponItem "optic_aco_smg";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
-			_player addWeapon "launch_RPG32_F";
-			_player addMagazine "RPG32_F";
-			_player addMagazine "RPG32_F";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
@@ -217,9 +211,6 @@ switch (playerSide) do {
 			_player addPrimaryWeaponItem "optic_aco_smg";
 			_player addItem "HandGrenade";
 			_player addItem "HandGrenade";
-			_player addWeapon "launch_RPG32_F";
-			_player addMagazine "RPG32_F";
-			_player addMagazine "RPG32_F";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addMagazine "6Rnd_45ACP_Cylinder";
 			_player addWeapon "hgun_Pistol_heavy_02_F";
