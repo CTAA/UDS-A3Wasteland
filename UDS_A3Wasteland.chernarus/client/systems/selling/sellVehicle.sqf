@@ -13,7 +13,7 @@ storeSellingHandle = _this spawn
 	#define CHOPSHOP_PRICE_RELATIONSHIP 2
 	#define VEHICLE_MAX_SELLING_DISTANCE 50
 
-	_storeNPC = _this select 0;
+	_vehStoreNPC = _this select 0;
 	_vehicle = objectFromNetId (player getVariable ["lastVehicleRidden", ""]);
 
 	if (isNull _vehicle) exitWith
