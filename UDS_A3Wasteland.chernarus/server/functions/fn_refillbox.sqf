@@ -162,11 +162,11 @@ private _scopes = [
 	"CUP_optic_HensoldtZO",
 	"CUP_optic_ACOG_TA01B_Black",
 	"CUP_optic_MRad",
-	"CUP_optic_Kobra",
+	"CUP_optic_Kobra"
 ];
 private _accessories = [
 	"acc_flashlight",
-	"acc_pointer_IR",
+	"acc_pointer_IR"
 ]
 private _smgSilencers = [
 	"muzzle_snds_L",
@@ -188,7 +188,7 @@ private _rifleSilencers = [
 	"CUP_muzzle_TGPA",
 	"CUP_muzzle_PBS4",
 	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_L85",
+	"CUP_muzzle_snds_L85"
 ];
 private _sniperSilencers = [
 	"muzzle_snds_B",
