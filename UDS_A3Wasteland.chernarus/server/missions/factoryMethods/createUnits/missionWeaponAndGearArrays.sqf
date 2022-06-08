@@ -108,7 +108,7 @@ missionLmgArray = [
 	"CUP_arifle_MG36",
 	"CUP_lmg_minimi_railed",
 	"CUP_lmg_UK59",
-	"CUP_arifle_xm8_SAW",
+	"CUP_arifle_xm8_SAW"
 	];
 missionAALauncherArray = [
 	"CUP_launch_9K32Strela",
@@ -120,4 +120,26 @@ missionATLauncherArray = [
 	"CUP_launch_Mk153Mod0_blk",
 	"CUP_launch_RPG7V",
 	"CUP_launch_RPG18"
+	];
+missionGearVestArray = [
+	"CUP_V_O_SLA_Flak_Vest03",
+	"V_CarrierRigKBT_01_light_Olive_F",
+	"V_TacVestIR_blk",
+	"CUP_V_B_BAF_DDPM_Osprey_Mk3_AutomaticRifleman"
+	];
+missionGearHelmetArray = [
+	"CUP_H_GER_LWH_Flecktarn",
+	"CUP_H_USArmy_HelmetMICH_earpro_DCU",
+	"CUP_H_RUS_6B27_headset_goggles",
+	"CUP_H_RUS_6B27_olive",
+	"CUP_H_RUS_6B27_cover_BeigeDigital_headset_goggles"
+	];
+missionGearUniformArray = [
+	"U_BG_Guerilla1_2_F",
+	"U_I_G_resistanceLeader_F",
+	"U_C_E_LooterJacket_01_F",
+	"CUP_U_B_BDUv2_dirty_ERDL_lowland",
+	"BWA3_Uniform2_sleeves_Fleck",
+	"CUP_U_O_RUS_Gorka_Partizan_A_gloves_kneepads",
+	"CUP_U_O_RUS_Gorka_Partizan_gloves_kneepads"
 	];
