@@ -90,18 +90,6 @@ switch (true) do
 		
 		_vehicle addWeaponTurret ["CMFlareLauncher", [-1]];
 	};
-	case (_class isKindOf "AC-47D Spooky"):
-	{
-		// Give spooky some firepower
-		_vehicle addWeaponTurret ["gatling_20mm_VTOL_01",[1]]; 
- 		_vehicle addWeaponTurret ["autocannon_40mm_VTOL_01",[1]]; 
-		_vehicle addWeaponTurret ["cannon_105mm_VTOL_01",[1]];
-		_vehicle addMagazineTurret ["240Rnd_40mm_GPR_Tracer_Red_shells",[1]]; 
-		_vehicle addMagazineTurret ["160Rnd_40mm_APFSDS_Tracer_Red_shells",[1]];  
-		_vehicle addMagazineTurret ["4000Rnd_20mm_Tracer_Red_shells",[1]]; 
-		_vehicle addMagazineTurret ["40Rnd_105mm_APFSDS",[1]]; 
-		_vehicle addMagazineTurret ["100Rnd_105mm_HEAT_MP",[1]];
-	};
 	case (_class isKindOf "Plane_Fighter_03_base_F"):
 	{
 		if (_brandNew) then
