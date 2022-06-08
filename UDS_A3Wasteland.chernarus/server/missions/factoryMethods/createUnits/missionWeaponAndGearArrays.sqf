@@ -31,6 +31,7 @@ _missionSmgArray = [
 	"SMG_02_F",
 	"SMG_01_F"
 	];
+_missionGrenadeLauncherArray = [
 	"CUP_glaunch_6G30",
 	"CUP_glaunch_M32",
 	"CUP_glaunch_M79",
