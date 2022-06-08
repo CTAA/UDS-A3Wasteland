@@ -83,14 +83,18 @@ _waitUntilCondition = {currentWaypoint _aiGroup >= _numWaypoints};
 _failedExec = nil;
 
 _successExec =
-{
+{	
+	private _randomBox1 = ["mission_lmgs1","mission_lmgs2","mission_lmgs3"] call BIS_fnc_selectRandom;
+
 	private _box1 = createVehicle ["Box_Syndicate_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, _randomBox1] call fn_refillbox;
 	
+	private _randomBox2 = ["mission_snipers1","mission_snipers2","mission_snipers3","mission_snipers4","mission_snipers5"] call BIS_fnc_selectRandom;
+
 	private _box2 = createVehicle ["Box_Syndicate_Ammo_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, _randomBox2] call fn_refillbox;
 
 	_successHintMessage = "Good job, you successfully defeated the SpecOps,<br/>Now go and retrieve their supplies!";
 };

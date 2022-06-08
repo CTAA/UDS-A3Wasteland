@@ -8,7 +8,7 @@
 if (!isServer) exitwith {};
 #include "extraMissionDefines.sqf"
 
-private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_vehicleName2", "_numWaypoints", "_box1", "_box2"];
+private ["_heliChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_vehicleName2", "_numWaypoints", "_box1", "_box2", "_randomBox1", "_randomBox2"];
 
 _setupVars =
 {
@@ -141,14 +141,17 @@ _failedExec = nil;
 _successExec =
 {
 	// Mission completed
+	_randomBox1 = ["mission_launchers1","mission_launchers2"] call BIS_fnc_selectRandom;
 
-	_box1 = createVehicle ["Box_NATO_Wps_F", _lastPos, [], 5, "None"];
+	_box1 = createVehicle ["Box_T_East_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, _randomBox1] call fn_refillbox;
 
-	_box2 = createVehicle ["Box_East_WpsSpecial_F", _lastPos, [], 5, "None"];
+	_randomBox2 = ["mission_rifles1","mission_rifles2","mission_rifles3","mission_rifles4","mission_rifles5","mission_rifles6"] call BIS_fnc_selectRandom;
+
+	_box2 = createVehicle ["Box_EAF_Support_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, _randomBox2] call fn_refillbox;
 
 	_successHintMessage = "The black hawk patrol has been taken out.";
 };

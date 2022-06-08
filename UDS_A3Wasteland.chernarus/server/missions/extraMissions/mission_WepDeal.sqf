@@ -20,13 +20,17 @@ _setupVars = {
 _setupObjects = {
 	_missionPos = markerPos _missionLocation;
 
+	private _randomBox1 = ["mission_smgs1","mission_smgs2","mission_throwables1"] call BIS_fnc_selectRandom;
+
 	_box1 = createVehicle ["Box_GEN_Equip_F", [(_missionPos select 0) + 10, (_missionPos select 1) + 4, 0], [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, _randomBox1] call fn_refillbox;
+
+	private _randomBox2 = ["mission_rifles1","mission_rifles2","mission_rifles3","mission_rifles4","mission_rifles5","mission_rifles6"] call BIS_fnc_selectRandom;
 
 	_box2 = createVehicle ["Box_GEN_Equip_F", [(_missionPos select 0) + 10, (_missionPos select 1) + 6, 0], [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, _randomBox2] call fn_refillbox;
 	
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1, _box2];
 
