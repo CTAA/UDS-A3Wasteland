@@ -153,6 +153,8 @@ _storeCleanup =
 
 _storeNPCs = allUnits select {[["GenStore","GunStore","VehStore"], vehicleVarName _x] call fn_startsWith};
 _baseClass = "";
+_vehStoreNPC = allUnits select {[["VehStore"], vehicleVarName _x] call fn_startsWith};
+_baseClass = "";
 
 if (!isServer) then
 {
