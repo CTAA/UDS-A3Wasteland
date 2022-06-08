@@ -254,10 +254,13 @@ lmgArray = compileFinal str
 	["L82A2 LSW", "CUP_arifle_L86A2", 12000],
 	["LIM-85 LMG", "LMG_03_F", 3500],
 	["M240", "CUP_lmg_M240", 7500],
+
 	["M249 (Squantoon Special)", "CUP_lmg_m249_SQuantoon", 7500],
 	["M249E2", "CUP_lmg_M249_E2", 7500],
+
 	["M60", "CUP_lmg_M60", 7500],
 	["M60E4", "CUP_lmg_M60E4", 7500],
+
 	["MAG 60.20 (RIS)", "CUP_lmg_FNMAG_RIS", 7500],
 	["MG 36", "CUP_arifle_MG36", 6500],
 	["MG3 (RIS)", "CUP_lmg_MG3_rail", 7500],
@@ -277,17 +280,16 @@ lmgArray = compileFinal str
 launcherArray = compileFinal str
 [
 	// Launchers
-	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000],
+	["9K32 Strela-2", "CUP_launch_9K32Strela", 8000], // Single use
 	["FGM-148 Javelin", "CUP_launch_Javelin", 8000],
-	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000],
-	["Igla 9K38", "CUP_launch_Igla", 8000],
+	["FIM-92F Stinger", "CUP_launch_FIM92Stinger", 8000], // Single use
+	["Igla 9K38", "CUP_launch_Igla", 8000], // Single use
 	["M136 Granatenwerfer", "CUP_launch_M136", 8000],
 	["M47 Dragon", "CUP_launch_M47", 8000],
-	["M72A6", "CUP_launch_M72A6", 8000],
-	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000],
+	["M72A6", "CUP_launch_M72A6", 8000], // Single use
+	["M72A6 (Special)", "CUP_launch_M72A6_Special", 8000], // Single use
 	["Metis AT-13", "CUP_launch_Metis", 8000],
 	["Mk153 Mod 0 SMAW", "CUP_launch_Mk153Mod0", 8000],
-	["Mk153 Mod 0 SMAW (Black)", "CUP_launch_Mk153Mod0_blk", 8000],
 	["RPG-7V2 Raketenwerfer", "CUP_launch_RPG7V", 8000],
 	["RPG18", "CUP_launch_RPG18", 8000]
 ];
