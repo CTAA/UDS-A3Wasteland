@@ -30,7 +30,7 @@ storeSellingHandle = _this spawn
 		if (damage _vehicle > 0.99) then
 		{
 			playSound "FD_CP_Not_Clear_F";
-			[format ['"%1" is too much damaged to be sold.', _objName], "Error"] call  BIS_fnc_guiMessage;
+			[format ['"%1" is too much damaged to be sold. You must repair the vehicle for the shop to be willing to purchase it.', _objName], "Error"] call  BIS_fnc_guiMessage;
 			false
 		} else { true };
 	};
@@ -50,7 +50,7 @@ storeSellingHandle = _this spawn
 		if (!local _vehicle) then
 		{
 			playSound "FD_CP_Not_Clear_F";
-			[format ['You are not the owner of "%1", try getting in the driver seat.', _objName], "Error"] call  BIS_fnc_guiMessage;
+			[format ['You are not the owner of "%1", try getting in the driver seat, or take ownership of the vehicle', _objName], "Error"] call  BIS_fnc_guiMessage;
 			false
 		} else { true };
 	};
