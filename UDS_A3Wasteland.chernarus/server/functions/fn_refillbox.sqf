@@ -435,6 +435,138 @@ switch (_boxType) do {
 			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
+	case "mission_lmgs1": {
+		_boxItems = [
+			["wep", "arifle_CTARS_blk_F", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_L110A1", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_L7A2_Flat", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_arifle_L86A2", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "LMG_03_F", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_M240", 1, RANDOM_BETWEEN(4, 9)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["itm", _scopes, RANDOM_BETWEEN(2,4)],
+			["itm", _accessories, RANDOM_ODDS(0.25)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_lmgs2": {
+		_boxItems = [
+			["wep", ["CUP_lmg_m249_SQuantoon","CUP_lmg_M249_E2"], 1, RANDOM_BETWEEN(4, 9)],
+			["wep", ["CUP_lmg_M60","CUP_lmg_M60E4"], 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_FNMAG_RIS", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_arifle_MG36", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_MG3_rail", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_minimi_railed", 1, RANDOM_BETWEEN(4, 9)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["itm", _scopes, RANDOM_BETWEEN(2,4)],
+			["itm", _accessories, RANDOM_ODDS(0.25)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_lmgs3": {
+		_boxItems = [
+			["wep", "CUP_lmg_Mk48", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_PKM", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_Pecheneg_woodland", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_arifle_RPK74", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_lmg_UK59", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_arifle_xm8_SAW", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", ["arifle_SPAR_02_blk_F","arifle_SPAR_02_snd_F"], 1, RANDOM_BETWEEN(4, 9)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["itm", _scopes, RANDOM_BETWEEN(2,4)],
+			["itm", _accessories, RANDOM_ODDS(0.25)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_launchers1": {
+		_boxItems = [
+			["wep", "CUP_launch_9K32Strela", RANDOM_BETWEEN(1, 2)],
+			["wep", "CUP_launch_FIM92Stinger", RANDOM_BETWEEN(1, 2)],
+			["wep", "CUP_launch_Igla", RANDOM_BETWEEN(1, 2)],
+			["wep", "CUP_launch_RPG18", RANDOM_BETWEEN(1, 2)],
+			["wep", ["CUP_launch_M72A6","CUP_launch_M72A6_Special"], RANDOM_BETWEEN(1, 2)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_launchers2": {
+		_boxItems = [
+			["wep", "CUP_launch_Mk153Mod0", 1, RANDOM_BETWEEN(2, 4)],
+			["wep", "CUP_launch_Javelin", RANDOM_ODDS(0.25), RANDOM_BETWEEN(2, 4)],
+			["wep", "CUP_launch_M136", RANDOM_BETWEEN(1,2)],
+			["wep", "CUP_launch_M47", RANDOM_ODDS(0.50), RANDOM_BETWEEN(2, 4)],
+			["wep", "CUP_launch_Metis", RANDOM_ODDS(0.50), RANDOM_BETWEEN(2, 4)],
+			["wep", "CUP_launch_RPG7V", 1, RANDOM_BETWEEN(2, 4)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_smgs1": {
+		_boxItems = [
+			["wep", "SMG_03C_black", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_hgun_BallisticShield_Armed", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_EVO", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_Mac10", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_MP5A5", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_MP7", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "hgun_PDW2000_F", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "SMG_01_F", 1, RANDOM_BETWEEN(4, 9)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["itm", _smgSilencers, RANDOM_ODDS(0.50)],
+			["itm", _scopes, RANDOM_BETWEEN(2,4)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_smgs2": {
+		_boxItems = [
+			["wep", "CUP_smg_MP5SD6", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_vityaz", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_bizon", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "SMG_05_F", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_SA61", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "CUP_smg_saiga9", 1, RANDOM_BETWEEN(4, 9)],
+			["wep", "SMG_02_F", 1, RANDOM_BETWEEN(4, 9)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["itm", _smgSilencers, RANDOM_ODDS(0.50)],
+			["itm", _scopes, RANDOM_BETWEEN(2,4)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
+	case "mission_throwables1": {
+		_boxItems = [
+			["wep", "HandGrenade", RANDOM_BETWEEN(10, 20)],
+			["wep", "MiniGrenade", RANDOM_BETWEEN(10, 20)],
+			["wep", "SmokeShellRed", RANDOM_BETWEEN(5, 10)],
+			["wep", "SmokeShellYellow", RANDOM_BETWEEN(5, 10)],
+			["wep", "SmokeShellGreen", RANDOM_BETWEEN(5, 10)],
+			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
+			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
+			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
+			["itm", _vests, RANDOM_BETWEEN(2,4)],
+			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+		];
+	};
 	// Diving Loot
 	case "mission_Gear_Diving": {
 		_boxItems = [
@@ -446,12 +578,8 @@ switch (_boxType) do {
 			["itm", "U_I_Wetsuit", RANDOM_BETWEEN(2, 4)],
 			["itm", "G_Diving", RANDOM_BETWEEN(4, 7)],
 			["bac", "B_LegStrapBag_black_F", RANDOM_BETWEEN(3, 4)],
-			["wep", "arifle_SDAR_F", RANDOM_BETWEEN(4,9), RANDOM_BETWEEN(5, 10)],
-			["itm", [
-				"Chemlight_red",
-				"Chemlight_green",
-				"Chemlight_yellow",
-			"Chemlight_blue"], RANDOM_BETWEEN(3, 6)]
+			["wep", "arifle_SDAR_F", RANDOM_BETWEEN(2,4), RANDOM_BETWEEN(5, 10)],
+			["itm", ["Chemlight_red","Chemlight_green","Chemlight_yellow","Chemlight_blue"], RANDOM_BETWEEN(3, 6)]
 		];
 	};
 	// Night Loot
