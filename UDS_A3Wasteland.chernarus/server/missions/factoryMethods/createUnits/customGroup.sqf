@@ -37,57 +37,46 @@ for "_i" from 1 to _nbUnits do
 	removeHeadgear _unit;
 	removeGoggles _unit;
 
-	_unit addVest "V_PlateCarrier1_rgr";
-	_unit addMagazine "30Rnd_556x45_Stanag";
-	_unit addMagazine "30Rnd_556x45_Stanag";
-	_unit addMagazine "30Rnd_556x45_Stanag";
+	_unit addVest _missionGearVestArray;
+
 
 	switch (true) do
 	{
 		// Grenadier every 3 units, starting from #2
 		case ((_i + 4) % 3 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_vest";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
-			_unit addWeapon "arifle_TRG21_GL_F";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addUniform _missionGearUniformArray;
+			_unit call BIS_fnc_addWeapon _missionRifleArray;		
 		};
-		// PCML every 6 units, starting from #6
+		// AT every 6 units, starting from #6
 		case (_i % 6 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
+			_unit addUniform _missionGearUniformArray;
 			_unit addBackpack "B_Kitbag_mcamo";
-			_unit addWeapon "arifle_TRG20_F";
-			_unit addMagazine "NLAW_F";
-			_unit addWeapon "launch_NLAW_F";
-			_unit addMagazine "NLAW_F";
-			_unit addMagazine "NLAW_F";
+			_unit call BIS_fnc_addWeapon _missionRifleArray;	
+			_unit call BIS_fnc_addWeapon _missionATLauncherArray;
 		};
-		// RPG-42 every 6 units, starting from #3
+		// AA every 6 units, starting from #3
 		case ((_i + 3) % 6 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
+			_unit addUniform _missionGearUniformArray;
 			_unit addBackpack "B_Kitbag_mcamo";
-			_unit addWeapon "arifle_TRG20_F";
-			_unit addMagazine "RPG32_F";
-			_unit addWeapon "launch_RPG32_F";
-			_unit addMagazine "RPG32_F";
-			_unit addMagazine "RPG32_F";
+			_unit call BIS_fnc_addWeapon _missionRifleArray;
+			_unit call BIS_fnc_addWeapon _missionAALauncherArray;
 		};
 		// Rifleman
 		default
 		{
-			_unit addUniform "U_B_CombatUniform_mcam";
+			_unit addUniform _missionGearUniformArray;
 
 			if (_unit == leader _group) then
 			{
-				_unit addWeapon "arifle_TRG21_F";
+				_unit call BIS_fnc_addWeapon _missionRifleArray;
 				_unit setRank "SERGEANT";
 			}
 			else
 			{
-				_unit addWeapon "arifle_TRG20_F";
+				_unit call BIS_fnc_addWeapon _missionRifleArray;
 			};
 		};
 	};
