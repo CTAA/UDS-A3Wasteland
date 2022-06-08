@@ -28,6 +28,9 @@ for "_i" from 1 to _nbUnits do
 	_uPos = _pos vectorAdd ([[random _radius, 0, 0], random 360] call BIS_fnc_rotateVector2D);
 	_unit = _group createUnit [_unitTypes call BIS_fnc_selectRandom, _uPos, [], 0, "Form"];
 	_unit setPosATL _uPos;
+	_newMissionRifle = 
+	_newMissionAALauncher =
+	_newMissionATLauncher = [_unit, selectRandom _missionRifleArray, 3] call BIS_fnc_addWeapon;
 
 	removeAllWeapons _unit;
 	removeAllAssignedItems _unit;
@@ -37,7 +40,7 @@ for "_i" from 1 to _nbUnits do
 	removeHeadgear _unit;
 	removeGoggles _unit;
 
-	_unit addVest _missionGearVestArray;
+	_unit addVest selectRandom _missionGearVestArray;
 
 
 	switch (true) do
@@ -45,38 +48,38 @@ for "_i" from 1 to _nbUnits do
 		// Grenadier every 3 units, starting from #2
 		case ((_i + 4) % 3 == 0):
 		{
-			_unit addUniform _missionGearUniformArray;
-			_unit call BIS_fnc_addWeapon _missionRifleArray;		
+			_unit addUniform selectRandom _missionGearUniformArray;
+			[_unit, selectRandom _missionRifleArray, 6] call BIS_fnc_addWeapon;
 		};
 		// AT every 6 units, starting from #6
 		case (_i % 6 == 0):
 		{
-			_unit addUniform _missionGearUniformArray;
+			_unit addUniform selectRandom _missionGearUniformArray;
 			_unit addBackpack "B_Kitbag_mcamo";
-			_unit call BIS_fnc_addWeapon _missionRifleArray;	
-			_unit call BIS_fnc_addWeapon _missionATLauncherArray;
+			[_unit, selectRandom _missionRifleArray, 6] call BIS_fnc_addWeapon;
+			[_unit, selectRandom _missionATLauncherArray, 1] call BIS_fnc_addWeapon;
 		};
 		// AA every 6 units, starting from #3
 		case ((_i + 3) % 6 == 0):
 		{
-			_unit addUniform _missionGearUniformArray;
+			_unit addUniform selectRandom _missionGearUniformArray;
 			_unit addBackpack "B_Kitbag_mcamo";
-			_unit call BIS_fnc_addWeapon _missionRifleArray;
-			_unit call BIS_fnc_addWeapon _missionAALauncherArray;
+			[_unit, selectRandom _missionRifleArray, 6] call BIS_fnc_addWeapon;
+			[_unit, selectRandom _missionAALauncherArray, 0] call BIS_fnc_addWeapon;
 		};
 		// Rifleman
 		default
 		{
-			_unit addUniform _missionGearUniformArray;
+			_unit addUniform selectRandom _missionGearUniformArray;
 
 			if (_unit == leader _group) then
 			{
-				_unit call BIS_fnc_addWeapon _missionRifleArray;
+				[_unit, selectRandom _missionRifleArray, 6] call BIS_fnc_addWeapon;
 				_unit setRank "SERGEANT";
 			}
 			else
 			{
-				_unit call BIS_fnc_addWeapon _missionRifleArray;
+				[_unit, selectRandom _missionRifleArray, 6] call BIS_fnc_addWeapon;
 			};
 		};
 	};
