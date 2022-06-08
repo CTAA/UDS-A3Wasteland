@@ -125,7 +125,7 @@ player createDiaryRecord ["info",["Hints and Tips","
 <br/>
 <br/>* At the start of the game, spread out and find supplies before worrying about where to establish a meeting place or a base, supplies are important and very valuable.
 <br/>
-<br/>* When picking a base location, it is best advised to pick a place that is out of the way and not so obvious such as airports, cities, map-bound bases, etc. remember, players randomly spawn in and around towns and could even spawn inside your base should you set it up in a town.
+<br/>* When picking a base location, it is best advised to pick a place that is out of the way and not so obvious such as airports, cities, map-bound bases, etc. remember, players randomly spawn in and around towns and could even spawn inside your base should you set it up in a town. Mission spawns will delete base parts.
 <br/>
 <br/>* If you spawn in an area with no vehicles or supplies in the immediate area, DO NOT just click respawn from the pause menu, chances are if you search an area of a few hundred meters, you will find something.
 <br/>
@@ -166,13 +166,13 @@ player createDiaryRecord ["udsrules",["Server Rules","
 <br/>
 <br/>- It is not allowed to use a racist playername or group tag.
 <br/>
-<br/>- It is not allowed to teamkill BLUFOR (Blue) or OPFOR (Red) teammates and/or steal their money.
+<br/>- It is not allowed to teamkill BLUFOR (Blue) or OPFOR (Red) teammates and/or steal their money or assets.
 <br/>
-<br/>- When writing in global/side stick to English in order for players to be able to understand you. (for other languages try to use the group chats)
+<br/>- When writing in global/side stick to English in order for players to be able to understand you. (for other languages use the group chats)
 <br/>
 <br/>- It is not allowed to utilize bugs/exploits, hide inside objects rocks/containers or glitch through walls.
 <br/>
-<br/>- Watch your language in global/side or voice chat, we accept swearing. No racism or homophobic comments.
+<br/>- Watch your language in global/side or voice chat, we accept swearing. No racism or homophobic comments, and keep political/propagandist to a minimum.
 <br/>
 <br/>- Advertisment for your Clan, Discord or Teamspeak is not allowed on this Server (However, sending TS3 ip to your group members is of course permitted VIA GROUP CHAT).
 <br/><br/>
