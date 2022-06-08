@@ -1,6 +1,6 @@
 // Weapons and gear for use in the selectRandom function for mission ai 
 
-_missionPistolArray = [
+_missionPistolArray = selectRandom [
 	"CUP_hgun_Compact", 
 	"CUP_hgun_Deagle", 
 	"CUP_hgun_Glock17", 
@@ -15,7 +15,7 @@ _missionPistolArray = [
 	"CUP_hgun_TaurusTracker455", 
 	"CUP_hgun_TEC9"
 	];
-_missionSmgArray = [
+_missionSmgArray = selectRandom [
 	"SMG_03C_black",
 	"CUP_smg_EVO",
 	"CUP_smg_Mac10",
@@ -31,13 +31,13 @@ _missionSmgArray = [
 	"SMG_02_F",
 	"SMG_01_F"
 	];
-_missionGrenadeLauncherArray = [
+_missionGrenadeLauncherArray = selectRandom [
 	"CUP_glaunch_6G30",
 	"CUP_glaunch_M32",
 	"CUP_glaunch_M79",
 	"CUP_glaunch_Mk13"
 	];
-_missionShotgunArray = [
+_missionShotgunArray = selectRandom [
 	"CUP_sgun_AA12",
 	"CUP_sgun_CZ584",
 	"CUP_sgun_CZ584_RIS",
@@ -46,7 +46,7 @@ _missionShotgunArray = [
 	"CUP_sgun_M1014_Entry",
 	"CUP_sgun_Saiga12K_top_rail"
 	];
-_missionRifleArray = [
+_missionRifleArray = selectRandom [
 	"CUP_arifle_AK101_railed",
 	"CUP_arifle_AK102_railed",
 	"CUP_arifle_AK103_railed",
@@ -84,7 +84,7 @@ _missionRifleArray = [
 	"CUP_arifle_XM8_Carbine",
 	"CUP_arifle_xm8_sharpshooter"
 	];
-_missionSniperArray = [
+_missionSniperArray = selectRandom [
 	"CUP_arifle_AS_VAL",
 	"srifle_DMR_07_blk_F",
 	"srifle_DMR_05_blk_F",
@@ -100,7 +100,7 @@ _missionSniperArray = [
 	"CUP_srifle_SVD_wdl_top_rail",
 	"CUP_srifle_VSSVintorez_VFG_top_rail"
 	];
-_missionLmgArray = [
+_missionLmgArray = selectRandom [
 	"arifle_CTARS_blk_F",
 	"CUP_lmg_L110A1",
 	"LMG_03_F",
@@ -110,31 +110,31 @@ _missionLmgArray = [
 	"CUP_lmg_UK59",
 	"CUP_arifle_xm8_SAW"
 	];
-_missionAALauncherArray = [
+_missionAALauncherArray = selectRandom [
 	"CUP_launch_9K32Strela",
 	"CUP_launch_Igla"
 	];
-_missionATLauncherArray = [
+_missionATLauncherArray = selectRandom [
 	"CUP_launch_M136",
 	"CUP_launch_Metis",
 	"CUP_launch_Mk153Mod0_blk",
 	"CUP_launch_RPG7V",
 	"CUP_launch_RPG18"
 	];
-_missionGearVestArray = [
+_missionGearVestArray = selectRandom [
 	"CUP_V_O_SLA_Flak_Vest03",
 	"V_CarrierRigKBT_01_light_Olive_F",
 	"V_TacVestIR_blk",
 	"CUP_V_B_BAF_DDPM_Osprey_Mk3_AutomaticRifleman"
 	];
-_missionGearHelmetArray = [
+_missionGearHelmetArray = selectRandom [
 	"CUP_H_GER_LWH_Flecktarn",
 	"CUP_H_USArmy_HelmetMICH_earpro_DCU",
 	"CUP_H_RUS_6B27_headset_goggles",
 	"CUP_H_RUS_6B27_olive",
 	"CUP_H_RUS_6B27_cover_BeigeDigital_headset_goggles"
 	];
-_missionGearUniformArray = [
+_missionGearUniformArray = selectRandom [
 	"U_BG_Guerilla1_2_F",
 	"U_I_G_resistanceLeader_F",
 	"U_C_E_LooterJacket_01_F",
