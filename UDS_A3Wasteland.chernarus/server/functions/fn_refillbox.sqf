@@ -33,46 +33,59 @@ clearAllItemsFromBackpack _box;
 // Mission refill handler
 // There are multiple entries to change odds of whats picked
 missionBoxArray = [
-	"mission_rifles1",
-	"mission_rifles2",
-	"mission_rifles3",
-	"mission_rifles4",
-	"mission_rifles5",
-	"mission_rifles6",
-	"mission_rifles1",
-	"mission_rifles2",
-	"mission_rifles3",
-	"mission_rifles4",
-	"mission_rifles5",
-	"mission_rifles6",
-	"mission_snipers1",
-	"mission_snipers2",
-	"mission_snipers3",
-	"mission_snipers4",
-	"mission_snipers5",
-	"mission_lmgs1",
-	"mission_lmgs2",
-	"mission_lmgs3",
-	"mission_lmgs1",
-	"mission_lmgs2",
-	"mission_lmgs3",
-	"mission_lmgs1",
-	"mission_lmgs2",
-	"mission_lmgs3",
-	"mission_launchers1",
-	"mission_launchers2",
-	"mission_launchers1",
-	"mission_launchers2",
-	"mission_smgs1",
-	"mission_smgs2",
-	"mission_smgs1",
-	"mission_smgs2",
-	"mission_throwables1",
-	"mission_throwables1",
-	"mission_throwables1",
-	"mission_Gear_Diving",
-	"mission_Gear_Diving"
-]
+	"mission_rifles1",     // 40.90%
+	"mission_rifles2",     // 40.90%
+	"mission_rifles3",     // 40.90%
+	"mission_rifles4",     // 40.90%
+	"mission_rifles5",     // 40.90%
+	"mission_rifles6",     // 40.90%
+	"mission_rifles1",     // 40.90%
+	"mission_rifles2",     // 40.90%
+	"mission_rifles3",     // 40.90%
+	"mission_rifles4",     // 40.90%
+	"mission_rifles5",     // 40.90%
+	"mission_rifles6",     // 40.90%
+	"mission_rifles1",     // 40.90%
+	"mission_rifles2",     // 40.90%
+	"mission_rifles3",     // 40.90%
+	"mission_rifles4",     // 40.90%
+	"mission_rifles5",     // 40.90%
+	"mission_rifles6",     // 40.90%
+
+	"mission_lmgs1",       // 20.45%%
+	"mission_lmgs2",       // 20.45%%
+	"mission_lmgs3",       // 20.45%%
+	"mission_lmgs1",       // 20.45%%
+	"mission_lmgs2",       // 20.45%%
+	"mission_lmgs3",       // 20.45%%
+	"mission_lmgs1",       // 20.45%%
+	"mission_lmgs2",       // 20.45%% 
+	"mission_lmgs3",       // 20.45%%
+
+	"mission_snipers1",    // 11.36%
+	"mission_snipers2",    // 11.36%
+	"mission_snipers3",    // 11.36%
+	"mission_snipers4",    // 11.36%
+	"mission_snipers5",    // 11.36%
+
+	"mission_launchers1",  // 9.09%
+	"mission_launchers2",  // 9.09%
+	"mission_launchers1",  // 9.09%
+	"mission_launchers2",  // 9.09%
+
+	"mission_smgs1",       // 9.09%
+	"mission_smgs2",       // 9.09%
+	"mission_smgs1",       // 9.09%
+	"mission_smgs2",       // 9.09%
+
+	"mission_throwables1", // 6.82%
+	"mission_throwables1", // 6.82%
+	"mission_throwables1", // 6.82%
+
+	"mission_Gear_Diving", // 4.55%
+	"mission_Gear_Diving"  // 4.55%
+];
+
 // Item Loot Arrays
 
 private _bipodSniper = [
