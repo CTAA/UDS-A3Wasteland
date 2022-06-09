@@ -112,7 +112,7 @@
 ["Land_BagFence_End_F",[3,0.875,2.78],135],
 ["Land_BagFence_End_F",[10.875,2.25,0],90],
 ["Land_BagFence_End_F",[0.625,3.375,3.375],135],
-["Box_FIA_Ammo_F",[2.625,2.875,0],45,{[_this, "mission_TESTING"] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
-["O_CargoNet_01_ammo_F",[2.5,2.75,2.78],135,{[_this, "mission_TESTING"] call fn_refillbox;}] // leave crate as-is, disallow damage, lock crate until mission complete.
+["Box_FIA_Ammo_F",[2.625,2.875,0],45,{[_this, selectRandom missionBoxArray] call fn_refillbox;}], // leave crate as-is, disallow damage, lock crate until mission complete.
+["O_CargoNet_01_ammo_F",[2.5,2.75,2.78],135,{[_this, selectRandom missionBoxArray] call fn_refillbox;}] // leave crate as-is, disallow damage, lock crate until mission complete.
 
 ]
