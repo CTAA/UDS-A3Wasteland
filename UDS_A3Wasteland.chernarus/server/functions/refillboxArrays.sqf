@@ -11,57 +11,56 @@
 // There are multiple entries to change odds of whats picked
 
 missionBoxArray = [
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
+	"mission_rifles1",     // 40.00%
+	"mission_rifles2",     // 40.00%
+	"mission_rifles3",     // 40.00%
+	"mission_rifles4",     // 40.00%
+	"mission_rifles5",     // 40.00%
+	"mission_rifles6",     // 40.00%
+	"mission_rifles1",     // 40.00%
+	"mission_rifles2",     // 40.00%
+	"mission_rifles3",     // 40.00%
+	"mission_rifles4",     // 40.00%
+	"mission_rifles5",     // 40.00%
+	"mission_rifles6",     // 40.00%
+	"mission_rifles1",     // 40.00%
+	"mission_rifles2",     // 40.00%
+	"mission_rifles3",     // 40.00%
+	"mission_rifles4",     // 40.00%
+	"mission_rifles5",     // 40.00%
+	"mission_rifles6",     // 40.00%
 
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%%
-	"mission_lmgs3",       // 20.45%%
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%%
-	"mission_lmgs3",       // 20.45%%
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%% 
-	"mission_lmgs3",       // 20.45%%
+	"mission_lmgs1",       // 20.45%
+	"mission_lmgs2",       // 20.45%
+	"mission_lmgs3",       // 20.45%
+	"mission_lmgs1",       // 20.45%
+	"mission_lmgs2",       // 20.45%
+	"mission_lmgs3",       // 20.45%
+	"mission_lmgs1",       // 20.45%
+	"mission_lmgs2",       // 20.45%
+	"mission_lmgs3",       // 20.45%
 
-	"mission_snipers1",    // 11.36%
-	"mission_snipers2",    // 11.36%
-	"mission_snipers3",    // 11.36%
-	"mission_snipers4",    // 11.36%
-	"mission_snipers5",    // 11.36%
+	"mission_smgs1",       // 13.33%
+	"mission_smgs2",       // 13.33%
+	"mission_smgs1",       // 13.33%
+	"mission_smgs2",       // 13.33%
+	"mission_smgs1",       // 13.33%
+	"mission_smgs2", 	   // 13.33%
 
-	"mission_launchers1",  // 9.09%
-	"mission_launchers2",  // 9.09%
-	"mission_launchers1",  // 9.09%
-	"mission_launchers2",  // 9.09%
+	"mission_snipers1",    // 11.11%
+	"mission_snipers2",    // 11.11%
+	"mission_snipers3",    // 11.11%
+	"mission_snipers4",    // 11.11%
+	"mission_snipers5",    // 11.11%
 
-	"mission_smgs1",       // 9.09%
-	"mission_smgs2",       // 9.09%
-	"mission_smgs1",       // 9.09%
-	"mission_smgs2",       // 9.09%
+	"mission_launchers1",  // 8.88%
+	"mission_launchers2",  // 8.88%
+	"mission_launchers1",  // 8.88%
+	"mission_launchers2",  // 8.88%
 
-	"mission_throwables1", // 6.82%
-	"mission_throwables1", // 6.82%
-	"mission_throwables1", // 6.82%
-
-	"mission_Gear_Diving", // 4.55%
-	"mission_Gear_Diving"  // 4.55%
+	"mission_throwables1", // 6.66%
+	"mission_throwables1", // 6.66%
+	"mission_throwables1"  // 6.66%
 ];
 
 // Item Loot Arrays
