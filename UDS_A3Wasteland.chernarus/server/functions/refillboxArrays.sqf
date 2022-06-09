@@ -1,5 +1,5 @@
 // ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright © 2022 Ural Death SQuad *
+// * This project is licensed under the GNU Affero GPL v3. Copyright © 2022 Ural Death Squad *
 // ******************************************************************************************
 // @file Version: 1.0
 // @file Name: fn_refillboxArrays.sqf  "fn_refillboxArrays"
@@ -30,15 +30,15 @@ missionBoxArray = [
 	"mission_rifles5",     // 40.00%
 	"mission_rifles6",     // 40.00%
 
-	"mission_lmgs1",       // 20.45%
-	"mission_lmgs2",       // 20.45%
-	"mission_lmgs3",       // 20.45%
-	"mission_lmgs1",       // 20.45%
-	"mission_lmgs2",       // 20.45%
-	"mission_lmgs3",       // 20.45%
-	"mission_lmgs1",       // 20.45%
-	"mission_lmgs2",       // 20.45%
-	"mission_lmgs3",       // 20.45%
+	"mission_lmgs1",       // 20.00%
+	"mission_lmgs2",       // 20.00%
+	"mission_lmgs3",       // 20.00%
+	"mission_lmgs1",       // 20.00%
+	"mission_lmgs2",       // 20.00%
+	"mission_lmgs3",       // 20.00%
+	"mission_lmgs1",       // 20.00%
+	"mission_lmgs2",       // 20.00%
+	"mission_lmgs3",       // 20.00%
 
 	"mission_smgs1",       // 13.33%
 	"mission_smgs2",       // 13.33%
