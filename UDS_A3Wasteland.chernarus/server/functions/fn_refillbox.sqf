@@ -30,62 +30,6 @@ clearWeaponCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearAllItemsFromBackpack _box;
 
-// Mission refill handler
-// There are multiple entries to change odds of whats picked
-missionBoxArray = [
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
-	"mission_rifles1",     // 40.90%
-	"mission_rifles2",     // 40.90%
-	"mission_rifles3",     // 40.90%
-	"mission_rifles4",     // 40.90%
-	"mission_rifles5",     // 40.90%
-	"mission_rifles6",     // 40.90%
-
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%%
-	"mission_lmgs3",       // 20.45%%
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%%
-	"mission_lmgs3",       // 20.45%%
-	"mission_lmgs1",       // 20.45%%
-	"mission_lmgs2",       // 20.45%% 
-	"mission_lmgs3",       // 20.45%%
-
-	"mission_snipers1",    // 11.36%
-	"mission_snipers2",    // 11.36%
-	"mission_snipers3",    // 11.36%
-	"mission_snipers4",    // 11.36%
-	"mission_snipers5",    // 11.36%
-
-	"mission_launchers1",  // 9.09%
-	"mission_launchers2",  // 9.09%
-	"mission_launchers1",  // 9.09%
-	"mission_launchers2",  // 9.09%
-
-	"mission_smgs1",       // 9.09%
-	"mission_smgs2",       // 9.09%
-	"mission_smgs1",       // 9.09%
-	"mission_smgs2",       // 9.09%
-
-	"mission_throwables1", // 6.82%
-	"mission_throwables1", // 6.82%
-	"mission_throwables1", // 6.82%
-
-	"mission_Gear_Diving", // 4.55%
-	"mission_Gear_Diving"  // 4.55%
-];
-
 switch (_boxType) do {
 	case "mission_rifles1": {
 		_boxItems = [
@@ -100,11 +44,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_rifles2": {
@@ -120,11 +64,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_rifles3": {
@@ -140,11 +84,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_rifles4": {
@@ -160,11 +104,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_rifles5": {
@@ -180,11 +124,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_rifles6": {
@@ -200,11 +144,11 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _rifleSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillRifleSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_snipers1": {
@@ -214,19 +158,19 @@ switch (_boxType) do {
 			["wep", "CUP_srifle_AS50", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "srifle_DMR_07_blk_F", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_CZ550_rail", 1, RANDOM_BETWEEN(4, 9)],
-			["itm", _bipodSniper, RANDOM_BETWEEN(2, 3)],
-			["itm", _opforSniperScope, RANDOM_BETWEEN(1, 2)],
-			["itm", _bluforSniperScope, RANDOM_BETWEEN(2, 4)],
-			["itm", _bluforGhillie, 1],
-			["itm", _opforGhillie, 1],
-			["itm", _indyGhillie, 1],
+			["itm", _refillBipodSnipers, RANDOM_BETWEEN(2, 3)],
+			["itm", _refillOpforSniperScopes, RANDOM_BETWEEN(1, 2)],
+			["itm", _refillBluforSniperScopes, RANDOM_BETWEEN(2, 4)],
+			["itm", _refillBluforGhillies, 1],
+			["itm", _refillOpforGhillies, 1],
+			["itm", _refillIndyGhillies, 1],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _sniperSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSniperSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_snipers2": {
@@ -237,19 +181,19 @@ switch (_boxType) do {
 			["wep", "CUP_srifle_ksvk", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_AWM_wdl", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_LeeEnfield_rail", 1, RANDOM_BETWEEN(4, 9)],
-			["itm", _bipodSniper, RANDOM_BETWEEN(2, 3)],
-			["itm", _opforSniperScope, RANDOM_BETWEEN(1, 2)],
-			["itm", _bluforSniperScope, RANDOM_BETWEEN(2, 4)],
-			["itm", _bluforGhillie, 1],
-			["itm", _opforGhillie, 1],
-			["itm", _indyGhillie, 1],
+			["itm", _refillBipodSnipers, RANDOM_BETWEEN(2, 3)],
+			["itm", _refillOpforSniperScopes, RANDOM_BETWEEN(1, 2)],
+			["itm", _refillBluforSniperScopes, RANDOM_BETWEEN(2, 4)],
+			["itm", _refillBluforGhillies, 1],
+			["itm", _refillOpforGhillies, 1],
+			["itm", _refillIndyGhillies, 1],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _sniperSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSniperSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_snipers3": {
@@ -260,19 +204,19 @@ switch (_boxType) do {
 			["wep", "CUP_srifle_M24_wdl", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "srifle_LRR_LRPS_F", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_M40A3", 1, RANDOM_BETWEEN(4, 9)],
-			["itm", _bipodSniper, RANDOM_BETWEEN(2, 3)],
-			["itm", _opforSniperScope, RANDOM_BETWEEN(1, 2)],
-			["itm", _bluforSniperScope, RANDOM_BETWEEN(2, 4)],
-			["itm", _bluforGhillie, 1],
-			["itm", _opforGhillie, 1],
-			["itm", _indyGhillie, 1],
+			["itm", _refillBipodSnipers, RANDOM_BETWEEN(2, 3)],
+			["itm", _refillOpforSniperScopes, RANDOM_BETWEEN(1, 2)],
+			["itm", _refillBluforSniperScopes, RANDOM_BETWEEN(2, 4)],
+			["itm", _refillBluforGhillies, 1],
+			["itm", _refillOpforGhillies, 1],
+			["itm", _refillIndyGhillies, 1],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _sniperSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSniperSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_snipers4": {
@@ -282,19 +226,19 @@ switch (_boxType) do {
 			["wep", "srifle_DMR_06_camo_F", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "srifle_EBR_F", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_Mk12SPR", 1, RANDOM_BETWEEN(4, 9)],
-			["itm", _bipodSniper, RANDOM_BETWEEN(2, 3)],
-			["itm", _opforSniperScope, RANDOM_BETWEEN(1, 2)],
-			["itm", _bluforSniperScope, RANDOM_BETWEEN(2, 4)],
-			["itm", _bluforGhillie, 1],
-			["itm", _opforGhillie, 1],
-			["itm", _indyGhillie, 1],
+			["itm", _refillBipodSnipers, RANDOM_BETWEEN(2, 3)],
+			["itm", _refillOpforSniperScopes, RANDOM_BETWEEN(1, 2)],
+			["itm", _refillBluforSniperScopes, RANDOM_BETWEEN(2, 4)],
+			["itm", _refillBluforGhillies, 1],
+			["itm", _refillOpforGhillies, 1],
+			["itm", _refillIndyGhillies, 1],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _sniperSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSniperSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_snipers5": {
@@ -305,19 +249,19 @@ switch (_boxType) do {
 			["wep", "arifle_SPAR_03_blk_F", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_SVD", 1, RANDOM_BETWEEN(4, 9)],
 			["wep", "CUP_srifle_VSSVintorez_VFG_top_rail", 1, RANDOM_BETWEEN(4, 9)],
-			["itm", _bipodSniper, RANDOM_BETWEEN(2, 3)],
-			["itm", _opforSniperScope, RANDOM_BETWEEN(1, 2)],
-			["itm", _bluforSniperScope, RANDOM_BETWEEN(2, 4)],
-			["itm", _bluforGhillie, 1],
-			["itm", _opforGhillie, 1],
-			["itm", _indyGhillie, 1],
+			["itm", _refillBipodSnipers, RANDOM_BETWEEN(2, 3)],
+			["itm", _refillOpforSniperScopes, RANDOM_BETWEEN(1, 2)],
+			["itm", _refillBluforSniperScopes, RANDOM_BETWEEN(2, 4)],
+			["itm", _refillBluforGhillies, 1],
+			["itm", _refillOpforGhillies, 1],
+			["itm", _refillIndyGhillies, 1],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _sniperSilencers, RANDOM_ODDS(0.25)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSniperSilencers, RANDOM_ODDS(0.25)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_lmgs1": {
@@ -331,10 +275,10 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_lmgs2": {
@@ -348,10 +292,10 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_lmgs3": {
@@ -366,10 +310,10 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["itm", _accessories, RANDOM_ODDS(0.25)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["itm", _refillAccessories, RANDOM_ODDS(0.25)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_launchers1": {
@@ -382,8 +326,8 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_launchers2": {
@@ -397,8 +341,8 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_smgs1": {
@@ -414,10 +358,10 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _smgSilencers, RANDOM_ODDS(0.50)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSmgSilencers, RANDOM_ODDS(0.50)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_smgs2": {
@@ -432,10 +376,10 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["itm", _smgSilencers, RANDOM_ODDS(0.50)],
-			["itm", _scopes, RANDOM_BETWEEN(2,4)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["itm", _refillSmgSilencers, RANDOM_ODDS(0.50)],
+			["itm", _refillScopes, RANDOM_BETWEEN(2,4)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	case "mission_throwables1": {
@@ -447,8 +391,8 @@ switch (_boxType) do {
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],
-			["itm", _vests, RANDOM_BETWEEN(2,4)],
-			["bac", _backpacks, RANDOM_BETWEEN(2,4)]
+			["itm", _refillVests, RANDOM_BETWEEN(2,4)],
+			["bac", _refillBackpacks, RANDOM_BETWEEN(2,4)]
 		];
 	};
 	// Diving Loot

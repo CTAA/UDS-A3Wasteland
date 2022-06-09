@@ -66,12 +66,12 @@ missionBoxArray = [
 
 // Item Loot Arrays
 
-_bipodSniper = [
+_refillBipodSnipers = [
 	"bipod_01_F_blk",
 	"bipod_02_F_blk",
 	"bipod_03_F_blk"
 ];
-_opforSniperScope = [
+_refillOpforSniperScopes = [
 	"CUP_optic_PSO_1_1",
 	"CUP_optic_PSO_1_1_open",
 	"CUP_optic_PSO_1",
@@ -81,7 +81,7 @@ _opforSniperScope = [
 	"CUP_optic_NSPU",
 	"CUP_optic_AN_PVS_10"
 ];
-_bluforSniperScope = [
+_refillBluforSniperScopes = [
 	"CUP_optic_LeupoldMk4_25x50_LRT_DESERT",
 	"CUP_optic_Leupold_VX3",
 	"CUP_optic_LeupoldMk4",
@@ -93,7 +93,7 @@ _bluforSniperScope = [
 	"optic_LRPS",
 	"CUP_optic_SB_11_4x20_PM"
 ];
-_bluforGhillie = [
+_refillBluforGhillies = [
 	"U_B_GhillieSuit",
 	"U_B_FullGhillie_ard",
 	"U_B_FullGhillie_lsh",
@@ -105,7 +105,7 @@ _bluforGhillie = [
 	"CUP_U_B_BAF_DPM_GHILLIE",
 	"CUP_U_B_CZ_DST_Ghillie"
 ];
-_opforGhillie = [
+_refillOpforGhillies = [
 	"U_O_GhillieSuit",
 	"U_O_FullGhillie_ard",
 	"U_O_FullGhillie_lsh",
@@ -114,14 +114,14 @@ _opforGhillie = [
 	"CUP_U_O_RUS_Ghillie",
 	"CUP_U_O_TK_Ghillie_Top"
 ];
-_indyGhillie = [
+_refillIndyGhillies = [
 	"U_I_GhillieSuit",
 	"U_I_FullGhillie_ard",
 	"U_I_FullGhillie_lsh",
 	"U_I_FullGhillie_sard",
 	"CUP_U_I_Ghillie_Top"
 ];
-_vests = [
+_refillVests = [
 	"V_LegStrapBag_olive_F",
 	"V_PlateCarrier1_rgr",
 	"V_PlateCarrier2_rgr",
@@ -160,7 +160,7 @@ _vests = [
 	"CUP_V_B_GER_Tactical_Trop",
 	"CUP_V_PMC_CIRAS_Black_Veh"
 ];
-_backpacks = [
+_refillBackpacks = [
 	"B_Messenger_Olive_F",
 	"CUP_B_ACRScout_m95",
 	"B_AssaultPack_rgr",
@@ -183,7 +183,7 @@ _backpacks = [
 	"B_Bergen_tna_F",
 	"B_RadioBag_01_ghex_F"
 ];
-_scopes = [
+_refillScopes = [
 	"optic_Aco",
 	"optic_Holosight",
 	"optic_ico_01_f",
@@ -198,15 +198,15 @@ _scopes = [
 	"CUP_optic_MRad",
 	"CUP_optic_Kobra"
 ];
-_accessories = [
+_refillAccessories = [
 	"acc_flashlight",
 	"acc_pointer_IR"
 ]
-_smgSilencers = [
+_refillSmgSilencers = [
 	"muzzle_snds_L",
 	"muzzle_snds_acp"
 ];
-_rifleSilencers = [
+_refillRifleSilencers = [
 	"muzzle_snds_M",
 	"muzzle_snds_570",
 	"muzzle_snds_58_blk_F",
@@ -224,7 +224,7 @@ _rifleSilencers = [
 	"CUP_muzzle_snds_SCAR_H",
 	"CUP_muzzle_snds_L85"
 ];
-_sniperSilencers = [
+_refillSniperSilencers = [
 	"muzzle_snds_B",
 	"muzzle_snds_H",
 	"muzzle_snds_338_black",
