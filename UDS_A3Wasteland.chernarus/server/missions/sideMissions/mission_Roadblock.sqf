@@ -84,50 +84,40 @@ _successExec =
 		case 1: {
 			_box1 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box1 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box1, _randomBox] call fn_refillbox;
+			[_box1, selectRandom missionBoxArray] call fn_refillbox;
 		};
 		case 2: {
 			_box1 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box1 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box1, _randomBox] call fn_refillbox;
+			[_box1, selectRandom missionBoxArray] call fn_refillbox;
 			_box2 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box2 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box2, _randomBox] call fn_refillbox;
+			[_box2, selectRandom missionBoxArray] call fn_refillbox;
 		};
 		case 3: {
 			_box1 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box1 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box1, _randomBox] call fn_refillbox;
+			[_box1, selectRandom missionBoxArray] call fn_refillbox;
 			_box2 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box2 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box2, _randomBox] call fn_refillbox;
+			[_box2, selectRandom missionBoxArray] call fn_refillbox;
 			_box3 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box3 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box3, _randomBox] call fn_refillbox;
+			[_box3, selectRandom missionBoxArray] call fn_refillbox;
 		};
 		case 4: {
 			_box1 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box1 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box1, _randomBox] call fn_refillbox;
+			[_box1, selectRandom missionBoxArray] call fn_refillbox;
 			_box2 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box2 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box2, _randomBox] call fn_refillbox;
+			[_box2, selectRandom missionBoxArray] call fn_refillbox;
 			_box3 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box3 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box3, _randomBox] call fn_refillbox;
+			[_box3, selectRandom missionBoxArray] call fn_refillbox;
 			_box4 = createVehicle [(selectRandom _crateBoxes), _missionPos, [], 15, "None"];
 			_box4 setDir random 360;
-			_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
-			[_box4, _randomBox] call fn_refillbox;
+			[_box4, selectRandom missionBoxArray] call fn_refillbox;
 		};
 	};
 	

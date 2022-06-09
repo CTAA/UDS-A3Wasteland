@@ -34,9 +34,8 @@ _setupObjects =
 	
 	_boxes1 = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"];
 	_currBox1 = _boxes1 call BIS_fnc_selectRandom;
-	_randomBox = ["mission_TESTING","mission_TESTING","mission_TESTING"] call BIS_fnc_selectRandom;
 	_box1 = createVehicle [_currBox1,[(_missionPos select 0), (_missionPos select 1),0],[], 0, "NONE"];
-	[_box1, _randomBox] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 	
 	_boxes2 = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"];
 	_currBox2 = _boxes2 call BIS_fnc_selectRandom;

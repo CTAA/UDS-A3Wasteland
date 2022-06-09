@@ -143,11 +143,11 @@ _successExec =
 
 	_box1 = createVehicle ["Box_IND_Ammo_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_IND_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 

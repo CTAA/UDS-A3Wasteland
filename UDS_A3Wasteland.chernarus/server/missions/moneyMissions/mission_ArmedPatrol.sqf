@@ -166,11 +166,11 @@ _successExec =
 	};
 
 	_box1 = "Box_East_WpsLaunch_F" createVehicle getMarkerPos _marker;
-    [_box1,"mission_TESTING"] call fn_refillbox;
+    [_box1, selectRandom missionBoxArray] call fn_refillbox;
 	_box1 allowDamage false;
-	
+
 	_box2 = "Box_East_Wps_F" createVehicle getMarkerPos _marker;
-    [_box2,"mission_TESTING"] call fn_refillbox;
+    [_box2, selectRandom missionBoxArray] call fn_refillbox;
 	_box2 allowDamage false;
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];

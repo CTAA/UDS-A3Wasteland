@@ -42,12 +42,11 @@ _failedExec = {
 
 _successExec = {
 	// Mission completed
-	_randomBox = ["mission_launchers1","mission_launchers2","mission_snipers1","mission_snipers2","mission_snipers3","mission_snipers4","mission_snipers5"] call BIS_fnc_selectRandom;
 	_randomCase = ["Box_FIA_Support_F","Box_FIA_Wps_F","Box_FIA_Ammo_F"] call BIS_fnc_selectRandom;
 	
 	_box1 = createVehicle [_randomCase, _missionPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, _randomBox] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 	
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1];
 	{ deleteVehicle _x } forEach [_grave, _shovel1, _shovel2];

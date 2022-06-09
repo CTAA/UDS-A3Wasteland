@@ -151,10 +151,12 @@ _successExec =
 {
 	// Mission completed
 
+
 	_box1 = createVehicle ["Box_EAF_Support_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 	
+
 	private _smoke1 = "SmokeShellBlue" createVehicle getPos _box1;
 	_smoke1 attachto [_box1,[0,0,-0.5]];
 	private _flare1 = "F_40mm_Green" createVehicle getPos _box1;
@@ -162,7 +164,7 @@ _successExec =
 
 	_box2 = createVehicle ["Box_EAF_WpsLaunch_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 	
 	private _smoke2 = "SmokeShellBlue" createVehicle getPos _box2;
 	_smoke2 attachto [_box2,[0,0,-0.5]];

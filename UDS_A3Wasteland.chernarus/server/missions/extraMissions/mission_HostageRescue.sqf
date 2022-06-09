@@ -56,16 +56,13 @@ _setupObjects =
 	_obj3 = createVehicle ["CUP_B_Ridgback_HMG_GB_W", _missionPos,[], 10,"None"]; 
 	_obj3 setPosATL [(_missionPos select 0) + 2, (_missionPos select 1) - 2, _missionPos select 2];
 	
-	_randomBox = selectRandom ["mission_snipers1","mission_snipers2","mission_snipers3","mission_snipers4","mission_snipers5"];
-	_randomBox2 = selectRandom ["mission_lmgs1","mission_lmgs2","mission_lmgs3"];
-
 	_box1 = createVehicle ["Box_NATO_Equip_F", _missionPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, _randomBox] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_NATO_Equip_F", _missionPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, _randomBox2] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 
 	{ _x setVariable ["R3F_LOG_disabled", true, true] } forEach [_box1, _box2];
 

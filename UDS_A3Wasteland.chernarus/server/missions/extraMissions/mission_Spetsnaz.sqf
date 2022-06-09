@@ -53,17 +53,13 @@ _failedExec = nil;
 
 _successExec =
 {
-	private _randomBox1 = ["mission_lmgs1","mission_lmgs2","mission_lmgs3"] call BIS_fnc_selectRandom;
-
 	private _box1 = createVehicle ["Box_Syndicate_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, _randomBox1] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 	
-	private _randomBox2 = ["mission_rifles1","mission_rifles2","mission_rifles3","mission_rifles4","mission_rifles5","mission_rifles6"] call BIS_fnc_selectRandom;
-
 	private _box2 = createVehicle ["Box_Syndicate_Ammo_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, _randomBox2] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 
 	_successHintMessage = "Spetsnaz parachutes killed.<br/>Go take their supplies.";
 };

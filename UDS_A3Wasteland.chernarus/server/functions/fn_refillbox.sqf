@@ -30,6 +30,49 @@ clearWeaponCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearAllItemsFromBackpack _box;
 
+// Mission refill handler
+// There are multiple entries to change odds of whats picked
+missionBoxArray = [
+	"mission_rifles1",
+	"mission_rifles2",
+	"mission_rifles3",
+	"mission_rifles4",
+	"mission_rifles5",
+	"mission_rifles6",
+	"mission_rifles1",
+	"mission_rifles2",
+	"mission_rifles3",
+	"mission_rifles4",
+	"mission_rifles5",
+	"mission_rifles6",
+	"mission_snipers1",
+	"mission_snipers2",
+	"mission_snipers3",
+	"mission_snipers4",
+	"mission_snipers5",
+	"mission_lmgs1",
+	"mission_lmgs2",
+	"mission_lmgs3",
+	"mission_lmgs1",
+	"mission_lmgs2",
+	"mission_lmgs3",
+	"mission_lmgs1",
+	"mission_lmgs2",
+	"mission_lmgs3",
+	"mission_launchers1",
+	"mission_launchers2",
+	"mission_launchers1",
+	"mission_launchers2",
+	"mission_smgs1",
+	"mission_smgs2",
+	"mission_smgs1",
+	"mission_smgs2",
+	"mission_throwables1",
+	"mission_throwables1",
+	"mission_throwables1",
+	"mission_Gear_Diving",
+	"mission_Gear_Diving"
+]
 // Item Loot Arrays
 
 private _bipodSniper = [
@@ -555,11 +598,10 @@ switch (_boxType) do {
 	};
 	case "mission_throwables1": {
 		_boxItems = [
-			["wep", "HandGrenade", RANDOM_BETWEEN(10, 20)],
-			["wep", "MiniGrenade", RANDOM_BETWEEN(10, 20)],
-			["wep", "SmokeShellRed", RANDOM_BETWEEN(5, 10)],
-			["wep", "SmokeShellYellow", RANDOM_BETWEEN(5, 10)],
-			["wep", "SmokeShellGreen", RANDOM_BETWEEN(5, 10)],
+			["wep", "HandGrenade", RANDOM_BETWEEN(5, 10)],
+			["wep", "MiniGrenade", RANDOM_BETWEEN(5, 10)],
+			["wep", "SmokeShellYellow", RANDOM_BETWEEN(2, 5)],
+			["wep", "SmokeShellGreen", RANDOM_BETWEEN(2, 5)],
 			["itm", "ToolKit", RANDOM_BETWEEN(1,2)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,2)],
 			["itm", "FirstAidKit", RANDOM_BETWEEN(2,4)],

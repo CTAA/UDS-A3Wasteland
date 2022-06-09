@@ -135,17 +135,13 @@ _failedExec = nil;
 
 _successExec =
 {
-	private _randomBox1 = ["mission_smgs1","mission_smgs2","mission_throwables1"] call BIS_fnc_selectRandom;
-
 	_box1 = createVehicle ["Box_East_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, _randomBox1] call fn_refillbox;
-
-	private _randomBox2 = ["mission_rifles1","mission_rifles2","mission_rifles3","mission_rifles4","mission_rifles5","mission_rifles6"] call BIS_fnc_selectRandom;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_T_East_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, _randomBox2] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 
 	_successHintMessage = "The helicopter escort has been taken down! Ammo crates have fallen near the wreck.";
 };

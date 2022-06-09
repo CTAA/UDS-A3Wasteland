@@ -150,14 +150,14 @@ _failedExec = nil;
 
 _successExec =
 {
-	// Mission completed
+	
 	_box1 = createVehicle ["Box_IND_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_TESTING"] call fn_refillbox;
+	[_box1, selectRandom missionBoxArray] call fn_refillbox;
 
 	_box2 = createVehicle ["Box_IND_Ammo_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_TESTING"] call fn_refillbox;
+	[_box2, selectRandom missionBoxArray] call fn_refillbox;
 
 	_successHintMessage = "The sky is clear again, the Smuggler and Escort were taken out! Ammo crates and Money have fallen near the wreck.";
 };
